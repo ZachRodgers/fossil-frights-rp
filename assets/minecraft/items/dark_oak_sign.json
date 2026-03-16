@@ -1,0 +1,56 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "model": "minecraft:item/dark_oak_sign",
+    "property": "minecraft:component",
+    "component": "minecraft:lore",
+    "cases": [
+      {
+        "when": [
+          {
+            "extra": [
+              "andesite_placard"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/dinoland/fossil_frights/placards/andesite_placard"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "brass_placard"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/dinoland/fossil_frights/placards/brass_placard"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "tuff_placard"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/dinoland/fossil_frights/placards/tuff_placard"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/dark_oak_sign"
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "model": "minecraft:item/written_book",
+    "property": "minecraft:component",
+    "component": "minecraft:lore",
+    "cases": [
+      {
+        "when": [
+          {
+            "extra": [
+              "task_easy"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/dinoland/fossil_frights/taskbooks/task_easy"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "task_medium"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/dinoland/fossil_frights/taskbooks/task_medium"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "task_hard"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/dinoland/fossil_frights/taskbooks/task_hard"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "task_final"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/dinoland/fossil_frights/taskbooks/task_final"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/written_book"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "model": "minecraft:item/iron_hoe",
+    "property": "minecraft:component",
+    "component": "minecraft:lore",
+    "cases": [
+      {
+        "when": [
+          {
+            "extra": [
+              "golf_club"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:enchantments",
+          "cases": [
+            {
+              "when": {
+                "minecraft:knockback": 1
+              },
+              "model": {
+                "type": "minecraft:model",
+                "model": "cubeworld:item/dinoland/golf/golf_clubs/golf_club_iron"
+              }
+            },
+            {
+              "when": {
+                "minecraft:knockback": 4
+              },
+              "model": {
+                "type": "minecraft:model",
+                "model": "cubeworld:item/dinoland/golf/golf_clubs/golf_club_gold"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "cubeworld:item/dinoland/golf/golf_clubs/golf_club"
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/iron_hoe"
+    }
+  }
+}

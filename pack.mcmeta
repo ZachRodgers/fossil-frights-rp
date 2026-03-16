@@ -1,0 +1,20 @@
+{
+  "pack": {
+    "description": {
+      "text": "Cubeworld",
+      "extra": [
+        {
+          "text": " 1.21.5+",
+          "color": "white"
+        },
+        {
+          "text": "   WIP",
+          "color": "gold"
+        }
+      ],
+      "color": "yellow"
+    },
+    "min_format": 69,
+    "max_format": 75
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "model": "minecraft:item/paper",
+    "property": "minecraft:component",
+    "component": "minecraft:lore",
+    "cases": [
+      {
+        "when": [
+          {
+            "extra": [
+              "admit_one"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/general/admit_one"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "museum_map"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/dinoland/fossil_frights/museum_map"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "microfiber_cloth"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/dinoland/fossil_frights/microfiber_cloth"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/paper"
+    }
+  }
+}
