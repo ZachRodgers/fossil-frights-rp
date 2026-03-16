@@ -1,0 +1,28 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "model": "minecraft:item/raw_gold",
+    "property": "minecraft:component",
+    "component": "minecraft:lore",
+    "cases": [
+      {
+        "when": [
+          {
+            "extra": [
+              "treasure_chest"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/pirate_cove/treasure_chest"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/raw_gold"
+    }
+  }
+}

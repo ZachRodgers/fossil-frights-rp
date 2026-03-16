@@ -1,0 +1,42 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "model": "minecraft:item/bell",
+    "property": "minecraft:component",
+    "component": "minecraft:lore",
+    "cases": [
+      {
+        "when": [
+          {
+            "extra": [
+              "service_bell"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/merchandise/service_bell"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "cash_register"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/merchandise/cash_register"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/bell"
+    }
+  }
+}

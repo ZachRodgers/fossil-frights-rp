@@ -1,0 +1,28 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "model": "minecraft:item/purple_concrete_powder",
+    "property": "minecraft:component",
+    "component": "minecraft:lore",
+    "cases": [
+      {
+        "when": [
+          {
+            "extra": [
+              "purple_golf_ball"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/dinoland/golf/golf_balls/purple_golf_ball"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:block/purple_concrete_powder"
+    }
+  }
+}

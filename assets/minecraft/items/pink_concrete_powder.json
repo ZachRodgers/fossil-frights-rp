@@ -1,0 +1,28 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "model": "minecraft:item/pink_concrete_powder",
+    "property": "minecraft:component",
+    "component": "minecraft:lore",
+    "cases": [
+      {
+        "when": [
+          {
+            "extra": [
+              "pink_golf_ball"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/dinoland/golf/golf_balls/pink_golf_ball"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:block/pink_concrete_powder"
+    }
+  }
+}

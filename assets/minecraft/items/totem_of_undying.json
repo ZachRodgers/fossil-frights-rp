@@ -1,0 +1,378 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "model": "minecraft:item/totem_of_undying",
+    "property": "minecraft:component",
+    "component": "minecraft:lore",
+    "cases": [
+      {
+        "when": [
+          {
+            "extra": [
+              "zombie_plushie"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/merchandise/plushies/zombie_plushie"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "skeleton_plushie"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/merchandise/plushies/skeleton_plushie"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "chicken_jockey_plushie"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/merchandise/plushies/chicken_jockey_plushie"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "cat_plushie"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/merchandise/plushies/cat_plushie"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "ghast_plushie"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/merchandise/plushies/ghast_plushie"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "creeper_plushie"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/merchandise/plushies/creeper_plushie"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "trike_plushie"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/artifacts/trike_plushie"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "trike_clone"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/artifacts/trike_clone"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "TALLPUP"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/merchandise/plushies/players/tallpup_plushie"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "janskalvik"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/merchandise/plushies/players/janskalvik_plushie"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "LP0320"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/merchandise/plushies/players/lp0320_plushie"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "zorua162"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/merchandise/plushies/players/zorua162_plushie"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "Brownie1111"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/merchandise/plushies/players/brownie1111_plushie"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "CAG2"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/merchandise/plushies/players/cag2_plushie"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "RiverTiger76"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/merchandise/plushies/players/rivertiger76_plushie"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "Polysquarazoid"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/merchandise/plushies/players/polysquarazoid_plushie"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "Stuffy"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/merchandise/plushies/players/stuffy_plushie"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "Trashpanda__"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/merchandise/plushies/players/trashpanda___plushie"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "Endyblaze201"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/merchandise/plushies/players/endyblaze201_plushie"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "SoloSwain"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/merchandise/plushies/players/soloswain_plushie"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "Zombie3597"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/merchandise/plushies/players/zombie3597_plushie"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "TraksAG"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/merchandise/plushies/players/traksag_plushie"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "JohnStar128"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/merchandise/plushies/players/johnstar128_plushie"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "Creepanator77"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/merchandise/plushies/players/creepanator77_plushie"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "SaffronWizard"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/merchandise/plushies/players/saffronwizard_plushie"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "melody479"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/merchandise/plushies/players/melody479_plushie"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/totem_of_undying"
+    }
+  }
+}

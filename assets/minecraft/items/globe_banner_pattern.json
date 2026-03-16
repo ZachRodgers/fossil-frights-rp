@@ -1,0 +1,40 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "model": "minecraft:item/globe_banner_pattern",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": [
+          {
+          "text":"ᴍᴜꜱᴇᴜᴍ ᴍᴀᴘ",
+          "italic":false,
+          "color":"gold"
+          }
+        ],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": "gui",
+              "model": {
+                "type": "minecraft:model",
+                "model": "cubeworld:item/dinoland/fossil_frights/museum_map_item"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "cubeworld:item/dinoland/fossil_frights/museum_map"
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/globe_banner_pattern"
+    }
+  }
+}

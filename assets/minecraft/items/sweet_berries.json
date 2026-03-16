@@ -1,0 +1,56 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "model": "minecraft:item/sweet_berries",
+    "property": "minecraft:component",
+    "component": "minecraft:lore",
+    "cases": [
+      {
+        "when": [
+          {
+            "extra": [
+              "cotton_candy"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/food/cotton_candy"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "cotton_candy_blue"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/food/cotton_candy_blue"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "cotton_candy_rainbow"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/artifacts/cotton_candy_rainbow"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/sweet_berries"
+    }
+  }
+}
