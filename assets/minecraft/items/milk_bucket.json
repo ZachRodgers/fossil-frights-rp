@@ -1,0 +1,98 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "model": "minecraft:item/milk_bucket",
+    "property": "minecraft:component",
+    "component": "minecraft:lore",
+    "cases": [
+      {
+        "when": [
+          {
+            "extra": [
+              "drink_with_straw"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/food/drink_with_straw"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "coconut_drink"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/food/coconut_drink"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "milkshake"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/food/milkshake"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "coffee"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/food/coffee"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "coffee_steam"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/food/coffee_steam"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "ectoplasm_with_straw"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/artifacts/ectoplasm_with_straw"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/milk_bucket"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_column",
+    "textures": {
+      "end": "minecraft:block/top/15",
+      "side": "minecraft:block/side/15"
+    }
+  }

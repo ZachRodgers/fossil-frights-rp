@@ -1,0 +1,98 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "model": "minecraft:item/allium",
+    "property": "minecraft:component",
+    "component": "minecraft:lore",
+    "cases": [
+      {
+        "when": [
+          {
+            "extra": [
+              "balloon"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/merchandise/balloons/balloon"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "blue_balloon"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/merchandise/balloons/blue_balloon"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "yellow_balloon"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/merchandise/balloons/yellow_balloon"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "balloons"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/merchandise/balloons/balloons"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "gold_balloon"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/merchandise/balloons/gold_balloon"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "lolipop"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/food/lolipop"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/allium"
+    }
+  }
+}

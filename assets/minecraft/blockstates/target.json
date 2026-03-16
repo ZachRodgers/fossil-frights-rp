@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "power=0": {
+            "model": "block/target_power/0"
+        },
+        "power=15": {
+            "model": "block/target_power/15"
+        }
+    }
+}
