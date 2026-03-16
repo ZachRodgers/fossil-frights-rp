@@ -16,7 +16,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/merchandise/balloons/balloon"
+          "model": "fossil-frights:item/merchandise/balloons/balloon"
         }
       },
       {
@@ -30,7 +30,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/merchandise/balloons/blue_balloon"
+          "model": "fossil-frights:item/merchandise/balloons/blue_balloon"
         }
       },
       {
@@ -44,7 +44,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/merchandise/balloons/yellow_balloon"
+          "model": "fossil-frights:item/merchandise/balloons/yellow_balloon"
         }
       },
       {
@@ -58,7 +58,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/merchandise/balloons/balloons"
+          "model": "fossil-frights:item/merchandise/balloons/balloons"
         }
       },
       {
@@ -72,7 +72,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/merchandise/balloons/gold_balloon"
+          "model": "fossil-frights:item/merchandise/balloons/gold_balloon"
         }
       },
       {
@@ -86,7 +86,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/food/lolipop"
+          "model": "fossil-frights:item/food/lolipop"
         }
       }
     ],

@@ -16,7 +16,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/food/burger"
+          "model": "fossil-frights:item/food/burger"
         }
       },
       {
@@ -30,7 +30,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/food/taco"
+          "model": "fossil-frights:item/food/taco"
         }
       }
     ],

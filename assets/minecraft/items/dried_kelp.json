@@ -16,7 +16,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/merchandise/blinking_bat"
+          "model": "fossil-frights:item/merchandise/blinking_bat"
         }
       }
     ],

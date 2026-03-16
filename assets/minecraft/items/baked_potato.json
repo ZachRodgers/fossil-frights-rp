@@ -16,7 +16,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/food/popcorn"
+          "model": "fossil-frights:item/food/popcorn"
         }
       }
     ],

@@ -16,7 +16,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/food/drink_with_straw"
+          "model": "fossil-frights:item/food/drink_with_straw"
         }
       },
       {
@@ -30,7 +30,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/food/coconut_drink"
+          "model": "fossil-frights:item/food/coconut_drink"
         }
       },
       {
@@ -44,7 +44,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/food/milkshake"
+          "model": "fossil-frights:item/food/milkshake"
         }
       },
       {
@@ -58,7 +58,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/food/coffee"
+          "model": "fossil-frights:item/food/coffee"
         }
       },
       {
@@ -72,7 +72,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/food/coffee_steam"
+          "model": "fossil-frights:item/food/coffee_steam"
         }
       },
       {
@@ -86,7 +86,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/artifacts/ectoplasm_with_straw"
+          "model": "fossil-frights:item/artifacts/ectoplasm_with_straw"
         }
       }
     ],

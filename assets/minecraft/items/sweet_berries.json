@@ -16,7 +16,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/food/cotton_candy"
+          "model": "fossil-frights:item/food/cotton_candy"
         }
       },
       {
@@ -30,7 +30,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/food/cotton_candy_blue"
+          "model": "fossil-frights:item/food/cotton_candy_blue"
         }
       },
       {
@@ -44,7 +44,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/food/cotton_candy_rainbow"
+          "model": "fossil-frights:item/food/cotton_candy_rainbow"
         }
       }
     ],

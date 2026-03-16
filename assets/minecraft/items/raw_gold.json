@@ -16,7 +16,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/general_items/treasure_chest"
+          "model": "fossil-frights:item/general_items/treasure_chest"
         }
       }
     ],

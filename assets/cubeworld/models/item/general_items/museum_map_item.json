@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "cubeworld:custom/general_items/museum_map_item"
-  }
-}

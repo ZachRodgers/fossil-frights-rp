@@ -16,7 +16,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/pirate_cove/captain_wheel"
+          "model": "fossil-frights:item/pirate_cove/captain_wheel"
         }
       },
       {
@@ -30,7 +30,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/general_items/dino_footprint"
+          "model": "fossil-frights:item/general_items/dino_footprint"
         }
       }
     ],

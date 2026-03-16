@@ -16,7 +16,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/general/admit_one"
+          "model": "fossil-frights:item/general/admit_one"
         }
       },
       {
@@ -30,7 +30,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/general_items/museum_map"
+          "model": "fossil-frights:item/general_items/museum_map"
         }
       },
       {
@@ -44,7 +44,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/general_items/microfiber_cloth"
+          "model": "fossil-frights:item/general_items/microfiber_cloth"
         }
       }
     ],

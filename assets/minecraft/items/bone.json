@@ -16,7 +16,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/merchandise/trex_skull"
+          "model": "fossil-frights:item/merchandise/trex_skull"
         }
       }
     ],

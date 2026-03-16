@@ -16,7 +16,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/general_items/cubekoin"
+          "model": "fossil-frights:item/general_items/cubekoin"
         }
       },
       {
@@ -30,7 +30,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/artifacts/amber_koin"
+          "model": "fossil-frights:item/artifacts/amber_koin"
         }
       },
       {
@@ -44,7 +44,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/trophies/trophy1"
+          "model": "fossil-frights:item/trophies/trophy1"
         }
       },
       {
@@ -58,7 +58,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/trophies/trophy2"
+          "model": "fossil-frights:item/trophies/trophy2"
         }
       },
       {
@@ -72,7 +72,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/trophies/trophy3"
+          "model": "fossil-frights:item/trophies/trophy3"
         }
       }
     ],

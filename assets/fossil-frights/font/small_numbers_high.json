@@ -1,0 +1,13 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "fossil-frights:font/small_numbers.png",
+      "ascent": 5,
+      "height": 8,
+      "chars": [
+        "0123456789:"
+      ]
+    }
+  ]
+}

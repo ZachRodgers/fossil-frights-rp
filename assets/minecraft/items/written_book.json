@@ -16,7 +16,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/general_items/task_easy"
+          "model": "fossil-frights:item/general_items/task_easy"
         }
       },
       {
@@ -30,7 +30,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/general_items/task_medium"
+          "model": "fossil-frights:item/general_items/task_medium"
         }
       },
       {
@@ -44,7 +44,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/general_items/task_hard"
+          "model": "fossil-frights:item/general_items/task_hard"
         }
       },
       {
@@ -58,7 +58,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/general_items/task_final"
+          "model": "fossil-frights:item/general_items/task_final"
         }
       }
     ],

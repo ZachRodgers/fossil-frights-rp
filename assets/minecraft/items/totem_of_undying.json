@@ -16,7 +16,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/merchandise/plushies/zombie_plushie"
+          "model": "fossil-frights:item/merchandise/plushies/zombie_plushie"
         }
       },
       {
@@ -30,7 +30,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/merchandise/skeleton_plushie"
+          "model": "fossil-frights:item/merchandise/skeleton_plushie"
         }
       },
       {
@@ -44,7 +44,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/merchandise/plushies/chicken_jockey_plushie"
+          "model": "fossil-frights:item/merchandise/plushies/chicken_jockey_plushie"
         }
       },
       {
@@ -58,7 +58,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/merchandise/plushies/cat_plushie"
+          "model": "fossil-frights:item/merchandise/plushies/cat_plushie"
         }
       },
       {
@@ -72,7 +72,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/merchandise/ghast_plushie"
+          "model": "fossil-frights:item/merchandise/ghast_plushie"
         }
       },
       {
@@ -86,7 +86,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/merchandise/plushies/creeper_plushie"
+          "model": "fossil-frights:item/merchandise/plushies/creeper_plushie"
         }
       },
       {
@@ -100,7 +100,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/merchandise/trike_plushie"
+          "model": "fossil-frights:item/merchandise/trike_plushie"
         }
       },
       {
@@ -114,7 +114,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/merchandise/trike_clone"
+          "model": "fossil-frights:item/merchandise/trike_clone"
         }
       },
       {
@@ -128,7 +128,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/merchandise/plushies/players/tallpup_plushie"
+          "model": "fossil-frights:item/merchandise/plushies/players/tallpup_plushie"
         }
       },
       {
@@ -142,7 +142,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/merchandise/plushies/players/janskalvik_plushie"
+          "model": "fossil-frights:item/merchandise/plushies/players/janskalvik_plushie"
         }
       },
       {
@@ -156,7 +156,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/merchandise/plushies/players/lp0320_plushie"
+          "model": "fossil-frights:item/merchandise/plushies/players/lp0320_plushie"
         }
       },
       {
@@ -170,7 +170,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/merchandise/plushies/players/zorua162_plushie"
+          "model": "fossil-frights:item/merchandise/plushies/players/zorua162_plushie"
         }
       },
       {
@@ -184,7 +184,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/merchandise/plushies/players/brownie1111_plushie"
+          "model": "fossil-frights:item/merchandise/plushies/players/brownie1111_plushie"
         }
       },
       {
@@ -198,7 +198,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/merchandise/plushies/players/cag2_plushie"
+          "model": "fossil-frights:item/merchandise/plushies/players/cag2_plushie"
         }
       },
       {
@@ -212,7 +212,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/merchandise/plushies/players/rivertiger76_plushie"
+          "model": "fossil-frights:item/merchandise/plushies/players/rivertiger76_plushie"
         }
       },
       {
@@ -226,7 +226,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/merchandise/plushies/players/polysquarazoid_plushie"
+          "model": "fossil-frights:item/merchandise/plushies/players/polysquarazoid_plushie"
         }
       },
       {
@@ -240,7 +240,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/merchandise/plushies/players/stuffy_plushie"
+          "model": "fossil-frights:item/merchandise/plushies/players/stuffy_plushie"
         }
       },
       {
@@ -254,7 +254,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/merchandise/plushies/players/trashpanda___plushie"
+          "model": "fossil-frights:item/merchandise/plushies/players/trashpanda___plushie"
         }
       },
       {
@@ -268,7 +268,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/merchandise/plushies/players/endyblaze201_plushie"
+          "model": "fossil-frights:item/merchandise/plushies/players/endyblaze201_plushie"
         }
       },
       {
@@ -282,7 +282,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/merchandise/plushies/players/soloswain_plushie"
+          "model": "fossil-frights:item/merchandise/plushies/players/soloswain_plushie"
         }
       },
       {
@@ -296,7 +296,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/merchandise/plushies/players/zombie3597_plushie"
+          "model": "fossil-frights:item/merchandise/plushies/players/zombie3597_plushie"
         }
       },
       {
@@ -310,7 +310,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/merchandise/plushies/players/traksag_plushie"
+          "model": "fossil-frights:item/merchandise/plushies/players/traksag_plushie"
         }
       },
       {
@@ -324,7 +324,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/merchandise/plushies/players/johnstar128_plushie"
+          "model": "fossil-frights:item/merchandise/plushies/players/johnstar128_plushie"
         }
       },
       {
@@ -338,7 +338,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/merchandise/plushies/players/creepanator77_plushie"
+          "model": "fossil-frights:item/merchandise/plushies/players/creepanator77_plushie"
         }
       },
       {
@@ -352,7 +352,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/merchandise/plushies/players/saffronwizard_plushie"
+          "model": "fossil-frights:item/merchandise/plushies/players/saffronwizard_plushie"
         }
       },
       {
@@ -366,7 +366,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/merchandise/plushies/players/melody479_plushie"
+          "model": "fossil-frights:item/merchandise/plushies/players/melody479_plushie"
         }
       }
     ],
