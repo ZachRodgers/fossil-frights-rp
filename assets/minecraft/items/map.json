@@ -16,7 +16,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/general_items/dna_cloth"
+          "model": "fossil-frights:item/general_items/dna_cloth"
         }
       }
     ],

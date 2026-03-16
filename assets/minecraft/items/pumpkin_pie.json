@@ -16,7 +16,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/food/pizza/pizza"
+          "model": "fossil-frights:item/food/pizza/pizza"
         }
       },
       {
@@ -30,7 +30,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/food/pizza_box"
+          "model": "fossil-frights:item/food/pizza_box"
         }
       },
       {
@@ -44,7 +44,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/food/pizza/pizza_slice"
+          "model": "fossil-frights:item/food/pizza/pizza_slice"
         }
       },
       {
@@ -58,7 +58,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/food/pizza/hawaiin_pizza"
+          "model": "fossil-frights:item/food/pizza/hawaiin_pizza"
         }
       },
       {
@@ -72,7 +72,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/food/pizza/veggie_pizza"
+          "model": "fossil-frights:item/food/pizza/veggie_pizza"
         }
       },
       {
@@ -86,7 +86,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/food/pizza/margherita_pizza"
+          "model": "fossil-frights:item/food/pizza/margherita_pizza"
         }
       }
     ],

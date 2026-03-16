@@ -16,7 +16,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/general_blocks/valve"
+          "model": "fossil-frights:item/general_blocks/valve"
         }
       }
     ],

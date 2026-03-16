@@ -16,7 +16,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/merchandise/top_hat"
+          "model": "fossil-frights:item/merchandise/top_hat"
         }
       },
       {
@@ -30,7 +30,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/merchandise/miner_helmet"
+          "model": "fossil-frights:item/merchandise/miner_helmet"
         }
       },
       {
@@ -44,7 +44,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/merchandise/cat_in_the_hat"
+          "model": "fossil-frights:item/merchandise/cat_in_the_hat"
         }
       },
       {
@@ -58,7 +58,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/merchandise/magic_carpet"
+          "model": "fossil-frights:item/merchandise/magic_carpet"
         }
       },
       {
@@ -72,7 +72,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/merchandise/swag_glasses"
+          "model": "fossil-frights:item/merchandise/swag_glasses"
         }
       },
       {
@@ -86,7 +86,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/trophies/trophy"
+          "model": "fossil-frights:item/trophies/trophy"
         }
       },
       {
@@ -100,7 +100,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/pirate_cove/pirate_hat"
+          "model": "fossil-frights:item/pirate_cove/pirate_hat"
         }
       },
       {
@@ -114,7 +114,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/merchandise/scuba_helmet"
+          "model": "fossil-frights:item/merchandise/scuba_helmet"
         }
       },
       {
@@ -128,7 +128,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/artifacts/krown"
+          "model": "fossil-frights:item/artifacts/krown"
         }
       }
     ],

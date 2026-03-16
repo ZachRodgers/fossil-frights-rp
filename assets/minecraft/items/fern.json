@@ -16,7 +16,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/plants/super_fern"
+          "model": "fossil-frights:item/plants/super_fern"
         }
       },
       {
@@ -30,7 +30,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/plants/venus_flytrap"
+          "model": "fossil-frights:item/plants/venus_flytrap"
         }
       },
       {
@@ -44,7 +44,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/plants/carnivorous_flytrap"
+          "model": "fossil-frights:item/plants/carnivorous_flytrap"
         }
       },
       {
@@ -58,7 +58,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/plants/monstera"
+          "model": "fossil-frights:item/plants/monstera"
         }
       },
       {
@@ -72,7 +72,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/plants/monstera_large"
+          "model": "fossil-frights:item/plants/monstera_large"
         }
       },
       {
@@ -86,7 +86,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/plants/monstera_large"
+          "model": "fossil-frights:item/plants/monstera_large"
         }
       }
     ],

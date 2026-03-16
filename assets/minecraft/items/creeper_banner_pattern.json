@@ -16,7 +16,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/signs/dinoland"
+          "model": "fossil-frights:item/signs/dinoland"
         }
       },
       {
@@ -30,7 +30,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/signs/pirate_cove"
+          "model": "fossil-frights:item/signs/pirate_cove"
         }
       },
       {
@@ -44,7 +44,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/signs/magma_mines"
+          "model": "fossil-frights:item/signs/magma_mines"
         }
       },
       {
@@ -58,7 +58,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/signs/crystal_caverns"
+          "model": "fossil-frights:item/signs/crystal_caverns"
         }
       },
       {
@@ -72,7 +72,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/signs/ghost_town"
+          "model": "fossil-frights:item/signs/ghost_town"
         }
       },
       {
@@ -86,7 +86,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/signs/kasino"
+          "model": "fossil-frights:item/signs/kasino"
         }
       },
       {
@@ -100,7 +100,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/signs/fossil_frights"
+          "model": "fossil-frights:item/signs/fossil_frights"
         }
       }
     ],

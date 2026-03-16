@@ -16,7 +16,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/general_blocks/placards/andesite_placard"
+          "model": "fossil-frights:item/general_blocks/placards/andesite_placard"
         }
       },
       {
@@ -30,7 +30,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/general_blocks/placards/brass_placard"
+          "model": "fossil-frights:item/general_blocks/placards/brass_placard"
         }
       },
       {
@@ -44,7 +44,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/general_blocks/placards/tuff_placard"
+          "model": "fossil-frights:item/general_blocks/placards/tuff_placard"
         }
       }
     ],
