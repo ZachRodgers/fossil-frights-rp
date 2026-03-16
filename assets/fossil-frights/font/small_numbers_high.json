@@ -4,9 +4,18 @@
       "type": "bitmap",
       "file": "fossil-frights:font/small_numbers.png",
       "ascent": 5,
-      "height": 8,
+      "height": 5,
       "chars": [
-        "0123456789:"
+        "023456789:"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil-frights:font/small_numbers_one.png",
+      "ascent": 5,
+      "height": 5,
+      "chars": [
+        "1"
       ]
     }
   ]
