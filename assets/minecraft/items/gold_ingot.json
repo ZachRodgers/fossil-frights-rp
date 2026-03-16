@@ -1,0 +1,84 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "model": "minecraft:item/gold_ingot",
+    "property": "minecraft:component",
+    "component": "minecraft:lore",
+    "cases": [
+      {
+        "when": [
+          {
+            "extra": [
+              "cubekoin"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/general/cubekoin"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "amber_koin"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/artifacts/amber_koin"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "trophy1"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/trophies/trophy1"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "trophy2"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/trophies/trophy2"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "trophy3"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/trophies/trophy3"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/gold_ingot"
+    }
+  }
+}

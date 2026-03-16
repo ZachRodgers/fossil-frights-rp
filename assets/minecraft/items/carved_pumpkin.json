@@ -1,0 +1,140 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "model": "minecraft:block/carved_pumpkin",
+    "property": "minecraft:component",
+    "component": "minecraft:lore",
+    "cases": [
+      {
+        "when": [
+          {
+            "extra": [
+              "top_hat"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/merchandise/top_hat"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "miner_helmet"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/merchandise/miner_helmet"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "cat_in_the_hat"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/merchandise/cat_in_the_hat"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "magic_carpet"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/merchandise/magic_carpet"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "swag_glasses"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/merchandise/swag_glasses"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "trophy"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/trophies/trophy"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "pirate_hat"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/pirate_cove/pirate_hat"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "scuba_helmet"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/merchandise/scuba_helmet"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "krown"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/artifacts/krown"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:block/carved_pumpkin"
+    }
+  }
+}
