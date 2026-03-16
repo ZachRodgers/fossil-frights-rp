@@ -30,7 +30,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/merchandise/plushies/skeleton_plushie"
+          "model": "cubeworld:item/merchandise/skeleton_plushie"
         }
       },
       {
@@ -72,7 +72,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/merchandise/plushies/ghast_plushie"
+          "model": "cubeworld:item/merchandise/ghast_plushie"
         }
       },
       {
@@ -100,7 +100,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/artifacts/trike_plushie"
+          "model": "cubeworld:item/merchandise/trike_plushie"
         }
       },
       {
@@ -114,7 +114,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/artifacts/trike_clone"
+          "model": "cubeworld:item/merchandise/trike_clone"
         }
       },
       {

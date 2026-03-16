@@ -16,7 +16,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/dinoland/fossil_frights/taskbooks/task_easy"
+          "model": "cubeworld:item/general_items/task_easy"
         }
       },
       {
@@ -30,7 +30,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/dinoland/fossil_frights/taskbooks/task_medium"
+          "model": "cubeworld:item/general_items/task_medium"
         }
       },
       {
@@ -44,7 +44,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/dinoland/fossil_frights/taskbooks/task_hard"
+          "model": "cubeworld:item/general_items/task_hard"
         }
       },
       {
@@ -58,7 +58,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/dinoland/fossil_frights/taskbooks/task_final"
+          "model": "cubeworld:item/general_items/task_final"
         }
       }
     ],

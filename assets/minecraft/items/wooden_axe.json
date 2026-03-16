@@ -9,20 +9,6 @@
         "when": [
           {
             "extra": [
-              "club"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "cubeworld:item/dinoland/clubs/club"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
               "club_red_ribbon"
             ],
             "text": ""
@@ -30,49 +16,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/dinoland/clubs/club_red_ribbon"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
-              "club_yellow_ribbon"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "cubeworld:item/dinoland/clubs/club_yellow_ribbon"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
-              "club_cyan_ribbon"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "cubeworld:item/dinoland/clubs/club_cyan_ribbon"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
-              "club_blue_ribbon"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "cubeworld:item/dinoland/clubs/club_blue_ribbon"
+          "model": "cubeworld:item/merchandise/club_red_ribbon"
         }
       }
     ],

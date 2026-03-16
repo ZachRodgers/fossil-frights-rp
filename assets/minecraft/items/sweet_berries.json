@@ -44,7 +44,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/artifacts/cotton_candy_rainbow"
+          "model": "cubeworld:item/food/cotton_candy_rainbow"
         }
       }
     ],

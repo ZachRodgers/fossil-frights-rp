@@ -16,7 +16,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/pirate_cove/treasure_chest"
+          "model": "cubeworld:item/general_items/treasure_chest"
         }
       }
     ],

@@ -16,7 +16,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/dinoland/fossil_frights/wet_floor_sign"
+          "model": "cubeworld:item/general_blocks/wet_floor_sign"
         }
       }
     ],

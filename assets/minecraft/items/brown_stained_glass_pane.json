@@ -30,7 +30,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/dinoland/dino_footprint"
+          "model": "cubeworld:item/general_items/dino_footprint"
         }
       }
     ],
