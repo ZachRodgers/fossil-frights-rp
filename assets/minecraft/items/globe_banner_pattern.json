@@ -21,13 +21,13 @@
               "when": "gui",
               "model": {
                 "type": "minecraft:model",
-                "model": "cubeworld:item/dinoland/fossil_frights/museum_map_item"
+                "model": "cubeworld:item/general_items/museum_map_item"
               }
             }
           ],
           "fallback": {
             "type": "minecraft:model",
-            "model": "cubeworld:item/dinoland/fossil_frights/museum_map"
+            "model": "cubeworld:item/general_items/museum_map"
           }
         }
       }

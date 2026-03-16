@@ -16,7 +16,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/general/cubekoin"
+          "model": "cubeworld:item/general_items/cubekoin"
         }
       },
       {

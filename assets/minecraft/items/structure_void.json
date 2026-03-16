@@ -16,7 +16,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/dinoland/fossil_frights/valve"
+          "model": "cubeworld:item/general_blocks/valve"
         }
       }
     ],

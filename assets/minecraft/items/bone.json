@@ -16,7 +16,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/dinoland/trex_skull"
+          "model": "cubeworld:item/merchandise/trex_skull"
         }
       }
     ],

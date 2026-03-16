@@ -30,7 +30,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/dinoland/fossil_frights/museum_map"
+          "model": "cubeworld:item/general_items/museum_map"
         }
       },
       {
@@ -44,7 +44,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/dinoland/fossil_frights/microfiber_cloth"
+          "model": "cubeworld:item/general_items/microfiber_cloth"
         }
       }
     ],

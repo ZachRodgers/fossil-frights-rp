@@ -1,0 +1,98 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "model": "minecraft:item/pumpkin_pie",
+    "property": "minecraft:component",
+    "component": "minecraft:lore",
+    "cases": [
+      {
+        "when": [
+          {
+            "extra": [
+              "pizza"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/food/pizza/pizza"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "pizza_box"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/food/pizza_box"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "pizza_slice"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/food/pizza/pizza_slice"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "hawaiin_pizza"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/food/pizza/hawaiin_pizza"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "veggie_pizza"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/food/pizza/veggie_pizza"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "margherita_pizza"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cubeworld:item/food/pizza/margherita_pizza"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/pumpkin_pie"
+    }
+  }
+}

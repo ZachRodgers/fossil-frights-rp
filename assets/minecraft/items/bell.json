@@ -16,7 +16,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/merchandise/service_bell"
+          "model": "cubeworld:item/general_items/service_bell"
         }
       },
       {
@@ -30,7 +30,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/merchandise/cash_register"
+          "model": "cubeworld:item/general_items/cash_register"
         }
       }
     ],

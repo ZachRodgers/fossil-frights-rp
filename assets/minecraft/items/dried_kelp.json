@@ -16,7 +16,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cubeworld:item/merchandise/plushies/blinking_bat"
+          "model": "cubeworld:item/merchandise/blinking_bat"
         }
       }
     ],
