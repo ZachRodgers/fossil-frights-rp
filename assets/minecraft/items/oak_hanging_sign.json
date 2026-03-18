@@ -23,7 +23,7 @@
         "when": [
           {
             "extra": [
-              "hadeon"
+              "hadean"
             ],
             "text": ""
           }
@@ -37,14 +37,14 @@
         "when": [
           {
             "extra": [
-              "hadean"
+              "archean"
             ],
             "text": ""
           }
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/signs/earths_timeline/hadean"
+          "model": "fossil-frights:item/signs/earths_timeline/archean"
         }
       }
     ],
