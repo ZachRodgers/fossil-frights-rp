@@ -261,6 +261,20 @@
         "when": [
           {
             "extra": [
+              "quaternary"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/signs/earths_timeline/quaternary"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
               "quarternary"
             ],
             "text": ""
@@ -268,7 +282,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/signs/earths_timeline/quarternary"
+          "model": "fossil-frights:item/signs/earths_timeline/quaternary"
         }
       }
     ],
