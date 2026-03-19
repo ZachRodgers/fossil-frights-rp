@@ -130,6 +130,20 @@
           "type": "minecraft:model",
           "model": "fossil-frights:item/artifacts/krown"
         }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "security_guard_hat"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/merchandise/security_guard_hat"
+        }
       }
     ],
     "fallback": {
