@@ -1,6 +1,0 @@
-{
-  "parent": "fossil-frights:item/signs/large_sign",
-  "textures": {
-    "1": "fossil-frights:custom/signs/earths_timeline/cenozoic"
-  }
-}
