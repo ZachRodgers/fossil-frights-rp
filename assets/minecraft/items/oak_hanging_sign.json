@@ -65,20 +65,6 @@
         "when": [
           {
             "extra": [
-              "cambrian"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/signs/earths_timeline/cambrian"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
               "phanerozoic"
             ],
             "text": ""
