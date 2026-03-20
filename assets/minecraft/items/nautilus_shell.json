@@ -1,0 +1,98 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "model": "minecraft:item/nautilus_shell",
+    "property": "minecraft:component",
+    "component": "minecraft:lore",
+    "cases": [
+      {
+        "when": [
+          {
+            "extra": [
+              "conch_shell"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/pirate_cove/shells/conch_shell"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "conch_shell_2"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/pirate_cove/shells/conch_shell_2"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "screw_shell"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/pirate_cove/shells/screw_shell"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "star_fish_red"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/pirate_cove/shells/star_fish_red"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "star_fish_blue"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/pirate_cove/shells/star_fish_blue"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "sand_dollar"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/pirate_cove/shells/sand_dollar"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/nautilus_shell"
+    }
+  }
+}
