@@ -149,20 +149,6 @@
         "when": [
           {
             "extra": [
-              "mesozoic"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/signs/earths_timeline/mesozoic"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
               "triassic"
             ],
             "text": ""
@@ -219,20 +205,6 @@
         "when": [
           {
             "extra": [
-              "cenozoic"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/signs/earths_timeline/cenozoic"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
               "neogene"
             ],
             "text": ""
@@ -269,6 +241,20 @@
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/signs/earths_timeline/quaternary"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "exit"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/signs/earths_timeline/exit"
         }
       }
     ],
