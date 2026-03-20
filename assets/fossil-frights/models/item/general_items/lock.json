@@ -1,6 +1,14 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "fossil-frights:custom/general_items/lock"
-  }
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "fossil-frights:custom/general_items/lock"
+	},
+	"display": {
+		"fixed": {
+			"translation": [0, 0, -1],
+			"scale": [2, 2, 2]
+		}
+	}
 }
