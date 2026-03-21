@@ -1,0 +1,56 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "model": "minecraft:item/carrot_on_a_stick",
+    "property": "minecraft:component",
+    "component": "minecraft:lore",
+    "cases": [
+      {
+        "when": [
+          {
+            "extra": [
+              "key"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/key"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "key_cooldown"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/key_cooldown"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "key_disabled"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/key_disabled"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/carrot_on_a_stick"
+    }
+  }
+}
