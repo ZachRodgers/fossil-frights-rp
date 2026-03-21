@@ -9,6 +9,20 @@
         "when": [
           {
             "extra": [
+              "animated_key"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/animated_key"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
               "key"
             ],
             "text": ""
