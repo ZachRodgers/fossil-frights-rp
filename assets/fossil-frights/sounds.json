@@ -1,0 +1,10 @@
+{
+  "front_door_close": {
+    "sounds": [
+      {
+        "name": "fossil-frights:custom/front_door_close",
+        "stream": false
+      }
+    ]
+  }
+}
