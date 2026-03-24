@@ -144,6 +144,20 @@
           "type": "minecraft:model",
           "model": "fossil-frights:item/merchandise/security_guard_hat"
         }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "velociraptor_skull"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_blocks/velociraptor_skull"
+        }
       }
     ],
     "fallback": {
