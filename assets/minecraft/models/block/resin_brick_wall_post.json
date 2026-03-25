@@ -1,0 +1,37 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/coral_fan",
+	"elements": [
+		{
+			"name": "bottom",
+			"from": [5, 0, 5],
+			"to": [11, 1, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, -1, 7]},
+			"color": 9,
+			"faces": {
+				"north": {"uv": [0, 15, 7, 16], "texture": "#missing"},
+				"east": {"uv": [0, 15, 8, 16], "texture": "#missing"},
+				"south": {"uv": [0, 15, 8, 16], "texture": "#missing"},
+				"west": {"uv": [0, 15, 8, 16], "texture": "#missing"},
+				"up": {"uv": [0, 0, 8, 8], "texture": "#missing"},
+				"down": {"uv": [0, 0, 8, 8], "texture": "#missing"}
+			}
+		},
+		{
+			"name": "middle",
+			"from": [6.5, 1, 6.5],
+			"to": [9.5, 17, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 7]},
+			"color": 9,
+			"faces": {
+				"north": {"uv": [0, 0, 4, 16], "texture": "#missing"},
+				"east": {"uv": [0, 0, 4, 16], "texture": "#missing"},
+				"south": {"uv": [0, 0, 4, 16], "texture": "#missing"},
+				"west": {"uv": [0, 0, 4, 16], "texture": "#missing"},
+				"up": {"uv": [0, 0, 4, 4], "texture": "#missing"},
+				"down": {"uv": [0, 0, 4, 4], "texture": "#missing"}
+			}
+		}
+	]
+}
