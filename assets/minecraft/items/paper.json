@@ -32,6 +32,90 @@
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_items/museum_map"
         }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "sniffer_dna_cloth"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/sniffer_dna_cloth"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "trike_dna_cloth"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/trike_dna_cloth"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "t_rex_dna_cloth"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/t_rex_dna_cloth"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "velociraptor_dna_cloth"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/velociraptor_dna_cloth"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "plesiosaur_dna_cloth"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/plesiosaur_dna_cloth"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "pteradactyl_dna_cloth"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/pteradactyl_dna_cloth"
+        }
       }
     ],
     "fallback": {
