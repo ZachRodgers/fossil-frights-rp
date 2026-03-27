@@ -1,0 +1,28 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "model": "minecraft:item/warped_fungus_on_a_stick",
+    "property": "minecraft:component",
+    "component": "minecraft:lore",
+    "cases": [
+      {
+        "when": [
+          {
+            "extra": [
+              "microfiber_cloth"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/microfiber_cloth"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/warped_fungus_on_a_stick"
+    }
+  }
+}
