@@ -9,20 +9,6 @@
         "when": [
           {
             "extra": [
-              "zombie_plushie"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/merchandise/plushies/zombie_plushie"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
               "skeleton_plushie"
             ],
             "text": ""
@@ -37,34 +23,6 @@
         "when": [
           {
             "extra": [
-              "chicken_jockey_plushie"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/merchandise/plushies/chicken_jockey_plushie"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
-              "cat_plushie"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/merchandise/plushies/cat_plushie"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
               "ghast_plushie"
             ],
             "text": ""
@@ -73,20 +31,6 @@
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/merchandise/ghast_plushie"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
-              "creeper_plushie"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/merchandise/plushies/creeper_plushie"
         }
       },
       {
@@ -121,252 +65,70 @@
         "when": [
           {
             "extra": [
-              "TALLPUP"
+              "sniffer_plushie"
             ],
             "text": ""
           }
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/merchandise/plushies/players/tallpup_plushie"
+          "model": "fossil-frights:item/merchandise/sniffer_plushie"
         }
       },
       {
         "when": [
           {
             "extra": [
-              "janskalvik"
+              "t-rex_plushie"
             ],
             "text": ""
           }
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/merchandise/plushies/players/janskalvik_plushie"
+          "model": "fossil-frights:item/merchandise/t-rex_plushie"
         }
       },
       {
         "when": [
           {
             "extra": [
-              "LP0320"
+              "pteradactyl_plushie"
             ],
             "text": ""
           }
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/merchandise/plushies/players/lp0320_plushie"
+          "model": "fossil-frights:item/merchandise/pteradactyl_plushie"
         }
       },
       {
         "when": [
           {
             "extra": [
-              "zorua162"
+              "plesiosaur_plushie"
             ],
             "text": ""
           }
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/merchandise/plushies/players/zorua162_plushie"
+          "model": "fossil-frights:item/merchandise/plesiosaur_plushie"
         }
       },
       {
         "when": [
           {
             "extra": [
-              "Brownie1111"
+              "velociraptor_plushie"
             ],
             "text": ""
           }
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/merchandise/plushies/players/brownie1111_plushie"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
-              "CAG2"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/merchandise/plushies/players/cag2_plushie"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
-              "RiverTiger76"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/merchandise/plushies/players/rivertiger76_plushie"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
-              "Polysquarazoid"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/merchandise/plushies/players/polysquarazoid_plushie"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
-              "Stuffy"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/merchandise/plushies/players/stuffy_plushie"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
-              "Trashpanda__"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/merchandise/plushies/players/trashpanda___plushie"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
-              "Endyblaze201"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/merchandise/plushies/players/endyblaze201_plushie"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
-              "SoloSwain"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/merchandise/plushies/players/soloswain_plushie"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
-              "Zombie3597"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/merchandise/plushies/players/zombie3597_plushie"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
-              "TraksAG"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/merchandise/plushies/players/traksag_plushie"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
-              "JohnStar128"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/merchandise/plushies/players/johnstar128_plushie"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
-              "Creepanator77"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/merchandise/plushies/players/creepanator77_plushie"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
-              "SaffronWizard"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/merchandise/plushies/players/saffronwizard_plushie"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
-              "melody479"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/merchandise/plushies/players/melody479_plushie"
+          "model": "fossil-frights:item/merchandise/velociraptor_plushie"
         }
       }
     ],
