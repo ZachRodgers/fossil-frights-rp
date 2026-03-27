@@ -32,20 +32,6 @@
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_items/museum_map"
         }
-      },
-      {
-        "when": [
-          {
-            "extra": [
-              "microfiber_cloth"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/microfiber_cloth"
-        }
       }
     ],
     "fallback": {

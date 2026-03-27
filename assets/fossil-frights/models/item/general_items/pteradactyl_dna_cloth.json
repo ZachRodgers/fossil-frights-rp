@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "fossil-frights:custom/general_items/pteradactyl_dna_cloth"
+  }
+}
