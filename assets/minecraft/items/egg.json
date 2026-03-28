@@ -1,0 +1,98 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "model": "minecraft:item/egg",
+    "property": "minecraft:component",
+    "component": "minecraft:lore",
+    "cases": [
+      {
+        "when": [
+          {
+            "extra": [
+              "sniffer_egg"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_blocks/eggs/sniffer_egg"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "pteradactyl_egg"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_blocks/eggs/pteradactyl_egg"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "plesiosaur_egg"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_blocks/eggs/plesiosaur_egg"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "velociraptor_egg"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_blocks/eggs/velociraptor_egg"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "trike_egg"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_blocks/eggs/trike_egg"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "t_rex_egg"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_blocks/eggs/t_rex_egg"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/egg"
+    }
+  }
+}
