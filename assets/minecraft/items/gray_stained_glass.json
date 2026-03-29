@@ -1,0 +1,28 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "model": "minecraft:item/gray_stained_glass",
+    "property": "minecraft:component",
+    "component": "minecraft:lore",
+    "cases": [
+      {
+        "when": [
+          {
+            "extra": [
+              "hologram"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_blocks/hologram"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/gray_stained_glass"
+    }
+  }
+}
