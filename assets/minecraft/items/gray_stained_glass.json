@@ -1,7 +1,6 @@
 {
   "model": {
     "type": "minecraft:select",
-    "model": "minecraft:item/gray_stained_glass",
     "property": "minecraft:component",
     "component": "minecraft:lore",
     "cases": [
@@ -22,7 +21,7 @@
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:item/gray_stained_glass"
+      "model": "minecraft:block/gray_stained_glass"
     }
   }
 }
