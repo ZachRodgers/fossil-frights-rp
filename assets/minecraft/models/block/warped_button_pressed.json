@@ -1,0 +1,75 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/button",
+	"texture_size": [32, 64],
+	"textures": {
+		"particle": "block/green_button_disabled",
+		"texture": "block/green_button_disabled"
+	},
+	"elements": [
+		{
+			"name": "plate",
+			"from": [4, 0, 4],
+			"to": [12, 1, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 7]},
+			"faces": {
+				"north": {"uv": [7, 2.25, 11, 2.5], "texture": "#texture"},
+				"east": {"uv": [7, 2.5, 11, 2.75], "texture": "#texture"},
+				"south": {"uv": [7, 2.75, 11, 3], "texture": "#texture"},
+				"west": {"uv": [7, 3, 11, 3.25], "texture": "#texture"},
+				"up": {"uv": [4, 2, 0, 0], "texture": "#texture"},
+				"down": {"uv": [4, 2, 0, 4], "texture": "#texture"}
+			}
+		},
+		{
+			"name": "button",
+			"from": [5, -1, 5],
+			"to": [11, 2, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, -2, 7]},
+			"faces": {
+				"north": {"uv": [4, 3, 7, 3.75], "texture": "#texture"},
+				"east": {"uv": [7, 0, 10, 0.75], "texture": "#texture"},
+				"south": {"uv": [7, 0.75, 10, 1.5], "texture": "#texture"},
+				"west": {"uv": [7, 1.5, 10, 2.25], "texture": "#texture"},
+				"up": {"uv": [7, 1.5, 4, 0], "texture": "#texture"},
+				"down": {"uv": [7, 1.5, 4, 3], "texture": "#texture"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 5.75, 0]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 5.5, 0]
+		},
+		"firstperson_righthand": {
+			"translation": [0, 3.75, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, 3.75, 0]
+		},
+		"ground": {
+			"translation": [0, 4.75, 0]
+		},
+		"gui": {
+			"rotation": [41, 44, 0],
+			"translation": [0, 4.25, 0]
+		},
+		"head": {
+			"translation": [0, 18.75, 0],
+			"scale": [1.49, 1.49, 1.49]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -16],
+			"scale": [2, 2, 2]
+		},
+		"on_shelf": {
+			"rotation": [90, 0, 0],
+			"translation": [0.25, 7.75, 12.25],
+			"scale": [2.34, 2.34, 2.34]
+		}
+	}
+}
