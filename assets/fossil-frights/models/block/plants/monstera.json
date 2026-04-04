@@ -1,0 +1,4 @@
+{
+  "parent": "fossil-frights:item/plants/monstera",
+  "render_type": "cutout"
+}

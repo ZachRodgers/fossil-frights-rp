@@ -1,0 +1,4 @@
+{
+  "parent": "fossil-frights:item/plants/super_fern",
+  "render_type": "cutout"
+}
