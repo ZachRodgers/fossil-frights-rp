@@ -4,7 +4,7 @@
 	"texture_size": [64, 64],
 	"textures": {
 		"6": "fossil-frights:custom/general_blocks/eggs/sniffer_egg",
-		"particle": "fossil-frights:custom/general_blocks/eggs/sniffer_egg_not_cracked_north"
+		"particle": "fossil-frights:custom/general_blocks/eggs/sniffer_egg"
 	},
 	"elements": [
 		{
