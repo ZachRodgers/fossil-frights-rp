@@ -88,6 +88,20 @@
           "type": "minecraft:model",
           "model": "fossil-frights:item/pirate_cove/shells/sand_dollar"
         }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "golden_nautilus"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/pirate_cove/shells/golden_nautilus"
+        }
       }
     ],
     "fallback": {
