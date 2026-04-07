@@ -18,6 +18,20 @@
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_blocks/wet_floor_sign"
         }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "multiplayer_terminal"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_blocks/multiplayer_terminal"
+        }
       }
     ],
     "fallback": {
