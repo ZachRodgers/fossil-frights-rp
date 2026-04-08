@@ -9,6 +9,20 @@
         "when": [
           {
             "extra": [
+              "arrow"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/misc/arrow"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
               "ochre_projector_beam"
             ],
             "text": ""
