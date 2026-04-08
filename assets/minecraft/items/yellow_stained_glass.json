@@ -8,6 +8,20 @@
         "when": [
           {
             "extra": [
+              "arrow"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/misc/arrow"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
               "queue_beam"
             ],
             "text": ""
