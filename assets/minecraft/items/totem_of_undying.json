@@ -130,6 +130,20 @@
           "type": "minecraft:model",
           "model": "fossil-frights:item/merchandise/velociraptor_plushie"
         }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "cooked_hoglin"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/merchandise/cooked_hoglin"
+        }
       }
     ],
     "fallback": {
