@@ -51,6 +51,20 @@
         "when": [
           {
             "extra": [
+              "parkour_restart"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/parkour_restart"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
               "key_disabled"
             ],
             "text": ""
