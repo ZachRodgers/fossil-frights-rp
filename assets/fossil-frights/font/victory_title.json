@@ -1,0 +1,13 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "fossil-frights:font/victory_title.png",
+      "ascent": 24,
+      "height": 48,
+      "chars": [
+        "\ue000"
+      ]
+    }
+  ]
+}
