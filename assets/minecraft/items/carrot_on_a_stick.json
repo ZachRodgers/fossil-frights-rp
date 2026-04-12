@@ -50,6 +50,68 @@
       {
         "when": [
           {
+            "text": "Right Click - ",
+            "color": "green",
+            "italic": false,
+            "extra": [
+              {
+                "text": "Restart",
+                "color": "yellow",
+                "italic": false
+              }
+            ]
+          },
+          {
+            "text": "Drop - End",
+            "color": "green",
+            "italic": false
+          },
+          {
+            "extra": [
+              "parkour_restart"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/parkour_restart"
+        }
+      },
+      {
+        "when": [
+          {
+            "text": "Right Click - ",
+            "color": "green",
+            "italic": false,
+            "extra": [
+              {
+                "text": "Restart",
+                "color": "yellow",
+                "italic": false
+              }
+            ]
+          },
+          {
+            "text": "Drop - End",
+            "color": "green",
+            "italic": false
+          },
+          {
+            "extra": [
+              "temple_run_restart"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/temple_run_restart"
+        }
+      },
+      {
+        "when": [
+          {
             "extra": [
               "parkour_restart"
             ],
