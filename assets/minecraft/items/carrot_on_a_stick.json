@@ -65,6 +65,20 @@
         "when": [
           {
             "extra": [
+              "temple_run_restart"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/temple_run_restart"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
               "key_disabled"
             ],
             "text": ""
