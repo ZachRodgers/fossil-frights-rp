@@ -1,18 +1,15 @@
 {
   "pack": {
     "description": {
-      "text": "Cubeworld",
+      "text": "Fossil Frights                   ",
+      "type": "text",
       "extra": [
         {
-          "text": " 1.21.5+",
-          "color": "white"
-        },
-        {
-          "text": "   WIP",
-          "color": "gold"
+          "text": "Official Resource Pack",
+          "color": "yellow"
         }
       ],
-      "color": "yellow"
+      "color": "gold"
     },
     "min_format": 69,
     "max_format": 75
