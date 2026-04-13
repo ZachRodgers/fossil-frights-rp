@@ -32,6 +32,20 @@
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_blocks/centrifuge_capsul"
         }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "molecular_analyser"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_blocks/molecular_analyser"
+        }
       }
     ],
     "fallback": {
