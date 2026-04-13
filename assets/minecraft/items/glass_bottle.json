@@ -1,0 +1,42 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "model": "minecraft:item/glass_bottle",
+    "property": "minecraft:component",
+    "component": "minecraft:lore",
+    "cases": [
+      {
+        "when": [
+          {
+            "extra": [
+              "centrifuge"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_blocks/centrifuge"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "centrifuge_capsul"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_blocks/centrifuge_capsul"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/glass_bottle"
+    }
+  }
+}
