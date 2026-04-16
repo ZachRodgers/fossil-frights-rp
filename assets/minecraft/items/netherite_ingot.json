@@ -9,6 +9,20 @@
         "when": [
           {
             "extra": [
+              "safe"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/safe"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
               "fire_tablet"
             ],
             "text": ""

@@ -23,6 +23,20 @@
         "when": [
           {
             "extra": [
+              "calendar"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/calendar"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
               "museum_map"
             ],
             "text": ""
