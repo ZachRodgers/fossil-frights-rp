@@ -9,6 +9,20 @@
         "when": [
           {
             "extra": [
+              "coffee_machine"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_blocks/coffee_machine"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
               "drink_with_straw"
             ],
             "text": ""
