@@ -1,0 +1,98 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "model": "minecraft:item/ghast_tear",
+    "property": "minecraft:component",
+    "component": "minecraft:lore",
+    "cases": [
+      {
+        "when": [
+          {
+            "extra": [
+              "constellation_bee"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/constellation_bee"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "constellation_dragon"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/constellation_dragon"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "constellation_golem"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/constellation_golem"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "constellation_guardian"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/constellation_guardian"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "constellation_spider"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/constellation_spider"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "constellation_wither"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/constellation_wither"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/ghast_tear"
+    }
+  }
+}
