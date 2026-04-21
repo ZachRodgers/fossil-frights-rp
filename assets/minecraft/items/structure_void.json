@@ -9,6 +9,20 @@
         "when": [
           {
             "extra": [
+              "fan"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_blocks/fan"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
               "credit_reel"
             ],
             "text": ""
