@@ -14,5 +14,21 @@
         "stream": false
       }
     ]
+  },
+  "ff_night_shift": {
+    "sounds": [
+      {
+        "name": "fossil-frights:custom/ff_night_shift",
+        "stream": true
+      }
+    ]
+  },
+  "ff_day_complete": {
+    "sounds": [
+      {
+        "name": "fossil-frights:custom/ff_day_complete",
+        "stream": false
+      }
+    ]
   }
 }
