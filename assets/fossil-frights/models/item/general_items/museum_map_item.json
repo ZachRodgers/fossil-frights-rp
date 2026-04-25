@@ -2,5 +2,14 @@
   "parent": "minecraft:item/generated",
   "textures": {
     "layer0": "fossil-frights:custom/general_items/museum_map_item"
+  },
+  "display": {
+    "fixed": {
+      "scale": [
+        2,
+        2,
+        2
+      ]
+    }
   }
 }

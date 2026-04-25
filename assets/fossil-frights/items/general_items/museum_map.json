@@ -9,6 +9,13 @@
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_items/museum_map_item"
         }
+      },
+      {
+        "when": "fixed",
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/museum_map_item"
+        }
       }
     ],
     "fallback": {
