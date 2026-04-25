@@ -1,7 +1,6 @@
 {
   "model": {
     "type": "minecraft:select",
-    "model": "minecraft:item/netherite_ingot",
     "property": "minecraft:component",
     "component": "minecraft:lore",
     "cases": [
@@ -9,48 +8,34 @@
         "when": [
           {
             "extra": [
-              "safe"
+              "chlorine_tablet"
             ],
             "text": ""
           }
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/safe"
+          "model": "fossil-frights:item/general_items/chlorine_tablet"
         }
       },
       {
         "when": [
           {
             "extra": [
-              "fire_tablet"
+              "soap"
             ],
             "text": ""
           }
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/fire_tablet"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
-              "fire_tablet_block"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/fire_tablet_block"
+          "model": "fossil-frights:item/general_items/soap"
         }
       }
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:item/netherite_ingot"
+      "model": "minecraft:item/sugar"
     }
   }
 }

@@ -1,7 +1,6 @@
 {
   "model": {
     "type": "minecraft:select",
-    "model": "minecraft:item/netherite_ingot",
     "property": "minecraft:component",
     "component": "minecraft:lore",
     "cases": [
@@ -9,48 +8,34 @@
         "when": [
           {
             "extra": [
-              "safe"
+              "pink_jelly"
             ],
             "text": ""
           }
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/safe"
+          "model": "fossil-frights:item/general_items/pink_jelly"
         }
       },
       {
         "when": [
           {
             "extra": [
-              "fire_tablet"
+              "pink_coral_jelly"
             ],
             "text": ""
           }
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/fire_tablet"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
-              "fire_tablet_block"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/fire_tablet_block"
+          "model": "fossil-frights:item/general_items/pink_jelly"
         }
       }
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:item/netherite_ingot"
+      "model": "minecraft:item/brain_coral_fan"
     }
   }
 }
