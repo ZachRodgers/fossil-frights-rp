@@ -1,6 +1,7 @@
 {
   "model": {
     "type": "minecraft:select",
+    "model": "minecraft:item/gray_stained_glass_pane",
     "property": "minecraft:component",
     "component": "minecraft:lore",
     "cases": [
@@ -8,20 +9,20 @@
         "when": [
           {
             "extra": [
-              "dry_ice"
+              "sniffer_footprints"
             ],
             "text": ""
           }
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/dry_ice"
+          "model": "fossil-frights:item/general_items/sniffer_footprints"
         }
       }
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:block/ice"
+      "model": "minecraft:item/gray_stained_glass_pane"
     }
   }
 }
