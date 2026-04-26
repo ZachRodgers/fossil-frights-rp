@@ -1,6 +1,7 @@
 {
   "model": {
     "type": "minecraft:select",
+    "model": "minecraft:item/carrot",
     "property": "minecraft:component",
     "component": "minecraft:lore",
     "cases": [
@@ -8,20 +9,20 @@
         "when": [
           {
             "extra": [
-              "dry_ice"
+              "carrot_cake"
             ],
             "text": ""
           }
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/dry_ice"
+          "model": "fossil-frights:item/food/carrot_cake"
         }
       }
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:block/ice"
+      "model": "minecraft:item/carrot"
     }
   }
 }
