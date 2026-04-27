@@ -135,6 +135,20 @@
         "when": [
           {
             "extra": [
+              "velociraptor_plushie_on_hoverboard"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/merchandise/velociraptor_plushie_on_hoverboard"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
               "cooked_hoglin"
             ],
             "text": ""
