@@ -79,9 +79,9 @@
 		},
 		{
 			"name": "body",
-			"from": [3, 0, 16],
-			"to": [13, 8, 16],
-			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 14]},
+			"from": [3, 0, 15],
+			"to": [13, 8, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 13]},
 			"faces": {
 				"north": {"uv": [0, 9.5, 1.25, 10.5], "texture": "#0"},
 				"east": {"uv": [3.125, 10.625, 3.125, 11.625], "texture": "#0"},
@@ -150,7 +150,7 @@
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [60, 180, 0],
+			"rotation": [60, -180, 0],
 			"scale": [0.57, 0.57, 0.57]
 		},
 		"thirdperson_lefthand": {
@@ -175,7 +175,7 @@
 			"scale": [0.59, 0.59, 0.59]
 		},
 		"head": {
-			"rotation": [0, 180, 0],
+			"rotation": [0, -180, 0],
 			"translation": [0, 3, 2],
 			"scale": [1.29, 1.29, 1.29]
 		},
