@@ -18,6 +18,20 @@
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_items/lock"
         }
+      },
+            {
+        "when": [
+          {
+            "extra": [
+              "scrap_metal"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/scrap_metal"
+        }
       }
     ],
     "fallback": {
