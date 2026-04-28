@@ -9,6 +9,20 @@
         "when": [
           {
             "extra": [
+              "skeleton_plushie"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/merchandise/skeleton_plushie"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
               "trex_skull"
             ],
             "text": ""
