@@ -3,8 +3,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "fossil-frights:custom/merchandise/t-rex_plushie",
-		"particle": "fossil-frights:custom/merchandise/t-rex_plushie"
+		"0": "fossil-frights:custom/merchandise/gold_t_rex_plushie",
+		"particle": "fossil-frights:custom/merchandise/gold_t_rex_plushie"
 	},
 	"elements": [
 		{
@@ -53,7 +53,7 @@
 			"name": "leg3",
 			"from": [3.5, -0.1, 7],
 			"to": [6.5, 0.9, 10],
-			"rotation": {"angle": 0, "axis": "x", "origin": [4.5, -0.1, 10]},
+			"rotation": {"angle": 0, "axis": "y", "origin": [4.5, -0.1, 10]},
 			"faces": {
 				"north": {"uv": [1, 5.25, 1.75, 5.5], "texture": "#0"},
 				"east": {"uv": [9.25, 5.75, 10, 6], "texture": "#0"},
@@ -123,7 +123,7 @@
 			"name": "leg4",
 			"from": [9.5, -0.1, 7],
 			"to": [12.5, 0.9, 10],
-			"rotation": {"angle": 0, "axis": "x", "origin": [11.5, -0.1, 10]},
+			"rotation": {"angle": 0, "axis": "y", "origin": [11.5, -0.1, 10]},
 			"faces": {
 				"north": {"uv": [0, 9.5, 0.75, 9.75], "texture": "#0"},
 				"east": {"uv": [0.75, 9.5, 1.5, 9.75], "texture": "#0"},

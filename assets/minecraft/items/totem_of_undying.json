@@ -93,6 +93,20 @@
         "when": [
           {
             "extra": [
+              "gold_t-rex_plushie"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/pirate_cove/shells/gold_t-rex_plushie"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
               "pteradactyl_plushie"
             ],
             "text": ""
