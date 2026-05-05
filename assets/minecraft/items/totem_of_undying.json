@@ -172,6 +172,20 @@
           "type": "minecraft:model",
           "model": "fossil-frights:item/merchandise/cooked_hoglin"
         }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "warden"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/merchandise/warden"
+        }
       }
     ],
     "fallback": {
