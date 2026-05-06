@@ -1,0 +1,28 @@
+{
+  "providers": [
+    {
+      "type": "reference",
+      "id": "minecraft:include/space"
+    },
+    {
+      "type": "reference",
+      "id": "minecraft:include/default",
+      "filter": {
+        "uniform": false
+      }
+    },
+    {
+      "type": "reference",
+      "id": "minecraft:include/unifont"
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil-frights:font/player_list_icons.png",
+      "ascent": 9,
+      "height": 10,
+      "chars": [
+        "\ue120\ue121\ue122\ue123"
+      ]
+    }
+  ]
+}
