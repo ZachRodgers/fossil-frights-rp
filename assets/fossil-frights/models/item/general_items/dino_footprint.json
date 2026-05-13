@@ -41,7 +41,7 @@
 		"fixed": {
 			"rotation": [-90, 0, 0],
 			"translation": [0, 0, -16.25],
-			"scale": [2, 2.03, 2.03]
+			"scale": [2, 2, 2]
 		}
 	},
 	"groups": [
