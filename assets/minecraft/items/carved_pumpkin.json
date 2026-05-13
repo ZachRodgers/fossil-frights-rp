@@ -149,6 +149,20 @@
         "when": [
           {
             "extra": [
+              "confetti_cannon"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_blocks/confetti_cannon"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
               "velociraptor_skull"
             ],
             "text": ""

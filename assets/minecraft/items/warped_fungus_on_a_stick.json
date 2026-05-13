@@ -85,6 +85,20 @@
         "when": [
           {
             "extra": [
+              "confetti_remote"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/confetti_remote"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
               "parkour_restart"
             ],
             "text": ""
