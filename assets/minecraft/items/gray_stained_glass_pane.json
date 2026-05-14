@@ -18,6 +18,34 @@
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_items/sniffer_footprints"
         }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "glass_box_open"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_blocks/glass_box_open"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "glass_box_closed"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_blocks/glass_box_closed"
+        }
       }
     ],
     "fallback": {
