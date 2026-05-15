@@ -119,6 +119,7 @@
 		{
 			"name": "antenna",
 			"origin": [7.5, 0, 0],
+			"scope": 0,
 			"color": 0,
 			"children": [2, 3, 4]
 		}
