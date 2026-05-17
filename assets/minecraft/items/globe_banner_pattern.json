@@ -21,14 +21,14 @@
               "when": "gui",
               "model": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:item/general_items/museum_map_item"
+                "model": "minecraft:item/map"
               }
             },
             {
               "when": "fixed",
               "model": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:item/general_items/museum_map_item"
+                "model": "minecraft:item/map"
               }
             }
           ],
