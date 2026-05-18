@@ -13,5 +13,13 @@
     },
     "min_format": 69,
     "max_format": 75
+  },
+  "filter": {
+    "block": [
+      {
+        "namespace": "^minecraft$",
+        "path": "sounds/music/.*"
+      }
+    ]
   }
 }
