@@ -144,6 +144,20 @@
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_items/pteradactyl_dna_cloth"
         }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "cardboard_cutout"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/misc/cardboard_cutout"
+        }
       }
     ],
     "fallback": {
