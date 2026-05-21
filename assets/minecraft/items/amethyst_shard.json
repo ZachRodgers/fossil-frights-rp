@@ -1,0 +1,56 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "model": "minecraft:item/amethyst_shard",
+    "property": "minecraft:component",
+    "component": "minecraft:lore",
+    "cases": [
+      {
+        "when": [
+          {
+            "extra": [
+              "microfiber_cloth"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/microfiber_cloth"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "parkour_restart"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/parkour_restart"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "temple_run_restart"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/temple_run_restart"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/amethyst_shard"
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
   "model": {
     "type": "minecraft:select",
-    "model": "minecraft:item/carrot_on_a_stick",
+    "model": "minecraft:item/echo_shard",
     "property": "minecraft:component",
     "component": "minecraft:lore",
     "cases": [
@@ -64,7 +64,7 @@
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:item/carrot_on_a_stick"
+      "model": "minecraft:item/echo_shard"
     }
   }
 }
