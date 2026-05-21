@@ -7,10 +7,42 @@
       }
     ]
   },
-  "water_pipe_burst": {
+  "hazards.lights": {
     "sounds": [
       {
-        "name": "fossil-frights:custom/water_pipe_burst",
+        "name": "fossil-frights:hazards/lights",
+        "stream": false
+      }
+    ]
+  },
+  "hazards.lava": {
+    "sounds": [
+      {
+        "name": "fossil-frights:hazards/lava",
+        "stream": false
+      }
+    ]
+  },
+  "hazards.floods": {
+    "sounds": [
+      {
+        "name": "fossil-frights:hazards/floods",
+        "stream": false
+      }
+    ]
+  },
+  "hazards.security": {
+    "sounds": [
+      {
+        "name": "fossil-frights:hazards/security",
+        "stream": false
+      }
+    ]
+  },
+  "hazards.curse": {
+    "sounds": [
+      {
+        "name": "fossil-frights:hazards/curse",
         "stream": false
       }
     ]
