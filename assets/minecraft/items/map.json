@@ -1,42 +1,745 @@
 {
   "model": {
-    "type": "minecraft:select",
-    "model": "minecraft:item/map",
-    "property": "minecraft:component",
-    "component": "minecraft:lore",
-    "cases": [
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "entries": [
       {
-        "when": [
-          {
-            "extra": [
-              "cretaceous_map"
-            ],
-            "text": ""
-          }
-        ],
+        "threshold": 1,
         "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/cretaceous_map"
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": "gui",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/museum_map/dynamic_map_item/floor_1"
+              }
+            },
+            {
+              "when": "fixed",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/museum_map/dynamic_map_item/floor_1"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/museum_map/dynamic_map/1_foyer"
+          }
         }
       },
       {
-        "when": [
-          {
-            "extra": [
-              "pangea_map"
-            ],
-            "text": ""
+        "threshold": 2,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": "gui",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/museum_map/dynamic_map_item/floor_1"
+              }
+            },
+            {
+              "when": "fixed",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/museum_map/dynamic_map_item/floor_1"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/museum_map/dynamic_map/2_giftshop"
           }
-        ],
+        }
+      },
+      {
+        "threshold": 3,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": "gui",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/museum_map/dynamic_map_item/floor_1"
+              }
+            },
+            {
+              "when": "fixed",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/museum_map/dynamic_map_item/floor_1"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/museum_map/dynamic_map/3_cafe"
+          }
+        }
+      },
+      {
+        "threshold": 4,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": "gui",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/museum_map/dynamic_map_item/floor_1"
+              }
+            },
+            {
+              "when": "fixed",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/museum_map/dynamic_map_item/floor_1"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/museum_map/dynamic_map/4_bathroom"
+          }
+        }
+      },
+      {
+        "threshold": 5,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": "gui",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/museum_map/dynamic_map_item/floor_1"
+              }
+            },
+            {
+              "when": "fixed",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/museum_map/dynamic_map_item/floor_1"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/museum_map/dynamic_map/5_skeletons"
+          }
+        }
+      },
+      {
+        "threshold": 6,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": "gui",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/museum_map/dynamic_map_item/floor_1"
+              }
+            },
+            {
+              "when": "fixed",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/museum_map/dynamic_map_item/floor_1"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/museum_map/dynamic_map/6_aquatic"
+          }
+        }
+      },
+      {
+        "threshold": 7,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": "gui",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/museum_map/dynamic_map_item/basement"
+              }
+            },
+            {
+              "when": "fixed",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/museum_map/dynamic_map_item/basement"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/museum_map/dynamic_map/7_theatre"
+          }
+        }
+      },
+      {
+        "threshold": 8,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": "gui",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/museum_map/dynamic_map_item/ruins"
+              }
+            },
+            {
+              "when": "fixed",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/museum_map/dynamic_map_item/ruins"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/museum_map/dynamic_map/8_ruins"
+          }
+        }
+      },
+      {
+        "threshold": 9,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": "gui",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/museum_map/dynamic_map_item/ruins"
+              }
+            },
+            {
+              "when": "fixed",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/museum_map/dynamic_map_item/ruins"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/museum_map/dynamic_map/9_deepdark"
+          }
+        }
+      },
+      {
+        "threshold": 10,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": "gui",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/museum_map/dynamic_map_item/floor_2"
+              }
+            },
+            {
+              "when": "fixed",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/museum_map/dynamic_map_item/floor_2"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/museum_map/dynamic_map/10_balcony"
+          }
+        }
+      },
+      {
+        "threshold": 11,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": "gui",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/museum_map/dynamic_map_item/floor_2"
+              }
+            },
+            {
+              "when": "fixed",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/museum_map/dynamic_map_item/floor_2"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/museum_map/dynamic_map/11_mezzanine"
+          }
+        }
+      },
+      {
+        "threshold": 12,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": "gui",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/museum_map/dynamic_map_item/floor_2"
+              }
+            },
+            {
+              "when": "fixed",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/museum_map/dynamic_map_item/floor_2"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/museum_map/dynamic_map/12_aviary"
+          }
+        }
+      },
+      {
+        "threshold": 13,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": "gui",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/museum_map/dynamic_map_item/floor_2"
+              }
+            },
+            {
+              "when": "fixed",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/museum_map/dynamic_map_item/floor_2"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/museum_map/dynamic_map/13_terrarium"
+          }
+        }
+      },
+      {
+        "threshold": 14,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": "gui",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/museum_map/dynamic_map_item/floor_2"
+              }
+            },
+            {
+              "when": "fixed",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/museum_map/dynamic_map_item/floor_2"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/museum_map/dynamic_map/14_obersavtory"
+          }
+        }
+      },
+      {
+        "threshold": 15,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": "gui",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/museum_map/dynamic_map_item/floor_2"
+              }
+            },
+            {
+              "when": "fixed",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/museum_map/dynamic_map_item/floor_2"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/museum_map/dynamic_map/15_left_hall"
+          }
+        }
+      },
+      {
+        "threshold": 16,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": "gui",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/museum_map/dynamic_map_item/floor_2"
+              }
+            },
+            {
+              "when": "fixed",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/museum_map/dynamic_map_item/floor_2"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/museum_map/dynamic_map/16_humans"
+          }
+        }
+      },
+      {
+        "threshold": 17,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": "gui",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/museum_map/dynamic_map_item/floor_2"
+              }
+            },
+            {
+              "when": "fixed",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/museum_map/dynamic_map_item/floor_2"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/museum_map/dynamic_map/17_eggshibit"
+          }
+        }
+      },
+      {
+        "threshold": 18,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": "gui",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/museum_map/dynamic_map_item/floor_2"
+              }
+            },
+            {
+              "when": "fixed",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/museum_map/dynamic_map_item/floor_2"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/museum_map/dynamic_map/18_bathroom"
+          }
+        }
+      },
+      {
+        "threshold": 19,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": "gui",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/museum_map/dynamic_map_item/floor_3"
+              }
+            },
+            {
+              "when": "fixed",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/museum_map/dynamic_map_item/floor_3"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/museum_map/dynamic_map/19_precambrian"
+          }
+        }
+      },
+      {
+        "threshold": 20,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": "gui",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/museum_map/dynamic_map_item/floor_3"
+              }
+            },
+            {
+              "when": "fixed",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/museum_map/dynamic_map_item/floor_3"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/museum_map/dynamic_map/20_paleozoic"
+          }
+        }
+      },
+      {
+        "threshold": 21,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": "gui",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/museum_map/dynamic_map_item/floor_3"
+              }
+            },
+            {
+              "when": "fixed",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/museum_map/dynamic_map_item/floor_3"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/museum_map/dynamic_map/21_mesozoic"
+          }
+        }
+      },
+      {
+        "threshold": 22,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": "gui",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/museum_map/dynamic_map_item/floor_3"
+              }
+            },
+            {
+              "when": "fixed",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/museum_map/dynamic_map_item/floor_3"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/museum_map/dynamic_map/22_cenozoic"
+          }
+        }
+      },
+      {
+        "threshold": 23,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": "gui",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/museum_map/dynamic_map_item/basement"
+              }
+            },
+            {
+              "when": "fixed",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/museum_map/dynamic_map_item/basement"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/museum_map/dynamic_map/23_basement"
+          }
+        }
+      },
+      {
+        "threshold": 24,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": "gui",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/museum_map/dynamic_map_item/basement"
+              }
+            },
+            {
+              "when": "fixed",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/museum_map/dynamic_map_item/basement"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/museum_map/dynamic_map/24_startroom"
+          }
+        }
+      },
+      {
+        "threshold": 25,
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/pangea_map"
+          "model": "fossil-frights:item/museum_map/museum_map_floor_0"
+        }
+      },
+      {
+        "threshold": 26,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/museum_map/museum_map_floor_1"
+        }
+      },
+      {
+        "threshold": 27,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/museum_map/museum_map_ruins"
+        }
+      },
+      {
+        "threshold": 28,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/museum_map/museum_map_floor_2"
+        }
+      },
+      {
+        "threshold": 29,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/museum_map/museum_map_floor_3"
+        }
+      },
+      {
+        "threshold": 30,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/museum_map/museum_map_full"
+        }
+      },
+      {
+        "threshold": 31,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/map"
         }
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/map"
+      "type": "minecraft:select",
+      "model": "minecraft:item/map",
+      "property": "minecraft:component",
+      "component": "minecraft:lore",
+      "cases": [
+        {
+          "when": [
+            {
+              "extra": [
+                "cretaceous_map"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_items/cretaceous_map"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "pangea_map"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_items/pangea_map"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/map"
+      }
     }
   }
 }
