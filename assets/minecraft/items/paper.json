@@ -697,6 +697,13 @@
         "threshold": 31,
         "model": {
           "type": "minecraft:model",
+          "model": "fossil-frights:item/museum_map/locator_dot"
+        }
+      },
+      {
+        "threshold": 32,
+        "model": {
+          "type": "minecraft:model",
           "model": "minecraft:item/paper"
         }
       }
