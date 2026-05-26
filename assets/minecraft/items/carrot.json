@@ -1,5 +1,17 @@
 {
   "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "entries": [
+      {
+        "threshold": 1,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/food/carrot_cake"
+        }
+      }
+    ],
+    "fallback": {
     "type": "minecraft:select",
     "model": "minecraft:item/carrot",
     "property": "minecraft:component",
@@ -23,6 +35,7 @@
     "fallback": {
       "type": "minecraft:model",
       "model": "minecraft:item/carrot"
+    }
     }
   }
 }

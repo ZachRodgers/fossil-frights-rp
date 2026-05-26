@@ -1,5 +1,17 @@
 {
   "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "entries": [
+      {
+        "threshold": 1,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/water_balloon"
+        }
+      }
+    ],
+    "fallback": {
     "type": "minecraft:select",
     "property": "minecraft:component",
     "component": "minecraft:lore",
@@ -22,6 +34,7 @@
     "fallback": {
       "type": "minecraft:model",
       "model": "minecraft:item/splash_potion"
+    }
     }
   }
 }

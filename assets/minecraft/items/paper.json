@@ -706,6 +706,55 @@
           "type": "minecraft:model",
           "model": "minecraft:item/paper"
         }
+      },
+      {
+        "threshold": 33,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/sniffer_dna_cloth"
+        }
+      },
+      {
+        "threshold": 34,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/trike_dna_cloth"
+        }
+      },
+      {
+        "threshold": 35,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/t_rex_dna_cloth"
+        }
+      },
+      {
+        "threshold": 36,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/velociraptor_dna_cloth"
+        }
+      },
+      {
+        "threshold": 37,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/plesiosaur_dna_cloth"
+        }
+      },
+      {
+        "threshold": 38,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/instant_coffee"
+        }
+      },
+      {
+        "threshold": 39,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/pteradactyl_dna_cloth"
+        }
       }
     ],
     "fallback": {
@@ -714,20 +763,6 @@
       "property": "minecraft:component",
       "component": "minecraft:lore",
       "cases": [
-        {
-          "when": [
-            {
-              "extra": [
-                "admit_one"
-              ],
-              "text": ""
-            }
-          ],
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/general/admit_one"
-          }
-        },
         {
           "when": [
             {

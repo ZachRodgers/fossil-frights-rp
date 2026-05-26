@@ -1,5 +1,17 @@
 {
   "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "entries": [
+      {
+        "threshold": 1,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/cubekoin"
+        }
+      }
+    ],
+    "fallback": {
     "type": "minecraft:select",
     "model": "minecraft:item/gold_ingot",
     "property": "minecraft:component",
@@ -18,67 +30,12 @@
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_items/cubekoin"
         }
-      },
-      {
-        "when": [
-          {
-            "extra": [
-              "amber_koin"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/artifacts/amber_koin"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
-              "trophy1"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/trophies/trophy1"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
-              "trophy2"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/trophies/trophy2"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
-              "trophy3"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/trophies/trophy3"
-        }
       }
     ],
     "fallback": {
       "type": "minecraft:model",
       "model": "minecraft:item/gold_ingot"
+    }
     }
   }
 }

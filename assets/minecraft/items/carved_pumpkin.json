@@ -1,38 +1,29 @@
 {
   "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "entries": [
+      {
+        "threshold": 1,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/merchandise/security_guard_hat"
+        }
+      },
+      {
+        "threshold": 2,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_blocks/confetti_cannon"
+        }
+      }
+    ],
+    "fallback": {
     "type": "minecraft:select",
     "model": "minecraft:block/carved_pumpkin",
     "property": "minecraft:component",
     "component": "minecraft:lore",
     "cases": [
-      {
-        "when": [
-          {
-            "extra": [
-              "top_hat"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/merchandise/top_hat"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
-              "miner_helmet"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/merchandise/miner_helmet"
-        }
-      },
       {
         "when": [
           {
@@ -51,20 +42,6 @@
         "when": [
           {
             "extra": [
-              "magic_carpet"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/merchandise/magic_carpet"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
               "swag_glasses"
             ],
             "text": ""
@@ -73,62 +50,6 @@
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/merchandise/swag_glasses"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
-              "trophy"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/trophies/trophy"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
-              "pirate_hat"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/pirate_cove/pirate_hat"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
-              "scuba_helmet"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/merchandise/scuba_helmet"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
-              "krown"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/artifacts/krown"
         }
       },
       {
@@ -177,6 +98,7 @@
     "fallback": {
       "type": "minecraft:model",
       "model": "minecraft:block/carved_pumpkin"
+    }
     }
   }
 }

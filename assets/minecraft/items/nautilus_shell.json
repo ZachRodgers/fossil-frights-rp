@@ -1,5 +1,17 @@
 {
   "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "entries": [
+      {
+        "threshold": 1,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/pirate_cove/shells/golden_nautilus"
+        }
+      }
+    ],
+    "fallback": {
     "type": "minecraft:select",
     "model": "minecraft:item/nautilus_shell",
     "property": "minecraft:component",
@@ -121,6 +133,7 @@
     "fallback": {
       "type": "minecraft:model",
       "model": "minecraft:item/nautilus_shell"
+    }
     }
   }
 }

@@ -37,34 +37,6 @@
         "when": [
           {
             "extra": [
-              "coconut_drink"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/food/coconut_drink"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
-              "milkshake"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/food/milkshake"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
               "coffee"
             ],
             "text": ""
@@ -87,20 +59,6 @@
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/food/coffee_steam"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
-              "ectoplasm_with_straw"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/artifacts/ectoplasm_with_straw"
         }
       }
     ],

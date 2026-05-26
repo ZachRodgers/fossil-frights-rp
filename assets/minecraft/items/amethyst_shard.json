@@ -1,5 +1,17 @@
 {
   "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "entries": [
+      {
+        "threshold": 1,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/microfiber_cloth"
+        }
+      }
+    ],
+    "fallback": {
     "type": "minecraft:select",
     "model": "minecraft:item/amethyst_shard",
     "property": "minecraft:component",
@@ -51,6 +63,7 @@
     "fallback": {
       "type": "minecraft:model",
       "model": "minecraft:item/amethyst_shard"
+    }
     }
   }
 }

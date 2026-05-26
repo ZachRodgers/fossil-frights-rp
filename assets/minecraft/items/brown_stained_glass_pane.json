@@ -9,20 +9,6 @@
         "when": [
           {
             "extra": [
-              "captain_wheel"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/pirate_cove/captain_wheel"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
               "dino_footprint"
             ],
             "text": ""

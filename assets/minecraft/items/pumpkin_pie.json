@@ -9,20 +9,6 @@
         "when": [
           {
             "extra": [
-              "pizza"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/food/pizza/pizza"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
               "pizza_box"
             ],
             "text": ""
@@ -31,62 +17,6 @@
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/food/pizza_box"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
-              "pizza_slice"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/food/pizza/pizza_slice"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
-              "hawaiin_pizza"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/food/pizza/hawaiin_pizza"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
-              "veggie_pizza"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/food/pizza/veggie_pizza"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
-              "margherita_pizza"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/food/pizza/margherita_pizza"
         }
       }
     ],

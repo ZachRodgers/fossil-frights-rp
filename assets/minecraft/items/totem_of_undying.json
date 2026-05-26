@@ -1,5 +1,59 @@
 {
   "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "entries": [
+      {
+        "threshold": 1,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/merchandise/plesiosaur_plushie"
+        }
+      },
+      {
+        "threshold": 2,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/merchandise/velociraptor_plushie"
+        }
+      },
+      {
+        "threshold": 3,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/merchandise/trike_plushie"
+        }
+      },
+      {
+        "threshold": 4,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/merchandise/t-rex_plushie"
+        }
+      },
+      {
+        "threshold": 5,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/pirate_cove/shells/gold_t-rex_plushie"
+        }
+      },
+      {
+        "threshold": 6,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/merchandise/pteradactyl_plushie"
+        }
+      },
+      {
+        "threshold": 7,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/merchandise/sniffer_plushie"
+        }
+      }
+    ],
+    "fallback": {
     "type": "minecraft:select",
     "model": "minecraft:item/totem_of_undying",
     "property": "minecraft:component",
@@ -191,6 +245,7 @@
     "fallback": {
       "type": "minecraft:model",
       "model": "minecraft:item/totem_of_undying"
+    }
     }
   }
 }

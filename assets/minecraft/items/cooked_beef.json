@@ -18,20 +18,6 @@
           "type": "minecraft:model",
           "model": "fossil-frights:item/food/burger"
         }
-      },
-      {
-        "when": [
-          {
-            "extra": [
-              "taco"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/food/taco"
-        }
       }
     ],
     "fallback": {
