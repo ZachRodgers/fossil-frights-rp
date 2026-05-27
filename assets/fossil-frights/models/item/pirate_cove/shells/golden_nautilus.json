@@ -3,7 +3,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "fossil-frights:custom/pirate_cove/shells/golden_nautilus"
+		"0": "fossil-frights:custom/pirate_cove/shells/golden_nautilus",
+		"particle": "fossil-frights:custom/pirate_cove/shells/golden_nautilus"
 	},
 	"elements": [
 		{

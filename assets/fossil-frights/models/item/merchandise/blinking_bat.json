@@ -7,7 +7,8 @@
   ],
   "textures": {
     "0": "fossil-frights:custom/merchandise/blinking_bat",
-    "1": "fossil-frights:custom/merchandise/blinking_bat_emissive"
+    "1": "fossil-frights:custom/merchandise/blinking_bat_emissive",
+    "particle": "fossil-frights:custom/merchandise/blinking_bat"
   },
   "elements": [
     {

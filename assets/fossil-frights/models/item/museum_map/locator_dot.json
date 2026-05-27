@@ -1,7 +1,7 @@
 {
 	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
-	"texture_size": [5, 5],
+	"texture_size": [8, 8],
 	"textures": {
 		"0": "fossil-frights:custom/museum_map/locator_dot",
 		"particle": "fossil-frights:custom/museum_map/locator_dot"
@@ -13,12 +13,12 @@
 			"to": [10.5, 5, -0.1],
 			"rotation": {"angle": 0, "axis": "y", "origin": [5.5, 0, -0.1]},
 			"faces": {
-				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
-				"east": {"uv": [0, 0, 0, 16], "texture": "#0"},
-				"south": {"uv": [0, 0, 16, 16], "texture": "#0"},
-				"west": {"uv": [0, 0, 0, 16], "texture": "#0"},
-				"up": {"uv": [16, 0, 0, 0], "texture": "#0"},
-				"down": {"uv": [16, 0, 0, 0], "texture": "#0"}
+				"north": {"uv": [0, 0, 10, 10], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 10], "texture": "#0"},
+				"south": {"uv": [0, 0, 10, 10], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 10], "texture": "#0"},
+				"up": {"uv": [10, 0, 0, 0], "texture": "#0"},
+				"down": {"uv": [10, 0, 0, 0], "texture": "#0"}
 			}
 		}
 	],

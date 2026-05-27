@@ -3,7 +3,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"1": "fossil-frights:custom/general_items/safe"
+		"1": "fossil-frights:custom/general_items/safe",
+		"particle": "fossil-frights:custom/general_items/safe"
 	},
 	"elements": [
 		{

@@ -3,6 +3,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
+		"missing": "fossil-frights:custom/transparent",
 		"1": "fossil-frights:custom/signs/earths_timeline/phanerozoic",
 		"2": "fossil-frights:custom/signs/large_sign",
 		"particle": "fossil-frights:custom/signs/large_sign"
