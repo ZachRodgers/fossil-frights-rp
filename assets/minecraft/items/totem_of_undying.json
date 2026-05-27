@@ -51,6 +51,41 @@
           "type": "minecraft:model",
           "model": "fossil-frights:item/merchandise/sniffer_plushie"
         }
+      },
+      {
+        "threshold": 8,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/credits/players/Polysquarazoid"
+        }
+      },
+      {
+        "threshold": 9,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/credits/players/Endyblaze201"
+        }
+      },
+      {
+        "threshold": 10,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/credits/players/Evtema3"
+        }
+      },
+      {
+        "threshold": 11,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/credits/players/RiverTiger76"
+        }
+      },
+      {
+        "threshold": 12,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/credits/players/Stuffy"
+        }
       }
     ],
     "fallback": {
