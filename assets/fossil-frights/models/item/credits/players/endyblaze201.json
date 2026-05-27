@@ -3,8 +3,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "fossil-frights:custom/credits/players/Polysquarazoid",
-		"particle": "fossil-frights:custom/credits/players/Polysquarazoid"
+		"0": "fossil-frights:custom/credits/players/endyblaze201",
+		"particle": "fossil-frights:custom/credits/players/endyblaze201"
 	},
 	"elements": [
 		{
@@ -66,13 +66,13 @@
 		{
 			"name": "Right Arm",
 			"from": [12, 0, 6],
-			"to": [16, 12, 10],
+			"to": [15, 12, 10],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 12, 8]},
 			"faces": {
-				"north": {"uv": [11, 5, 12, 8], "texture": "#0"},
+				"north": {"uv": [11, 5, 11.75, 8], "texture": "#0"},
 				"east": {"uv": [10, 5, 11, 8], "texture": "#0"},
-				"south": {"uv": [13, 5, 14, 8], "texture": "#0"},
-				"west": {"uv": [12, 5, 13, 8], "texture": "#0"},
+				"south": {"uv": [12.75, 5, 13.5, 8], "texture": "#0"},
+				"west": {"uv": [11.75, 5, 12.75, 8], "texture": "#0"},
 				"up": {"uv": [12, 5, 11, 4], "texture": "#0"},
 				"down": {"uv": [13, 4, 12, 5], "texture": "#0"}
 			}
@@ -80,41 +80,41 @@
 		{
 			"name": "Right Arm Layer",
 			"from": [11.75, -0.25, 5.75],
-			"to": [16.25, 12.25, 10.25],
+			"to": [15.25, 12.25, 10.25],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 12, 8]},
 			"faces": {
-				"north": {"uv": [11, 9, 12, 12], "texture": "#0"},
-				"east": {"uv": [10, 9, 11, 12], "texture": "#0"},
-				"south": {"uv": [13, 9, 14, 12], "texture": "#0"},
-				"west": {"uv": [12, 9, 13, 12], "texture": "#0"},
+				"north": {"uv": [11, 9.25, 11.75, 12], "texture": "#0"},
+				"east": {"uv": [10, 9.25, 11, 12], "texture": "#0"},
+				"south": {"uv": [13, 9.25, 13.75, 12], "texture": "#0"},
+				"west": {"uv": [12, 9.25, 13, 12], "texture": "#0"},
 				"up": {"uv": [12, 9, 11, 8], "texture": "#0"},
 				"down": {"uv": [13, 8, 12, 9], "texture": "#0"}
 			}
 		},
 		{
 			"name": "Left Arm",
-			"from": [0, 0, 6],
+			"from": [1, 0, 6],
 			"to": [4, 12, 10],
 			"rotation": {"angle": 0, "axis": "x", "origin": [8, 12, 8]},
 			"faces": {
-				"north": {"uv": [9, 13, 10, 16], "texture": "#0"},
+				"north": {"uv": [9, 13, 9.75, 16], "texture": "#0"},
 				"east": {"uv": [8, 13, 9, 16], "texture": "#0"},
-				"south": {"uv": [11, 13, 12, 16], "texture": "#0"},
-				"west": {"uv": [10, 13, 11, 16], "texture": "#0"},
+				"south": {"uv": [10.75, 13, 11.5, 16], "texture": "#0"},
+				"west": {"uv": [9.75, 13, 10.75, 16], "texture": "#0"},
 				"up": {"uv": [10, 13, 9, 12], "texture": "#0"},
 				"down": {"uv": [11, 12, 10, 13], "texture": "#0"}
 			}
 		},
 		{
 			"name": "Left Arm Layer",
-			"from": [-0.25, -0.25, 5.75],
+			"from": [0.75, -0.25, 5.75],
 			"to": [4.25, 12.25, 10.25],
 			"rotation": {"angle": 0, "axis": "x", "origin": [8, 12, 8]},
 			"faces": {
-				"north": {"uv": [13, 13, 14, 16], "texture": "#0"},
-				"east": {"uv": [12, 13, 13, 16], "texture": "#0"},
-				"south": {"uv": [15, 13, 16, 16], "texture": "#0"},
-				"west": {"uv": [14, 13, 15, 16], "texture": "#0"},
+				"north": {"uv": [13, 13.25, 13.75, 16], "texture": "#0"},
+				"east": {"uv": [12, 13.25, 13, 16], "texture": "#0"},
+				"south": {"uv": [15, 13.25, 15.75, 16], "texture": "#0"},
+				"west": {"uv": [14, 13.25, 15, 16], "texture": "#0"},
 				"up": {"uv": [14, 13, 13, 12], "texture": "#0"},
 				"down": {"uv": [15, 12, 14, 13], "texture": "#0"}
 			}
