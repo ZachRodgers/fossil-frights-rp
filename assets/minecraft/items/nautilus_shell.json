@@ -30,6 +30,20 @@
           "type": "minecraft:model",
           "model": "fossil-frights:item/merchandise/crab_claw_key"
         }
+      },
+      {
+        "threshold": 5,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/merchandise/sculkadillo"
+        }
+      },
+      {
+        "threshold": 6,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/merchandise/sculkadillo_triggered"
+        }
       }
     ],
     "fallback": {
@@ -190,6 +204,34 @@
           "model": {
             "type": "minecraft:model",
             "model": "fossil-frights:item/merchandise/crab_claw_key"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "sculkadillo"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/merchandise/sculkadillo"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "sculkadillo_triggered"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/merchandise/sculkadillo_triggered"
           }
         }
       ],
