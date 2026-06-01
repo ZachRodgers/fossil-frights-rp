@@ -9,131 +9,194 @@
           "type": "minecraft:model",
           "model": "fossil-frights:item/pirate_cove/shells/golden_nautilus"
         }
-      }
-    ],
-    "fallback": {
-    "type": "minecraft:select",
-    "model": "minecraft:item/nautilus_shell",
-    "property": "minecraft:component",
-    "component": "minecraft:lore",
-    "cases": [
+      },
       {
-        "when": [
-          {
-            "extra": [
-              "conch_shell"
-            ],
-            "text": ""
-          }
-        ],
+        "threshold": 2,
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/pirate_cove/shells/conch_shell"
+          "model": "fossil-frights:item/merchandise/crab"
         }
       },
       {
-        "when": [
-          {
-            "extra": [
-              "conch_shell_2"
-            ],
-            "text": ""
-          }
-        ],
+        "threshold": 3,
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/pirate_cove/shells/conch_shell_2"
+          "model": "fossil-frights:item/merchandise/crab_claw"
         }
       },
       {
-        "when": [
-          {
-            "extra": [
-              "screw_shell"
-            ],
-            "text": ""
-          }
-        ],
+        "threshold": 4,
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/pirate_cove/shells/screw_shell"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
-              "star_fish_red"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/pirate_cove/shells/star_fish_red"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
-              "star_fish_blue"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/pirate_cove/shells/star_fish_blue"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
-              "sand_dollar"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/pirate_cove/shells/sand_dollar"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
-              "golden_nautilus"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/pirate_cove/shells/golden_nautilus"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
-              "nautilus"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/pirate_cove/shells/nautilus"
+          "model": "fossil-frights:item/merchandise/crab_claw_key"
         }
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/nautilus_shell"
-    }
+      "type": "minecraft:select",
+      "model": "minecraft:item/nautilus_shell",
+      "property": "minecraft:component",
+      "component": "minecraft:lore",
+      "cases": [
+        {
+          "when": [
+            {
+              "extra": [
+                "conch_shell"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/pirate_cove/shells/conch_shell"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "conch_shell_2"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/pirate_cove/shells/conch_shell_2"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "screw_shell"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/pirate_cove/shells/screw_shell"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "star_fish_red"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/pirate_cove/shells/star_fish_red"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "star_fish_blue"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/pirate_cove/shells/star_fish_blue"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "sand_dollar"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/pirate_cove/shells/sand_dollar"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "golden_nautilus"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/pirate_cove/shells/golden_nautilus"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "nautilus"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/pirate_cove/shells/nautilus"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "crab"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/merchandise/crab"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "crab_claw"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/merchandise/crab_claw"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "crab_claw_key"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/merchandise/crab_claw_key"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/nautilus_shell"
+      }
     }
   }
 }
