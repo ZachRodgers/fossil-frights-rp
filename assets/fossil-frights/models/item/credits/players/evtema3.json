@@ -107,9 +107,9 @@
 		},
 		{
 			"name": "Left Arm Layer",
-			"from": [-0.25, -0.25, 5.75],
+			"from": [0.75, -0.25, 5.75],
 			"to": [4.25, 12.25, 10.25],
-			"rotation": {"angle": 0, "axis": "x", "origin": [8, 12, 8]},
+			"rotation": {"angle": 0, "axis": "x", "origin": [9, 12, 8]},
 			"faces": {
 				"north": {"uv": [13, 13, 13.75, 16], "texture": "#0"},
 				"east": {"uv": [12, 13, 13, 16], "texture": "#0"},
