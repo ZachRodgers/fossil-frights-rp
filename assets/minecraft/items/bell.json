@@ -32,6 +32,20 @@
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_items/cash_register"
         }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "cash_register_open"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/cash_register_open"
+        }
       }
     ],
     "fallback": {
