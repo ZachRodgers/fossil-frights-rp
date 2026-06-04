@@ -8,6 +8,20 @@
         "when": [
           {
             "extra": [
+              "capture_point"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/misc/capture_point"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
               "thieves_beam"
             ],
             "text": ""
