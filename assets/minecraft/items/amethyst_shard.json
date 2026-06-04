@@ -58,6 +58,20 @@
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_items/temple_run_restart"
         }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "capture_point_icon"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/capture_point_icon"
+        }
       }
     ],
     "fallback": {
