@@ -9,6 +9,27 @@
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_items/confetti_remote"
         }
+      },
+      {
+        "threshold": 2,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/camera_remote"
+        }
+      },
+      {
+        "threshold": 3,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/ice_cannon_remote"
+        }
+      },
+      {
+        "threshold": 4,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/glowtrap_placer"
+        }
       }
     ],
     "fallback": {
@@ -29,6 +50,48 @@
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_items/confetti_remote"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "camera_remote"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/camera_remote"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "ice_cannon_remote"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/ice_cannon_remote"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "glowtrap_placer"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/glowtrap_placer"
         }
       }
     ],

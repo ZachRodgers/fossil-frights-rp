@@ -16,6 +16,20 @@
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_blocks/confetti_cannon"
         }
+      },
+      {
+        "threshold": 3,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/merchandise/invisimask"
+        }
+      },
+      {
+        "threshold": 4,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_blocks/ice_cannon"
+        }
       }
     ],
     "fallback": {
@@ -70,6 +84,20 @@
         "when": [
           {
             "extra": [
+              "invisimask"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/merchandise/invisimask"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
               "confetti_cannon"
             ],
             "text": ""
@@ -78,6 +106,20 @@
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_blocks/confetti_cannon"
+        }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "ice_cannon"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_blocks/ice_cannon"
         }
       },
       {

@@ -60,6 +60,20 @@
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_items/task_final"
         }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "loot_book"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/loot_book"
+        }
       }
     ],
     "fallback": {
