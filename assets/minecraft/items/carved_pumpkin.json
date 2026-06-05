@@ -21,7 +21,7 @@
         "threshold": 3,
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/merchandise/invisimask"
+          "model": "fossil-frights:item/merchandise/invisimask_creeper"
         }
       },
       {
@@ -29,6 +29,27 @@
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_blocks/ice_cannon"
+        }
+      },
+      {
+        "threshold": 5,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/merchandise/invisimask_skeleton"
+        }
+      },
+      {
+        "threshold": 6,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/merchandise/invisimask_zombie"
+        }
+      },
+      {
+        "threshold": 7,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/merchandise/invisimask_enderman"
         }
       }
     ],
@@ -91,7 +112,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/merchandise/invisimask"
+          "model": "fossil-frights:item/merchandise/invisimask_creeper"
         }
       },
       {
