@@ -88,6 +88,20 @@
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_items/constellation_wither"
         }
+      },
+      {
+        "when": [
+          {
+            "extra": [
+              "ghast_plushie"
+            ],
+            "text": ""
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/merchandise/ghast_plushie"
+        }
       }
     ],
     "fallback": {
