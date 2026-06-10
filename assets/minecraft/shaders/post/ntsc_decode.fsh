@@ -76,7 +76,12 @@ void main() {
         vec4 n4 = n + NotchOffset;
         vec4 CoordX = texCoord.x + oneTexel.x * n4 * 0.25;
         vec2 TexCoord = vec2(CoordX.x, CoordY.y);
-        vec4 C = texture(InSampler, TexCoord) * CRange + MinC;
+        vec4 C = vec4(
+            texture(InSampler, vec2(CoordX.x, texCoord.y)).r,
+            texture(InSampler, vec2(CoordX.y, texCoord.y)).r,
+            texture(InSampler, vec2(CoordX.z, texCoord.y)).r,
+            texture(InSampler, vec2(CoordX.w, texCoord.y)).r
+        ) * CRange + MinC;
         vec4 WT = W * (CoordX + A2 * CoordY * InSize.y + B);
         vec4 Cosine = 0.54 + 0.46 * cos(Pi2Length * n4);
 
