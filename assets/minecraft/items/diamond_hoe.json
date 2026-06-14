@@ -30,6 +30,20 @@
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_items/glowtrap_placer"
         }
+      },
+      {
+        "threshold": 5,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/security_camera_base"
+        }
+      },
+      {
+        "threshold": 6,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/security_camera"
+        }
       }
     ],
     "fallback": {
