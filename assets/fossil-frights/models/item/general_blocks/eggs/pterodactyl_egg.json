@@ -3,8 +3,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "fossil-frights:custom/general_blocks/eggs/pteradactyl_egg",
-		"particle": "fossil-frights:custom/general_blocks/eggs/pteradactyl_egg"
+		"0": "fossil-frights:custom/general_blocks/eggs/pterodactyl_egg",
+		"particle": "fossil-frights:custom/general_blocks/eggs/pterodactyl_egg"
 	},
 	"elements": [
 		{

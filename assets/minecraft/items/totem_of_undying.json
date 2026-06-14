@@ -42,7 +42,7 @@
         "threshold": 6,
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/merchandise/pteradactyl_plushie"
+          "model": "fossil-frights:item/merchandise/pterodactyl_plushie"
         }
       },
       {
@@ -424,7 +424,7 @@
           },
           "model": {
             "type": "minecraft:model",
-            "model": "fossil-frights:item/merchandise/pteradactyl_plushie"
+            "model": "fossil-frights:item/merchandise/pterodactyl_plushie"
           }
         },
         {
@@ -433,7 +433,7 @@
           },
           "model": {
             "type": "minecraft:model",
-            "model": "fossil-frights:item/merchandise/pteradactyl_plushie"
+            "model": "fossil-frights:item/merchandise/pterodactyl_plushie"
           }
         },
         {
@@ -617,7 +617,7 @@
             ],
             "model": {
               "type": "minecraft:model",
-              "model": "fossil-frights:item/merchandise/pteradactyl_plushie"
+              "model": "fossil-frights:item/merchandise/pterodactyl_plushie"
             }
           },
           {

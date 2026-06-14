@@ -753,7 +753,7 @@
         "threshold": 39,
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/pteradactyl_dna_cloth"
+          "model": "fossil-frights:item/general_items/pterodactyl_dna_cloth"
         }
       }
     ],
@@ -841,7 +841,7 @@
           },
           "model": {
             "type": "minecraft:model",
-            "model": "fossil-frights:item/general_items/pteradactyl_dna_cloth"
+            "model": "fossil-frights:item/general_items/pterodactyl_dna_cloth"
           }
         },
         {
@@ -983,7 +983,7 @@
             ],
             "model": {
               "type": "minecraft:model",
-              "model": "fossil-frights:item/general_items/pteradactyl_dna_cloth"
+              "model": "fossil-frights:item/general_items/pterodactyl_dna_cloth"
             }
           },
           {

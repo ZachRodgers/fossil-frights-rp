@@ -16,11 +16,11 @@
       },
       {
         "when": {
-          "itemID": "pteradactyl_egg"
+          "itemID": "pterodactyl_egg"
         },
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_blocks/eggs/pteradactyl_egg"
+          "model": "fossil-frights:item/general_blocks/eggs/pterodactyl_egg"
         }
       },
       {
@@ -84,14 +84,14 @@
           "when": [
             {
               "extra": [
-                "pteradactyl_egg"
+                "pterodactyl_egg"
               ],
               "text": ""
             }
           ],
           "model": {
             "type": "minecraft:model",
-            "model": "fossil-frights:item/general_blocks/eggs/pteradactyl_egg"
+            "model": "fossil-frights:item/general_blocks/eggs/pterodactyl_egg"
           }
         },
         {
