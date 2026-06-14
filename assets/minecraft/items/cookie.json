@@ -6,6 +6,25 @@
     "cases": [
       {
         "when": {
+          "ff_hazard_cookie": true,
+          "itemID": "hazard_cookie"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/hazard_cookie"
+        }
+      },
+      {
+        "when": {
+          "itemID": "hazard_cookie"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/hazard_cookie"
+        }
+      },
+      {
+        "when": {
           "itemID": "cookie_jar"
         },
         "model": {
@@ -21,11 +40,25 @@
       "cases": [
         {
           "when": [
-            {
-              "extra": [
-                "cookie_jar"
-              ],
-              "text": ""
+              {
+                "extra": [
+                  "hazard_cookie"
+                ],
+                "text": ""
+              }
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "fossil-frights:item/general_items/hazard_cookie"
+            }
+          },
+          {
+            "when": [
+              {
+                "extra": [
+                  "cookie_jar"
+                ],
+                "text": ""
             }
           ],
           "model": {
