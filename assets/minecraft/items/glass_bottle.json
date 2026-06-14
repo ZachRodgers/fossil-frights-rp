@@ -3,45 +3,30 @@
     "type": "minecraft:select",
     "model": "minecraft:item/glass_bottle",
     "property": "minecraft:component",
-    "component": "minecraft:lore",
+    "component": "minecraft:custom_data",
     "cases": [
       {
-        "when": [
-          {
-            "extra": [
-              "centrifuge"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "centrifuge"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_blocks/centrifuge"
         }
       },
       {
-        "when": [
-          {
-            "extra": [
-              "centrifuge_capsul"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "centrifuge_capsul"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_blocks/centrifuge_capsul"
         }
       },
       {
-        "when": [
-          {
-            "extra": [
-              "molecular_analyser"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "molecular_analyser"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_blocks/molecular_analyser"
@@ -49,8 +34,58 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/glass_bottle"
+      "type": "minecraft:select",
+      "model": "minecraft:item/glass_bottle",
+      "property": "minecraft:component",
+      "component": "minecraft:lore",
+      "cases": [
+        {
+          "when": [
+            {
+              "extra": [
+                "centrifuge"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_blocks/centrifuge"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "centrifuge_capsul"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_blocks/centrifuge_capsul"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "molecular_analyser"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_blocks/molecular_analyser"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/glass_bottle"
+      }
     }
   }
 }

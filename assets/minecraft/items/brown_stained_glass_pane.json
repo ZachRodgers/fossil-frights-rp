@@ -3,31 +3,21 @@
     "type": "minecraft:select",
     "model": "minecraft:item/brown_stained_glass_pane",
     "property": "minecraft:component",
-    "component": "minecraft:lore",
+    "component": "minecraft:custom_data",
     "cases": [
       {
-        "when": [
-          {
-            "extra": [
-              "dino_footprint"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "dino_footprint"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_items/dino_footprint"
         }
       },
       {
-        "when": [
-          {
-            "extra": [
-              "empty_box"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "empty_box"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_items/empty_box"
@@ -35,8 +25,44 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/brown_stained_glass_pane"
+      "type": "minecraft:select",
+      "model": "minecraft:item/brown_stained_glass_pane",
+      "property": "minecraft:component",
+      "component": "minecraft:lore",
+      "cases": [
+        {
+          "when": [
+            {
+              "extra": [
+                "dino_footprint"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_items/dino_footprint"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "empty_box"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_items/empty_box"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/brown_stained_glass_pane"
+      }
     }
   }
 }

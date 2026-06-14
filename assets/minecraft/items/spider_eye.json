@@ -12,30 +12,47 @@
       }
     ],
     "fallback": {
-    "type": "minecraft:select",
-    "model": "minecraft:item/spider_eye",
-    "property": "minecraft:component",
-    "component": "minecraft:lore",
-    "cases": [
-      {
-        "when": [
+      "type": "minecraft:select",
+      "model": "minecraft:item/spider_eye",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_data",
+      "cases": [
+        {
+          "when": {
+            "itemID": "lady_bug"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_items/lady_bug"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:select",
+        "model": "minecraft:item/spider_eye",
+        "property": "minecraft:component",
+        "component": "minecraft:lore",
+        "cases": [
           {
-            "extra": [
-              "lady_bug"
+            "when": [
+              {
+                "extra": [
+                  "lady_bug"
+                ],
+                "text": ""
+              }
             ],
-            "text": ""
+            "model": {
+              "type": "minecraft:model",
+              "model": "fossil-frights:item/general_items/lady_bug"
+            }
           }
         ],
-        "model": {
+        "fallback": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/lady_bug"
+          "model": "minecraft:item/spider_eye"
         }
       }
-    ],
-    "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/spider_eye"
-    }
     }
   }
 }

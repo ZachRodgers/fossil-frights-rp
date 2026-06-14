@@ -12,58 +12,93 @@
       }
     ],
     "fallback": {
-    "type": "minecraft:select",
-    "model": "minecraft:item/sweet_berries",
-    "property": "minecraft:component",
-    "component": "minecraft:lore",
-    "cases": [
-      {
-        "when": [
-          {
-            "extra": [
-              "cotton_candy"
-            ],
-            "text": ""
+      "type": "minecraft:select",
+      "model": "minecraft:item/sweet_berries",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_data",
+      "cases": [
+        {
+          "when": {
+            "itemID": "cotton_candy"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/food/cotton_candy"
           }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/food/cotton_candy"
+        },
+        {
+          "when": {
+            "itemID": "cotton_candy_blue"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/food/cotton_candy_blue"
+          }
+        },
+        {
+          "when": {
+            "itemID": "cotton_candy_rainbow"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/food/cotton_candy_rainbow"
+          }
         }
-      },
-      {
-        "when": [
+      ],
+      "fallback": {
+        "type": "minecraft:select",
+        "model": "minecraft:item/sweet_berries",
+        "property": "minecraft:component",
+        "component": "minecraft:lore",
+        "cases": [
           {
-            "extra": [
-              "cotton_candy_blue"
+            "when": [
+              {
+                "extra": [
+                  "cotton_candy"
+                ],
+                "text": ""
+              }
             ],
-            "text": ""
+            "model": {
+              "type": "minecraft:model",
+              "model": "fossil-frights:item/food/cotton_candy"
+            }
+          },
+          {
+            "when": [
+              {
+                "extra": [
+                  "cotton_candy_blue"
+                ],
+                "text": ""
+              }
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "fossil-frights:item/food/cotton_candy_blue"
+            }
+          },
+          {
+            "when": [
+              {
+                "extra": [
+                  "cotton_candy_rainbow"
+                ],
+                "text": ""
+              }
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "fossil-frights:item/food/cotton_candy_rainbow"
+            }
           }
         ],
-        "model": {
+        "fallback": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/food/cotton_candy_blue"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
-              "cotton_candy_rainbow"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/food/cotton_candy_rainbow"
+          "model": "minecraft:item/sweet_berries"
         }
       }
-    ],
-    "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/sweet_berries"
-    }
     }
   }
 }

@@ -12,30 +12,47 @@
       }
     ],
     "fallback": {
-    "type": "minecraft:select",
-    "model": "minecraft:item/rotten_flesh",
-    "property": "minecraft:component",
-    "component": "minecraft:lore",
-    "cases": [
-      {
-        "when": [
+      "type": "minecraft:select",
+      "model": "minecraft:item/rotten_flesh",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_data",
+      "cases": [
+        {
+          "when": {
+            "itemID": "fish_food"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/food/fish_food"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:select",
+        "model": "minecraft:item/rotten_flesh",
+        "property": "minecraft:component",
+        "component": "minecraft:lore",
+        "cases": [
           {
-            "extra": [
-              "fish_food"
+            "when": [
+              {
+                "extra": [
+                  "fish_food"
+                ],
+                "text": ""
+              }
             ],
-            "text": ""
+            "model": {
+              "type": "minecraft:model",
+              "model": "fossil-frights:item/food/fish_food"
+            }
           }
         ],
-        "model": {
+        "fallback": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/food/fish_food"
+          "model": "minecraft:item/rotten_flesh"
         }
       }
-    ],
-    "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/rotten_flesh"
-    }
     }
   }
 }

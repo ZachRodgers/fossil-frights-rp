@@ -3,45 +3,40 @@
     "type": "minecraft:select",
     "model": "minecraft:item/cake",
     "property": "minecraft:component",
-    "component": "minecraft:lore",
+    "component": "minecraft:custom_data",
     "cases": [
       {
-        "when": [
-          {
-            "extra": [
-              "carrot_cake"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/food/carrot_cake"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
-              "chocolate_cake"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "chocolate_cake",
+          "ff_heist_low_loot": true
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/food/chocolate_cake"
         }
       },
       {
-        "when": [
-          {
-            "extra": [
-              "red_velvet_cake"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "carrot_cake"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/food/carrot_cake"
+        }
+      },
+      {
+        "when": {
+          "itemID": "chocolate_cake"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/food/chocolate_cake"
+        }
+      },
+      {
+        "when": {
+          "itemID": "red_velvet_cake"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/food/red_velvet_cake"
@@ -49,8 +44,58 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/cake"
+      "type": "minecraft:select",
+      "model": "minecraft:item/cake",
+      "property": "minecraft:component",
+      "component": "minecraft:lore",
+      "cases": [
+        {
+          "when": [
+            {
+              "extra": [
+                "carrot_cake"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/food/carrot_cake"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "chocolate_cake"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/food/chocolate_cake"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "red_velvet_cake"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/food/red_velvet_cake"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/cake"
+      }
     }
   }
 }

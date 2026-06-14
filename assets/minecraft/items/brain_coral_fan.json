@@ -12,43 +12,68 @@
       }
     ],
     "fallback": {
-    "type": "minecraft:select",
-    "property": "minecraft:component",
-    "component": "minecraft:lore",
-    "cases": [
-      {
-        "when": [
-          {
-            "extra": [
-              "pink_jelly"
-            ],
-            "text": ""
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_data",
+      "cases": [
+        {
+          "when": {
+            "itemID": "pink_jelly"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_items/pink_jelly"
           }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/pink_jelly"
+        },
+        {
+          "when": {
+            "itemID": "pink_coral_jelly"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_items/pink_jelly"
+          }
         }
-      },
-      {
-        "when": [
+      ],
+      "fallback": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:lore",
+        "cases": [
           {
-            "extra": [
-              "pink_coral_jelly"
+            "when": [
+              {
+                "extra": [
+                  "pink_jelly"
+                ],
+                "text": ""
+              }
             ],
-            "text": ""
+            "model": {
+              "type": "minecraft:model",
+              "model": "fossil-frights:item/general_items/pink_jelly"
+            }
+          },
+          {
+            "when": [
+              {
+                "extra": [
+                  "pink_coral_jelly"
+                ],
+                "text": ""
+              }
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "fossil-frights:item/general_items/pink_jelly"
+            }
           }
         ],
-        "model": {
+        "fallback": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/pink_jelly"
+          "model": "minecraft:item/brain_coral_fan"
         }
       }
-    ],
-    "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/brain_coral_fan"
-    }
     }
   }
 }

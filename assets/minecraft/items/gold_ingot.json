@@ -12,30 +12,47 @@
       }
     ],
     "fallback": {
-    "type": "minecraft:select",
-    "model": "minecraft:item/gold_ingot",
-    "property": "minecraft:component",
-    "component": "minecraft:lore",
-    "cases": [
-      {
-        "when": [
+      "type": "minecraft:select",
+      "model": "minecraft:item/gold_ingot",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_data",
+      "cases": [
+        {
+          "when": {
+            "itemID": "cubekoin"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_items/cubekoin"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:select",
+        "model": "minecraft:item/gold_ingot",
+        "property": "minecraft:component",
+        "component": "minecraft:lore",
+        "cases": [
           {
-            "extra": [
-              "cubekoin"
+            "when": [
+              {
+                "extra": [
+                  "cubekoin"
+                ],
+                "text": ""
+              }
             ],
-            "text": ""
+            "model": {
+              "type": "minecraft:model",
+              "model": "fossil-frights:item/general_items/cubekoin"
+            }
           }
         ],
-        "model": {
+        "fallback": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/cubekoin"
+          "model": "minecraft:item/gold_ingot"
         }
       }
-    ],
-    "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/gold_ingot"
-    }
     }
   }
 }

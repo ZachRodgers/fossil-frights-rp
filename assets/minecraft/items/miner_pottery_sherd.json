@@ -12,30 +12,47 @@
       }
     ],
     "fallback": {
-    "type": "minecraft:select",
-    "model": "minecraft:item/miner_pottery_sherd",
-    "property": "minecraft:component",
-    "component": "minecraft:lore",
-    "cases": [
-      {
-        "when": [
+      "type": "minecraft:select",
+      "model": "minecraft:item/miner_pottery_sherd",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_data",
+      "cases": [
+        {
+          "when": {
+            "itemID": "muddy_sherd"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_items/muddy_sherd"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:select",
+        "model": "minecraft:item/miner_pottery_sherd",
+        "property": "minecraft:component",
+        "component": "minecraft:lore",
+        "cases": [
           {
-            "extra": [
-              "muddy_sherd"
+            "when": [
+              {
+                "extra": [
+                  "muddy_sherd"
+                ],
+                "text": ""
+              }
             ],
-            "text": ""
+            "model": {
+              "type": "minecraft:model",
+              "model": "fossil-frights:item/general_items/muddy_sherd"
+            }
           }
         ],
-        "model": {
+        "fallback": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/muddy_sherd"
+          "model": "minecraft:item/miner_pottery_sherd"
         }
       }
-    ],
-    "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/miner_pottery_sherd"
-    }
     }
   }
 }

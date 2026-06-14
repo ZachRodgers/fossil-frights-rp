@@ -3,17 +3,12 @@
     "type": "minecraft:select",
     "model": "minecraft:item/torch",
     "property": "minecraft:component",
-    "component": "minecraft:lore",
+    "component": "minecraft:custom_data",
     "cases": [
       {
-        "when": [
-          {
-            "extra": [
-              "tiki_torch"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "tiki_torch"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/pirate_cove/tiki_torch"
@@ -21,8 +16,30 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/torch"
+      "type": "minecraft:select",
+      "model": "minecraft:item/torch",
+      "property": "minecraft:component",
+      "component": "minecraft:lore",
+      "cases": [
+        {
+          "when": [
+            {
+              "extra": [
+                "tiki_torch"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/pirate_cove/tiki_torch"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/torch"
+      }
     }
   }
 }

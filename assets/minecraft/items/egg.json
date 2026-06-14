@@ -3,87 +3,57 @@
     "type": "minecraft:select",
     "model": "minecraft:item/egg",
     "property": "minecraft:component",
-    "component": "minecraft:lore",
+    "component": "minecraft:custom_data",
     "cases": [
       {
-        "when": [
-          {
-            "extra": [
-              "sniffer_egg"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "sniffer_egg"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_blocks/eggs/sniffer_egg"
         }
       },
       {
-        "when": [
-          {
-            "extra": [
-              "pteradactyl_egg"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "pteradactyl_egg"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_blocks/eggs/pteradactyl_egg"
         }
       },
       {
-        "when": [
-          {
-            "extra": [
-              "plesiosaur_egg"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "plesiosaur_egg"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_blocks/eggs/plesiosaur_egg"
         }
       },
       {
-        "when": [
-          {
-            "extra": [
-              "velociraptor_egg"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "velociraptor_egg"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_blocks/eggs/velociraptor_egg"
         }
       },
       {
-        "when": [
-          {
-            "extra": [
-              "trike_egg"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "trike_egg"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_blocks/eggs/trike_egg"
         }
       },
       {
-        "when": [
-          {
-            "extra": [
-              "t_rex_egg"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "t_rex_egg"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_blocks/eggs/t_rex_egg"
@@ -91,8 +61,100 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/egg"
+      "type": "minecraft:select",
+      "model": "minecraft:item/egg",
+      "property": "minecraft:component",
+      "component": "minecraft:lore",
+      "cases": [
+        {
+          "when": [
+            {
+              "extra": [
+                "sniffer_egg"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_blocks/eggs/sniffer_egg"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "pteradactyl_egg"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_blocks/eggs/pteradactyl_egg"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "plesiosaur_egg"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_blocks/eggs/plesiosaur_egg"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "velociraptor_egg"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_blocks/eggs/velociraptor_egg"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "trike_egg"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_blocks/eggs/trike_egg"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "t_rex_egg"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_blocks/eggs/t_rex_egg"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/egg"
+      }
     }
   }
 }

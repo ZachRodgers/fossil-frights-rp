@@ -3,17 +3,22 @@
     "type": "minecraft:select",
     "model": "minecraft:item/cooked_beef",
     "property": "minecraft:component",
-    "component": "minecraft:lore",
+    "component": "minecraft:custom_data",
     "cases": [
       {
-        "when": [
-          {
-            "extra": [
-              "burger"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "burger",
+          "ff_heist_low_loot": true
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/food/burger"
+        }
+      },
+      {
+        "when": {
+          "itemID": "burger"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/food/burger"
@@ -21,8 +26,30 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/cooked_beef"
+      "type": "minecraft:select",
+      "model": "minecraft:item/cooked_beef",
+      "property": "minecraft:component",
+      "component": "minecraft:lore",
+      "cases": [
+        {
+          "when": [
+            {
+              "extra": [
+                "burger"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/food/burger"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/cooked_beef"
+      }
     }
   }
 }

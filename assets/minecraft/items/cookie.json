@@ -2,17 +2,12 @@
   "model": {
     "type": "minecraft:select",
     "property": "minecraft:component",
-    "component": "minecraft:lore",
+    "component": "minecraft:custom_data",
     "cases": [
       {
-        "when": [
-          {
-            "extra": [
-              "cookie_jar"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "cookie_jar"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_items/cookie_jar"
@@ -20,8 +15,29 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/cookie"
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:lore",
+      "cases": [
+        {
+          "when": [
+            {
+              "extra": [
+                "cookie_jar"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_items/cookie_jar"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/cookie"
+      }
     }
   }
 }

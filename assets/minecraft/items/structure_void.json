@@ -12,58 +12,93 @@
       }
     ],
     "fallback": {
-    "type": "minecraft:select",
-    "model": "minecraft:item/structure_void",
-    "property": "minecraft:component",
-    "component": "minecraft:lore",
-    "cases": [
-      {
-        "when": [
-          {
-            "extra": [
-              "fan"
-            ],
-            "text": ""
+      "type": "minecraft:select",
+      "model": "minecraft:item/structure_void",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_data",
+      "cases": [
+        {
+          "when": {
+            "itemID": "fan"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_blocks/fan"
           }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/general_blocks/fan"
+        },
+        {
+          "when": {
+            "itemID": "credit_reel"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_blocks/credit_reel"
+          }
+        },
+        {
+          "when": {
+            "itemID": "valve"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_blocks/valve"
+          }
         }
-      },
-      {
-        "when": [
+      ],
+      "fallback": {
+        "type": "minecraft:select",
+        "model": "minecraft:item/structure_void",
+        "property": "minecraft:component",
+        "component": "minecraft:lore",
+        "cases": [
           {
-            "extra": [
-              "credit_reel"
+            "when": [
+              {
+                "extra": [
+                  "fan"
+                ],
+                "text": ""
+              }
             ],
-            "text": ""
+            "model": {
+              "type": "minecraft:model",
+              "model": "fossil-frights:item/general_blocks/fan"
+            }
+          },
+          {
+            "when": [
+              {
+                "extra": [
+                  "credit_reel"
+                ],
+                "text": ""
+              }
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "fossil-frights:item/general_blocks/credit_reel"
+            }
+          },
+          {
+            "when": [
+              {
+                "extra": [
+                  "valve"
+                ],
+                "text": ""
+              }
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "fossil-frights:item/general_blocks/valve"
+            }
           }
         ],
-        "model": {
+        "fallback": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_blocks/credit_reel"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
-              "valve"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/general_blocks/valve"
+          "model": "minecraft:item/structure_void"
         }
       }
-    ],
-    "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/structure_void"
-    }
     }
   }
 }

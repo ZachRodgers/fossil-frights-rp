@@ -3,17 +3,12 @@
     "type": "minecraft:select",
     "model": "minecraft:block/warped_button_inventory",
     "property": "minecraft:component",
-    "component": "minecraft:lore",
+    "component": "minecraft:custom_data",
     "cases": [
       {
-        "when": [
-          {
-            "extra": [
-              "pressed_button"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "pressed_button"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/warped_button_pressed"
@@ -21,8 +16,30 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:block/warped_button_inventory"
+      "type": "minecraft:select",
+      "model": "minecraft:block/warped_button_inventory",
+      "property": "minecraft:component",
+      "component": "minecraft:lore",
+      "cases": [
+        {
+          "when": [
+            {
+              "extra": [
+                "pressed_button"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:block/warped_button_pressed"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:block/warped_button_inventory"
+      }
     }
   }
 }

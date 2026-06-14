@@ -3,45 +3,30 @@
     "type": "minecraft:select",
     "model": "minecraft:item/dark_oak_sign",
     "property": "minecraft:component",
-    "component": "minecraft:lore",
+    "component": "minecraft:custom_data",
     "cases": [
       {
-        "when": [
-          {
-            "extra": [
-              "andesite_placard"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "andesite_placard"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_blocks/placards/andesite_placard"
         }
       },
       {
-        "when": [
-          {
-            "extra": [
-              "brass_placard"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "brass_placard"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_blocks/placards/brass_placard"
         }
       },
       {
-        "when": [
-          {
-            "extra": [
-              "tuff_placard"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "tuff_placard"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_blocks/placards/tuff_placard"
@@ -49,8 +34,58 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/dark_oak_sign"
+      "type": "minecraft:select",
+      "model": "minecraft:item/dark_oak_sign",
+      "property": "minecraft:component",
+      "component": "minecraft:lore",
+      "cases": [
+        {
+          "when": [
+            {
+              "extra": [
+                "andesite_placard"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_blocks/placards/andesite_placard"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "brass_placard"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_blocks/placards/brass_placard"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "tuff_placard"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_blocks/placards/tuff_placard"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/dark_oak_sign"
+      }
     }
   }
 }

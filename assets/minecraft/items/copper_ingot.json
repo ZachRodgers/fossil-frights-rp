@@ -3,73 +3,48 @@
     "type": "minecraft:select",
     "model": "minecraft:item/copper_ingot",
     "property": "minecraft:component",
-    "component": "minecraft:lore",
+    "component": "minecraft:custom_data",
     "cases": [
       {
-        "when": [
-          {
-            "extra": [
-              "copper_pipe"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "copper_pipe"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_blocks/copper_pipe"
         }
       },
       {
-        "when": [
-          {
-            "extra": [
-              "copper_pipe_purple_1"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "copper_pipe_purple_1"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_blocks/copper_pipe_purple_1"
         }
       },
       {
-        "when": [
-          {
-            "extra": [
-              "copper_pipe_purple_2"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "copper_pipe_purple_2"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_blocks/copper_pipe_purple_2"
         }
       },
       {
-        "when": [
-          {
-            "extra": [
-              "copper_pipe_lava"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "copper_pipe_lava"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_blocks/copper_pipe_lava"
         }
       },
       {
-        "when": [
-          {
-            "extra": [
-              "copper_pipe_water"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "copper_pipe_water"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_blocks/copper_pipe_water"
@@ -77,8 +52,86 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/copper_ingot"
+      "type": "minecraft:select",
+      "model": "minecraft:item/copper_ingot",
+      "property": "minecraft:component",
+      "component": "minecraft:lore",
+      "cases": [
+        {
+          "when": [
+            {
+              "extra": [
+                "copper_pipe"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_blocks/copper_pipe"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "copper_pipe_purple_1"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_blocks/copper_pipe_purple_1"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "copper_pipe_purple_2"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_blocks/copper_pipe_purple_2"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "copper_pipe_lava"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_blocks/copper_pipe_lava"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "copper_pipe_water"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_blocks/copper_pipe_water"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/copper_ingot"
+      }
     }
   }
 }

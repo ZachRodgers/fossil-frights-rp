@@ -3,73 +3,58 @@
     "type": "minecraft:select",
     "model": "minecraft:item/written_book",
     "property": "minecraft:component",
-    "component": "minecraft:lore",
+    "component": "minecraft:custom_data",
     "cases": [
       {
-        "when": [
-          {
-            "extra": [
-              "task_easy"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "ff_heist_loot_book": true,
+          "itemID": "loot_book"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/loot_book"
+        }
+      },
+      {
+        "when": {
+          "itemID": "task_easy"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_items/task_easy"
         }
       },
       {
-        "when": [
-          {
-            "extra": [
-              "task_medium"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "task_medium"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_items/task_medium"
         }
       },
       {
-        "when": [
-          {
-            "extra": [
-              "task_hard"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "task_hard"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_items/task_hard"
         }
       },
       {
-        "when": [
-          {
-            "extra": [
-              "task_final"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "task_final"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_items/task_final"
         }
       },
       {
-        "when": [
-          {
-            "extra": [
-              "loot_book"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "loot_book"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_items/loot_book"
@@ -77,8 +62,86 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/written_book"
+      "type": "minecraft:select",
+      "model": "minecraft:item/written_book",
+      "property": "minecraft:component",
+      "component": "minecraft:lore",
+      "cases": [
+        {
+          "when": [
+            {
+              "extra": [
+                "task_easy"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_items/task_easy"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "task_medium"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_items/task_medium"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "task_hard"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_items/task_hard"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "task_final"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_items/task_final"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "loot_book"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_items/loot_book"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/written_book"
+      }
     }
   }
 }

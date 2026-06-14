@@ -3,17 +3,12 @@
     "type": "minecraft:select",
     "model": "minecraft:item/book",
     "property": "minecraft:component",
-    "component": "minecraft:lore",
+    "component": "minecraft:custom_data",
     "cases": [
       {
-        "when": [
-          {
-            "extra": [
-              "info_lectern_book"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "info_lectern_book"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:block/info_lectern_book"
@@ -21,8 +16,30 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/book"
+      "type": "minecraft:select",
+      "model": "minecraft:item/book",
+      "property": "minecraft:component",
+      "component": "minecraft:lore",
+      "cases": [
+        {
+          "when": [
+            {
+              "extra": [
+                "info_lectern_book"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:block/info_lectern_book"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/book"
+      }
     }
   }
 }

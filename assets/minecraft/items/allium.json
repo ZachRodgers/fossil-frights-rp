@@ -3,17 +3,22 @@
     "type": "minecraft:select",
     "model": "minecraft:item/allium",
     "property": "minecraft:component",
-    "component": "minecraft:lore",
+    "component": "minecraft:custom_data",
     "cases": [
       {
-        "when": [
-          {
-            "extra": [
-              "lolipop"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "ff_heist_low_loot": true,
+          "itemID": "lollipop"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/food/lolipop"
+        }
+      },
+      {
+        "when": {
+          "itemID": "lollipop"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/food/lolipop"
@@ -21,8 +26,30 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/allium"
+      "type": "minecraft:select",
+      "model": "minecraft:item/allium",
+      "property": "minecraft:component",
+      "component": "minecraft:lore",
+      "cases": [
+        {
+          "when": [
+            {
+              "extra": [
+                "lollipop"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/food/lolipop"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/allium"
+      }
     }
   }
 }

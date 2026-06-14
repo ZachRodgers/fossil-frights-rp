@@ -3,17 +3,12 @@
     "type": "minecraft:select",
     "model": "minecraft:item/wooden_axe",
     "property": "minecraft:component",
-    "component": "minecraft:lore",
+    "component": "minecraft:custom_data",
     "cases": [
       {
-        "when": [
-          {
-            "extra": [
-              "club_red_ribbon"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "club_red_ribbon"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/merchandise/club_red_ribbon"
@@ -21,8 +16,30 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/wooden_axe"
+      "type": "minecraft:select",
+      "model": "minecraft:item/wooden_axe",
+      "property": "minecraft:component",
+      "component": "minecraft:lore",
+      "cases": [
+        {
+          "when": [
+            {
+              "extra": [
+                "club_red_ribbon"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/merchandise/club_red_ribbon"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/wooden_axe"
+      }
     }
   }
 }

@@ -3,59 +3,49 @@
     "type": "minecraft:select",
     "model": "minecraft:item/milk_bucket",
     "property": "minecraft:component",
-    "component": "minecraft:lore",
+    "component": "minecraft:custom_data",
     "cases": [
       {
-        "when": [
-          {
-            "extra": [
-              "coffee_machine"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/general_blocks/coffee_machine"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
-              "drink_with_straw"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/food/drink_with_straw"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
-              "coffee"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "coffee",
+          "ff_heist_low_loot": true
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/food/coffee"
         }
       },
       {
-        "when": [
-          {
-            "extra": [
-              "coffee_steam"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "coffee_machine"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_blocks/coffee_machine"
+        }
+      },
+      {
+        "when": {
+          "itemID": "drink_with_straw"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/food/drink_with_straw"
+        }
+      },
+      {
+        "when": {
+          "itemID": "coffee"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/food/coffee"
+        }
+      },
+      {
+        "when": {
+          "itemID": "coffee_steam"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/food/coffee_steam"
@@ -63,8 +53,72 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/milk_bucket"
+      "type": "minecraft:select",
+      "model": "minecraft:item/milk_bucket",
+      "property": "minecraft:component",
+      "component": "minecraft:lore",
+      "cases": [
+        {
+          "when": [
+            {
+              "extra": [
+                "coffee_machine"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_blocks/coffee_machine"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "drink_with_straw"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/food/drink_with_straw"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "coffee"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/food/coffee"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "coffee_steam"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/food/coffee_steam"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/milk_bucket"
+      }
     }
   }
 }

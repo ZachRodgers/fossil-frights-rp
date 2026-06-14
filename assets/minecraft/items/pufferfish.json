@@ -3,17 +3,12 @@
     "type": "minecraft:select",
     "model": "minecraft:item/pufferfish",
     "property": "minecraft:component",
-    "component": "minecraft:lore",
+    "component": "minecraft:custom_data",
     "cases": [
       {
-        "when": [
-          {
-            "extra": [
-              "gold_shark"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "gold_shark"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/merchandise/gold_shark"
@@ -21,8 +16,30 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/pufferfish"
+      "type": "minecraft:select",
+      "model": "minecraft:item/pufferfish",
+      "property": "minecraft:component",
+      "component": "minecraft:lore",
+      "cases": [
+        {
+          "when": [
+            {
+              "extra": [
+                "gold_shark"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/merchandise/gold_shark"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/pufferfish"
+      }
     }
   }
 }

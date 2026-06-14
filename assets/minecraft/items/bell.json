@@ -3,45 +3,30 @@
     "type": "minecraft:select",
     "model": "minecraft:item/bell",
     "property": "minecraft:component",
-    "component": "minecraft:lore",
+    "component": "minecraft:custom_data",
     "cases": [
       {
-        "when": [
-          {
-            "extra": [
-              "service_bell"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "service_bell"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_items/service_bell"
         }
       },
       {
-        "when": [
-          {
-            "extra": [
-              "cash_register"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "cash_register"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_items/cash_register"
         }
       },
       {
-        "when": [
-          {
-            "extra": [
-              "cash_register_open"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "cash_register_open"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_items/cash_register_open"
@@ -49,8 +34,58 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/bell"
+      "type": "minecraft:select",
+      "model": "minecraft:item/bell",
+      "property": "minecraft:component",
+      "component": "minecraft:lore",
+      "cases": [
+        {
+          "when": [
+            {
+              "extra": [
+                "service_bell"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_items/service_bell"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "cash_register"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_items/cash_register"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "cash_register_open"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_items/cash_register_open"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/bell"
+      }
     }
   }
 }

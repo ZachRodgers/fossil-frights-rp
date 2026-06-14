@@ -3,59 +3,59 @@
     "type": "minecraft:select",
     "model": "minecraft:item/blaze_rod",
     "property": "minecraft:component",
-    "component": "minecraft:lore",
+    "component": "minecraft:custom_data",
     "cases": [
       {
-        "when": [
-          {
-            "extra": [
-              "poster_tube"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "poster_tube",
+          "ff_heist_low_loot": true
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_items/poster_tube"
         }
       },
       {
-        "when": [
-          {
-            "extra": [
-              "key"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "poster_tube"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/poster_tube"
+        }
+      },
+      {
+        "when": {
+          "ff_key": true,
+          "itemID": "key"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_items/key"
         }
       },
       {
-        "when": [
-          {
-            "extra": [
-              "key_cooldown"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "key"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/key"
+        }
+      },
+      {
+        "when": {
+          "itemID": "key_cooldown"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_items/key_cooldown"
         }
       },
       {
-        "when": [
-          {
-            "extra": [
-              "key_disabled"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "key_disabled"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_items/key_disabled"
@@ -63,8 +63,72 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/blaze_rod"
+      "type": "minecraft:select",
+      "model": "minecraft:item/blaze_rod",
+      "property": "minecraft:component",
+      "component": "minecraft:lore",
+      "cases": [
+        {
+          "when": [
+            {
+              "extra": [
+                "poster_tube"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_items/poster_tube"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "key"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_items/key"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "key_cooldown"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_items/key_cooldown"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "key_disabled"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_items/key_disabled"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/blaze_rod"
+      }
     }
   }
 }

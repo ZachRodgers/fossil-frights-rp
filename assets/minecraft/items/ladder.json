@@ -15,17 +15,12 @@
       "type": "minecraft:select",
       "model": "minecraft:item/ladder",
       "property": "minecraft:component",
-      "component": "minecraft:lore",
+      "component": "minecraft:custom_data",
       "cases": [
         {
-          "when": [
-            {
-              "extra": [
-                "submarine_ladder"
-              ],
-              "text": ""
-            }
-          ],
+          "when": {
+            "itemID": "submarine_ladder"
+          },
           "model": {
             "type": "minecraft:model",
             "model": "fossil-frights:item/misc/submarine_ladder"
@@ -33,8 +28,30 @@
         }
       ],
       "fallback": {
-        "type": "minecraft:model",
-        "model": "minecraft:item/ladder"
+        "type": "minecraft:select",
+        "model": "minecraft:item/ladder",
+        "property": "minecraft:component",
+        "component": "minecraft:lore",
+        "cases": [
+          {
+            "when": [
+              {
+                "extra": [
+                  "submarine_ladder"
+                ],
+                "text": ""
+              }
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "fossil-frights:item/misc/submarine_ladder"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/ladder"
+        }
       }
     }
   }

@@ -3,31 +3,21 @@
     "type": "minecraft:select",
     "model": "minecraft:item/light_blue_stained_glass_pane",
     "property": "minecraft:component",
-    "component": "minecraft:lore",
+    "component": "minecraft:custom_data",
     "cases": [
       {
-        "when": [
-          {
-            "extra": [
-              "wet_floor_sign"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "wet_floor_sign"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_blocks/wet_floor_sign"
         }
       },
       {
-        "when": [
-          {
-            "extra": [
-              "multiplayer_terminal"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "multiplayer_terminal"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_blocks/multiplayer_terminal"
@@ -35,8 +25,44 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/light_blue_stained_glass_pane"
+      "type": "minecraft:select",
+      "model": "minecraft:item/light_blue_stained_glass_pane",
+      "property": "minecraft:component",
+      "component": "minecraft:lore",
+      "cases": [
+        {
+          "when": [
+            {
+              "extra": [
+                "wet_floor_sign"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_blocks/wet_floor_sign"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "multiplayer_terminal"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_blocks/multiplayer_terminal"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/light_blue_stained_glass_pane"
+      }
     }
   }
 }

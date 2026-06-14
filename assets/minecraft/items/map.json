@@ -3,31 +3,21 @@
     "type": "minecraft:select",
     "model": "minecraft:item/map",
     "property": "minecraft:component",
-    "component": "minecraft:lore",
+    "component": "minecraft:custom_data",
     "cases": [
       {
-        "when": [
-          {
-            "extra": [
-              "cretaceous_map"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "cretaceous_map"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_items/cretaceous_map"
         }
       },
       {
-        "when": [
-          {
-            "extra": [
-              "pangea_map"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "pangea_map"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_items/pangea_map"
@@ -35,8 +25,44 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/map"
+      "type": "minecraft:select",
+      "model": "minecraft:item/map",
+      "property": "minecraft:component",
+      "component": "minecraft:lore",
+      "cases": [
+        {
+          "when": [
+            {
+              "extra": [
+                "cretaceous_map"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_items/cretaceous_map"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "pangea_map"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_items/pangea_map"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/map"
+      }
     }
   }
 }

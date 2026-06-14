@@ -3,17 +3,12 @@
     "type": "minecraft:select",
     "model": "minecraft:item/raw_gold",
     "property": "minecraft:component",
-    "component": "minecraft:lore",
+    "component": "minecraft:custom_data",
     "cases": [
       {
-        "when": [
-          {
-            "extra": [
-              "treasure_chest"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "treasure_chest"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_items/treasure_chest"
@@ -21,8 +16,30 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/raw_gold"
+      "type": "minecraft:select",
+      "model": "minecraft:item/raw_gold",
+      "property": "minecraft:component",
+      "component": "minecraft:lore",
+      "cases": [
+        {
+          "when": [
+            {
+              "extra": [
+                "treasure_chest"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_items/treasure_chest"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/raw_gold"
+      }
     }
   }
 }

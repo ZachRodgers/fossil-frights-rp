@@ -12,44 +12,70 @@
       }
     ],
     "fallback": {
-    "type": "minecraft:select",
-    "model": "minecraft:item/iron_ingot",
-    "property": "minecraft:component",
-    "component": "minecraft:lore",
-    "cases": [
-      {
-        "when": [
-          {
-            "extra": [
-              "lock"
-            ],
-            "text": ""
+      "type": "minecraft:select",
+      "model": "minecraft:item/iron_ingot",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_data",
+      "cases": [
+        {
+          "when": {
+            "itemID": "lock"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_items/lock"
           }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/lock"
+        },
+        {
+          "when": {
+            "itemID": "scrap_metal"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_items/scrap_metal"
+          }
         }
-      },
-            {
-        "when": [
+      ],
+      "fallback": {
+        "type": "minecraft:select",
+        "model": "minecraft:item/iron_ingot",
+        "property": "minecraft:component",
+        "component": "minecraft:lore",
+        "cases": [
           {
-            "extra": [
-              "scrap_metal"
+            "when": [
+              {
+                "extra": [
+                  "lock"
+                ],
+                "text": ""
+              }
             ],
-            "text": ""
+            "model": {
+              "type": "minecraft:model",
+              "model": "fossil-frights:item/general_items/lock"
+            }
+          },
+          {
+            "when": [
+              {
+                "extra": [
+                  "scrap_metal"
+                ],
+                "text": ""
+              }
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "fossil-frights:item/general_items/scrap_metal"
+            }
           }
         ],
-        "model": {
+        "fallback": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/scrap_metal"
+          "model": "minecraft:item/iron_ingot"
         }
       }
-    ],
-    "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/iron_ingot"
-    }
     }
   }
 }

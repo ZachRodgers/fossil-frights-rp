@@ -3,255 +3,165 @@
     "type": "minecraft:select",
     "model": "minecraft:item/oak_hanging_sign",
     "property": "minecraft:component",
-    "component": "minecraft:lore",
+    "component": "minecraft:custom_data",
     "cases": [
       {
-        "when": [
-          {
-            "extra": [
-              "template"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "template"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/signs/earths_timeline/template"
         }
       },
       {
-        "when": [
-          {
-            "extra": [
-              "hadean"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "hadean"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/signs/earths_timeline/hadean"
         }
       },
       {
-        "when": [
-          {
-            "extra": [
-              "archean"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "archean"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/signs/earths_timeline/archean"
         }
       },
       {
-        "when": [
-          {
-            "extra": [
-              "proterozoic"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "proterozoic"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/signs/earths_timeline/proterozoic"
         }
       },
       {
-        "when": [
-          {
-            "extra": [
-              "phanerozoic"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "phanerozoic"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/signs/earths_timeline/phanerozoic"
         }
       },
       {
-        "when": [
-          {
-            "extra": [
-              "ordovician"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "ordovician"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/signs/earths_timeline/ordovician"
         }
       },
       {
-        "when": [
-          {
-            "extra": [
-              "silurian"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "silurian"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/signs/earths_timeline/silurian"
         }
       },
       {
-        "when": [
-          {
-            "extra": [
-              "devonian"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "devonian"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/signs/earths_timeline/devonian"
         }
       },
       {
-        "when": [
-          {
-            "extra": [
-              "carboniferous"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "carboniferous"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/signs/earths_timeline/carboniferous"
         }
       },
       {
-        "when": [
-          {
-            "extra": [
-              "permian"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "permian"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/signs/earths_timeline/permian"
         }
       },
       {
-        "when": [
-          {
-            "extra": [
-              "triassic"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "triassic"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/signs/earths_timeline/triassic"
         }
       },
       {
-        "when": [
-          {
-            "extra": [
-              "jurassic"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "jurassic"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/signs/earths_timeline/jurassic"
         }
       },
       {
-        "when": [
-          {
-            "extra": [
-              "cretaceous"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "cretaceous"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/signs/earths_timeline/cretaceous"
         }
       },
       {
-        "when": [
-          {
-            "extra": [
-              "paleogene"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "paleogene"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/signs/earths_timeline/paleogene"
         }
       },
       {
-        "when": [
-          {
-            "extra": [
-              "neogene"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "neogene"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/signs/earths_timeline/neogene"
         }
       },
       {
-        "when": [
-          {
-            "extra": [
-              "quaternary"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "quaternary"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/signs/earths_timeline/quaternary"
         }
       },
       {
-        "when": [
-          {
-            "extra": [
-              "quarternary"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "quarternary"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/signs/earths_timeline/quaternary"
         }
       },
       {
-        "when": [
-          {
-            "extra": [
-              "exit"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "exit"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/signs/earths_timeline/exit"
@@ -259,8 +169,268 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/oak_hanging_sign"
+      "type": "minecraft:select",
+      "model": "minecraft:item/oak_hanging_sign",
+      "property": "minecraft:component",
+      "component": "minecraft:lore",
+      "cases": [
+        {
+          "when": [
+            {
+              "extra": [
+                "template"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/signs/earths_timeline/template"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "hadean"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/signs/earths_timeline/hadean"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "archean"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/signs/earths_timeline/archean"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "proterozoic"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/signs/earths_timeline/proterozoic"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "phanerozoic"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/signs/earths_timeline/phanerozoic"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "ordovician"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/signs/earths_timeline/ordovician"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "silurian"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/signs/earths_timeline/silurian"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "devonian"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/signs/earths_timeline/devonian"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "carboniferous"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/signs/earths_timeline/carboniferous"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "permian"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/signs/earths_timeline/permian"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "triassic"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/signs/earths_timeline/triassic"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "jurassic"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/signs/earths_timeline/jurassic"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "cretaceous"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/signs/earths_timeline/cretaceous"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "paleogene"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/signs/earths_timeline/paleogene"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "neogene"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/signs/earths_timeline/neogene"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "quaternary"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/signs/earths_timeline/quaternary"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "quarternary"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/signs/earths_timeline/quaternary"
+          }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "exit"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/signs/earths_timeline/exit"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/oak_hanging_sign"
+      }
     }
   }
 }

@@ -3,17 +3,12 @@
     "type": "minecraft:select",
     "model": "minecraft:item/green_stained_glass_pane",
     "property": "minecraft:component",
-    "component": "minecraft:lore",
+    "component": "minecraft:custom_data",
     "cases": [
       {
-        "when": [
-          {
-            "extra": [
-              "verdant_projector_beam"
-            ],
-            "text": ""
-          }
-        ],
+        "when": {
+          "itemID": "verdant_projector_beam"
+        },
         "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/misc/verdant_projector_beam"
@@ -21,8 +16,30 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/green_stained_glass_pane"
+      "type": "minecraft:select",
+      "model": "minecraft:item/green_stained_glass_pane",
+      "property": "minecraft:component",
+      "component": "minecraft:lore",
+      "cases": [
+        {
+          "when": [
+            {
+              "extra": [
+                "verdant_projector_beam"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/misc/verdant_projector_beam"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/green_stained_glass_pane"
+      }
     }
   }
 }

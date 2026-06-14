@@ -12,72 +12,126 @@
       }
     ],
     "fallback": {
-    "type": "minecraft:select",
-    "model": "minecraft:item/amethyst_shard",
-    "property": "minecraft:component",
-    "component": "minecraft:lore",
-    "cases": [
-      {
-        "when": [
-          {
-            "extra": [
-              "microfiber_cloth"
-            ],
-            "text": ""
+      "type": "minecraft:select",
+      "model": "minecraft:item/amethyst_shard",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_data",
+      "cases": [
+        {
+          "when": {
+            "ff_dna": true,
+            "itemID": "microfiber_cloth"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_items/microfiber_cloth"
           }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/microfiber_cloth"
+        },
+        {
+          "when": {
+            "itemID": "microfiber_cloth"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_items/microfiber_cloth"
+          }
+        },
+        {
+          "when": {
+            "itemID": "parkour_restart"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_items/parkour_restart"
+          }
+        },
+        {
+          "when": {
+            "itemID": "temple_run_restart"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_items/temple_run_restart"
+          }
+        },
+        {
+          "when": {
+            "itemID": "capture_point_icon"
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_items/capture_point_icon"
+          }
         }
-      },
-      {
-        "when": [
+      ],
+      "fallback": {
+        "type": "minecraft:select",
+        "model": "minecraft:item/amethyst_shard",
+        "property": "minecraft:component",
+        "component": "minecraft:lore",
+        "cases": [
           {
-            "extra": [
-              "parkour_restart"
+            "when": [
+              {
+                "extra": [
+                  "microfiber_cloth"
+                ],
+                "text": ""
+              }
             ],
-            "text": ""
+            "model": {
+              "type": "minecraft:model",
+              "model": "fossil-frights:item/general_items/microfiber_cloth"
+            }
+          },
+          {
+            "when": [
+              {
+                "extra": [
+                  "parkour_restart"
+                ],
+                "text": ""
+              }
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "fossil-frights:item/general_items/parkour_restart"
+            }
+          },
+          {
+            "when": [
+              {
+                "extra": [
+                  "temple_run_restart"
+                ],
+                "text": ""
+              }
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "fossil-frights:item/general_items/temple_run_restart"
+            }
+          },
+          {
+            "when": [
+              {
+                "extra": [
+                  "capture_point_icon"
+                ],
+                "text": ""
+              }
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "fossil-frights:item/general_items/capture_point_icon"
+            }
           }
         ],
-        "model": {
+        "fallback": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/parkour_restart"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
-              "temple_run_restart"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/temple_run_restart"
-        }
-      },
-      {
-        "when": [
-          {
-            "extra": [
-              "capture_point_icon"
-            ],
-            "text": ""
-          }
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/capture_point_icon"
+          "model": "minecraft:item/amethyst_shard"
         }
       }
-    ],
-    "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/amethyst_shard"
-    }
     }
   }
 }
