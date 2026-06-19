@@ -28,6 +28,20 @@
             "type": "minecraft:model",
             "model": "fossil-frights:item/food/lolipop"
           }
+        },
+        {
+          "when": [
+            {
+              "extra": [
+                "lolipop"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/food/lolipop"
+          }
         }
       ],
       "fallback": {
