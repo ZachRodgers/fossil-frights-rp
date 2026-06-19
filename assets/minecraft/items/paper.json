@@ -758,252 +758,273 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:select",
-      "model": "minecraft:item/paper",
+      "type": "minecraft:condition",
       "property": "minecraft:component",
-      "component": "minecraft:custom_data",
-      "cases": [
-        {
-          "when": {
-            "itemID": "calendar"
-          },
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/general_items/calendar"
-          }
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "itemID": "calendar"
+      },
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "fossil-frights:item/general_items/calendar"
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "itemID": "museum_map"
         },
-        {
-          "when": {
-            "itemID": "museum_map"
-          },
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/general_items/museum_map"
-          }
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/museum_map"
         },
-        {
-          "when": {
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
             "itemID": "sniffer_dna_cloth"
           },
-          "model": {
+          "on_true": {
             "type": "minecraft:model",
             "model": "fossil-frights:item/general_items/sniffer_dna_cloth"
-          }
-        },
-        {
-          "when": {
-            "itemID": "trike_dna_cloth"
           },
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/general_items/trike_dna_cloth"
-          }
-        },
-        {
-          "when": {
-            "itemID": "t_rex_dna_cloth"
-          },
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/general_items/t_rex_dna_cloth"
-          }
-        },
-        {
-          "when": {
-            "itemID": "velociraptor_dna_cloth"
-          },
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/general_items/velociraptor_dna_cloth"
-          }
-        },
-        {
-          "when": {
-            "itemID": "plesiosaur_dna_cloth"
-          },
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/general_items/plesiosaur_dna_cloth"
-          }
-        },
-        {
-          "when": {
-            "itemID": "instant_coffee"
-          },
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/general_items/instant_coffee"
-          }
-        },
-        {
-          "when": {
-            "itemID": "pterodactyl_dna_cloth"
-          },
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/general_items/pterodactyl_dna_cloth"
-          }
-        },
-        {
-          "when": {
-            "itemID": "cardboard_cutout"
-          },
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/misc/cardboard_cutout"
-          }
-        }
-      ],
-      "fallback": {
-        "type": "minecraft:select",
-        "model": "minecraft:item/paper",
-        "property": "minecraft:component",
-        "component": "minecraft:lore",
-        "cases": [
-          {
-            "when": [
-              {
-                "extra": [
-                  "calendar"
-                ],
-                "text": ""
-              }
-            ],
-            "model": {
-              "type": "minecraft:model",
-              "model": "fossil-frights:item/general_items/calendar"
-            }
-          },
-          {
-            "when": [
-              {
-                "extra": [
-                  "museum_map"
-                ],
-                "text": ""
-              }
-            ],
-            "model": {
-              "type": "minecraft:model",
-              "model": "fossil-frights:item/general_items/museum_map"
-            }
-          },
-          {
-            "when": [
-              {
-                "extra": [
-                  "sniffer_dna_cloth"
-                ],
-                "text": ""
-              }
-            ],
-            "model": {
-              "type": "minecraft:model",
-              "model": "fossil-frights:item/general_items/sniffer_dna_cloth"
-            }
-          },
-          {
-            "when": [
-              {
-                "extra": [
-                  "trike_dna_cloth"
-                ],
-                "text": ""
-              }
-            ],
-            "model": {
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:custom_data",
+            "value": {
+              "itemID": "trike_dna_cloth"
+            },
+            "on_true": {
               "type": "minecraft:model",
               "model": "fossil-frights:item/general_items/trike_dna_cloth"
-            }
-          },
-          {
-            "when": [
-              {
-                "extra": [
-                  "t_rex_dna_cloth"
-                ],
-                "text": ""
+            },
+            "on_false": {
+              "type": "minecraft:condition",
+              "property": "minecraft:component",
+              "predicate": "minecraft:custom_data",
+              "value": {
+                "itemID": "t_rex_dna_cloth"
+              },
+              "on_true": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/general_items/t_rex_dna_cloth"
+              },
+              "on_false": {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:custom_data",
+                "value": {
+                  "itemID": "velociraptor_dna_cloth"
+                },
+                "on_true": {
+                  "type": "minecraft:model",
+                  "model": "fossil-frights:item/general_items/velociraptor_dna_cloth"
+                },
+                "on_false": {
+                  "type": "minecraft:condition",
+                  "property": "minecraft:component",
+                  "predicate": "minecraft:custom_data",
+                  "value": {
+                    "itemID": "plesiosaur_dna_cloth"
+                  },
+                  "on_true": {
+                    "type": "minecraft:model",
+                    "model": "fossil-frights:item/general_items/plesiosaur_dna_cloth"
+                  },
+                  "on_false": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:component",
+                    "predicate": "minecraft:custom_data",
+                    "value": {
+                      "itemID": "instant_coffee"
+                    },
+                    "on_true": {
+                      "type": "minecraft:model",
+                      "model": "fossil-frights:item/general_items/instant_coffee"
+                    },
+                    "on_false": {
+                      "type": "minecraft:condition",
+                      "property": "minecraft:component",
+                      "predicate": "minecraft:custom_data",
+                      "value": {
+                        "itemID": "pterodactyl_dna_cloth"
+                      },
+                      "on_true": {
+                        "type": "minecraft:model",
+                        "model": "fossil-frights:item/general_items/pterodactyl_dna_cloth"
+                      },
+                      "on_false": {
+                        "type": "minecraft:condition",
+                        "property": "minecraft:component",
+                        "predicate": "minecraft:custom_data",
+                        "value": {
+                          "itemID": "cardboard_cutout"
+                        },
+                        "on_true": {
+                          "type": "minecraft:model",
+                          "model": "fossil-frights:item/misc/cardboard_cutout"
+                        },
+                        "on_false": {
+                          "type": "minecraft:select",
+                          "property": "minecraft:component",
+                          "component": "minecraft:lore",
+                          "cases": [
+                            {
+                              "when": [
+                                {
+                                  "extra": [
+                                    "calendar"
+                                  ],
+                                  "text": ""
+                                }
+                              ],
+                              "model": {
+                                "type": "minecraft:model",
+                                "model": "fossil-frights:item/general_items/calendar"
+                              }
+                            },
+                            {
+                              "when": [
+                                {
+                                  "extra": [
+                                    "museum_map"
+                                  ],
+                                  "text": ""
+                                }
+                              ],
+                              "model": {
+                                "type": "minecraft:model",
+                                "model": "fossil-frights:item/general_items/museum_map"
+                              }
+                            },
+                            {
+                              "when": [
+                                {
+                                  "extra": [
+                                    "sniffer_dna_cloth"
+                                  ],
+                                  "text": ""
+                                }
+                              ],
+                              "model": {
+                                "type": "minecraft:model",
+                                "model": "fossil-frights:item/general_items/sniffer_dna_cloth"
+                              }
+                            },
+                            {
+                              "when": [
+                                {
+                                  "extra": [
+                                    "trike_dna_cloth"
+                                  ],
+                                  "text": ""
+                                }
+                              ],
+                              "model": {
+                                "type": "minecraft:model",
+                                "model": "fossil-frights:item/general_items/trike_dna_cloth"
+                              }
+                            },
+                            {
+                              "when": [
+                                {
+                                  "extra": [
+                                    "t_rex_dna_cloth"
+                                  ],
+                                  "text": ""
+                                }
+                              ],
+                              "model": {
+                                "type": "minecraft:model",
+                                "model": "fossil-frights:item/general_items/t_rex_dna_cloth"
+                              }
+                            },
+                            {
+                              "when": [
+                                {
+                                  "extra": [
+                                    "velociraptor_dna_cloth"
+                                  ],
+                                  "text": ""
+                                }
+                              ],
+                              "model": {
+                                "type": "minecraft:model",
+                                "model": "fossil-frights:item/general_items/velociraptor_dna_cloth"
+                              }
+                            },
+                            {
+                              "when": [
+                                {
+                                  "extra": [
+                                    "plesiosaur_dna_cloth"
+                                  ],
+                                  "text": ""
+                                }
+                              ],
+                              "model": {
+                                "type": "minecraft:model",
+                                "model": "fossil-frights:item/general_items/plesiosaur_dna_cloth"
+                              }
+                            },
+                            {
+                              "when": [
+                                {
+                                  "extra": [
+                                    "instant_coffee"
+                                  ],
+                                  "text": ""
+                                }
+                              ],
+                              "model": {
+                                "type": "minecraft:model",
+                                "model": "fossil-frights:item/general_items/instant_coffee"
+                              }
+                            },
+                            {
+                              "when": [
+                                {
+                                  "extra": [
+                                    "pterodactyl_dna_cloth"
+                                  ],
+                                  "text": ""
+                                }
+                              ],
+                              "model": {
+                                "type": "minecraft:model",
+                                "model": "fossil-frights:item/general_items/pterodactyl_dna_cloth"
+                              }
+                            },
+                            {
+                              "when": [
+                                {
+                                  "extra": [
+                                    "cardboard_cutout"
+                                  ],
+                                  "text": ""
+                                }
+                              ],
+                              "model": {
+                                "type": "minecraft:model",
+                                "model": "fossil-frights:item/misc/cardboard_cutout"
+                              }
+                            }
+                          ],
+                          "fallback": {
+                            "type": "minecraft:model",
+                            "model": "minecraft:item/paper"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
               }
-            ],
-            "model": {
-              "type": "minecraft:model",
-              "model": "fossil-frights:item/general_items/t_rex_dna_cloth"
-            }
-          },
-          {
-            "when": [
-              {
-                "extra": [
-                  "velociraptor_dna_cloth"
-                ],
-                "text": ""
-              }
-            ],
-            "model": {
-              "type": "minecraft:model",
-              "model": "fossil-frights:item/general_items/velociraptor_dna_cloth"
-            }
-          },
-          {
-            "when": [
-              {
-                "extra": [
-                  "plesiosaur_dna_cloth"
-                ],
-                "text": ""
-              }
-            ],
-            "model": {
-              "type": "minecraft:model",
-              "model": "fossil-frights:item/general_items/plesiosaur_dna_cloth"
-            }
-          },
-          {
-            "when": [
-              {
-                "extra": [
-                  "instant_coffee"
-                ],
-                "text": ""
-              }
-            ],
-            "model": {
-              "type": "minecraft:model",
-              "model": "fossil-frights:item/general_items/instant_coffee"
-            }
-          },
-          {
-            "when": [
-              {
-                "extra": [
-                  "pterodactyl_dna_cloth"
-                ],
-                "text": ""
-              }
-            ],
-            "model": {
-              "type": "minecraft:model",
-              "model": "fossil-frights:item/general_items/pterodactyl_dna_cloth"
-            }
-          },
-          {
-            "when": [
-              {
-                "extra": [
-                  "cardboard_cutout"
-                ],
-                "text": ""
-              }
-            ],
-            "model": {
-              "type": "minecraft:model",
-              "model": "fossil-frights:item/misc/cardboard_cutout"
             }
           }
-        ],
-        "fallback": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/paper"
         }
       }
     }

@@ -1,20 +1,16 @@
 {
   "model": {
-    "type": "minecraft:select",
+    "type": "minecraft:condition",
     "property": "minecraft:component",
-    "component": "minecraft:custom_data",
-    "cases": [
-      {
-        "when": {
-          "itemID": "febreeze_rod"
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/febreeze_rod"
-        }
-      }
-    ],
-    "fallback": {
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "itemID": "febreeze_rod"
+    },
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "fossil-frights:item/general_items/febreeze_rod"
+    },
+    "on_false": {
       "type": "minecraft:select",
       "property": "minecraft:component",
       "component": "minecraft:lore",

@@ -33,153 +33,131 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:select",
-    "model": "minecraft:item/echo_shard",
-    "property": "minecraft:component",
-    "component": "minecraft:custom_data",
-    "cases": [
-      {
-        "when": {
-          "ff_key_anim": true
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/animated_key"
-        }
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "ff_key_anim": true
       },
-      {
-        "when": {
-          "ff_key": true,
-          "itemID": "key"
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/key"
-        }
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "fossil-frights:item/general_items/animated_key"
       },
-      {
-        "when": {
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
           "itemID": "animated_key"
         },
-        "model": {
+        "on_true": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_items/animated_key"
-        }
-      },
-      {
-        "when": {
-          "itemID": "key"
         },
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/key"
-        }
-      },
-      {
-        "when": {
-          "ff_key_cooldown": true
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/key_cooldown"
-        }
-      },
-      {
-        "when": {
-          "itemID": "key_cooldown"
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/key_cooldown"
-        }
-      },
-      {
-        "when": {
-          "ff_key_disabled": true
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/key_disabled"
-        }
-      },
-      {
-        "when": {
-          "itemID": "key_disabled"
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/key_disabled"
-        }
-      }
-    ],
-    "fallback": {
-      "type": "minecraft:select",
-      "model": "minecraft:item/echo_shard",
-      "property": "minecraft:component",
-      "component": "minecraft:lore",
-      "cases": [
-        {
-          "when": [
-            {
-              "extra": [
-                "animated_key"
-              ],
-              "text": ""
-            }
-          ],
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/general_items/animated_key"
-          }
-        },
-        {
-          "when": [
-            {
-              "extra": [
-                "key"
-              ],
-              "text": ""
-            }
-          ],
-          "model": {
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "itemID": "key"
+          },
+          "on_true": {
             "type": "minecraft:model",
             "model": "fossil-frights:item/general_items/key"
-          }
-        },
-        {
-          "when": [
-            {
-              "extra": [
-                "key_cooldown"
-              ],
-              "text": ""
+          },
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:custom_data",
+            "value": {
+              "itemID": "key_cooldown"
+            },
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "fossil-frights:item/general_items/key_cooldown"
+            },
+            "on_false": {
+              "type": "minecraft:condition",
+              "property": "minecraft:component",
+              "predicate": "minecraft:custom_data",
+              "value": {
+                "itemID": "key_disabled"
+              },
+              "on_true": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/general_items/key_disabled"
+              },
+              "on_false": {
+                "type": "minecraft:select",
+                "property": "minecraft:component",
+                "component": "minecraft:lore",
+                "cases": [
+                  {
+                    "when": [
+                      {
+                        "extra": [
+                          "animated_key"
+                        ],
+                        "text": ""
+                      }
+                    ],
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "fossil-frights:item/general_items/animated_key"
+                    }
+                  },
+                  {
+                    "when": [
+                      {
+                        "extra": [
+                          "key"
+                        ],
+                        "text": ""
+                      }
+                    ],
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "fossil-frights:item/general_items/key"
+                    }
+                  },
+                  {
+                    "when": [
+                      {
+                        "extra": [
+                          "key_cooldown"
+                        ],
+                        "text": ""
+                      }
+                    ],
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "fossil-frights:item/general_items/key_cooldown"
+                    }
+                  },
+                  {
+                    "when": [
+                      {
+                        "extra": [
+                          "key_disabled"
+                        ],
+                        "text": ""
+                      }
+                    ],
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "fossil-frights:item/general_items/key_disabled"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/echo_shard"
+                }
+              }
             }
-          ],
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/general_items/key_cooldown"
-          }
-        },
-        {
-          "when": [
-            {
-              "extra": [
-                "key_disabled"
-              ],
-              "text": ""
-            }
-          ],
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/general_items/key_disabled"
           }
         }
-      ],
-      "fallback": {
-        "type": "minecraft:model",
-        "model": "minecraft:item/echo_shard"
       }
-    }
     }
   }
 }

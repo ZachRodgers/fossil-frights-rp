@@ -1,65 +1,64 @@
 {
   "model": {
-    "type": "minecraft:select",
+    "type": "minecraft:condition",
     "property": "minecraft:component",
-    "component": "minecraft:custom_data",
-    "cases": [
-      {
-        "when": {
-          "itemID": "capture_point"
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/misc/capture_point"
-        }
-      },
-      {
-        "when": {
-          "itemID": "thieves_beam"
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/misc/thieves_beam"
-        }
-      }
-    ],
-    "fallback": {
-      "type": "minecraft:select",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "itemID": "capture_point"
+    },
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "fossil-frights:item/misc/capture_point"
+    },
+    "on_false": {
+      "type": "minecraft:condition",
       "property": "minecraft:component",
-      "component": "minecraft:lore",
-      "cases": [
-        {
-          "when": [
-            {
-              "extra": [
-                "capture_point"
-              ],
-              "text": ""
-            }
-          ],
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/misc/capture_point"
-          }
-        },
-        {
-          "when": [
-            {
-              "extra": [
-                "thieves_beam"
-              ],
-              "text": ""
-            }
-          ],
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/misc/thieves_beam"
-          }
-        }
-      ],
-      "fallback": {
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "itemID": "thieves_beam"
+      },
+      "on_true": {
         "type": "minecraft:model",
-        "model": "minecraft:block/red_stained_glass"
+        "model": "fossil-frights:item/misc/thieves_beam"
+      },
+      "on_false": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:lore",
+        "cases": [
+          {
+            "when": [
+              {
+                "extra": [
+                  "capture_point"
+                ],
+                "text": ""
+              }
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "fossil-frights:item/misc/capture_point"
+            }
+          },
+          {
+            "when": [
+              {
+                "extra": [
+                  "thieves_beam"
+                ],
+                "text": ""
+              }
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "fossil-frights:item/misc/thieves_beam"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/red_stained_glass"
+        }
       }
     }
   }

@@ -12,24 +12,18 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:select",
-      "model": "minecraft:item/rotten_flesh",
+      "type": "minecraft:condition",
       "property": "minecraft:component",
-      "component": "minecraft:custom_data",
-      "cases": [
-        {
-          "when": {
-            "itemID": "fish_food"
-          },
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/food/fish_food"
-          }
-        }
-      ],
-      "fallback": {
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "itemID": "fish_food"
+      },
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "fossil-frights:item/food/fish_food"
+      },
+      "on_false": {
         "type": "minecraft:select",
-        "model": "minecraft:item/rotten_flesh",
         "property": "minecraft:component",
         "component": "minecraft:lore",
         "cases": [

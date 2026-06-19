@@ -54,257 +54,247 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:select",
-      "model": "minecraft:block/carved_pumpkin",
+      "type": "minecraft:condition",
       "property": "minecraft:component",
-      "component": "minecraft:custom_data",
-      "cases": [
-        {
-          "when": {
-            "itemID": "cat_in_the_hat"
-          },
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/merchandise/cat_in_the_hat"
-          }
-        },
-        {
-          "when": {
-            "itemID": "swag_glasses"
-          },
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/merchandise/swag_glasses"
-          }
-        },
-        {
-          "when": {
-            "ff_heist_security_hat": true,
-            "itemID": "security_guard_hat"
-          },
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/merchandise/security_guard_hat"
-          }
-        },
-        {
-          "when": {
-            "itemID": "security_guard_hat"
-          },
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/merchandise/security_guard_hat"
-          }
-        },
-        {
-          "when": {
-            "ff_heist_invisimask": true,
-            "ff_heist_invisimask_variant": "creeper",
-            "itemID": "invisimask"
-          },
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/merchandise/invisimask_creeper"
-          }
-        },
-        {
-          "when": {
-            "ff_heist_invisimask": true,
-            "ff_heist_invisimask_variant": "skeleton",
-            "itemID": "invisimask"
-          },
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/merchandise/invisimask_skeleton"
-          }
-        },
-        {
-          "when": {
-            "ff_heist_invisimask": true,
-            "ff_heist_invisimask_variant": "zombie",
-            "itemID": "invisimask"
-          },
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/merchandise/invisimask_zombie"
-          }
-        },
-        {
-          "when": {
-            "ff_heist_invisimask": true,
-            "ff_heist_invisimask_variant": "enderman",
-            "itemID": "invisimask"
-          },
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/merchandise/invisimask_enderman"
-          }
-        },
-        {
-          "when": {
-            "itemID": "invisimask"
-          },
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/merchandise/invisimask_creeper"
-          }
-        },
-        {
-          "when": {
-            "ff_confetti_cannon_hat": true,
-            "itemID": "confetti_cannon"
-          },
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/general_blocks/confetti_cannon"
-          }
-        },
-        {
-          "when": {
-            "itemID": "confetti_cannon"
-          },
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/general_blocks/confetti_cannon"
-          }
-        },
-        {
-          "when": {
-            "ff_heist_ice_cannon_hat": true,
-            "itemID": "ice_cannon"
-          },
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/general_blocks/ice_cannon"
-          }
-        },
-        {
-          "when": {
-            "itemID": "ice_cannon"
-          },
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/general_blocks/ice_cannon"
-          }
-        },
-        {
-          "when": {
-            "itemID": "velociraptor_skull"
-          },
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/general_blocks/velociraptor_skull"
-          }
-        }
-      ],
-      "fallback": {
-        "type": "minecraft:select",
-        "model": "minecraft:block/carved_pumpkin",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "itemID": "cat_in_the_hat"
+      },
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "fossil-frights:item/merchandise/cat_in_the_hat"
+      },
+      "on_false": {
+        "type": "minecraft:condition",
         "property": "minecraft:component",
-        "component": "minecraft:lore",
-        "cases": [
-          {
-            "when": [
-              {
-                "extra": [
-                  "cat_in_the_hat"
-                ],
-                "text": ""
-              }
-            ],
-            "model": {
-              "type": "minecraft:model",
-              "model": "fossil-frights:item/merchandise/cat_in_the_hat"
-            }
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "itemID": "swag_glasses"
+        },
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/merchandise/swag_glasses"
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "itemID": "security_guard_hat"
           },
-          {
-            "when": [
-              {
-                "extra": [
-                  "swag_glasses"
-                ],
-                "text": ""
-              }
-            ],
-            "model": {
-              "type": "minecraft:model",
-              "model": "fossil-frights:item/merchandise/swag_glasses"
-            }
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/merchandise/security_guard_hat"
           },
-          {
-            "when": [
-              {
-                "extra": [
-                  "security_guard_hat"
-                ],
-                "text": ""
-              }
-            ],
-            "model": {
-              "type": "minecraft:model",
-              "model": "fossil-frights:item/merchandise/security_guard_hat"
-            }
-          },
-          {
-            "when": [
-              {
-                "extra": [
-                  "invisimask"
-                ],
-                "text": ""
-              }
-            ],
-            "model": {
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:custom_data",
+            "value": {
+              "ff_heist_invisimask_variant": "creeper",
+              "itemID": "invisimask"
+            },
+            "on_true": {
               "type": "minecraft:model",
               "model": "fossil-frights:item/merchandise/invisimask_creeper"
-            }
-          },
-          {
-            "when": [
-              {
-                "extra": [
-                  "confetti_cannon"
-                ],
-                "text": ""
+            },
+            "on_false": {
+              "type": "minecraft:condition",
+              "property": "minecraft:component",
+              "predicate": "minecraft:custom_data",
+              "value": {
+                "ff_heist_invisimask_variant": "skeleton",
+                "itemID": "invisimask"
+              },
+              "on_true": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/merchandise/invisimask_skeleton"
+              },
+              "on_false": {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:custom_data",
+                "value": {
+                  "ff_heist_invisimask_variant": "zombie",
+                  "itemID": "invisimask"
+                },
+                "on_true": {
+                  "type": "minecraft:model",
+                  "model": "fossil-frights:item/merchandise/invisimask_zombie"
+                },
+                "on_false": {
+                  "type": "minecraft:condition",
+                  "property": "minecraft:component",
+                  "predicate": "minecraft:custom_data",
+                  "value": {
+                    "ff_heist_invisimask_variant": "enderman",
+                    "itemID": "invisimask"
+                  },
+                  "on_true": {
+                    "type": "minecraft:model",
+                    "model": "fossil-frights:item/merchandise/invisimask_enderman"
+                  },
+                  "on_false": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:component",
+                    "predicate": "minecraft:custom_data",
+                    "value": {
+                      "itemID": "invisimask"
+                    },
+                    "on_true": {
+                      "type": "minecraft:model",
+                      "model": "fossil-frights:item/merchandise/invisimask_creeper"
+                    },
+                    "on_false": {
+                      "type": "minecraft:condition",
+                      "property": "minecraft:component",
+                      "predicate": "minecraft:custom_data",
+                      "value": {
+                        "itemID": "confetti_cannon"
+                      },
+                      "on_true": {
+                        "type": "minecraft:model",
+                        "model": "fossil-frights:item/general_blocks/confetti_cannon"
+                      },
+                      "on_false": {
+                        "type": "minecraft:condition",
+                        "property": "minecraft:component",
+                        "predicate": "minecraft:custom_data",
+                        "value": {
+                          "itemID": "ice_cannon"
+                        },
+                        "on_true": {
+                          "type": "minecraft:model",
+                          "model": "fossil-frights:item/general_blocks/ice_cannon"
+                        },
+                        "on_false": {
+                          "type": "minecraft:condition",
+                          "property": "minecraft:component",
+                          "predicate": "minecraft:custom_data",
+                          "value": {
+                            "itemID": "velociraptor_skull"
+                          },
+                          "on_true": {
+                            "type": "minecraft:model",
+                            "model": "fossil-frights:item/general_blocks/velociraptor_skull"
+                          },
+                          "on_false": {
+                            "type": "minecraft:select",
+                            "property": "minecraft:component",
+                            "component": "minecraft:lore",
+                            "cases": [
+                              {
+                                "when": [
+                                  {
+                                    "extra": [
+                                      "cat_in_the_hat"
+                                    ],
+                                    "text": ""
+                                  }
+                                ],
+                                "model": {
+                                  "type": "minecraft:model",
+                                  "model": "fossil-frights:item/merchandise/cat_in_the_hat"
+                                }
+                              },
+                              {
+                                "when": [
+                                  {
+                                    "extra": [
+                                      "swag_glasses"
+                                    ],
+                                    "text": ""
+                                  }
+                                ],
+                                "model": {
+                                  "type": "minecraft:model",
+                                  "model": "fossil-frights:item/merchandise/swag_glasses"
+                                }
+                              },
+                              {
+                                "when": [
+                                  {
+                                    "extra": [
+                                      "security_guard_hat"
+                                    ],
+                                    "text": ""
+                                  }
+                                ],
+                                "model": {
+                                  "type": "minecraft:model",
+                                  "model": "fossil-frights:item/merchandise/security_guard_hat"
+                                }
+                              },
+                              {
+                                "when": [
+                                  {
+                                    "extra": [
+                                      "invisimask"
+                                    ],
+                                    "text": ""
+                                  }
+                                ],
+                                "model": {
+                                  "type": "minecraft:model",
+                                  "model": "fossil-frights:item/merchandise/invisimask_creeper"
+                                }
+                              },
+                              {
+                                "when": [
+                                  {
+                                    "extra": [
+                                      "confetti_cannon"
+                                    ],
+                                    "text": ""
+                                  }
+                                ],
+                                "model": {
+                                  "type": "minecraft:model",
+                                  "model": "fossil-frights:item/general_blocks/confetti_cannon"
+                                }
+                              },
+                              {
+                                "when": [
+                                  {
+                                    "extra": [
+                                      "ice_cannon"
+                                    ],
+                                    "text": ""
+                                  }
+                                ],
+                                "model": {
+                                  "type": "minecraft:model",
+                                  "model": "fossil-frights:item/general_blocks/ice_cannon"
+                                }
+                              },
+                              {
+                                "when": [
+                                  {
+                                    "extra": [
+                                      "velociraptor_skull"
+                                    ],
+                                    "text": ""
+                                  }
+                                ],
+                                "model": {
+                                  "type": "minecraft:model",
+                                  "model": "fossil-frights:item/general_blocks/velociraptor_skull"
+                                }
+                              }
+                            ],
+                            "fallback": {
+                              "type": "minecraft:model",
+                              "model": "minecraft:block/carved_pumpkin"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
               }
-            ],
-            "model": {
-              "type": "minecraft:model",
-              "model": "fossil-frights:item/general_blocks/confetti_cannon"
-            }
-          },
-          {
-            "when": [
-              {
-                "extra": [
-                  "ice_cannon"
-                ],
-                "text": ""
-              }
-            ],
-            "model": {
-              "type": "minecraft:model",
-              "model": "fossil-frights:item/general_blocks/ice_cannon"
-            }
-          },
-          {
-            "when": [
-              {
-                "extra": [
-                  "velociraptor_skull"
-                ],
-                "text": ""
-              }
-            ],
-            "model": {
-              "type": "minecraft:model",
-              "model": "fossil-frights:item/general_blocks/velociraptor_skull"
             }
           }
-        ],
-        "fallback": {
-          "type": "minecraft:model",
-          "model": "minecraft:block/carved_pumpkin"
         }
       }
     }

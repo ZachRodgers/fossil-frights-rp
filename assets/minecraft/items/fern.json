@@ -1,166 +1,175 @@
 {
   "model": {
-    "type": "minecraft:select",
-    "model": "minecraft:item/fern",
+    "type": "minecraft:condition",
     "property": "minecraft:component",
-    "component": "minecraft:custom_data",
-    "cases": [
-      {
-        "when": {
-          "itemID": "super_fern"
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/plants/super_fern"
-        }
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "itemID": "super_fern"
+    },
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "fossil-frights:item/plants/super_fern"
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "itemID": "venus_flytrap"
       },
-      {
-        "when": {
-          "itemID": "venus_flytrap"
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/plants/venus_flytrap"
-        }
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "fossil-frights:item/plants/venus_flytrap"
       },
-      {
-        "when": {
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
           "itemID": "carnivorous_flytrap"
         },
-        "model": {
+        "on_true": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/plants/carnivorous_flytrap"
-        }
-      },
-      {
-        "when": {
-          "itemID": "monstera"
         },
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/plants/monstera"
-        }
-      },
-      {
-        "when": {
-          "itemID": "monstera_large"
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/plants/monstera_large"
-        }
-      },
-      {
-        "when": {
-          "itemID": "monster_large"
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/plants/monstera_large"
-        }
-      }
-    ],
-    "fallback": {
-      "type": "minecraft:select",
-      "model": "minecraft:item/fern",
-      "property": "minecraft:component",
-      "component": "minecraft:lore",
-      "cases": [
-        {
-          "when": [
-            {
-              "extra": [
-                "super_fern"
-              ],
-              "text": ""
-            }
-          ],
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/plants/super_fern"
-          }
-        },
-        {
-          "when": [
-            {
-              "extra": [
-                "venus_flytrap"
-              ],
-              "text": ""
-            }
-          ],
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/plants/venus_flytrap"
-          }
-        },
-        {
-          "when": [
-            {
-              "extra": [
-                "carnivorous_flytrap"
-              ],
-              "text": ""
-            }
-          ],
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/plants/carnivorous_flytrap"
-          }
-        },
-        {
-          "when": [
-            {
-              "extra": [
-                "monstera"
-              ],
-              "text": ""
-            }
-          ],
-          "model": {
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "itemID": "monstera"
+          },
+          "on_true": {
             "type": "minecraft:model",
             "model": "fossil-frights:item/plants/monstera"
-          }
-        },
-        {
-          "when": [
-            {
-              "extra": [
-                "monstera_large"
-              ],
-              "text": ""
+          },
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:custom_data",
+            "value": {
+              "itemID": "monstera_large"
+            },
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "fossil-frights:item/plants/monstera_large"
+            },
+            "on_false": {
+              "type": "minecraft:condition",
+              "property": "minecraft:component",
+              "predicate": "minecraft:custom_data",
+              "value": {
+                "itemID": "monster_large"
+              },
+              "on_true": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/plants/monstera_large"
+              },
+              "on_false": {
+                "type": "minecraft:select",
+                "property": "minecraft:component",
+                "component": "minecraft:lore",
+                "cases": [
+                  {
+                    "when": [
+                      {
+                        "extra": [
+                          "super_fern"
+                        ],
+                        "text": ""
+                      }
+                    ],
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "fossil-frights:item/plants/super_fern"
+                    }
+                  },
+                  {
+                    "when": [
+                      {
+                        "extra": [
+                          "venus_flytrap"
+                        ],
+                        "text": ""
+                      }
+                    ],
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "fossil-frights:item/plants/venus_flytrap"
+                    }
+                  },
+                  {
+                    "when": [
+                      {
+                        "extra": [
+                          "carnivorous_flytrap"
+                        ],
+                        "text": ""
+                      }
+                    ],
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "fossil-frights:item/plants/carnivorous_flytrap"
+                    }
+                  },
+                  {
+                    "when": [
+                      {
+                        "extra": [
+                          "monstera"
+                        ],
+                        "text": ""
+                      }
+                    ],
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "fossil-frights:item/plants/monstera"
+                    }
+                  },
+                  {
+                    "when": [
+                      {
+                        "extra": [
+                          "monstera_large"
+                        ],
+                        "text": ""
+                      }
+                    ],
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "fossil-frights:item/plants/monstera_large"
+                    }
+                  },
+                  {
+                    "when": [
+                      {
+                        "extra": [
+                          "monster_large"
+                        ],
+                        "text": ""
+                      }
+                    ],
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "fossil-frights:item/plants/monstera_large"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/fern",
+                  "tints": [
+                    {
+                      "type": "minecraft:grass",
+                      "downfall": 1.0,
+                      "temperature": 0.5
+                    }
+                  ]
+                }
+              }
             }
-          ],
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/plants/monstera_large"
-          }
-        },
-        {
-          "when": [
-            {
-              "extra": [
-                "monster_large"
-              ],
-              "text": ""
-            }
-          ],
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/plants/monstera_large"
           }
         }
-      ],
-      "fallback": {
-        "type": "minecraft:model",
-        "model": "minecraft:item/fern",
-        "tints": [
-          {
-            "type": "minecraft:grass",
-            "downfall": 1.0,
-            "temperature": 0.5
-          }
-        ]
       }
     }
   }

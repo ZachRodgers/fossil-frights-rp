@@ -12,24 +12,18 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:select",
-      "model": "minecraft:item/phantom_membrane",
+      "type": "minecraft:condition",
       "property": "minecraft:component",
-      "component": "minecraft:custom_data",
-      "cases": [
-        {
-          "when": {
-            "itemID": "empty_popcorn"
-          },
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/food/empty_popcorn"
-          }
-        }
-      ],
-      "fallback": {
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "itemID": "empty_popcorn"
+      },
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "fossil-frights:item/food/empty_popcorn"
+      },
+      "on_false": {
         "type": "minecraft:select",
-        "model": "minecraft:item/phantom_membrane",
         "property": "minecraft:component",
         "component": "minecraft:lore",
         "cases": [

@@ -12,24 +12,18 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:select",
-      "model": "minecraft:item/bone_meal",
+      "type": "minecraft:condition",
       "property": "minecraft:component",
-      "component": "minecraft:custom_data",
-      "cases": [
-        {
-          "when": {
-            "itemID": "fertilizer"
-          },
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/general_items/fertilizer"
-          }
-        }
-      ],
-      "fallback": {
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "itemID": "fertilizer"
+      },
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "fossil-frights:item/general_items/fertilizer"
+      },
+      "on_false": {
         "type": "minecraft:select",
-        "model": "minecraft:item/bone_meal",
         "property": "minecraft:component",
         "component": "minecraft:lore",
         "cases": [

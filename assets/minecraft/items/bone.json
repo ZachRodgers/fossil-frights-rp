@@ -12,68 +12,65 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:select",
-      "model": "minecraft:item/bone",
+      "type": "minecraft:condition",
       "property": "minecraft:component",
-      "component": "minecraft:custom_data",
-      "cases": [
-        {
-          "when": {
-            "itemID": "skeleton_plushie"
-          },
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/merchandise/skeleton_plushie"
-          }
-        },
-        {
-          "when": {
-            "itemID": "trex_skull"
-          },
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/merchandise/trex_skull"
-          }
-        }
-      ],
-      "fallback": {
-        "type": "minecraft:select",
-        "model": "minecraft:item/bone",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "itemID": "skeleton_plushie"
+      },
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "fossil-frights:item/merchandise/skeleton_plushie"
+      },
+      "on_false": {
+        "type": "minecraft:condition",
         "property": "minecraft:component",
-        "component": "minecraft:lore",
-        "cases": [
-          {
-            "when": [
-              {
-                "extra": [
-                  "skeleton_plushie"
-                ],
-                "text": ""
-              }
-            ],
-            "model": {
-              "type": "minecraft:model",
-              "model": "fossil-frights:item/merchandise/skeleton_plushie"
-            }
-          },
-          {
-            "when": [
-              {
-                "extra": [
-                  "trex_skull"
-                ],
-                "text": ""
-              }
-            ],
-            "model": {
-              "type": "minecraft:model",
-              "model": "fossil-frights:item/merchandise/trex_skull"
-            }
-          }
-        ],
-        "fallback": {
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "itemID": "trex_skull"
+        },
+        "on_true": {
           "type": "minecraft:model",
-          "model": "minecraft:item/bone"
+          "model": "fossil-frights:item/merchandise/trex_skull"
+        },
+        "on_false": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:lore",
+          "cases": [
+            {
+              "when": [
+                {
+                  "extra": [
+                    "skeleton_plushie"
+                  ],
+                  "text": ""
+                }
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/merchandise/skeleton_plushie"
+              }
+            },
+            {
+              "when": [
+                {
+                  "extra": [
+                    "trex_skull"
+                  ],
+                  "text": ""
+                }
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/merchandise/trex_skull"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/bone"
+          }
         }
       }
     }

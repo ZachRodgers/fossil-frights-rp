@@ -1,33 +1,17 @@
 {
   "model": {
-    "type": "minecraft:select",
-    "model": "minecraft:item/baked_potato",
+    "type": "minecraft:condition",
     "property": "minecraft:component",
-    "component": "minecraft:custom_data",
-    "cases": [
-      {
-        "when": {
-          "itemID": "popcorn",
-          "ff_heist_low_loot": true
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/food/popcorn"
-        }
-      },
-      {
-        "when": {
-          "itemID": "popcorn"
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/food/popcorn"
-        }
-      }
-    ],
-    "fallback": {
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "itemID": "popcorn"
+    },
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "fossil-frights:item/food/popcorn"
+    },
+    "on_false": {
       "type": "minecraft:select",
-      "model": "minecraft:item/baked_potato",
       "property": "minecraft:component",
       "component": "minecraft:lore",
       "cases": [

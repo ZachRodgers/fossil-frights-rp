@@ -1,192 +1,194 @@
 {
   "model": {
-    "type": "minecraft:select",
-    "model": "minecraft:item/ghast_tear",
+    "type": "minecraft:condition",
     "property": "minecraft:component",
-    "component": "minecraft:custom_data",
-    "cases": [
-      {
-        "when": {
-          "itemID": "ghast_plushie",
-          "ff_heist_low_loot": true
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/merchandise/ghast_plushie"
-        }
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "itemID": "constellation_bee"
+    },
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "fossil-frights:item/general_items/constellation_bee"
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "itemID": "constellation_dragon"
       },
-      {
-        "when": {
-          "itemID": "constellation_bee"
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/constellation_bee"
-        }
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "fossil-frights:item/general_items/constellation_dragon"
       },
-      {
-        "when": {
-          "itemID": "constellation_dragon"
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/constellation_dragon"
-        }
-      },
-      {
-        "when": {
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
           "itemID": "constellation_golem"
         },
-        "model": {
+        "on_true": {
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_items/constellation_golem"
-        }
-      },
-      {
-        "when": {
-          "itemID": "constellation_guardian"
         },
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/constellation_guardian"
-        }
-      },
-      {
-        "when": {
-          "itemID": "constellation_spider"
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/constellation_spider"
-        }
-      },
-      {
-        "when": {
-          "itemID": "constellation_wither"
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/constellation_wither"
-        }
-      },
-      {
-        "when": {
-          "itemID": "ghast_plushie"
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/merchandise/ghast_plushie"
-        }
-      }
-    ],
-    "fallback": {
-      "type": "minecraft:select",
-      "model": "minecraft:item/ghast_tear",
-      "property": "minecraft:component",
-      "component": "minecraft:lore",
-      "cases": [
-        {
-          "when": [
-            {
-              "extra": [
-                "constellation_bee"
-              ],
-              "text": ""
-            }
-          ],
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/general_items/constellation_bee"
-          }
-        },
-        {
-          "when": [
-            {
-              "extra": [
-                "constellation_dragon"
-              ],
-              "text": ""
-            }
-          ],
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/general_items/constellation_dragon"
-          }
-        },
-        {
-          "when": [
-            {
-              "extra": [
-                "constellation_golem"
-              ],
-              "text": ""
-            }
-          ],
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/general_items/constellation_golem"
-          }
-        },
-        {
-          "when": [
-            {
-              "extra": [
-                "constellation_guardian"
-              ],
-              "text": ""
-            }
-          ],
-          "model": {
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "itemID": "constellation_guardian"
+          },
+          "on_true": {
             "type": "minecraft:model",
             "model": "fossil-frights:item/general_items/constellation_guardian"
-          }
-        },
-        {
-          "when": [
-            {
-              "extra": [
-                "constellation_spider"
-              ],
-              "text": ""
+          },
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:custom_data",
+            "value": {
+              "itemID": "constellation_spider"
+            },
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "fossil-frights:item/general_items/constellation_spider"
+            },
+            "on_false": {
+              "type": "minecraft:condition",
+              "property": "minecraft:component",
+              "predicate": "minecraft:custom_data",
+              "value": {
+                "itemID": "constellation_wither"
+              },
+              "on_true": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/general_items/constellation_wither"
+              },
+              "on_false": {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:custom_data",
+                "value": {
+                  "itemID": "ghast_plushie"
+                },
+                "on_true": {
+                  "type": "minecraft:model",
+                  "model": "fossil-frights:item/merchandise/ghast_plushie"
+                },
+                "on_false": {
+                  "type": "minecraft:select",
+                  "property": "minecraft:component",
+                  "component": "minecraft:lore",
+                  "cases": [
+                    {
+                      "when": [
+                        {
+                          "extra": [
+                            "constellation_bee"
+                          ],
+                          "text": ""
+                        }
+                      ],
+                      "model": {
+                        "type": "minecraft:model",
+                        "model": "fossil-frights:item/general_items/constellation_bee"
+                      }
+                    },
+                    {
+                      "when": [
+                        {
+                          "extra": [
+                            "constellation_dragon"
+                          ],
+                          "text": ""
+                        }
+                      ],
+                      "model": {
+                        "type": "minecraft:model",
+                        "model": "fossil-frights:item/general_items/constellation_dragon"
+                      }
+                    },
+                    {
+                      "when": [
+                        {
+                          "extra": [
+                            "constellation_golem"
+                          ],
+                          "text": ""
+                        }
+                      ],
+                      "model": {
+                        "type": "minecraft:model",
+                        "model": "fossil-frights:item/general_items/constellation_golem"
+                      }
+                    },
+                    {
+                      "when": [
+                        {
+                          "extra": [
+                            "constellation_guardian"
+                          ],
+                          "text": ""
+                        }
+                      ],
+                      "model": {
+                        "type": "minecraft:model",
+                        "model": "fossil-frights:item/general_items/constellation_guardian"
+                      }
+                    },
+                    {
+                      "when": [
+                        {
+                          "extra": [
+                            "constellation_spider"
+                          ],
+                          "text": ""
+                        }
+                      ],
+                      "model": {
+                        "type": "minecraft:model",
+                        "model": "fossil-frights:item/general_items/constellation_spider"
+                      }
+                    },
+                    {
+                      "when": [
+                        {
+                          "extra": [
+                            "constellation_wither"
+                          ],
+                          "text": ""
+                        }
+                      ],
+                      "model": {
+                        "type": "minecraft:model",
+                        "model": "fossil-frights:item/general_items/constellation_wither"
+                      }
+                    },
+                    {
+                      "when": [
+                        {
+                          "extra": [
+                            "ghast_plushie"
+                          ],
+                          "text": ""
+                        }
+                      ],
+                      "model": {
+                        "type": "minecraft:model",
+                        "model": "fossil-frights:item/merchandise/ghast_plushie"
+                      }
+                    }
+                  ],
+                  "fallback": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/ghast_tear"
+                  }
+                }
+              }
             }
-          ],
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/general_items/constellation_spider"
-          }
-        },
-        {
-          "when": [
-            {
-              "extra": [
-                "constellation_wither"
-              ],
-              "text": ""
-            }
-          ],
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/general_items/constellation_wither"
-          }
-        },
-        {
-          "when": [
-            {
-              "extra": [
-                "ghast_plushie"
-              ],
-              "text": ""
-            }
-          ],
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/merchandise/ghast_plushie"
           }
         }
-      ],
-      "fallback": {
-        "type": "minecraft:model",
-        "model": "minecraft:item/ghast_tear"
       }
     }
   }

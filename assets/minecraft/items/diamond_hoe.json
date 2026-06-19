@@ -47,154 +47,117 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:select",
-      "model": "minecraft:item/diamond_hoe",
+      "type": "minecraft:condition",
       "property": "minecraft:component",
-      "component": "minecraft:custom_data",
-      "cases": [
-        {
-          "when": {
-            "ff_confetti_remote": true,
-            "itemID": "confetti_remote"
-          },
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/general_items/confetti_remote"
-          }
-        },
-        {
-          "when": {
-            "itemID": "confetti_remote"
-          },
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/general_items/confetti_remote"
-          }
-        },
-        {
-          "when": {
-            "ff_heist_camera_remote": true,
-            "itemID": "camera_remote"
-          },
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/general_items/camera_remote"
-          }
-        },
-        {
-          "when": {
-            "itemID": "camera_remote"
-          },
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/general_items/camera_remote"
-          }
-        },
-        {
-          "when": {
-            "ff_heist_ice_cannon_remote": true,
-            "itemID": "ice_cannon_remote"
-          },
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/general_items/ice_cannon_remote"
-          }
-        },
-        {
-          "when": {
-            "itemID": "ice_cannon_remote"
-          },
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/general_items/ice_cannon_remote"
-          }
-        },
-        {
-          "when": {
-            "ff_heist_glowtrap_placer": true,
-            "itemID": "glowtrap_placer"
-          },
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/general_items/glowtrap_placer"
-          }
-        },
-        {
-          "when": {
-            "itemID": "glowtrap_placer"
-          },
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/general_items/glowtrap_placer"
-          }
-        }
-      ],
-      "fallback": {
-        "type": "minecraft:select",
-        "model": "minecraft:item/diamond_hoe",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "itemID": "confetti_remote"
+      },
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "fossil-frights:item/general_items/confetti_remote"
+      },
+      "on_false": {
+        "type": "minecraft:condition",
         "property": "minecraft:component",
-        "component": "minecraft:lore",
-        "cases": [
-          {
-            "when": [
-              {
-                "extra": [
-                  "confetti_remote"
-                ],
-                "text": ""
-              }
-            ],
-            "model": {
-              "type": "minecraft:model",
-              "model": "fossil-frights:item/general_items/confetti_remote"
-            }
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "itemID": "camera_remote"
+        },
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/camera_remote"
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
+            "itemID": "ice_cannon_remote"
           },
-          {
-            "when": [
-              {
-                "extra": [
-                  "camera_remote"
-                ],
-                "text": ""
-              }
-            ],
-            "model": {
-              "type": "minecraft:model",
-              "model": "fossil-frights:item/general_items/camera_remote"
-            }
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:item/general_items/ice_cannon_remote"
           },
-          {
-            "when": [
-              {
-                "extra": [
-                  "ice_cannon_remote"
-                ],
-                "text": ""
-              }
-            ],
-            "model": {
-              "type": "minecraft:model",
-              "model": "fossil-frights:item/general_items/ice_cannon_remote"
-            }
-          },
-          {
-            "when": [
-              {
-                "extra": [
-                  "glowtrap_placer"
-                ],
-                "text": ""
-              }
-            ],
-            "model": {
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:custom_data",
+            "value": {
+              "itemID": "glowtrap_placer"
+            },
+            "on_true": {
               "type": "minecraft:model",
               "model": "fossil-frights:item/general_items/glowtrap_placer"
+            },
+            "on_false": {
+              "type": "minecraft:select",
+              "property": "minecraft:component",
+              "component": "minecraft:lore",
+              "cases": [
+                {
+                  "when": [
+                    {
+                      "extra": [
+                        "confetti_remote"
+                      ],
+                      "text": ""
+                    }
+                  ],
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "fossil-frights:item/general_items/confetti_remote"
+                  }
+                },
+                {
+                  "when": [
+                    {
+                      "extra": [
+                        "camera_remote"
+                      ],
+                      "text": ""
+                    }
+                  ],
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "fossil-frights:item/general_items/camera_remote"
+                  }
+                },
+                {
+                  "when": [
+                    {
+                      "extra": [
+                        "ice_cannon_remote"
+                      ],
+                      "text": ""
+                    }
+                  ],
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "fossil-frights:item/general_items/ice_cannon_remote"
+                  }
+                },
+                {
+                  "when": [
+                    {
+                      "extra": [
+                        "glowtrap_placer"
+                      ],
+                      "text": ""
+                    }
+                  ],
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "fossil-frights:item/general_items/glowtrap_placer"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/diamond_hoe"
+              }
             }
           }
-        ],
-        "fallback": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/diamond_hoe"
         }
       }
     }

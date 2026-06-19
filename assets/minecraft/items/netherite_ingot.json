@@ -12,91 +12,91 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:select",
-      "model": "minecraft:item/netherite_ingot",
+      "type": "minecraft:condition",
       "property": "minecraft:component",
-      "component": "minecraft:custom_data",
-      "cases": [
-        {
-          "when": {
-            "itemID": "safe"
-          },
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/general_items/safe"
-          }
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "itemID": "safe"
+      },
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "fossil-frights:item/general_items/safe"
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "itemID": "fire_tablet"
         },
-        {
-          "when": {
-            "itemID": "fire_tablet"
-          },
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/general_items/fire_tablet"
-          }
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/fire_tablet"
         },
-        {
-          "when": {
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:custom_data",
+          "value": {
             "itemID": "fire_tablet_block"
           },
-          "model": {
+          "on_true": {
             "type": "minecraft:model",
             "model": "fossil-frights:item/general_items/fire_tablet_block"
-          }
-        }
-      ],
-      "fallback": {
-        "type": "minecraft:select",
-        "model": "minecraft:item/netherite_ingot",
-        "property": "minecraft:component",
-        "component": "minecraft:lore",
-        "cases": [
-          {
-            "when": [
-              {
-                "extra": [
-                  "safe"
-                ],
-                "text": ""
-              }
-            ],
-            "model": {
-              "type": "minecraft:model",
-              "model": "fossil-frights:item/general_items/safe"
-            }
           },
-          {
-            "when": [
+          "on_false": {
+            "type": "minecraft:select",
+            "property": "minecraft:component",
+            "component": "minecraft:lore",
+            "cases": [
               {
-                "extra": [
-                  "fire_tablet"
+                "when": [
+                  {
+                    "extra": [
+                      "safe"
+                    ],
+                    "text": ""
+                  }
                 ],
-                "text": ""
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "fossil-frights:item/general_items/safe"
+                }
+              },
+              {
+                "when": [
+                  {
+                    "extra": [
+                      "fire_tablet"
+                    ],
+                    "text": ""
+                  }
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "fossil-frights:item/general_items/fire_tablet"
+                }
+              },
+              {
+                "when": [
+                  {
+                    "extra": [
+                      "fire_tablet_block"
+                    ],
+                    "text": ""
+                  }
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "fossil-frights:item/general_items/fire_tablet_block"
+                }
               }
             ],
-            "model": {
+            "fallback": {
               "type": "minecraft:model",
-              "model": "fossil-frights:item/general_items/fire_tablet"
-            }
-          },
-          {
-            "when": [
-              {
-                "extra": [
-                  "fire_tablet_block"
-                ],
-                "text": ""
-              }
-            ],
-            "model": {
-              "type": "minecraft:model",
-              "model": "fossil-frights:item/general_items/fire_tablet_block"
+              "model": "minecraft:item/netherite_ingot"
             }
           }
-        ],
-        "fallback": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/netherite_ingot"
         }
       }
     }

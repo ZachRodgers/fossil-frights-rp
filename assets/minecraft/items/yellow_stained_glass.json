@@ -1,65 +1,64 @@
 {
   "model": {
-    "type": "minecraft:select",
+    "type": "minecraft:condition",
     "property": "minecraft:component",
-    "component": "minecraft:custom_data",
-    "cases": [
-      {
-        "when": {
-          "itemID": "arrow"
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/misc/arrow"
-        }
-      },
-      {
-        "when": {
-          "itemID": "queue_beam"
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/misc/queue_beam"
-        }
-      }
-    ],
-    "fallback": {
-      "type": "minecraft:select",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "itemID": "arrow"
+    },
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "fossil-frights:item/misc/arrow"
+    },
+    "on_false": {
+      "type": "minecraft:condition",
       "property": "minecraft:component",
-      "component": "minecraft:lore",
-      "cases": [
-        {
-          "when": [
-            {
-              "extra": [
-                "arrow"
-              ],
-              "text": ""
-            }
-          ],
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/misc/arrow"
-          }
-        },
-        {
-          "when": [
-            {
-              "extra": [
-                "queue_beam"
-              ],
-              "text": ""
-            }
-          ],
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/misc/queue_beam"
-          }
-        }
-      ],
-      "fallback": {
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "itemID": "queue_beam"
+      },
+      "on_true": {
         "type": "minecraft:model",
-        "model": "minecraft:block/yellow_stained_glass"
+        "model": "fossil-frights:item/misc/queue_beam"
+      },
+      "on_false": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:lore",
+        "cases": [
+          {
+            "when": [
+              {
+                "extra": [
+                  "arrow"
+                ],
+                "text": ""
+              }
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "fossil-frights:item/misc/arrow"
+            }
+          },
+          {
+            "when": [
+              {
+                "extra": [
+                  "queue_beam"
+                ],
+                "text": ""
+              }
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "fossil-frights:item/misc/queue_beam"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/yellow_stained_glass"
+        }
       }
     }
   }

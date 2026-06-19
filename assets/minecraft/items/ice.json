@@ -12,21 +12,17 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:select",
+      "type": "minecraft:condition",
       "property": "minecraft:component",
-      "component": "minecraft:custom_data",
-      "cases": [
-        {
-          "when": {
-            "itemID": "dry_ice"
-          },
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/general_items/dry_ice"
-          }
-        }
-      ],
-      "fallback": {
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "itemID": "dry_ice"
+      },
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "fossil-frights:item/general_items/dry_ice"
+      },
+      "on_false": {
         "type": "minecraft:select",
         "property": "minecraft:component",
         "component": "minecraft:lore",

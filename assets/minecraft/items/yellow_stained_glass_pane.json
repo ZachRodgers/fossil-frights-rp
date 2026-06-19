@@ -1,67 +1,64 @@
 {
   "model": {
-    "type": "minecraft:select",
-    "model": "minecraft:item/yellow_stained_glass_pane",
+    "type": "minecraft:condition",
     "property": "minecraft:component",
-    "component": "minecraft:custom_data",
-    "cases": [
-      {
-        "when": {
-          "itemID": "arrow"
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/misc/arrow"
-        }
-      },
-      {
-        "when": {
-          "itemID": "ochre_projector_beam"
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/misc/ochre_projector_beam"
-        }
-      }
-    ],
-    "fallback": {
-      "type": "minecraft:select",
-      "model": "minecraft:item/yellow_stained_glass_pane",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "itemID": "arrow"
+    },
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "fossil-frights:item/misc/arrow"
+    },
+    "on_false": {
+      "type": "minecraft:condition",
       "property": "minecraft:component",
-      "component": "minecraft:lore",
-      "cases": [
-        {
-          "when": [
-            {
-              "extra": [
-                "arrow"
-              ],
-              "text": ""
-            }
-          ],
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/misc/arrow"
-          }
-        },
-        {
-          "when": [
-            {
-              "extra": [
-                "ochre_projector_beam"
-              ],
-              "text": ""
-            }
-          ],
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/misc/ochre_projector_beam"
-          }
-        }
-      ],
-      "fallback": {
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "itemID": "ochre_projector_beam"
+      },
+      "on_true": {
         "type": "minecraft:model",
-        "model": "minecraft:item/yellow_stained_glass_pane"
+        "model": "fossil-frights:item/misc/ochre_projector_beam"
+      },
+      "on_false": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:lore",
+        "cases": [
+          {
+            "when": [
+              {
+                "extra": [
+                  "arrow"
+                ],
+                "text": ""
+              }
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "fossil-frights:item/misc/arrow"
+            }
+          },
+          {
+            "when": [
+              {
+                "extra": [
+                  "ochre_projector_beam"
+                ],
+                "text": ""
+              }
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "fossil-frights:item/misc/ochre_projector_beam"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/yellow_stained_glass_pane"
+        }
       }
     }
   }

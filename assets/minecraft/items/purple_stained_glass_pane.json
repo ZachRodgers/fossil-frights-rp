@@ -1,23 +1,17 @@
 {
   "model": {
-    "type": "minecraft:select",
-    "model": "minecraft:item/purple_stained_glass_pane",
+    "type": "minecraft:condition",
     "property": "minecraft:component",
-    "component": "minecraft:custom_data",
-    "cases": [
-      {
-        "when": {
-          "itemID": "pearlescent_projector_beam"
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/misc/pearlescent_projector_beam"
-        }
-      }
-    ],
-    "fallback": {
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "itemID": "pearlescent_projector_beam"
+    },
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "fossil-frights:item/misc/pearlescent_projector_beam"
+    },
+    "on_false": {
       "type": "minecraft:select",
-      "model": "minecraft:item/purple_stained_glass_pane",
       "property": "minecraft:component",
       "component": "minecraft:lore",
       "cases": [

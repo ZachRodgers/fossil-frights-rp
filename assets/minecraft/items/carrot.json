@@ -12,24 +12,18 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:select",
-      "model": "minecraft:item/carrot",
+      "type": "minecraft:condition",
       "property": "minecraft:component",
-      "component": "minecraft:custom_data",
-      "cases": [
-        {
-          "when": {
-            "itemID": "carrot_cake"
-          },
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/food/carrot_cake"
-          }
-        }
-      ],
-      "fallback": {
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "itemID": "carrot_cake"
+      },
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "fossil-frights:item/food/carrot_cake"
+      },
+      "on_false": {
         "type": "minecraft:select",
-        "model": "minecraft:item/carrot",
         "property": "minecraft:component",
         "component": "minecraft:lore",
         "cases": [

@@ -1,67 +1,64 @@
 {
   "model": {
-    "type": "minecraft:select",
-    "model": "minecraft:item/map",
+    "type": "minecraft:condition",
     "property": "minecraft:component",
-    "component": "minecraft:custom_data",
-    "cases": [
-      {
-        "when": {
-          "itemID": "cretaceous_map"
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/cretaceous_map"
-        }
-      },
-      {
-        "when": {
-          "itemID": "pangea_map"
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/pangea_map"
-        }
-      }
-    ],
-    "fallback": {
-      "type": "minecraft:select",
-      "model": "minecraft:item/map",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "itemID": "cretaceous_map"
+    },
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "fossil-frights:item/general_items/cretaceous_map"
+    },
+    "on_false": {
+      "type": "minecraft:condition",
       "property": "minecraft:component",
-      "component": "minecraft:lore",
-      "cases": [
-        {
-          "when": [
-            {
-              "extra": [
-                "cretaceous_map"
-              ],
-              "text": ""
-            }
-          ],
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/general_items/cretaceous_map"
-          }
-        },
-        {
-          "when": [
-            {
-              "extra": [
-                "pangea_map"
-              ],
-              "text": ""
-            }
-          ],
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/general_items/pangea_map"
-          }
-        }
-      ],
-      "fallback": {
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "itemID": "pangea_map"
+      },
+      "on_true": {
         "type": "minecraft:model",
-        "model": "minecraft:item/map"
+        "model": "fossil-frights:item/general_items/pangea_map"
+      },
+      "on_false": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:lore",
+        "cases": [
+          {
+            "when": [
+              {
+                "extra": [
+                  "cretaceous_map"
+                ],
+                "text": ""
+              }
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "fossil-frights:item/general_items/cretaceous_map"
+            }
+          },
+          {
+            "when": [
+              {
+                "extra": [
+                  "pangea_map"
+                ],
+                "text": ""
+              }
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "fossil-frights:item/general_items/pangea_map"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/map"
+        }
       }
     }
   }

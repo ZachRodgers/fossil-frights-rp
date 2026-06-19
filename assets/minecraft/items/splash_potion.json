@@ -12,21 +12,17 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:select",
+      "type": "minecraft:condition",
       "property": "minecraft:component",
-      "component": "minecraft:custom_data",
-      "cases": [
-        {
-          "when": {
-            "itemID": "water_balloon"
-          },
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/general_items/water_balloon"
-          }
-        }
-      ],
-      "fallback": {
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "itemID": "water_balloon"
+      },
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "fossil-frights:item/general_items/water_balloon"
+      },
+      "on_false": {
         "type": "minecraft:select",
         "property": "minecraft:component",
         "component": "minecraft:lore",

@@ -1,23 +1,17 @@
 {
   "model": {
-    "type": "minecraft:select",
-    "model": "minecraft:item/pumpkin_pie",
+    "type": "minecraft:condition",
     "property": "minecraft:component",
-    "component": "minecraft:custom_data",
-    "cases": [
-      {
-        "when": {
-          "itemID": "pizza_box"
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/food/pizza_box"
-        }
-      }
-    ],
-    "fallback": {
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "itemID": "pizza_box"
+    },
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "fossil-frights:item/food/pizza_box"
+    },
+    "on_false": {
       "type": "minecraft:select",
-      "model": "minecraft:item/pumpkin_pie",
       "property": "minecraft:component",
       "component": "minecraft:lore",
       "cases": [

@@ -1,67 +1,64 @@
 {
   "model": {
-    "type": "minecraft:select",
-    "model": "minecraft:item/dried_kelp",
+    "type": "minecraft:condition",
     "property": "minecraft:component",
-    "component": "minecraft:custom_data",
-    "cases": [
-      {
-        "when": {
-          "itemID": "fly"
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/fly"
-        }
-      },
-      {
-        "when": {
-          "itemID": "blinking_bat"
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:item/merchandise/blinking_bat"
-        }
-      }
-    ],
-    "fallback": {
-      "type": "minecraft:select",
-      "model": "minecraft:item/dried_kelp",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "itemID": "fly"
+    },
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "fossil-frights:item/general_items/fly"
+    },
+    "on_false": {
+      "type": "minecraft:condition",
       "property": "minecraft:component",
-      "component": "minecraft:lore",
-      "cases": [
-        {
-          "when": [
-            {
-              "extra": [
-                "fly"
-              ],
-              "text": ""
-            }
-          ],
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/general_items/fly"
-          }
-        },
-        {
-          "when": [
-            {
-              "extra": [
-                "blinking_bat"
-              ],
-              "text": ""
-            }
-          ],
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/merchandise/blinking_bat"
-          }
-        }
-      ],
-      "fallback": {
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "itemID": "blinking_bat"
+      },
+      "on_true": {
         "type": "minecraft:model",
-        "model": "minecraft:item/dried_kelp"
+        "model": "fossil-frights:item/merchandise/blinking_bat"
+      },
+      "on_false": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:lore",
+        "cases": [
+          {
+            "when": [
+              {
+                "extra": [
+                  "fly"
+                ],
+                "text": ""
+              }
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "fossil-frights:item/general_items/fly"
+            }
+          },
+          {
+            "when": [
+              {
+                "extra": [
+                  "blinking_bat"
+                ],
+                "text": ""
+              }
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "fossil-frights:item/merchandise/blinking_bat"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/dried_kelp"
+        }
       }
     }
   }

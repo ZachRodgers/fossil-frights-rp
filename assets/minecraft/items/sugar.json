@@ -19,66 +19,65 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:select",
+      "type": "minecraft:condition",
       "property": "minecraft:component",
-      "component": "minecraft:custom_data",
-      "cases": [
-        {
-          "when": {
-            "itemID": "chlorine_tablet"
-          },
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/general_items/chlorine_tablet"
-          }
-        },
-        {
-          "when": {
-            "itemID": "soap"
-          },
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:item/general_items/soap"
-          }
-        }
-      ],
-      "fallback": {
-        "type": "minecraft:select",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "itemID": "chlorine_tablet"
+      },
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "fossil-frights:item/general_items/chlorine_tablet"
+      },
+      "on_false": {
+        "type": "minecraft:condition",
         "property": "minecraft:component",
-        "component": "minecraft:lore",
-        "cases": [
-          {
-            "when": [
-              {
-                "extra": [
-                  "chlorine_tablet"
-                ],
-                "text": ""
-              }
-            ],
-            "model": {
-              "type": "minecraft:model",
-              "model": "fossil-frights:item/general_items/chlorine_tablet"
-            }
-          },
-          {
-            "when": [
-              {
-                "extra": [
-                  "soap"
-                ],
-                "text": ""
-              }
-            ],
-            "model": {
-              "type": "minecraft:model",
-              "model": "fossil-frights:item/general_items/soap"
-            }
-          }
-        ],
-        "fallback": {
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "itemID": "soap"
+        },
+        "on_true": {
           "type": "minecraft:model",
-          "model": "minecraft:item/sugar"
+          "model": "fossil-frights:item/general_items/soap"
+        },
+        "on_false": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:lore",
+          "cases": [
+            {
+              "when": [
+                {
+                  "extra": [
+                    "chlorine_tablet"
+                  ],
+                  "text": ""
+                }
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/general_items/chlorine_tablet"
+              }
+            },
+            {
+              "when": [
+                {
+                  "extra": [
+                    "soap"
+                  ],
+                  "text": ""
+                }
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/general_items/soap"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/sugar"
+          }
         }
       }
     }
