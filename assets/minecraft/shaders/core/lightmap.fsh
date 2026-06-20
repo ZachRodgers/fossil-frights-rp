@@ -28,9 +28,6 @@ vec3 notGamma(vec3 color) {
 }
 
 void main() {
-    float AdjustedAmbientLightFactor = lightmapInfo.AmbientLightFactor;
-    if (lightmapInfo.NightVisionFactor > 0) AdjustedAmbientLightFactor = lightmapInfo.BrightnessFactor;
-
     float block_brightness = get_brightness(floor(texCoord.x * 16) / 15) * lightmapInfo.BlockFactor;
     float sky_brightness = get_brightness(floor(texCoord.y * 16) / 15) * lightmapInfo.SkyFactor;
 
@@ -41,12 +38,12 @@ void main() {
         block_brightness * (block_brightness * block_brightness * 0.6 + 0.4)
     );
 
-    color = mix(color, lightmapInfo.AmbientColor, AdjustedAmbientLightFactor);
+    color = mix(color, lightmapInfo.AmbientColor, lightmapInfo.AmbientLightFactor);
 
     color += lightmapInfo.SkyLightColor * sky_brightness;
     color = mix(color, vec3(0.75), 0.04);
 
-    if (AdjustedAmbientLightFactor == 0.0f) {
+    if (lightmapInfo.AmbientLightFactor == 0.0f) {
         vec3 darkened_color = color * vec3(0.7, 0.6, 0.6);
         color = mix(color, darkened_color, lightmapInfo.DarkenWorldFactor);
     }
@@ -60,7 +57,7 @@ void main() {
         }
     }
 
-    if (AdjustedAmbientLightFactor == 0.0f) {
+    if (lightmapInfo.AmbientLightFactor == 0.0f) {
         color = color - vec3(lightmapInfo.DarknessScale);
     }
 
