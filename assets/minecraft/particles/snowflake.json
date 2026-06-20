@@ -1,12 +1,12 @@
 {
   "textures": [
-    "minecraft:snowflake_7",
-    "minecraft:snowflake_6",
-    "minecraft:snowflake_5",
-    "minecraft:snowflake_4",
-    "minecraft:snowflake_3",
-    "minecraft:snowflake_2",
-    "minecraft:snowflake_1",
-    "minecraft:snowflake_0"
+    "fossil-frights:snowflake_7",
+    "fossil-frights:snowflake_6",
+    "fossil-frights:snowflake_5",
+    "fossil-frights:snowflake_4",
+    "fossil-frights:snowflake_3",
+    "fossil-frights:snowflake_2",
+    "fossil-frights:snowflake_1",
+    "fossil-frights:snowflake_0"
   ]
 }
