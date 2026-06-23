@@ -1,17 +1,16 @@
 {
   "pack": {
-    "description": {
-      "text": "Fossil Frights                   ",
-      "type": "text",
-      "extra": [
-        {
-          "text": "Official Resource Pack",
-          "color": "yellow"
-        }
-      ],
-      "color": "gold"
-    },
-    "min_format": 69,
-    "max_format": 75
+    "description": [
+      {
+        "color": "gold",
+        "text": "Fossil Frights\n"
+      },
+      {
+        "color": "yellow",
+        "text": "Official Resource Pack"
+      }
+    ],
+    "min_format": 88,
+    "max_format": 88
   }
 }

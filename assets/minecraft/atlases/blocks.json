@@ -4,6 +4,14 @@
       "type": "directory",
       "source": "custom",
       "prefix": "custom/"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/copper_golem/copper_golem_eyes"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/copper_golem/copper_golem_swag_glasses"
     }
   ]
 }
