@@ -70,5 +70,29 @@
         "stream": false
       }
     ]
+  },
+  "camera.open": {
+    "sounds": [
+      {
+        "name": "fossil-frights:custom/camera_open",
+        "stream": false
+      }
+    ]
+  },
+  "camera.switch": {
+    "sounds": [
+      {
+        "name": "fossil-frights:custom/camera_switch",
+        "stream": false
+      }
+    ]
+  },
+  "camera.close": {
+    "sounds": [
+      {
+        "name": "fossil-frights:custom/camera_close",
+        "stream": false
+      }
+    ]
   }
 }
