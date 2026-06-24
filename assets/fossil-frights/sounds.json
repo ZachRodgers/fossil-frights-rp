@@ -94,5 +94,13 @@
         "stream": false
       }
     ]
+  },
+  "heists.loot_capture": {
+    "sounds": [
+      {
+        "name": "fossil-frights:custom/loot_capture",
+        "stream": false
+      }
+    ]
   }
 }
