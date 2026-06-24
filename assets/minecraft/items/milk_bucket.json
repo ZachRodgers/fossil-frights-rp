@@ -18,8 +18,17 @@
         "itemID": "drink_with_straw"
       },
       "on_true": {
-        "type": "minecraft:model",
-        "model": "fossil-frights:item/food/drink_with_straw"
+        "type": "minecraft:composite",
+        "models": [
+          {
+            "type": "model",
+            "model": "fossil-frights:item/food/drink_with_straw"
+          },
+          {
+            "type": "model",
+            "model": "fossil-frights:item/food/empty_glass"
+          }
+        ]
       },
       "on_false": {
         "type": "minecraft:condition",
@@ -72,8 +81,17 @@
                   }
                 ],
                 "model": {
-                  "type": "minecraft:model",
-                  "model": "fossil-frights:item/food/drink_with_straw"
+                  "type": "minecraft:composite",
+                  "models": [
+                    {
+                      "type": "model",
+                      "model": "fossil-frights:item/food/drink_with_straw"
+                    },
+                    {
+                      "type": "model",
+                      "model": "fossil-frights:item/food/empty_glass"
+                    }
+                  ]
                 }
               },
               {

@@ -1,6 +1,15 @@
 {
   "model": {
-    "type": "minecraft:model",
-    "model": "fossil-frights:item/food/veloci_tea"
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "model",
+        "model": "fossil-frights:item/food/veloci_tea"
+      },
+      {
+        "type": "model",
+        "model": "fossil-frights:item/food/empty_glass"
+      }
+    ]
   }
 }
