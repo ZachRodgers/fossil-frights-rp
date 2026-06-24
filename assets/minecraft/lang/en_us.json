@@ -14,6 +14,12 @@
   "recipe.toast.description": "",
   "recipe.toast.title": "",
   "tutorial.craft_planks.description": "",
+
+  "ff.day_count.day": "Day %s",
+  "ff.day_count.complete": "Complete Day %s",
+  "ff.advancement.progression": "Progression",
+  "ff.advancement.victory": "Victory",
+  "ff.advancement.victory.description": "Beat all 10 days.",
   
   "ff.item.coffee": "Coffee",
   "ff.item.poster_tube": "Poster Tube",
