@@ -85,5 +85,13 @@
   "ff.item.sniffer_plushie": "Sniffer Plushie",
   "ff.item.t_rex_plushie": "T-Rex Plushie",
   "ff.item.trike_plushie": "Trike Plushie",
-  "ff.item.velociraptor_plushie": "Velociraptor Plushie"
+  "ff.item.velociraptor_plushie": "Velociraptor Plushie",
+  
+  "ff.drink.purchased": "Purchased: %s",
+  "ff.drink.bubbly_bat": "Bubbly Bat",
+  "ff.drink.fossil_fizz": "Fossil Fizz",
+  "ff.drink.jurassic_juice": "Jurassic Juice",
+  "ff.drink.pteranadon_twist": "Pteranadon Twist",
+  "ff.drink.raptor_rush": "Raptor Rush",
+  "ff.drink.veloci_tea": "Veloci-tea"
 }
