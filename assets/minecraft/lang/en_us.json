@@ -77,5 +77,13 @@
   "ff.item.raptor_skull": "Raptor Skull",
   "ff.item.biplane": "Biplane",
   "ff.item.vault": "Vault",
-  "ff.item.velociraptor_statue": "Velociraptor"
+  "ff.item.velociraptor_statue": "Velociraptor",
+
+  "ff.item.gold_t_rex_plushie": "Gold T-Rex Plushie",
+  "ff.item.plesiosaur_plushie": "Plesiosaur Plushie",
+  "ff.item.pterodactyl_plushie": "Pterodactyl Plushie",
+  "ff.item.sniffer_plushie": "Sniffer Plushie",
+  "ff.item.t_rex_plushie": "T-Rex Plushie",
+  "ff.item.trike_plushie": "Trike Plushie",
+  "ff.item.velociraptor_plushie": "Velociraptor Plushie"
 }
