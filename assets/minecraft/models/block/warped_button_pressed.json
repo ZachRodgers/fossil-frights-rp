@@ -24,16 +24,15 @@
 		},
 		{
 			"name": "button",
-			"from": [5, -1, 5],
+			"from": [5, 1, 5],
 			"to": [11, 2, 11],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7, -2, 7]},
 			"faces": {
-				"north": {"uv": [4, 3, 7, 3.75], "texture": "#texture"},
-				"east": {"uv": [7, 0, 10, 0.75], "texture": "#texture"},
-				"south": {"uv": [7, 0.75, 10, 1.5], "texture": "#texture"},
-				"west": {"uv": [7, 1.5, 10, 2.25], "texture": "#texture"},
-				"up": {"uv": [7, 1.5, 4, 0], "texture": "#texture"},
-				"down": {"uv": [7, 1.5, 4, 3], "texture": "#texture"}
+				"north": {"uv": [4, 3, 7, 3.25], "texture": "#texture"},
+				"east": {"uv": [7, 0, 10, 0.25], "texture": "#texture"},
+				"south": {"uv": [7, 0.75, 10, 1], "texture": "#texture"},
+				"west": {"uv": [7, 1.5, 10, 1.75], "texture": "#texture"},
+				"up": {"uv": [7, 1.5, 4, 0], "texture": "#texture"}
 			}
 		}
 	],
