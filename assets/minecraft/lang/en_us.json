@@ -99,7 +99,7 @@
   "ff.bossbar.waiting_to_start": "ᴡᴀɪᴛɪɴɢ ᴛᴏ ꜱᴛᴀʀᴛ",
   "ff.bossbar.game_starting": "ɢᴀᴍᴇ ꜱᴛᴀʀᴛɪɴɢ...",
   "ff.bossbar.on_break": "ᴏɴ ʙʀᴇᴀᴋ",
-  "ff.bossbar.day": "ᴅᴀʏ %s: %s",
+  "ff.bossbar.day": "ᴅᴀʏ %1$s: %2$s",
   "ff.bossbar.day.one": "ᴏɴᴇ",
   "ff.bossbar.day.two": "ᴛᴡᴏ",
   "ff.bossbar.day.three": "ᴛʜʀᴇᴇ",
@@ -109,5 +109,38 @@
   "ff.bossbar.day.seven": "ꜱᴇᴠᴇɴ",
   "ff.bossbar.day.eight": "ᴇɪɢʜᴛ",
   "ff.bossbar.day.nine": "ɴɪɴᴇ",
-  "ff.bossbar.day.ten": "ᴛᴇɴ"
+  "ff.bossbar.day.ten": "ᴛᴇɴ",
+  
+  "ff.heist.thief.goodluck.1": "Get thievin'",
+  "ff.heist.thief.goodluck.2": "Watch for guards",
+  "ff.heist.thief.goodluck.3": "You got this",
+  "ff.heist.guard.goodluck.1": "Stay alert!",
+  "ff.heist.guard.goodluck.2": "Let's get to work",
+  "ff.heist.guard.goodluck.3": "Watch your back",
+  "ff.heist.waiting_for_guards_hologram": "Waiting for guards to start",
+
+  "ff.stats.title": "========== Your Stats ==========",
+  "ff.stats.best_time": "Best Time: %s",
+  "ff.stats.best_day": "Best Day: %s",
+  "ff.stats.total_runs": "Total Runs: %s",
+  "ff.stats.duos_best_time": "Duo's Best Time: %s",
+  "ff.stats.separator": "-------------------------------",
+  "ff.stats.parkour": "Parkour: %s",
+  "ff.stats.temple_run": "Temple Run: %s",
+  "ff.stats.ant_score": "Ant Score: %s",
+  "ff.stats.ant_top_score": "Ant Top Score: %s",
+
+  "ff.day_complete": "Day %s Complete!",
+  "ff.unlocking": "Unlocking...",
+  "ff.join_queue": "ᴊᴏɪɴ ǫᴜᴇᴜᴇ",
+  "ff.spectate": "ꜱᴘᴇᴄᴛᴀᴛᴇ",
+  
+  "ff.map_claimed": "You already have a map",
+  "ff.map.foyer": "Foyer",
+  
+  "ff.survived_to_day": "⭐ %1$s survived to day %2$s.",
+  "ff.beat_time": "⭐ %1$s beat the game in %2$s.",
+  "ff.exit_day_reached": "⭐ %1$s made it to day %2$s.",
+  "ff.guards_win": "⭐ %1$s won playing as Guards.",
+  "ff.separator": " and "
 }
