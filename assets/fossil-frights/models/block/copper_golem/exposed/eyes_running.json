@@ -1,8 +1,6 @@
 {
   "textures": {
-    "copper_golem_eyes": "minecraft:entity/copper_golem/copper_golem_eyes",
-    "copper_golem_swag_glasses": "minecraft:entity/copper_golem/copper_golem_swag_glasses",
-    "particle": "minecraft:block/copper_block"
+    "copper_golem_eyes": "fossil-frights:custom/copper_golem/copper_golem_eyes_exposed"
   },
   "elements": [
     {
@@ -16,15 +14,6 @@
         "west": {"uv": [4.5, 2.5, 7, 3.75], "texture": "#copper_golem_eyes"},
         "up": {"uv": [2.5, 0, 4.5, 2.5], "rotation": 180, "texture": "#copper_golem_eyes"},
         "down": {"uv": [4.5, 0, 6.5, 2.5], "texture": "#copper_golem_eyes"}
-      }
-    },
-    {
-      "from": [4.0531, 11.5995, 0.9785],
-      "to": [12.6691, 14.7345, 7.2485],
-      "faces": {
-        "north": {"uv": [2.5, 9, 6, 10.25], "texture": "#copper_golem_swag_glasses"},
-        "east": {"uv": [0, 9, 2.5, 10.25], "texture": "#copper_golem_swag_glasses"},
-        "west": {"uv": [6, 9, 8.5, 10.25], "texture": "#copper_golem_swag_glasses"}
       }
     }
   ]
