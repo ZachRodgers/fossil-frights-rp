@@ -44,9 +44,10 @@ void main() {
     vec3 OverrideBlockLightTint = lightmapInfo.BlockLightTint;
 
     if (lightmapInfo.AmbientColor.g > 0.0392156863 && lightmapInfo.AmbientColor.r <= 0.0392156863 && lightmapInfo.AmbientColor.b <= 0.0392156863) { // bright green is our marker
-        OverrideAmbientColor = vec3(0.0392156863, 0.0392156863, 0.0392156863);
         OverrideBlockLightTint = mix(lightmapInfo.BlockLightTint, vec3(1, 0.847058824, 0.549019608), clamp((lightmapInfo.AmbientColor.g - 0.0392156863) / 0.1, 0, 1));
     }
+
+    OverrideAmbientColor = vec3(0.0392156863, 0.0392156863, 0.0392156863);
 
     // Calculate ambient color with or without night vision
     vec3 nightVisionColor = lightmapInfo.NightVisionColor * lightmapInfo.NightVisionFactor;
