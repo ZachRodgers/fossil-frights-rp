@@ -266,6 +266,7 @@
   "ff.sculkadillo": "Skulkadillo",
   "ff.sculkadillo.thanks": "<%1$s> Thanks for the %2$s,  Now hurry, you have %3$s to ride the pulley",
   "ff.sculkadillo.broke": "<%1$s> Hey pal, if you can't drop me %2$s, you're gonna have to parkour your own way up.",
+  "ff.cubekoins.required" : "%s Required",
   "ff.cubekoin": "CubeKoin",
   "ff.cubekoins.number": "%s CubeKoins",
   "ff.seconds.number": "%s seconds",
