@@ -1,5 +1,7 @@
 #version 330
 
+#moj_import <minecraft:globals.glsl>
+
 layout(std140) uniform LightmapInfo {
     float SkyFactor;
     float BlockFactor;
@@ -40,15 +42,23 @@ void main() {
     float block_brightness = get_brightness(block_level) * lightmapInfo.BlockFactor;
     float sky_brightness = get_brightness(sky_level) * lightmapInfo.SkyFactor;
 
+    vec3 OverrideAmbientColor = lightmapInfo.AmbientColor;
+    vec3 OverrideBlockLightTint = lightmapInfo.BlockLightTint;
+
+    if (lightmapInfo.AmbientColor.g > 0.0392156863 && lightmapInfo.AmbientColor.r <= 0.0392156863 && lightmapInfo.AmbientColor.b <= 0.0392156863) { // bright green is our marker
+        OverrideAmbientColor = vec3(0.0392156863, 0.0392156863, 0.0392156863);
+        OverrideBlockLightTint = mix(lightmapInfo.BlockLightTint, vec3(1, 0.847058824, 0.549019608), clamp((lightmapInfo.AmbientColor.g - 0.0392156863) / 0.1, 0, 1));
+    }
+
     // Calculate ambient color with or without night vision
     vec3 nightVisionColor = lightmapInfo.NightVisionColor * lightmapInfo.NightVisionFactor;
-    vec3 color = max(lightmapInfo.AmbientColor, nightVisionColor);
+    vec3 color = max(OverrideAmbientColor, nightVisionColor); // modified
 
     // Add sky light
     color += lightmapInfo.SkyLightColor * sky_brightness;
 
     // Add block light
-    vec3 BlockLightColor = mix(lightmapInfo.BlockLightTint, vec3(1.0), 0.9 * parabolicMixFactor(block_level));
+    vec3 BlockLightColor = mix(OverrideBlockLightTint, vec3(1.0), 0.9 * parabolicMixFactor(block_level)); // modified
     color += BlockLightColor * block_brightness;
 
     // Apply boss overlay darkening effect
