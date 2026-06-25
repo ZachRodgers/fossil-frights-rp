@@ -1,7 +1,5 @@
 #version 330
 
-#moj_import <minecraft:globals.glsl>
-
 layout(std140) uniform LightmapInfo {
     float SkyFactor;
     float BlockFactor;
