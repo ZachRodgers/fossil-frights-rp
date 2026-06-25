@@ -1,6 +1,7 @@
 {
   "textures": {
-    "copper_golem_eyes": "fossil-frights:custom/copper_golem/copper_golem_eyes_oxidized"
+    "copper_golem_eyes": "fossil-frights:custom/copper_golem/copper_golem_eyes_oxidized",
+    "particle": "minecraft:block/copper_block"
   },
   "elements": [
     {
