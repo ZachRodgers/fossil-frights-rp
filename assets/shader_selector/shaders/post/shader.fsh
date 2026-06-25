@@ -30,8 +30,8 @@ void main() {
     vec4 OutColor = vec4(RedValue, 0, 0, 1.0);
 
     // Pulse Color Output
-    float pulse = (cos(readChannel(RED_ALERT_CHANNEL) * 100000 * Frequency * 3.1415926535)) / 2 + 0.5;
-    OutColor.rgb = mix(fragColor.rgb, OutColor.rgb, (1-pulse) * Intensity);
+    float pulse = Intensity * (1-cos(readChannel(RED_ALERT_CHANNEL) * 100000 * Frequency * 3.1415926535)) / 2;
+    OutColor.rgb = mix(fragColor.rgb, OutColor.rgb, pulse);
 
     fragColor = OutColor;
 
