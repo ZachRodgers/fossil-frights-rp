@@ -42,7 +42,7 @@
         "threshold": 6,
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/security_camera"
+          "model": "fossil-frights:item/general_items/security_camera_on"
         }
       }
     ],
