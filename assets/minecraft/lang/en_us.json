@@ -198,6 +198,9 @@
   "ff.item.storage_key.modified": "Storage Key %s",
   "ff.item.disabled": "(Disabled)",
   "ff.item.security_hat": "Security Hat",
+  "ff.item.infinileaf": "Infinileaf",
+  "ff.item.parkour_restart": "Parkour Restart",
+  "ff.item.temple_run_restart": "Temple Run Restart",
   
   "ff.drink.purchased": "Purchased: %s",
   "ff.drink.bubbly_bat": "Bubbly Bat",
