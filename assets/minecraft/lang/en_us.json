@@ -52,7 +52,7 @@
   "ff.advancement.warrior_ant.description": "Get an Ant Score of 10+.",
   
   "ff.task.bathroom_leak": "Bathroom Leak",
-  "ff.task.check_anklyo": "Check Anklyo",
+  "ff.task.check_ankylo": "Check Ankylo",
   "ff.task.check_security": "Check Security",
   "ff.task.climb_the_tower": "Climb the Tower",
   "ff.task.count_shells": "Count Shells",
@@ -118,6 +118,8 @@
   "ff.task.skincare_routine": "Skincare Routine",
   "ff.task.star_gazing": "Star Gazing",
   "ff.task.the_lost_code": "The Lost Code",
+  
+  "ff.task.final_task": "Lab Experiment",
 
   "ff.item.coffee": "Coffee",
   "ff.item.poster_tube": "Poster Tube",
@@ -272,10 +274,22 @@
   "ff.crab": "Crab",
   "ff.crab.prompt": "<%1$s> If you have %2$s I can polish that key for you, should have it reset right away!",
   "ff.crab.success": "<%1$s> Thanks for the %2$s! Here's your polished key.",
+  "ff.crab.key_polished": "Key Polished!",
   "ff.cubekoins.required" : "%s Required",
   "ff.cubekoin": "CubeKoin",
   "ff.cubekoins.number": "%s CubeKoins",
   "ff.cubekoin.number": "%s CubeKoin",
   "ff.seconds.number": "%s seconds",
-  "ff.task_complete" : "%s Complete!"
+  "ff.task_complete" : "%s Complete!",
+
+  "ff.lobby.ant_fight": "Ant Fight",
+  "ff.lobby.temple_run": "Temple Run",
+  "ff.lobby.teleporter": "Teleporter",
+  "ff.lobby.parkour_time": "Parkour: %ss",
+  "ff.lobby.parkour.no_times_yet": "No times yet",
+  "ff.lobby.temple_run.no_times_yet": "No times yet",
+  "ff.start": "ꜱᴛᴀʀᴛ",
+  "ff.next_day": "ɴᴇxᴛ ᴅᴀʏ",
+  "ff.waiting_for_players": "Waiting\nfor players",
+  "ff.start_game": "ꜱᴛᴀʀᴛ ɢᴀᴍᴇ"
 }
