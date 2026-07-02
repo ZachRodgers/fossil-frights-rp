@@ -2,7 +2,6 @@
 	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"missing": "fossil-frights:custom/transparent",
 		"0": "fossil-frights:custom/general_items/fly",
 		"particle": "fossil-frights:custom/general_items/fly"
 	},
@@ -25,10 +24,6 @@
 			"to": [9, 20, 17],
 			"rotation": {"angle": -40, "axis": "x", "origin": [9, 20, 15]},
 			"faces": {
-				"north": {"uv": [2, 0, 0, 0], "texture": "#0"},
-				"east": {"uv": [2, 0, 0, 0], "texture": "#0"},
-				"south": {"uv": [2, 0, 0, 0], "texture": "#0"},
-				"west": {"uv": [2, 0, 0, 0], "texture": "#0"},
 				"up": {"uv": [4, 4, 6, 2], "rotation": 90, "texture": "#0"},
 				"down": {"uv": [4, 2, 6, 4], "rotation": 270, "texture": "#0"}
 			}
@@ -38,10 +33,6 @@
 			"to": [9, 20, 13],
 			"rotation": {"angle": 40, "axis": "x", "origin": [9, 20, 13]},
 			"faces": {
-				"north": {"uv": [2, 0, 0, 0], "texture": "#0"},
-				"east": {"uv": [2, 0, 0, 0], "texture": "#0"},
-				"south": {"uv": [2, 0, 0, 0], "texture": "#0"},
-				"west": {"uv": [2, 0, 0, 0], "texture": "#0"},
 				"up": {"uv": [6, 2, 4, 4], "rotation": 180, "texture": "#0"},
 				"down": {"uv": [6, 2, 4, 4], "rotation": 270, "texture": "#0"}
 			}
@@ -101,8 +92,8 @@
 	],
 	"display": {
 		"ground": {
-			"scale": [1.25, 1.25, 1.25],
-			"translation": [0, 6, 0]
+			"translation": [0, 6, 0],
+			"scale": [1.25, 1.25, 1.25]
 		},
 		"gui": {
 			"rotation": [30, -135, 0],

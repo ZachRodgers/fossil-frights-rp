@@ -14,11 +14,7 @@
 			"rotation": {"angle": 5, "axis": "y", "origin": [7, 0, 8]},
 			"faces": {
 				"north": {"uv": [4, 0, 5.5, 5], "texture": "#0"},
-				"east": {"uv": [4, 0, 4, 5], "texture": "#0"},
-				"south": {"uv": [5.5, 0, 7, 5], "texture": "#0"},
-				"west": {"uv": [5.5, 0, 5.5, 5], "texture": "#0"},
-				"up": {"uv": [5.5, 0, 4, 0], "texture": "#0"},
-				"down": {"uv": [7, 0, 5.5, 0], "texture": "#0"}
+				"south": {"uv": [5.5, 0, 7, 5], "texture": "#0"}
 			}
 		},
 		{
@@ -28,11 +24,7 @@
 			"rotation": {"angle": -5, "axis": "y", "origin": [9, 0, 8]},
 			"faces": {
 				"north": {"uv": [0, 0, 1.5, 5], "texture": "#0"},
-				"east": {"uv": [0, 0, 0, 5], "texture": "#0"},
-				"south": {"uv": [1.5, 0, 3, 5], "texture": "#0"},
-				"west": {"uv": [1.5, 0, 1.5, 5], "texture": "#0"},
-				"up": {"uv": [1.5, 0, 0, 0], "texture": "#0"},
-				"down": {"uv": [3, 0, 1.5, 0], "texture": "#0"}
+				"south": {"uv": [1.5, 0, 3, 5], "texture": "#0"}
 			}
 		},
 		{
@@ -42,11 +34,7 @@
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
 			"faces": {
 				"north": {"uv": [3, 0, 3.5, 5], "texture": "#0"},
-				"east": {"uv": [3, 0, 3, 5], "texture": "#0"},
-				"south": {"uv": [3.5, 0, 4, 5], "texture": "#0"},
-				"west": {"uv": [3.5, 0, 3.5, 5], "texture": "#0"},
-				"up": {"uv": [3.5, 0, 3, 0], "texture": "#0"},
-				"down": {"uv": [4, 0, 3.5, 0], "texture": "#0"}
+				"south": {"uv": [3.5, 0, 4, 5], "texture": "#0"}
 			}
 		},
 		{
@@ -57,8 +45,6 @@
 			"faces": {
 				"north": {"uv": [3.25, 5.5, 4.5, 9.5], "texture": "#0"},
 				"east": {"uv": [3, 5.5, 3.25, 9.5], "texture": "#0"},
-				"south": {"uv": [4.75, 5.5, 6, 9.5], "texture": "#0"},
-				"west": {"uv": [4.5, 5.5, 4.75, 9.5], "texture": "#0"},
 				"up": {"uv": [4.5, 5.5, 3.25, 5], "texture": "#0"},
 				"down": {"uv": [5.75, 5, 4.5, 5.5], "texture": "#0"}
 			}
@@ -70,8 +56,6 @@
 			"rotation": {"angle": -5, "axis": "y", "origin": [8, 0, 8]},
 			"faces": {
 				"north": {"uv": [0.25, 5.5, 1.5, 9.5], "texture": "#0"},
-				"east": {"uv": [0, 5.5, 0.25, 9.5], "texture": "#0"},
-				"south": {"uv": [1.75, 5.5, 3, 9.5], "texture": "#0"},
 				"west": {"uv": [1.5, 5.5, 1.75, 9.5], "texture": "#0"},
 				"up": {"uv": [1.5, 5.5, 0.25, 5], "texture": "#0"},
 				"down": {"uv": [2.75, 5, 1.5, 5.5], "texture": "#0"}
@@ -121,11 +105,13 @@
 		{
 			"name": "cover_left",
 			"origin": [15, 5, 8],
+			"scope": 0,
 			"color": 0,
 			"children": [
 				{
 					"name": "cover_left_rotation",
 					"origin": [12, 5, 8],
+					"scope": 0,
 					"color": 0,
 					"children": [0]
 				}
@@ -134,11 +120,13 @@
 		{
 			"name": "cover_right",
 			"origin": [1, 5, 8],
+			"scope": 0,
 			"color": 0,
 			"children": [
 				{
 					"name": "cover_right_rotation",
 					"origin": [4, 5, 8],
+					"scope": 0,
 					"color": 0,
 					"children": [1]
 				}
@@ -147,11 +135,13 @@
 		{
 			"name": "book_spine",
 			"origin": [8, 5, 8],
+			"scope": 0,
 			"color": 0,
 			"children": [
 				{
 					"name": "spine_rotation",
 					"origin": [8, 5, 8],
+					"scope": 0,
 					"color": 0,
 					"children": [2]
 				}
@@ -160,11 +150,13 @@
 		{
 			"name": "pages_left",
 			"origin": [13, 5, 6.925],
+			"scope": 0,
 			"color": 0,
 			"children": [
 				{
 					"name": "page_left_rotation",
 					"origin": [10.5, 5, 7.4],
+					"scope": 0,
 					"color": 0,
 					"children": [3]
 				}
@@ -173,11 +165,13 @@
 		{
 			"name": "pages_right",
 			"origin": [8, 5, 7.875],
+			"scope": 0,
 			"color": 0,
 			"children": [
 				{
 					"name": "page_right_rotation",
 					"origin": [5.5, 5, 7.4],
+					"scope": 0,
 					"color": 0,
 					"children": [4]
 				}
@@ -186,11 +180,13 @@
 		{
 			"name": "flipping_page_left",
 			"origin": [13, 5, 5.925],
+			"scope": 0,
 			"color": 0,
 			"children": [
 				{
 					"name": "flip_left_rotation",
 					"origin": [10.5, 5, 5.9],
+					"scope": 0,
 					"color": 0,
 					"children": [5]
 				}
@@ -199,11 +195,13 @@
 		{
 			"name": "flipping_page_right",
 			"origin": [8, 5, 5.875],
+			"scope": 0,
 			"color": 0,
 			"children": [
 				{
 					"name": "flip_right_rotation",
 					"origin": [5.5, 5, 5.9],
+					"scope": 0,
 					"color": 0,
 					"children": [6]
 				}
