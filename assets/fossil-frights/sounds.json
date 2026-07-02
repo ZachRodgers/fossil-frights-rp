@@ -95,6 +95,14 @@
       }
     ]
   },
+  "heists.highlight_thief": {
+    "sounds": [
+      {
+        "name": "fossil-frights:custom/highlight_thief",
+        "stream": false
+      }
+    ]
+  },
   "heists.loot_capture": {
     "sounds": [
       {
