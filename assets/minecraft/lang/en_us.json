@@ -661,7 +661,7 @@
   "ff.sign.aquatic.ocean_depth_map.hadal_zone.0": "5,000+ blocks",
   "ff.sign.aquatic.ocean_depth_map.hadal_zone.1": "",
   "ff.sign.aquatic.ocean_depth_map.hadal_zone.2": "Hadal Zone",
-  "ff.sign.aquatic.ocean_depth_map.hadal_zone.3": "(Hadapelagic)",
+  "ff.sign.aquatic.ocean_depth_map.hadal_zone.3": "(Hadalpelagic)",
 
   "ff.sign.gift_shop.volcano_painting.0": "",
   "ff.sign.gift_shop.volcano_painting.1": "Volcano Painting",
@@ -688,7 +688,7 @@
   "ff.sign.gift_shop.coppy_the_copper_golem.2": "the Copper Golem",
   "ff.sign.gift_shop.coppy_the_copper_golem.3": "",
 
-  "ff.sign.cafe.drinks_machine.0": "1 Cubekoin",
+  "ff.sign.cafe.drinks_machine.0": "1 Cubekoin    ",
   "ff.sign.cafe.drinks_machine.1": "=",
   "ff.sign.cafe.drinks_machine.2": "1 Dino-Themed",
   "ff.sign.cafe.drinks_machine.3": "Drink",
@@ -702,11 +702,6 @@
   "ff.sign.cafe.cookies.1": "",
   "ff.sign.cafe.cookies.2": "",
   "ff.sign.cafe.cookies.3": "",
-
-  "ff.sign.stairwell_door.0": "",
-  "ff.sign.stairwell_door.1": "Restricted Area",
-  "ff.sign.stairwell_door.2": "Museum Staff",
-  "ff.sign.stairwell_door.3": "",
 
   "ff.sign.boss_room.0": "",
   "ff.sign.boss_room.1": "Boss Room",
@@ -798,35 +793,35 @@
   "ff.sign.observatory.stellar_sightings.2": "Sightings",
   "ff.sign.observatory.stellar_sightings.3": "",
 
-  "ff.sign.observatory.constellation.spiderious_omegus.0": "",
-  "ff.sign.observatory.constellation.spiderious_omegus.1": "Spiderious",
-  "ff.sign.observatory.constellation.spiderious_omegus.2": "Omegus",
-  "ff.sign.observatory.constellation.spiderious_omegus.3": "",
+  "ff.sign.observatory.constellation.spider.0": "",
+  "ff.sign.observatory.constellation.spider.1": "Spiderious",
+  "ff.sign.observatory.constellation.spider.2": "Omegus",
+  "ff.sign.observatory.constellation.spider.3": "",
 
-  "ff.sign.observatory.constellation.dragoni_enderi.0": "",
-  "ff.sign.observatory.constellation.dragoni_enderi.1": "Dragoni",
-  "ff.sign.observatory.constellation.dragoni_enderi.2": "Enderi",
-  "ff.sign.observatory.constellation.dragoni_enderi.3": "",
+  "ff.sign.observatory.constellation.dragon.0": "",
+  "ff.sign.observatory.constellation.dragon.1": "Dragoni",
+  "ff.sign.observatory.constellation.dragon.2": "Enderi",
+  "ff.sign.observatory.constellation.dragon.3": "",
 
-  "ff.sign.observatory.constellation.buzzifiest_bee.0": "",
-  "ff.sign.observatory.constellation.buzzifiest_bee.1": "Buzzifiest",
-  "ff.sign.observatory.constellation.buzzifiest_bee.2": "Bee",
-  "ff.sign.observatory.constellation.buzzifiest_bee.3": "",
+  "ff.sign.observatory.constellation.bee.0": "",
+  "ff.sign.observatory.constellation.bee.1": "Buzzifiest",
+  "ff.sign.observatory.constellation.bee.2": "Bee",
+  "ff.sign.observatory.constellation.bee.3": "",
 
-  "ff.sign.observatory.constellation.ferrous_golemphanon.0": "",
-  "ff.sign.observatory.constellation.ferrous_golemphanon.1": "Ferrous",
-  "ff.sign.observatory.constellation.ferrous_golemphanon.2": "Golemphanon",
-  "ff.sign.observatory.constellation.ferrous_golemphanon.3": "",
+  "ff.sign.observatory.constellation.golem.0": "",
+  "ff.sign.observatory.constellation.golem.1": "Ferrous",
+  "ff.sign.observatory.constellation.golem.2": "Golemphanon",
+  "ff.sign.observatory.constellation.golem.3": "",
 
-  "ff.sign.observatory.constellation.guardianofora_elderificious.0": "",
-  "ff.sign.observatory.constellation.guardianofora_elderificious.1": "Guardianofora",
-  "ff.sign.observatory.constellation.guardianofora_elderificious.2": "Elderificious",
-  "ff.sign.observatory.constellation.guardianofora_elderificious.3": "",
+  "ff.sign.observatory.constellation.guardian.0": "",
+  "ff.sign.observatory.constellation.guardian.1": "Guardianofora",
+  "ff.sign.observatory.constellation.guardian.2": "Elderificious",
+  "ff.sign.observatory.constellation.guardian.3": "",
 
-  "ff.sign.observatory.constellation.wither_nebula.0": "",
-  "ff.sign.observatory.constellation.wither_nebula.1": "Wither",
-  "ff.sign.observatory.constellation.wither_nebula.2": "Nebula",
-  "ff.sign.observatory.constellation.wither_nebula.3": "",
+  "ff.sign.observatory.constellation.wither.0": "",
+  "ff.sign.observatory.constellation.wither.1": "Wither",
+  "ff.sign.observatory.constellation.wither.2": "Nebula",
+  "ff.sign.observatory.constellation.wither.3": "",
 
   "ff.sign.observatory.mars_replica.0": "",
   "ff.sign.observatory.mars_replica.1": "Mars Replica",
@@ -846,7 +841,7 @@
   "ff.sign.earth_timeline.hadean.formation_of_the_moon.0": "Formation of the",
   "ff.sign.earth_timeline.hadean.formation_of_the_moon.1": "Moon",
   "ff.sign.earth_timeline.hadean.formation_of_the_moon.2": "",
-  "ff.sign.earth_timeline.hadean.formation_of_the_moon.3": "4500 MYA",
+  "ff.sign.earth_timeline.hadean.formation_of_the_moon.3": "4500 Mya",
 
   "ff.sign.earth_timeline.hadean.meteorite_impacts.0": "Meteorite impacts",
   "ff.sign.earth_timeline.hadean.meteorite_impacts.1": "were common in",
@@ -913,7 +908,7 @@
   "ff.sign.earth_timeline.proterozoic.the_huronian_glaciation.2": "",
   "ff.sign.earth_timeline.proterozoic.the_huronian_glaciation.3": "2500-2200 Mya",
 
-  "ff.sign.earth_timeline.proterozoic.fossilized_proterozoic_stromatolites1.0": "Fozzilised",
+  "ff.sign.earth_timeline.proterozoic.fossilized_proterozoic_stromatolites1.0": "Fossilized",
   "ff.sign.earth_timeline.proterozoic.fossilized_proterozoic_stromatolites1.1": "Proterozoic",
   "ff.sign.earth_timeline.proterozoic.fossilized_proterozoic_stromatolites1.2": "Stromatolites",
   "ff.sign.earth_timeline.proterozoic.fossilized_proterozoic_stromatolites1.3": "",
@@ -944,7 +939,7 @@
   "ff.sign.earth_timeline.proterozoic.ediacaran_flora.3": "",
 
   "ff.sign.earth_timeline.proterozoic.precambrian_supereon.0": "",
-  "ff.sign.earth_timeline.proterozoic.precambrian_supereon.1": "PRECAMRIAN",
+  "ff.sign.earth_timeline.proterozoic.precambrian_supereon.1": "PRECAMBRIAN",
   "ff.sign.earth_timeline.proterozoic.precambrian_supereon.2": "SUPEREON",
   "ff.sign.earth_timeline.proterozoic.precambrian_supereon.3": "",
 
@@ -1028,6 +1023,11 @@
   "ff.sign.earth_timeline.carboniferous.ferns.2": "carboniferous",
   "ff.sign.earth_timeline.carboniferous.ferns.3": "undergrowth",
 
+  "ff.sign.earth_timeline.carboniferous.arthopleura.0": "Arthopleura was",
+  "ff.sign.earth_timeline.carboniferous.arthopleura.1": "a genus of",
+  "ff.sign.earth_timeline.carboniferous.arthopleura.2": "titanic millipede-",
+  "ff.sign.earth_timeline.carboniferous.arthopleura.3": "↓ like animals ↓",
+
   "ff.sign.earth_timeline.carboniferous.meganeura1.0": "↑ Meganeura ↑",
   "ff.sign.earth_timeline.carboniferous.meganeura1.1": "was a genus of",
   "ff.sign.earth_timeline.carboniferous.meganeura1.2": "dragonfly-like",
@@ -1109,9 +1109,14 @@
   "ff.sign.earth_timeline.triassic.electrostatic_generator.3": "",
 
   "ff.sign.earth_timeline.triassic.crocodile.0": "Crocodile-like →",
-  "ff.sign.earth_timeline.triassic.crocodile.1": "Phytosauria",
-  "ff.sign.earth_timeline.triassic.crocodile.2": "roamed in the",
+  "ff.sign.earth_timeline.triassic.crocodile.1": "Phytosauria ",
+  "ff.sign.earth_timeline.triassic.crocodile.2": "roamed in the ",
   "ff.sign.earth_timeline.triassic.crocodile.3": "Late Triassic →",
+
+  "ff.sign.earth_timeline.triassic.carnian_pluvial_ep.0": "Carnian Pluvial",
+  "ff.sign.earth_timeline.triassic.carnian_pluvial_ep.1": "Ep. (234-232 Mya)",
+  "ff.sign.earth_timeline.triassic.carnian_pluvial_ep.2": "Intense rainfall &",
+  "ff.sign.earth_timeline.triassic.carnian_pluvial_ep.3": "humidity worldwide",
 
   "ff.sign.earth_timeline.triassic.paleozoic_era.0": "",
   "ff.sign.earth_timeline.triassic.paleozoic_era.1": "PALEOZOIC ERA",
@@ -1129,14 +1134,14 @@
   "ff.sign.earth_timeline.triassic.climate_dried.3": "but also cooled",
 
   "ff.sign.earth_timeline.triassic.extinction1.0": "The Triassic-",
-  "ff.sign.earth_timeline.triassic.extinction1.1": "Jurrasic",
+  "ff.sign.earth_timeline.triassic.extinction1.1": "Jurassic",
   "ff.sign.earth_timeline.triassic.extinction1.2": "Extinction",
   "ff.sign.earth_timeline.triassic.extinction1.3": "201.4 Mya",
 
   "ff.sign.earth_timeline.triassic.extinction2.0": "Intense volcanism",
   "ff.sign.earth_timeline.triassic.extinction2.1": "from the rifting",
   "ff.sign.earth_timeline.triassic.extinction2.2": "of the Atlantic",
-  "ff.sign.earth_timeline.triassic.extinction2.3": "as Pangeo broke",
+  "ff.sign.earth_timeline.triassic.extinction2.3": "as Pangea broke",
 
   "ff.sign.earth_timeline.jurassic.conifers.0": "Conifers & ferns",
   "ff.sign.earth_timeline.jurassic.conifers.1": "were dominant",
@@ -1238,7 +1243,7 @@
   "ff.sign.earth_timeline.paleogene.antarctica2.2": "world",
   "ff.sign.earth_timeline.paleogene.antarctica2.3": "",
 
-  "ff.sign.earth_timeline.neogene.life_was_similar.0": "Neocene life",
+  "ff.sign.earth_timeline.neogene.life_was_similar.0": "Neogene life",
   "ff.sign.earth_timeline.neogene.life_was_similar.1": "was generally",
   "ff.sign.earth_timeline.neogene.life_was_similar.2": "similar to that of",
   "ff.sign.earth_timeline.neogene.life_was_similar.3": "today",
@@ -1305,8 +1310,8 @@
 
   "ff.sign.earth_timeline.exit.0": "",
   "ff.sign.earth_timeline.exit.1": "EARTH'S TIMELINE",
-  "ff.sign.earth_timeline.exit.2": "[Exit]",
-  "ff.sign.earth_timeline.exit.3": "",
+  "ff.sign.earth_timeline.exit.2": "",
+  "ff.sign.earth_timeline.exit.3": "[Exit]",
 
   "ff.sign.basement.lighting_breaker_box.0": "",
   "ff.sign.basement.lighting_breaker_box.1": "Lighting",
@@ -1394,7 +1399,7 @@
   "ff.sign.basement.storage.fertilizer.3": "",
 
   "ff.sign.basement.storage.water_balloon.0": "",
-  "ff.sign.basement.storage.water_balloon.1": "Fertilizer",
+  "ff.sign.basement.storage.water_balloon.1": "Water Balloon",
   "ff.sign.basement.storage.water_balloon.2": "",
   "ff.sign.basement.storage.water_balloon.3": "",
 
@@ -1430,13 +1435,13 @@
 
   "ff.sign.basement.tank_room.chlorine_monitor.0": "CHLORINE",
   "ff.sign.basement.tank_room.chlorine_monitor.1": "%1$s",
-  "ff.sign.basement.tank_room.chlorine_monitor.2": "Status: %2%s",
+  "ff.sign.basement.tank_room.chlorine_monitor.2": "Status: %2$s",
   "ff.sign.basement.tank_room.chlorine_monitor.3": "",
   "ff.sign.basement.tank_room.chlorine_monitor.safe": "SAFE",
 
   "ff.sign.basement.tank_room.saline_monitor.0": "SALINE MONITOR",
   "ff.sign.basement.tank_room.saline_monitor.1": "%1$s",
-  "ff.sign.basement.tank_room.saline_monitor.2": "Status: %2%s",
+  "ff.sign.basement.tank_room.saline_monitor.2": "Status: %2$s",
   "ff.sign.basement.tank_room.saline_monitor.3": "↓ RESET ↓",
   "ff.sign.basement.tank_room.saline_monitor.ok": "OK",
   "ff.sign.basement.tank_room.saline_monitor.warn": "WARN",
@@ -1470,5 +1475,10 @@
   "ff.sign.basement.staff_room.freezer.1": "%1$s",
   "ff.sign.basement.staff_room.freezer.2": "Status: %2$s",
   "ff.sign.basement.staff_room.freezer.3": "↓ RESET ↓",
-  "ff.sign.basement.staff_room.freezer.chill": "CHILL"
+  "ff.sign.basement.staff_room.freezer.chill": "CHILL",
+
+  "ff.sign.lower_bathroom.smelly_toilet.0": "",
+  "ff.sign.lower_bathroom.smelly_toilet.1": "OUT OF ORDER",
+  "ff.sign.lower_bathroom.smelly_toilet.2": "(Too Stinky)",
+  "ff.sign.lower_bathroom.smelly_toilet.3": ""
 }
