@@ -149,7 +149,7 @@
   "ff.item.fish_food": "Fish Food",
   "ff.item.copper_shuffle": "Copper Shuffle",
   "ff.item.instant_coffee": "Instant Coffee",
-  "ff.item.empty_popcorn": "Empty Popcorn",
+  "ff.item.empty_popcorn": "Empty Popcorn Bucket",
   "ff.item.pink_jelly": "Pink Jelly",
   "ff.item.leather": "Leather",
   "ff.item.brush": "Brush",
@@ -162,7 +162,7 @@
   "ff.item.lady_bug": "Lady Bug",
   "ff.item.basketball": "Basketball",
   "ff.item.basketball.description.1": "Here catch! Thanks for making me dance",
-  "ff.item.basketball.description.2": "-Copper Golem",
+  "ff.item.basketball.description.2": "-Coppy the Copper Golem",
   "ff.item.lost_key": "Lost Key",
   "ff.item.hoverboard": "Hoverboard",
   "ff.item.sniffer_dna_cloth": "Sniffer DNA",
@@ -624,8 +624,8 @@
   "ff.sign.aquatic.plesiosaur.3": "",
 
   "ff.sign.aquatic.nautilus_and_tube_dudes.0": "",
-  "ff.sign.aquatic.nautilus_and_tube_dudes.1": "Nautilus and",
-  "ff.sign.aquatic.nautilus_and_tube_dudes.2": "Tube Dudes",
+  "ff.sign.aquatic.nautilus_and_tube_dudes.1": "Nautiluses and",
+  "ff.sign.aquatic.nautilus_and_tube_dudes.2": "Tubeworms",
   "ff.sign.aquatic.nautilus_and_tube_dudes.3": "",
 
   "ff.sign.aquatic.golden_shark.0": "",
@@ -704,7 +704,7 @@
   "ff.sign.cafe.cookies.3": "",
 
   "ff.sign.boss_room.0": "",
-  "ff.sign.boss_room.1": "Boss Room",
+  "ff.sign.boss_room.1": "Boss's Office",
   "ff.sign.boss_room.2": "",
   "ff.sign.boss_room.3": "",
 
