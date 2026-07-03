@@ -13,5 +13,27 @@
   "narration.recipe.usage.more": "",
   "recipe.toast.description": "",
   "recipe.toast.title": "",
-  "tutorial.craft_planks.description": ""
+  "tutorial.craft_planks.description": "",
+
+  "ff.task.revitalize_coral": "Revitalise Coral",
+  "ff.task.fertilize_plant": "Fertilise Plant",
+  "ff.item.sand_dollar": "Sea Biscuit",
+  "ff.item.trilobite_fossil": "Fossilised Trilobite",
+  "ff.item.fertilizer": "Fertiliser",
+  "ff.item.pink_jelly": "Pink Gel",
+  "ff.item.cotton_candy": "Fairy Floss",
+  "ff.map.cafe": "Café",
+  "ff.map.theatre": "Theatre",
+  "ff.sign.mezzanine.fresh_cow_feces.2": "Faeces",
+  "ff.sign.mezzanine.fossilized_stegasaurus_feces.1": "Fossilised",
+  "ff.sign.mezzanine.fossilized_brontosaurus_feces.1": "Fossilised",
+  "ff.sign.mezzanine.cotton_candy.1": "Fairy Floss",
+  "ff.sign.foyer.fossilized_dimetrodon_egg.1": "Fossilised",
+  "ff.sign.earth_timeline.phanerozoic.fossilized_trilobite.0": "A fossilised",
+  "ff.sign.earth_timeline.ordovician.earth_rings1.1": "theorised to have",
+  "ff.sign.basement.lighting_breaker_box.2": "Fuse Box",
+  "ff.sign.basement.storage.pink_jelly.1": "Pink Gel",
+  "ff.sign.basement.storage.fertilizer.1": "Fertiliser",
+  "ff.sign.basement.ghost_prevention_room.1": "Centre of",
+  "ff.sign.lower_bathroom.smelly_toilet.2": "(Too Smelly)"
 }
