@@ -758,6 +758,11 @@
   "ff.sign.left_hall.sniffer.2": "",
   "ff.sign.left_hall.sniffer.3": "",
 
+  "ff.sign.left_hall.sniffer_egg.0": "",
+  "ff.sign.left_hall.sniffer_egg.1": "Sniffer",
+  "ff.sign.left_hall.sniffer_egg.2": "Egg",
+  "ff.sign.left_hall.sniffer_egg.3": "",
+  
   "ff.sign.left_hall.ankylosaurus.0": "",
   "ff.sign.left_hall.ankylosaurus.1": "Ankylosaurus",
   "ff.sign.left_hall.ankylosaurus.2": "",
@@ -1480,5 +1485,20 @@
   "ff.sign.lower_bathroom.smelly_toilet.0": "",
   "ff.sign.lower_bathroom.smelly_toilet.1": "OUT OF ORDER",
   "ff.sign.lower_bathroom.smelly_toilet.2": "(Too Stinky)",
-  "ff.sign.lower_bathroom.smelly_toilet.3": ""
+  "ff.sign.lower_bathroom.smelly_toilet.3": "",
+
+  "ff.sign.lobby.cave.the_wheel_prototype.0": "",
+  "ff.sign.lobby.cave.the_wheel_prototype.1": "The Wheel",
+  "ff.sign.lobby.cave.the_wheel_prototype.2": "Prototype1",
+  "ff.sign.lobby.cave.the_wheel_prototype.3": "",
+
+  "ff.sign.lobby.cave.door_storage.0": "",
+  "ff.sign.lobby.cave.door_storage.1": "Door",
+  "ff.sign.lobby.cave.door_storage.2": "Storage",
+  "ff.sign.lobby.cave.door_storage.3": "",
+
+  "ff.sign.lobby.armadillo_room.entrance.0": "",
+  "ff.sign.lobby.armadillo_room.entrance.1": "S.S.S.",
+  "ff.sign.lobby.armadillo_room.entrance.2": "",
+  "ff.sign.lobby.armadillo_room.entrance.3": ""
 }
