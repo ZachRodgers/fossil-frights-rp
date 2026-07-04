@@ -1516,5 +1516,8 @@
   "ff.sign.lobby.armadillo_room.entrance.0": "",
   "ff.sign.lobby.armadillo_room.entrance.1": "S.S.S.",
   "ff.sign.lobby.armadillo_room.entrance.2": "",
-  "ff.sign.lobby.armadillo_room.entrance.3": ""
+  "ff.sign.lobby.armadillo_room.entrance.3": "",
+
+  "ff.lady_bug_revolutionary.name": "Lady Bug",
+  "ff.lady_bug_revolutionary.message": "Join the lady bug revolution!!"
 }
