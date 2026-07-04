@@ -849,10 +849,10 @@
   "ff.sign.observatory.mars_replica.2": "1:1130000 Scale",
   "ff.sign.observatory.mars_replica.3": "",
 
-  "ff.sign.observatory.chondrite.0": "",
-  "ff.sign.observatory.chondrite.1": "Chondrite",
-  "ff.sign.observatory.chondrite.2": "",
-  "ff.sign.observatory.chondrite.3": "",
+  "ff.sign.observatory.chondrite.0": "Chondrite",
+  "ff.sign.observatory.chondrite.1": "A non-metallic",
+  "ff.sign.observatory.chondrite.2": "meteorite formed",
+  "ff.sign.observatory.chondrite.3": "around 4,566 Mya",
 
   "ff.sign.earth_timeline.hadean.precambrian_supereon.0": "",
   "ff.sign.earth_timeline.hadean.precambrian_supereon.1": "PRECAMBRIAN",
