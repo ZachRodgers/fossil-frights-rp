@@ -1,0 +1,49 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "fossil-frights:font/trap_ui/glow.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue300\ue301\ue302\ue303\ue304\ue305\ue306"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil-frights:font/trap_ui/freeze.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue310\ue311\ue312\ue313\ue314\ue315\ue316"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil-frights:font/trap_ui/antigravity.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue320\ue321\ue322\ue323\ue324\ue325\ue326"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil-frights:font/trap_ui/jelly.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue330\ue331\ue332\ue333\ue334\ue335\ue336"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil-frights:font/trap_ui/explosive.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue340\ue341\ue342\ue343\ue344\ue345\ue346\ue347"
+      ]
+    }
+  ]
+}
