@@ -1,0 +1,15 @@
+{
+  "sources": [
+    {
+      "type": "minecraft:paletted_permutations",
+      "textures": [
+        "fossil-frights:trims/entity/humanoid/paint",
+        "fossil-frights:trims/entity/humanoid_leggings/paint"
+      ],
+      "palette_key": "fossil-frights:palettes/trim_base",
+      "permutations": {
+        "paint": "fossil-frights:palettes/trim/unaffected"
+      }
+    }
+  ]
+}
