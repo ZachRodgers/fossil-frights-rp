@@ -9,6 +9,48 @@
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_items/microfiber_cloth"
         }
+      },
+      {
+        "threshold": 101,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/trap_glow"
+        }
+      },
+      {
+        "threshold": 102,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/trap_freeze"
+        }
+      },
+      {
+        "threshold": 103,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/trap_antigravity"
+        }
+      },
+      {
+        "threshold": 104,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/trap_jelly"
+        }
+      },
+      {
+        "threshold": 105,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/trap_explosive"
+        }
+      },
+      {
+        "threshold": 106,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/trap_empty"
+        }
       }
     ],
     "fallback": {

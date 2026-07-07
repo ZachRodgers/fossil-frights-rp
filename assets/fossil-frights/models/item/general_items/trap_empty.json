@@ -3,8 +3,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "fossil-frights:custom/general_items/glowtrap_placer",
-		"particle": "fossil-frights:custom/general_items/glowtrap_placer"
+		"0": "fossil-frights:custom/general_items/trap_empty",
+		"particle": "fossil-frights:custom/general_items/trap_empty"
 	},
 	"elements": [
 		{
