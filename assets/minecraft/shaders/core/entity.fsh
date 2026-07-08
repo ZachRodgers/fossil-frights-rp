@@ -63,7 +63,9 @@ void main() {
     color.rgb = mix(overlayColor.rgb, color.rgb, overlayColor.a);
 #endif
 #ifndef EMISSIVE
-    color *= lightMapColor;
+    if (!check_alpha(alpha, 250.0)) {
+        color *= lightMapColor;
+    }
 #endif
 
     fragColor = apply_fog(color, sphericalVertexDistance, cylindricalVertexDistance, FogEnvironmentalStart, FogEnvironmentalEnd, FogRenderDistanceStart, FogRenderDistanceEnd, FogColor);
