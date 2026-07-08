@@ -232,6 +232,7 @@
   "ff.item.trap_jelly": "Paint Trap",
   "ff.item.trap_explosive": "Explosive Trap",
   "ff.item.trap.description.1": "Left click to place trap. Right click to cycle traps.",
+  "ff.item.trap.description.2": "Shift click to pick up trap.",
   "ff.item.trap_glow.description.2": "Makes thief glow for 10s.",
   "ff.item.trap_glow.description.3": "Visible to guards, and to thieves during curse. 2 second cooldown.",
   "ff.item.trap_freeze.description.2": "Freeze thief in ice for 2.5 seconds.",
