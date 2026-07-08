@@ -295,6 +295,12 @@
   "ff.heists.capture_point": "ᴄᴀᴘᴛᴜʀᴇ ᴘᴏɪɴᴛ",
   "ff.heists.thieves": "ᴛʜɪᴇᴠᴇꜱ",
   "ff.heists.guards": "ɢᴜᴀʀᴅꜱ",
+  "ff.heists.stats.title": "========== Heist Stats ==========",
+  "ff.heists.stats.separator": "-------------------------------",
+  "ff.heists.stats.most_loot_captured": "Most Loot Captured: %1$s ($%2$s)",
+  "ff.heists.stats.most_keys_stolen": "Most Keys Stolen: %1$s (%2$s)",
+  "ff.heists.stats.most_deaths": "Most Deaths: %1$s (%2$s)",
+  "ff.heists.stats.most_thieves_killed": "Most Thieves Killed: %1$s (%2$s)",
 
   "ff.stats.title": "========== Your Stats ==========",
   "ff.stats.best_time": "Best Time: %s",
