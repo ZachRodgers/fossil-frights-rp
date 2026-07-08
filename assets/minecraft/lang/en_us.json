@@ -247,6 +247,7 @@
   "ff.item.invisimask.description.2": "%s seconds of invisibility",
   "ff.item.invisimask.description.3": "%s seconds of speed",
   "ff.item.invisimask.description.4": "%s second cooldown",
+  "ff.item.paint_armor": "Paint Splat",
   
   "ff.drink_purchased": "Purchased: %1$s",
   "ff.drink.bubbly_bat": "Bubbly Bat",
