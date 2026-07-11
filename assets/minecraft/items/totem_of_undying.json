@@ -86,6 +86,13 @@
           "type": "minecraft:model",
           "model": "fossil-frights:item/credits/players/stuffy"
         }
+      },
+      {
+        "threshold": 13,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/credits/players/dorkorc"
+        }
       }
     ],
     "fallback": {
