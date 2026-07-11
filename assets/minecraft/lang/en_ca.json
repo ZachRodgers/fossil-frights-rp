@@ -34,5 +34,10 @@
   "ff.sign.earth_timeline.ordovician.earth_rings1.1": "theorised to have",
   "ff.sign.basement.storage.fertilizer.1": "Fertiliser",
   "effect.minecraft.luck": "Double Jump",
-  "ff.sign.basement.ghost_prevention_room.1": "Centre of"
+  "ff.sign.basement.ghost_prevention_room.1": "Centre of",
+  "ff.death.explosive_trap": "%1$s was blown up by an explosive trap",
+  "ff.death.security_gate": "%1$s was crushed by a security gate",
+  "ff.death.garage_door": "%1$s was crushed by a garage door",
+  "ff.death.poisonous_glowberry": "%1$s ate a poisonous glow berry.",
+  "ff.death.star_gazing": "%1$s died looking at a star that was too bright"
 }
