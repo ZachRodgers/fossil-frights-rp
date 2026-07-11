@@ -7,7 +7,7 @@
         "threshold": 1,
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/cubekoin"
+          "model": "fossil-frights:item/general_items/dinocoin"
         }
       }
     ],
@@ -16,11 +16,11 @@
       "property": "minecraft:component",
       "predicate": "minecraft:custom_data",
       "value": {
-        "itemID": "cubekoin"
+        "itemID": "dinocoin"
       },
       "on_true": {
         "type": "minecraft:model",
-        "model": "fossil-frights:item/general_items/cubekoin"
+        "model": "fossil-frights:item/general_items/dinocoin"
       },
       "on_false": {
         "type": "minecraft:select",
@@ -31,14 +31,14 @@
             "when": [
               {
                 "extra": [
-                  "cubekoin"
+                  "dinocoin"
                 ],
                 "text": ""
               }
             ],
             "model": {
               "type": "minecraft:model",
-              "model": "fossil-frights:item/general_items/cubekoin"
+              "model": "fossil-frights:item/general_items/dinocoin"
             }
           }
         ],
