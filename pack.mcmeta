@@ -3,11 +3,11 @@
     "description": [
       {
         "color": "gold",
-        "text": "Fossil Frights\n"
+        "translate": "ff.pack.description.1"
       },
       {
         "color": "yellow",
-        "text": "Official Resource Pack"
+        "translate": "ff.pack.description.2"
       }
     ],
     "min_format": 88,
