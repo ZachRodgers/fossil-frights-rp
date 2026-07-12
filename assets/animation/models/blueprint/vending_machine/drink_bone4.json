@@ -1,6 +1,6 @@
 {
 	"textures": {
-		"4": "animation:blueprint/vending_machine/jurassic_juice_1_",
+		"4": "animation:blueprint/vending_machine/chorus_cola_1_",
 		"particle": "minecraft:item/pufferfish"
 	},
 	"display": {
