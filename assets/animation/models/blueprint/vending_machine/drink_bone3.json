@@ -1,0 +1,49 @@
+{
+	"textures": {
+		"3": "animation:blueprint/vending_machine/fossil_fizz_1_",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [6.27083, 4.85417, 6.5],
+			"to": [9.52083, 10.10417, 9.5],
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0,
+				"origin": [7.02083, 7.10417, 7]
+			},
+			"faces": {
+				"north": {
+					"uv": [6, 0, 7.5, 2.5],
+					"texture": "#3"
+				},
+				"east": {
+					"uv": [6, 2.5, 7.5, 5],
+					"texture": "#3"
+				},
+				"south": {
+					"uv": [6, 5, 7.5, 7.5],
+					"texture": "#3"
+				},
+				"west": {
+					"uv": [2, 7, 3.5, 9.5],
+					"texture": "#3"
+				},
+				"up": {
+					"uv": [5, 8.5, 3.5, 7],
+					"texture": "#3"
+				},
+				"down": {
+					"uv": [9, 0, 7.5, 1.5],
+					"texture": "#3"
+				}
+			}
+		}
+	]
+}

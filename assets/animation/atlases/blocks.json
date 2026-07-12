@@ -2,11 +2,6 @@
   "sources": [
     {
       "type": "directory",
-      "source": "custom",
-      "prefix": "custom/"
-    },
-    {
-      "type": "directory",
       "source": "blueprint",
       "prefix": "blueprint/"
     }
