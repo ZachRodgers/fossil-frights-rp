@@ -103,6 +103,14 @@
       }
     ]
   },
+  "vending_machine.refill": {
+    "sounds": [
+      {
+        "name": "fossil-frights:custom/vending_machine_refill",
+        "stream": false
+      }
+    ]
+  },
   "heists.loot_capture": {
     "sounds": [
       {
