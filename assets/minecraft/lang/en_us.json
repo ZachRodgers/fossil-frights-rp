@@ -400,6 +400,17 @@
   "ff.museum_map.terrarium": "Terrarium",
   "ff.museum_map.theater": "Theater",
 
+  "ff.security_camera.ruins": "Ruins",
+  "ff.security_camera.skeleton": "Skeleton",
+  "ff.security_camera.cafe": "Cafe",
+  "ff.security_camera.entry": "Entry",
+  "ff.security_camera.gift_shop": "Gift Shop",
+  "ff.security_camera.security": "Security",
+  "ff.security_camera.basement": "Basement",
+  "ff.security_camera.left_hall": "Left Hall",
+  "ff.security_camera.aviary": "Aviary",
+  "ff.security_camera.eggshibit": "Eggshibit",
+
   "ff.survived_to_day": "⭐ %1$s survived to day %2$s.",
   "ff.beat_time": "⭐ %1$s beat the game in %2$s.",
   "ff.exit_day_reached": "⭐ %1$s made it to day %2$s.",
