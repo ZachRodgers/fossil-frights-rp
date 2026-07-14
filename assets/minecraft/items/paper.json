@@ -764,6 +764,13 @@
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_items/pterodactyl_dna_cloth"
         }
+      },
+      {
+        "threshold": 40,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/misc/cc_map"
+        }
       }
     ],
     "fallback": {
