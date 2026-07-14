@@ -1,0 +1,45 @@
+{
+	"textures": {
+		"0": "animation:blueprint/sculkadillo/sculkadillo",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [7, 4.75, 6.65],
+			"to": [9, 7.75, 8.65],
+			"rotation": {
+				"x": 5,
+				"y": 0,
+				"z": 0,
+				"origin": [10, 4.75, 11.65]
+			},
+			"faces": {
+				"north": {
+					"uv": [11, 11.25, 11.5, 12],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [10.5, 11.25, 11, 12],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [12, 11.25, 12.5, 12],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [11.5, 11.25, 12, 12],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [12, 10.75, 11.5, 11.25],
+					"texture": "#0"
+				}
+			}
+		}
+	]
+}
