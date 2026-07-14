@@ -54,6 +54,8 @@
   "ff.advancement.temple_runner.description": "Complete the Temple Run",
   "ff.advancement.warrior_ant": "Warrior Ant",
   "ff.advancement.warrior_ant.description": "Get an Ant Score of 10+",
+  "ff.advancement.striker": "Striker",
+  "ff.advancement.striker.description": "Score a goal in Sulphur Striker",
   
   "ff.task.bathroom_leak": "Bathroom Leak",
   "ff.task.check_ankylo": "Check Ankylo",
@@ -1558,5 +1560,10 @@
   "ff.sign.lobby.armadillo_room.entrance.3": "",
 
   "ff.lady_bug_revolutionary.name": "Lady Bug",
-  "ff.lady_bug_revolutionary.message": "Join the lady bug revolution!!"
+  "ff.lady_bug_revolutionary.message": "Join the lady bug revolution!!",
+
+  "ff.lobby.sulfur_strikers.yellow_score": "Yellow: %s",
+  "ff.lobby.sulfur_strikers.cyan_score": "Cyan: %s",
+  "ff.lobby.sulfur_strikers.yellow_scored": "Yellow scored a point",
+  "ff.lobby.sulfur_strikers.cyan_scored": "Cyan scored a point"
 }
