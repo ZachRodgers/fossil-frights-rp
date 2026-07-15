@@ -373,6 +373,11 @@
   "ff.command.invite.description" : "enable multiplayer",
   "ff.command.info.description" : "gameplay info & rules",
   "ff.command.tutorial.description" : "ingame tutorial",
+
+  "ff.boss" : "Boss",
+  "ff.boss.hey": "<%1$s> Hey %2$s",
+  "ff.boss.title": "You're Fired!",
+  "ff.boss.subtitle": "You weren't fast enough",
   
   "ff.museum_map_already_claimed": "You already have a map",
   "ff.museum_map.aquatic": "Aquatic",
