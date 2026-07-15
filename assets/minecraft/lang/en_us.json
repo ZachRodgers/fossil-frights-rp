@@ -400,6 +400,10 @@
   "ff.command.invite.description" : "enable multiplayer",
   "ff.command.info.description" : "gameplay info & rules",
   "ff.command.tutorial.description" : "ingame tutorial",
+  "ff.button.tutorial_start": "\ue400",
+  "ff.button.queue_start": "\ue401",
+  "ff.button.invite_accept": "\ue402",
+  "ff.button.leave_now": "\ue403",
 
   "ff.boss" : "Boss",
   "ff.boss.hey": "<%1$s> Hey %2$s",
