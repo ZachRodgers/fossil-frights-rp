@@ -1148,8 +1148,8 @@
   "ff.sign.earth_timeline.carboniferous.anoxic_marshes.3": "form (most) coal",
 
   "ff.sign.earth_timeline.carboniferous.oxygen_levels.0": "O₂ levels",
-  "ff.sign.earth_timeline.carboniferous.oxygen_levels.1": "reached 35%",
-  "ff.sign.earth_timeline.carboniferous.oxygen_levels.2": "(vs 21% today)",
+  "ff.sign.earth_timeline.carboniferous.oxygen_levels.1": "reached 35%%",
+  "ff.sign.earth_timeline.carboniferous.oxygen_levels.2": "(vs 21%% today)",
   "ff.sign.earth_timeline.carboniferous.oxygen_levels.3": "",
 
   "ff.sign.earth_timeline.carboniferous.late_paleozoic_ice_age1.0": "Late Paleozoic",
