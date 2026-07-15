@@ -304,6 +304,8 @@
   "ff.drink_purchased": "Purchased: %1$s",
   "ff.drink.bubbly_bat": "Bubbly Bat",
   "ff.drink.bubbly_bat.description": "A refreshing glow berry brew. Best served chilled.",
+  "ff.drink.bubbly_bat.effect.levitation": "Levitation VI (0:05)",
+  "ff.drink.bubbly_bat.effect.night_vision": "Night Vision (5:00)",
   "ff.drink.chorus_cola": "Chorus Cola (Coming Soon)",
   "ff.drink.chorus_cola.description": "A tropical refreshment!",
   "ff.drink.fossil_fizz": "Fossil Fizz",
