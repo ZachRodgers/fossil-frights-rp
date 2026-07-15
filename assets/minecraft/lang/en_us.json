@@ -437,10 +437,17 @@
   "ff.lobby.temple_run": "Temple Run",
   "ff.lobby.sulfur_strikers": "Sulfur Striker",
   "ff.lobby.bee_parkour": "Bee Parkour",
+
   "ff.lobby.teleporter": "Teleporter",
   "ff.lobby.parkour_time": "Parkour: %ss",
   "ff.lobby.parkour.no_times_yet": "No times yet",
+  "ff.lobby.parkour.actionbar": "Parkour Time: %ss",
+  "ff.lobby.parkour.announcement": "⭐ %1$s completed the parkour in %2$ss.",
+  "ff.lobby.temple_run_time": "Temple Run: %ss",
   "ff.lobby.temple_run.no_times_yet": "No times yet",
+  "ff.lobby.temple_run.actionbar": "Temple Run Time: %ss",
+  "ff.lobby.temple_run.announcement": "⭐ %1$s completed Temple Run in %2$ss.",
+
   "ff.start": "ꜱᴛᴀʀᴛ",
   "ff.next_day": "ɴᴇxᴛ ᴅᴀʏ",
   "ff.waiting_for_players": "Waiting\nfor players",
