@@ -98,6 +98,10 @@
       "chars": [
         ""
       ]
+    },
+    {
+      "type": "reference",
+      "id": "minecraft:default"
     }
   ]
 }
