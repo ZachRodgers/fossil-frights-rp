@@ -486,6 +486,9 @@
   "ff.lobby.temple_run.actionbar": "Temple Run Time: %ss",
   "ff.lobby.temple_run.announcement": "⭐ %1$s completed Temple Run in %2$ss.",
 
+  "ff.lobby.leaderboard.best": "ʙᴇꜱᴛ",
+  "ff.lobby.leaderboard.player": "ᴘʟᴀʏᴇʀ",
+
   "ff.start": "ꜱᴛᴀʀᴛ",
   "ff.next_day": "ɴᴇxᴛ ᴅᴀʏ",
   "ff.waiting_for_players": "Waiting\nfor players",
