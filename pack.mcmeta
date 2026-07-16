@@ -3,11 +3,13 @@
     "description": [
       {
         "color": "gold",
-        "translate": "ff.pack.description.1"
+        "translate": "ff.pack.description.1",
+        "fallback": "Fossil Frights\n"
       },
       {
         "color": "yellow",
-        "translate": "ff.pack.description.2"
+        "translate": "ff.pack.description.2",
+        "fallback": "Official Resource Pack"
       }
     ],
     "min_format": 88,
