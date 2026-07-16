@@ -16,8 +16,16 @@
   "recipe.toast.title": "",
   "tutorial.craft_planks.description": "",
 
+  "ff.messages.info": "ℹ %s",
+  "ff.messages.warning": "⚠ %s",
+
   "ff.pack.description.1": "Fossil Frights\n",
   "ff.pack.description.2": "Official Resource Pack",
+
+  "ff.messages.info.entering_museum": "%s is entering the museum.",
+  "ff.messages.info.up_next": "You're up next. Confirm within %ss",
+  "ff.messages.info.victory_leave_prompt": "Congratulations. The game will reset in 30 seconds. %s",
+  "ff.messages.info.watch_tutorial": "Watch the in-game tutorial to help get started! %s",
 
   "subtitles.fossil-frights.front_door_close": "Museum door closes",
   "subtitles.fossil-frights.hazards.lights": "Lights go out",
@@ -407,9 +415,11 @@
   "ff.command.info.description" : "gameplay info & rules",
   "ff.command.tutorial.description" : "ingame tutorial",
   "ff.button.tutorial_start": "\ue400",
+  "ff.button.tutorial_start.override": "",
   "ff.button.queue_start": "\ue401",
   "ff.button.invite_accept": "\ue407",
   "ff.button.leave_now": "\ue403",
+  "ff.button.leave_now.override": "",
   "ff.button.heist_ready": "\ue405",
   "ff.button.heist_unready": "\ue40a",
 
