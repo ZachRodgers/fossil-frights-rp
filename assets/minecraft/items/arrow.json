@@ -16,6 +16,13 @@
           "type": "minecraft:model",
           "model": "fossil-frights:item/misc/wood_arrow"
         }
+      },
+      {
+        "threshold": 3,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/misc/bee"
+        }
       }
     ],
     "fallback": {
