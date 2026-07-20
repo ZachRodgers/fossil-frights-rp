@@ -17,6 +17,15 @@
       }
     ]
   },
+  "hazards.breaker_close": {
+    "subtitle": "subtitles.fossil-frights.hazards.breaker_close",
+    "sounds": [
+      {
+        "name": "fossil-frights:hazards/breaker_close",
+        "stream": false
+      }
+    ]
+  },
   "hazards.lava": {
     "subtitle": "subtitles.fossil-frights.hazards.lava",
     "sounds": [
