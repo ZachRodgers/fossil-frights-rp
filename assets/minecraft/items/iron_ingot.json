@@ -9,6 +9,20 @@
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_items/scrap_metal"
         }
+      },
+      {
+        "threshold": 3,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_blocks/breaker_box"
+        }
+      },
+      {
+        "threshold": 4,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_blocks/breaker_box_door"
+        }
       }
     ],
     "fallback": {
