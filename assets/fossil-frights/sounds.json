@@ -1,144 +1,144 @@
 {
   "front_door_close": {
-    "subtitle": "subtitles.fossil-frights.front_door_close",
+    "subtitle": "subtitles.fossil_frights.front_door_close",
     "sounds": [
       {
-        "name": "fossil-frights:custom/front_door_close",
+        "name": "fossil_frights:custom/front_door_close",
         "stream": false
       }
     ]
   },
   "hazards.lights": {
-    "subtitle": "subtitles.fossil-frights.hazards.lights",
+    "subtitle": "subtitles.fossil_frights.hazards.lights",
     "sounds": [
       {
-        "name": "fossil-frights:hazards/lights",
+        "name": "fossil_frights:hazards/lights",
         "stream": false
       }
     ]
   },
   "hazards.breaker_close": {
-    "subtitle": "subtitles.fossil-frights.hazards.breaker_close",
+    "subtitle": "subtitles.fossil_frights.hazards.breaker_close",
     "sounds": [
       {
-        "name": "fossil-frights:hazards/breaker_close",
+        "name": "fossil_frights:hazards/breaker_close",
         "stream": false
       }
     ]
   },
   "hazards.lava": {
-    "subtitle": "subtitles.fossil-frights.hazards.lava",
+    "subtitle": "subtitles.fossil_frights.hazards.lava",
     "sounds": [
       {
-        "name": "fossil-frights:hazards/lava",
+        "name": "fossil_frights:hazards/lava",
         "stream": false
       }
     ]
   },
   "hazards.floods": {
-    "subtitle": "subtitles.fossil-frights.hazards.floods",
+    "subtitle": "subtitles.fossil_frights.hazards.floods",
     "sounds": [
       {
-        "name": "fossil-frights:hazards/floods",
+        "name": "fossil_frights:hazards/floods",
         "stream": false
       }
     ]
   },
   "hazards.security": {
-    "subtitle": "subtitles.fossil-frights.hazards.security",
+    "subtitle": "subtitles.fossil_frights.hazards.security",
     "sounds": [
       {
-        "name": "fossil-frights:hazards/security",
+        "name": "fossil_frights:hazards/security",
         "stream": false
       }
     ]
   },
   "hazards.curse": {
-    "subtitle": "subtitles.fossil-frights.hazards.curse",
+    "subtitle": "subtitles.fossil_frights.hazards.curse",
     "sounds": [
       {
-        "name": "fossil-frights:hazards/curse",
+        "name": "fossil_frights:hazards/curse",
         "stream": false
       }
     ]
   },
   "ff_night_shift": {
-    "subtitle": "subtitles.fossil-frights.ff_night_shift",
+    "subtitle": "subtitles.fossil_frights.ff_night_shift",
     "sounds": [
       {
-        "name": "fossil-frights:custom/ff_night_shift",
+        "name": "fossil_frights:custom/ff_night_shift",
         "stream": true
       }
     ]
   },
   "ff_day_complete": {
-    "subtitle": "subtitles.fossil-frights.ff_day_complete",
+    "subtitle": "subtitles.fossil_frights.ff_day_complete",
     "sounds": [
       {
-        "name": "fossil-frights:custom/ff_day_complete",
+        "name": "fossil_frights:custom/ff_day_complete",
         "stream": false
       }
     ]
   },
   "heists.alarm": {
-    "subtitle": "subtitles.fossil-frights.heists.alarm",
+    "subtitle": "subtitles.fossil_frights.heists.alarm",
     "sounds": [
       {
-        "name": "fossil-frights:custom/alarm",
+        "name": "fossil_frights:custom/alarm",
         "stream": false
       }
     ]
   },
   "camera.open": {
-    "subtitle": "subtitles.fossil-frights.camera.open",
+    "subtitle": "subtitles.fossil_frights.camera.open",
     "sounds": [
       {
-        "name": "fossil-frights:custom/camera_open",
+        "name": "fossil_frights:custom/camera_open",
         "stream": false
       }
     ]
   },
   "camera.switch": {
-    "subtitle": "subtitles.fossil-frights.camera.switch",
+    "subtitle": "subtitles.fossil_frights.camera.switch",
     "sounds": [
       {
-        "name": "fossil-frights:custom/camera_switch",
+        "name": "fossil_frights:custom/camera_switch",
         "stream": false
       }
     ]
   },
   "camera.close": {
-    "subtitle": "subtitles.fossil-frights.camera.close",
+    "subtitle": "subtitles.fossil_frights.camera.close",
     "sounds": [
       {
-        "name": "fossil-frights:custom/camera_close",
+        "name": "fossil_frights:custom/camera_close",
         "stream": false
       }
     ]
   },
   "heists.highlight_thief": {
-    "subtitle": "subtitles.fossil-frights.heists.highlight_thief",
+    "subtitle": "subtitles.fossil_frights.heists.highlight_thief",
     "sounds": [
       {
-        "name": "fossil-frights:custom/highlight_thief",
+        "name": "fossil_frights:custom/highlight_thief",
         "stream": false
       }
     ]
   },
   "vending_machine.refill": {
-    "subtitle": "subtitles.fossil-frights.vending_machine.refill",
+    "subtitle": "subtitles.fossil_frights.vending_machine.refill",
     "sounds": [
       {
-        "name": "fossil-frights:custom/vending_machine_refill",
+        "name": "fossil_frights:custom/vending_machine_refill",
         "stream": false
       }
     ]
   },
   "heists.loot_capture": {
-    "subtitle": "subtitles.fossil-frights.heists.loot_capture",
+    "subtitle": "subtitles.fossil_frights.heists.loot_capture",
     "sounds": [
       {
-        "name": "fossil-frights:custom/loot_capture",
+        "name": "fossil_frights:custom/loot_capture",
         "stream": false
       }
     ]
