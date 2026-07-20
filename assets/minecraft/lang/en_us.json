@@ -986,10 +986,20 @@
   "ff.sign.gift_shop.coppy_the_copper_golem.2": "the Copper Golem",
   "ff.sign.gift_shop.coppy_the_copper_golem.3": "",
 
-  "ff.sign.cafe.drinks_machine.0": "1 Cubekoin    ",
-  "ff.sign.cafe.drinks_machine.1": "=",
-  "ff.sign.cafe.drinks_machine.2": "1 Dino-Themed",
-  "ff.sign.cafe.drinks_machine.3": "Drink",
+  "ff.sign.cafe.vending_machine.top.0": "",
+  "ff.sign.cafe.vending_machine.top.1": "DinoPop™",
+  "ff.sign.cafe.vending_machine.top.2": "Vending Machine",
+  "ff.sign.cafe.vending_machine.top.3": "",
+
+  "ff.sign.cafe.vending_machine.bottom_left.0": "^^^",
+  "ff.sign.cafe.vending_machine.bottom_left.1": "Click to",
+  "ff.sign.cafe.vending_machine.bottom_left.2": "Purchase",
+  "ff.sign.cafe.vending_machine.bottom_left.3": "",
+
+  "ff.sign.cafe.vending_machine.bottom_right.0": "",
+  "ff.sign.cafe.vending_machine.bottom_right.1": "Cost:",
+  "ff.sign.cafe.vending_machine.bottom_right.2": "    1 Dino Coin",
+  "ff.sign.cafe.vending_machine.bottom_right.3": "",
 
   "ff.sign.cafe.carrot_cake.0": "Carrot Cake",
   "ff.sign.cafe.carrot_cake.1": "",
