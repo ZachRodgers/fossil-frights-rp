@@ -23,6 +23,13 @@
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_blocks/breaker_box_door"
         }
+      },
+      {
+        "threshold": 5,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_blocks/breaker_box_lever"
+        }
       }
     ],
     "fallback": {
