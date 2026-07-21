@@ -21,7 +21,7 @@
     "subtitle": "subtitles.fossil_frights.hazards.breaker_close",
     "sounds": [
       {
-        "name": "fossil_frights:hazards/breaker_close",
+        "name": "fossil-frights:hazards/breaker_close",
         "stream": false
       }
     ]
