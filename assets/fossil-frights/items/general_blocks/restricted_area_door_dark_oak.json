@@ -34,7 +34,7 @@
               },
               {
                 "type": "minecraft:model",
-                "model": "minecraft:block/dark_oak_wall_sign",
+                "model": "minecraft:block/cherry_wall_sign",
                 "transformation": {
                   "translation": [0,1,1],
                   "left_rotation": [0,0,0,1],
@@ -69,7 +69,7 @@
               },
               {
                 "type": "minecraft:model",
-                "model": "minecraft:block/dark_oak_wall_sign",
+                "model": "minecraft:block/cherry_wall_sign",
                 "transformation": {
                   "translation": [0.8125,1,0],
                   "left_rotation": {"axis":[0,1,0],"angle":-1.57079632679},
@@ -110,7 +110,7 @@
           },
           {
             "type": "minecraft:model",
-            "model": "minecraft:block/dark_oak_wall_sign",
+            "model": "minecraft:block/cherry_wall_sign",
             "transformation": {
               "translation": [0,1,1],
               "left_rotation": [0,0,0,1],
@@ -145,7 +145,7 @@
           },
           {
             "type": "minecraft:model",
-            "model": "minecraft:block/dark_oak_wall_sign",
+            "model": "minecraft:block/cherry_wall_sign",
             "transformation": {
               "translation": [0.1875,1,1],
               "left_rotation": {"axis":[0,1,0],"angle":1.57079632679},
