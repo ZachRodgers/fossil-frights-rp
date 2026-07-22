@@ -1,0 +1,121 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/template_wall_sign",
+	"textures": {
+		"2": "fossil-frights:custom/general_blocks/placards/brass_placard",
+		"all": "block/dark_oak_sign"
+	},
+	"elements": [
+		{
+			"name": "sign",
+			"from": [0, 4.33333, 0.33333],
+			"to": [16, 12.33333, 1.66667],
+			"faces": {
+				"north": {"uv": [0, 8, 12, 14], "texture": "#all"},
+				"east": {"uv": [12, 1, 13, 7], "texture": "#all", "cullface": "east"},
+				"south": {"uv": [0, 1, 12, 7], "texture": "#all"},
+				"west": {"uv": [12, 8, 13, 14], "texture": "#all", "cullface": "west"},
+				"up": {"uv": [0, 0, 12, 1], "texture": "#all"},
+				"down": {"uv": [0, 14, 12, 15], "texture": "#all"}
+			}
+		},
+		{
+			"from": [-1, 3.3, -1],
+			"to": [17, 5.3, 0],
+			"rotation": {"x": 90, "y": 0, "z": 0, "origin": [0, 3.3, 0]},
+			"faces": {
+				"north": {"uv": [9, 0.5, 0, 1], "texture": "#2"},
+				"east": {"uv": [2, 5.5, 1.5, 6], "texture": "#2"},
+				"south": {"uv": [9, 0, 0, 0.5], "texture": "#2"},
+				"west": {"uv": [2.5, 5.5, 2, 6], "texture": "#2"},
+				"up": {"uv": [9, 1, 0, 1.5], "texture": "#2"},
+				"down": {"uv": [9, 2, 0, 1.5], "texture": "#2"}
+			}
+		},
+		{
+			"from": [-1, 3.3, -10],
+			"to": [17, 5.3, -9],
+			"rotation": {"x": 90, "y": 0, "z": 0, "origin": [0, 3.3, 0]},
+			"faces": {
+				"north": {"uv": [9, 2.5, 0, 3], "texture": "#2"},
+				"east": {"uv": [3, 5.5, 2.5, 6], "texture": "#2"},
+				"south": {"uv": [9, 2, 0, 2.5], "texture": "#2"},
+				"west": {"uv": [3.5, 5.5, 3, 6], "texture": "#2"},
+				"up": {"uv": [9, 3, 0, 3.5], "texture": "#2"},
+				"down": {"uv": [9, 4, 0, 3.5], "texture": "#2"}
+			}
+		},
+		{
+			"from": [16, 3.3, -9],
+			"to": [17, 5.3, -1],
+			"rotation": {"x": 90, "y": 0, "z": 0, "origin": [0, 3.3, 0]},
+			"faces": {
+				"east": {"uv": [4, 4, 0, 4.5], "texture": "#2"},
+				"west": {"uv": [8, 4, 4, 4.5], "texture": "#2"},
+				"up": {"uv": [0.5, 4.5, 0, 8.5], "texture": "#2"},
+				"down": {"uv": [1, 8.5, 0.5, 4.5], "texture": "#2"}
+			}
+		},
+		{
+			"from": [-1, 3.3, -9],
+			"to": [0, 5.3, -1],
+			"rotation": {"x": 90, "y": 0, "z": 0, "origin": [0, 3.3, 0]},
+			"faces": {
+				"east": {"uv": [5, 4.5, 1, 5], "texture": "#2"},
+				"west": {"uv": [5, 5, 1, 5.5], "texture": "#2"},
+				"up": {"uv": [5.5, 4.5, 5, 8.5], "texture": "#2"},
+				"down": {"uv": [1.5, 9.5, 1, 5.5], "texture": "#2"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 1.5, 0],
+			"scale": [0.51, 0.51, 0.51]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 1.5, 0],
+			"scale": [0.51, 0.51, 0.51]
+		},
+		"firstperson_righthand": {
+			"rotation": [62, 0, 0],
+			"translation": [3.75, 0.75, 4.75]
+		},
+		"firstperson_lefthand": {
+			"rotation": [62, 0, 0],
+			"translation": [3.75, 0.75, 4.75]
+		},
+		"ground": {
+			"translation": [0, 6.75, 0]
+		},
+		"gui": {
+			"rotation": [53, 41, -17],
+			"translation": [1.5, 2.75, 0],
+			"scale": [0.62, 0.62, 0.62]
+		},
+		"head": {
+			"scale": [2, 2, 2]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0.75, -28],
+			"scale": [2, 3.44, 2]
+		},
+		"on_shelf": {
+			"rotation": [90, 0, 0],
+			"translation": [0, 7, 35.75],
+			"scale": [4, 4, 4]
+		}
+	},
+	"groups": [
+		0,
+		{
+			"name": "frame",
+			"origin": [0, 0, 4],
+			"scope": 0,
+			"color": 0,
+			"children": [1, 2, 3, 4]
+		}
+	]
+}
