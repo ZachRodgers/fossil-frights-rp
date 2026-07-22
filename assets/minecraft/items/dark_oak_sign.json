@@ -1,16 +1,28 @@
 {
   "model": {
-    "type": "minecraft:condition",
-    "property": "minecraft:component",
-    "predicate": "minecraft:custom_data",
-    "value": {
-      "itemID": "andesite_placard"
-    },
-    "on_true": {
-      "type": "minecraft:model",
-      "model": "fossil-frights:item/general_blocks/placards/andesite_placard"
-    },
-    "on_false": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "entries": [
+      {
+        "threshold": 1,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_blocks/placards/placard_generic"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "itemID": "andesite_placard"
+      },
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "fossil-frights:item/general_blocks/placards/andesite_placard"
+      },
+      "on_false": {
       "type": "minecraft:condition",
       "property": "minecraft:component",
       "predicate": "minecraft:custom_data",
@@ -88,4 +100,5 @@
       }
     }
   }
+}
 }
