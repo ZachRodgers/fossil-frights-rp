@@ -9,6 +9,48 @@
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_items/lady_bug"
         }
+      },
+      {
+        "threshold": 2,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/insects_1"
+        }
+      },
+      {
+        "threshold": 3,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/insects_2"
+        }
+      },
+      {
+        "threshold": 4,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/reptiles_1"
+        }
+      },
+      {
+        "threshold": 5,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/reptiles_2"
+        }
+      },
+      {
+        "threshold": 6,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/butterflies_1"
+        }
+      },
+      {
+        "threshold": 7,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_items/butterflies_2"
+        }
       }
     ],
     "fallback": {
