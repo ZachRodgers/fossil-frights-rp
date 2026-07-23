@@ -1,0 +1,13 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "fossil-frights:font/paint_splat_overlay.png",
+      "ascent": 36,
+      "height": 78,
+      "chars": [
+        "\ue001"
+      ]
+    }
+  ]
+}
