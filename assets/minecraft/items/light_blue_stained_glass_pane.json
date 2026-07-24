@@ -1,63 +1,83 @@
 {
   "model": {
-    "type": "minecraft:condition",
-    "property": "minecraft:component",
-    "predicate": "minecraft:custom_data",
-    "value": {
-      "itemID": "wet_floor_sign"
-    },
-    "on_true": {
-      "type": "minecraft:model",
-      "model": "fossil-frights:item/general_blocks/wet_floor_sign"
-    },
-    "on_false": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "entries": [
+      {
+        "threshold": 1,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_blocks/computer"
+        }
+      },
+      {
+        "threshold": 2,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_blocks/server"
+        }
+      }
+    ],
+    "fallback": {
       "type": "minecraft:condition",
       "property": "minecraft:component",
       "predicate": "minecraft:custom_data",
       "value": {
-        "itemID": "multiplayer_terminal"
+        "itemID": "wet_floor_sign"
       },
       "on_true": {
         "type": "minecraft:model",
-        "model": "fossil-frights:item/general_blocks/multiplayer_terminal"
+        "model": "fossil-frights:item/general_blocks/wet_floor_sign"
       },
       "on_false": {
-        "type": "minecraft:select",
+        "type": "minecraft:condition",
         "property": "minecraft:component",
-        "component": "minecraft:lore",
-        "cases": [
-          {
-            "when": [
-              {
-                "extra": [
-                  "wet_floor_sign"
-                ],
-                "text": ""
-              }
-            ],
-            "model": {
-              "type": "minecraft:model",
-              "model": "fossil-frights:item/general_blocks/wet_floor_sign"
-            }
-          },
-          {
-            "when": [
-              {
-                "extra": [
-                  "multiplayer_terminal"
-                ],
-                "text": ""
-              }
-            ],
-            "model": {
-              "type": "minecraft:model",
-              "model": "fossil-frights:item/general_blocks/multiplayer_terminal"
-            }
-          }
-        ],
-        "fallback": {
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "itemID": "multiplayer_terminal"
+        },
+        "on_true": {
           "type": "minecraft:model",
-          "model": "minecraft:item/light_blue_stained_glass_pane"
+          "model": "fossil-frights:item/general_blocks/multiplayer_terminal"
+        },
+        "on_false": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:lore",
+          "cases": [
+            {
+              "when": [
+                {
+                  "extra": [
+                    "wet_floor_sign"
+                  ],
+                  "text": ""
+                }
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/general_blocks/wet_floor_sign"
+              }
+            },
+            {
+              "when": [
+                {
+                  "extra": [
+                    "multiplayer_terminal"
+                  ],
+                  "text": ""
+                }
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:item/general_blocks/multiplayer_terminal"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/light_blue_stained_glass_pane"
+          }
         }
       }
     }
