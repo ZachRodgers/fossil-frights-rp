@@ -1,5 +1,5 @@
 {
-	"format_version": "1.21.6",
+	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
@@ -9,9 +9,9 @@
 	"elements": [
 		{
 			"name": "wing",
-			"from": [2, 0, 9],
-			"to": [8, 11, 9],
-			"rotation": {"angle": -20, "axis": "y", "origin": [8, 0, 9]},
+			"from": [2, 10, 4],
+			"to": [8, 21, 4],
+			"rotation": {"x": -7.97532, "y": -19.82169, "z": 2.71994, "origin": [8, 10, 4]},
 			"faces": {
 				"north": {"uv": [6, 0, 3, 5.5], "texture": "#0"},
 				"east": {"uv": [1, 0, 1, 5.5], "texture": "#missing"},
@@ -23,9 +23,9 @@
 		},
 		{
 			"name": "wing",
-			"from": [8, 0, 9],
-			"to": [14, 11, 9],
-			"rotation": {"angle": 20, "axis": "y", "origin": [8, 0, 9]},
+			"from": [8, 10, 4],
+			"to": [14, 21, 4],
+			"rotation": {"x": -7.97532, "y": 19.82169, "z": -2.71994, "origin": [8, 10, 4]},
 			"faces": {
 				"north": {"uv": [3, 0, 6, 5.5], "texture": "#0"},
 				"east": {"uv": [1, 0, 1, 5.5], "texture": "#missing"},
@@ -65,9 +65,9 @@
 		},
 		{
 			"name": "wing",
-			"from": [18, 0, 9],
-			"to": [24, 11, 9],
-			"rotation": {"angle": -20, "axis": "y", "origin": [24, 0, 9]},
+			"from": [18, 3, 16],
+			"to": [24, 14, 16],
+			"rotation": {"angle": -32.5, "axis": "y", "origin": [24, 3, 16]},
 			"faces": {
 				"north": {"uv": [0, 0, 3, 5.5], "texture": "#0"},
 				"east": {"uv": [0, 0, 0, 5.5], "texture": "#0"},
@@ -79,9 +79,9 @@
 		},
 		{
 			"name": "wing",
-			"from": [24, 0, 9],
-			"to": [30, 11, 9],
-			"rotation": {"angle": 20, "axis": "y", "origin": [24, 0, 9]},
+			"from": [24, 3, 16],
+			"to": [30, 14, 16],
+			"rotation": {"angle": 7.5, "axis": "y", "origin": [24, 3, 16]},
 			"faces": {
 				"north": {"uv": [3, 0, 0, 5.5], "texture": "#0"},
 				"east": {"uv": [0, 0, 0, 5.5], "texture": "#0"},
