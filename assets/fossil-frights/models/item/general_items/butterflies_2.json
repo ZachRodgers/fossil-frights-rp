@@ -67,7 +67,7 @@
 			"name": "wing",
 			"from": [18, 9, 4],
 			"to": [24, 20, 4],
-			"rotation": {"x": 0, "y": 10, "z": 0, "origin": [24, 9, 4]},
+			"rotation": {"angle": 10, "axis": "y", "origin": [24, 9, 4]},
 			"faces": {
 				"north": {"uv": [0, 0, 3, 5.5], "texture": "#0"},
 				"east": {"uv": [0, 0, 0, 5.5], "texture": "#0"},
