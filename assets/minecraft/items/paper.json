@@ -771,6 +771,13 @@
           "type": "minecraft:model",
           "model": "fossil-frights:item/misc/cc_map"
         }
+      },
+      {
+        "threshold": 41,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/heists/loot/ancient_scripture"
+        }
       }
     ],
     "fallback": {
