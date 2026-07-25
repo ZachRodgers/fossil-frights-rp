@@ -649,6 +649,11 @@
   "ff.lobby.leaderboard.best": "ʙᴇꜱᴛ",
   "ff.lobby.leaderboard.player": "ᴘʟᴀʏᴇʀ",
 
+  "ff.sidebar.tasks": "Tasks",
+  "ff.sidebar.tasks.solo": "%s Tasks",
+  "ff.sidebar.tasks.duo": "%s + %s Tasks",
+  "ff.sidebar.tasks.party": "Party Tasks",
+
   "ff.start": "ꜱᴛᴀʀᴛ",
   "ff.next_day": "ɴᴇxᴛ ᴅᴀʏ",
   "ff.waiting_for_players": "Waiting\nfor players",
