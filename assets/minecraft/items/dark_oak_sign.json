@@ -94,7 +94,7 @@
           ],
           "fallback": {
             "type": "minecraft:model",
-            "model": "minecraft:item/dark_oak_sign"
+            "model": "fossil-frights:item/misc/creative_inventory/dark_oak_sign_inventory"
           }
         }
       }
