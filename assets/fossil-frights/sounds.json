@@ -3,7 +3,7 @@
     "subtitle": "subtitles.fossil_frights.front_door_close",
     "sounds": [
       {
-        "name": "fossil-frights:custom/front_door_close",
+        "name": "fossil-frights:animations/front_door_close",
         "stream": false
       }
     ]
@@ -21,7 +21,7 @@
     "subtitle": "subtitles.fossil_frights.hazards.breaker_close",
     "sounds": [
       {
-        "name": "fossil-frights:hazards/breaker_close",
+        "name": "fossil-frights:animations/breaker_close",
         "stream": false
       }
     ]
@@ -66,7 +66,7 @@
     "subtitle": "subtitles.fossil_frights.ff_night_shift",
     "sounds": [
       {
-        "name": "fossil-frights:custom/ff_night_shift",
+        "name": "fossil-frights:music/ff_night_shift",
         "stream": true
       }
     ]
@@ -75,7 +75,7 @@
     "subtitle": "subtitles.fossil_frights.ff_day_complete",
     "sounds": [
       {
-        "name": "fossil-frights:custom/ff_day_complete",
+        "name": "fossil-frights:music/ff_day_complete",
         "stream": false
       }
     ]
@@ -84,7 +84,7 @@
     "subtitle": "subtitles.fossil_frights.heists.alarm",
     "sounds": [
       {
-        "name": "fossil-frights:custom/alarm",
+        "name": "fossil-frights:heists/alarm",
         "stream": false
       }
     ]
@@ -93,7 +93,7 @@
     "subtitle": "subtitles.fossil_frights.camera.open",
     "sounds": [
       {
-        "name": "fossil-frights:custom/camera_open",
+        "name": "fossil-frights:cameras/camera_open",
         "stream": false
       }
     ]
@@ -102,7 +102,7 @@
     "subtitle": "subtitles.fossil_frights.camera.switch",
     "sounds": [
       {
-        "name": "fossil-frights:custom/camera_switch",
+        "name": "fossil-frights:cameras/camera_switch",
         "stream": false
       }
     ]
@@ -111,7 +111,7 @@
     "subtitle": "subtitles.fossil_frights.camera.close",
     "sounds": [
       {
-        "name": "fossil-frights:custom/camera_close",
+        "name": "fossil-frights:cameras/camera_close",
         "stream": false
       }
     ]
@@ -120,7 +120,7 @@
     "subtitle": "subtitles.fossil_frights.heists.highlight_thief",
     "sounds": [
       {
-        "name": "fossil-frights:custom/highlight_thief",
+        "name": "fossil-frights:cameras/highlight_thief",
         "stream": false
       }
     ]
@@ -129,7 +129,7 @@
     "subtitle": "subtitles.fossil_frights.vending_machine.refill",
     "sounds": [
       {
-        "name": "fossil-frights:custom/vending_machine_refill",
+        "name": "fossil-frights:animations/vending_machine_refill",
         "stream": false
       }
     ]
@@ -138,7 +138,7 @@
     "subtitle": "subtitles.fossil_frights.heists.loot_capture",
     "sounds": [
       {
-        "name": "fossil-frights:custom/loot_capture",
+        "name": "fossil-frights:heists/loot_capture",
         "stream": false
       }
     ]
