@@ -16,6 +16,20 @@
           "type": "minecraft:model",
           "model": "fossil-frights:item/general_blocks/server"
         }
+      },
+      {
+        "threshold": 3,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_blocks/cotton_candy_machine"
+        }
+      },
+      {
+        "threshold": 4,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:item/general_blocks/popcorn_machine"
+        }
       }
     ],
     "fallback": {
