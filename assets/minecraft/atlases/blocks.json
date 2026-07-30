@@ -12,6 +12,11 @@
     },
     {
       "type": "directory",
+      "source": "gui/sprites/hud/sidebar",
+      "prefix": "gui/sprites/hud/sidebar/"
+    },
+    {
+      "type": "directory",
       "source": "blueprint",
       "prefix": "blueprint/"
     }
