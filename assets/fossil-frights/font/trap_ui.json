@@ -2,7 +2,7 @@
   "providers": [
     {
       "type": "bitmap",
-      "file": "fossil-frights:font/trap_ui/glow.png",
+      "file": "fossil-frights:font/trap/glow.png",
       "ascent": 8,
       "height": 9,
       "chars": [
@@ -11,7 +11,7 @@
     },
     {
       "type": "bitmap",
-      "file": "fossil-frights:font/trap_ui/freeze.png",
+      "file": "fossil-frights:font/trap/freeze.png",
       "ascent": 8,
       "height": 9,
       "chars": [
@@ -20,7 +20,7 @@
     },
     {
       "type": "bitmap",
-      "file": "fossil-frights:font/trap_ui/antigravity.png",
+      "file": "fossil-frights:font/trap/antigravity.png",
       "ascent": 8,
       "height": 9,
       "chars": [
@@ -29,7 +29,7 @@
     },
     {
       "type": "bitmap",
-      "file": "fossil-frights:font/trap_ui/jelly.png",
+      "file": "fossil-frights:font/trap/jelly.png",
       "ascent": 8,
       "height": 9,
       "chars": [
@@ -38,7 +38,7 @@
     },
     {
       "type": "bitmap",
-      "file": "fossil-frights:font/trap_ui/explosive.png",
+      "file": "fossil-frights:font/trap/explosive.png",
       "ascent": 8,
       "height": 9,
       "chars": [

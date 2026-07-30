@@ -2,7 +2,7 @@
   "providers": [
     {
       "type": "bitmap",
-      "file": "fossil-frights:font/admin_icons.png",
+      "file": "fossil-frights:font/icons/admin.png",
       "ascent": 8,
       "height": 10,
       "chars": [

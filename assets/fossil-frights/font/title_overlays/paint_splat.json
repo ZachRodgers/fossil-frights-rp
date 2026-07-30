@@ -2,7 +2,7 @@
   "providers": [
     {
       "type": "bitmap",
-      "file": "fossil-frights:font/paint_splat_overlay.png",
+      "file": "fossil-frights:font/title_overlays/paint_splat.png",
       "ascent": 36,
       "height": 78,
       "chars": [

@@ -2,7 +2,7 @@
     "providers": [
         {
             "type": "bitmap",
-            "file": "fossil-frights:font/secondary/nonlatin_european.png",
+            "file": "fossil-frights:font/mc10/nonlatin_european.png",
             "ascent": 7,
             "chars": [
                 "\u00a1\u2030\u00ad\u00b7\u20b4\u2260\u00bf\u00d7\u00d8\u00de\u04bb\u00f0\u00f8\u00fe\u0391\u0392",
@@ -76,7 +76,7 @@
         },
         {
             "type": "bitmap",
-            "file": "fossil-frights:font/secondary/accented.png",
+            "file": "fossil-frights:font/mc10/accented.png",
             "height": 12,
             "ascent": 10,
             "chars": [
@@ -159,7 +159,7 @@
         },
         {
             "type": "bitmap",
-            "file": "fossil-frights:font/secondary/ascii.png",
+            "file": "fossil-frights:font/mc10/ascii.png",
             "ascent": 7,
             "chars": [
                 "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",

@@ -2,7 +2,7 @@
   "providers": [
     {
       "type": "bitmap",
-      "file": "fossil-frights:font/hazard_icons.png",
+      "file": "fossil-frights:font/icons/hazards.png",
       "ascent": 10,
       "height": 16,
       "chars": [
