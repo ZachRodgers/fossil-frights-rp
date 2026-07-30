@@ -8,7 +8,7 @@
     },
     "on_true": {
       "type": "minecraft:model",
-      "model": "fossil-frights:item/merchandise/club_red_ribbon"
+      "model": "fossil-frights:display/exhibits/gift_shop/club_red_ribbon"
     },
     "on_false": {
       "type": "minecraft:select",
@@ -26,7 +26,7 @@
           ],
           "model": {
             "type": "minecraft:model",
-            "model": "fossil-frights:item/merchandise/club_red_ribbon"
+            "model": "fossil-frights:display/exhibits/gift_shop/club_red_ribbon"
           }
         }
       ],

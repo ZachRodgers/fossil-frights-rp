@@ -7,7 +7,7 @@
         "threshold": 1,
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_blocks/placards/placard_generic"
+          "model": "minecraft:item/dark_oak_sign"
         }
       }
     ],
@@ -20,7 +20,7 @@
       },
       "on_true": {
         "type": "minecraft:model",
-        "model": "fossil-frights:item/general_blocks/placards/andesite_placard"
+        "model": "minecraft:item/dark_oak_sign"
       },
       "on_false": {
       "type": "minecraft:condition",
@@ -31,7 +31,7 @@
       },
       "on_true": {
         "type": "minecraft:model",
-        "model": "fossil-frights:item/general_blocks/placards/brass_placard"
+        "model": "fossil-frights:display/general/signs/placards/brass_placard"
       },
       "on_false": {
         "type": "minecraft:condition",
@@ -42,7 +42,7 @@
         },
         "on_true": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_blocks/placards/tuff_placard"
+          "model": "fossil-frights:display/general/signs/placards/tuff_placard"
         },
         "on_false": {
           "type": "minecraft:select",
@@ -60,7 +60,7 @@
               ],
               "model": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:item/general_blocks/placards/andesite_placard"
+                "model": "minecraft:item/dark_oak_sign"
               }
             },
             {
@@ -74,7 +74,7 @@
               ],
               "model": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:item/general_blocks/placards/brass_placard"
+                "model": "fossil-frights:display/general/signs/placards/brass_placard"
               }
             },
             {
@@ -88,13 +88,13 @@
               ],
               "model": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:item/general_blocks/placards/tuff_placard"
+                "model": "fossil-frights:display/general/signs/placards/tuff_placard"
               }
             }
           ],
           "fallback": {
             "type": "minecraft:model",
-            "model": "fossil-frights:item/misc/creative_inventory/dark_oak_sign_inventory"
+            "model": "fossil-frights:items/misc/creative_inventory/dark_oak_sign_inventory"
           }
         }
       }

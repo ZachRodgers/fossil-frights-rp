@@ -7,7 +7,7 @@
         "threshold": 1,
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/misc/rope_ladder"
+          "model": "fossil-frights:display/lobby/rope_ladder"
         }
       }
     ],
@@ -20,7 +20,7 @@
       },
       "on_true": {
         "type": "minecraft:model",
-        "model": "fossil-frights:item/misc/submarine_ladder"
+        "model": "fossil-frights:display/exhibits/basement/submarine_ladder"
       },
       "on_false": {
         "type": "minecraft:select",
@@ -38,7 +38,7 @@
             ],
             "model": {
               "type": "minecraft:model",
-              "model": "fossil-frights:item/misc/submarine_ladder"
+              "model": "fossil-frights:display/exhibits/basement/submarine_ladder"
             }
           }
         ],

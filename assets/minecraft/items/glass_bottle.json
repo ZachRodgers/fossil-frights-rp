@@ -8,7 +8,7 @@
     },
     "on_true": {
       "type": "minecraft:model",
-      "model": "fossil-frights:item/general_blocks/centrifuge"
+      "model": "fossil-frights:display/tasks/lab_experiment/centrifuge"
     },
     "on_false": {
       "type": "minecraft:condition",
@@ -19,7 +19,7 @@
       },
       "on_true": {
         "type": "minecraft:model",
-        "model": "fossil-frights:item/general_blocks/centrifuge_capsul"
+        "model": "fossil-frights:display/tasks/lab_experiment/centrifuge_capsul"
       },
       "on_false": {
         "type": "minecraft:condition",
@@ -30,7 +30,7 @@
         },
         "on_true": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_blocks/molecular_analyser"
+          "model": "fossil-frights:display/tasks/lab_experiment/molecular_analyser"
         },
         "on_false": {
           "type": "minecraft:select",
@@ -48,7 +48,7 @@
               ],
               "model": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:item/general_blocks/centrifuge"
+                "model": "fossil-frights:display/tasks/lab_experiment/centrifuge"
               }
             },
             {
@@ -62,7 +62,7 @@
               ],
               "model": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:item/general_blocks/centrifuge_capsul"
+                "model": "fossil-frights:display/tasks/lab_experiment/centrifuge_capsul"
               }
             },
             {
@@ -76,7 +76,7 @@
               ],
               "model": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:item/general_blocks/molecular_analyser"
+                "model": "fossil-frights:display/tasks/lab_experiment/molecular_analyser"
               }
             }
           ],

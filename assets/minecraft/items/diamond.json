@@ -7,7 +7,7 @@
         "threshold": 1,
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/loot_bag_item"
+          "model": "fossil-frights:items/heists/loot/loot_bag_item"
         }
       }
     ],

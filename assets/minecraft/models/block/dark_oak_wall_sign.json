@@ -3,7 +3,7 @@
 	"credit": "Made with Blockbench",
 	"parent": "minecraft:block/template_wall_sign",
 	"textures": {
-		"2": "fossil-frights:custom/general_blocks/placards/brass_placard",
+		"2": "fossil-frights:display/general/signs/placards/brass_placard",
 		"all": "block/dark_oak_sign"
 	},
 	"elements": [

@@ -1,0 +1,15 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "fossil-frights:items/heists/gear/thief/invisimask/invisimask_creeper",
+	"textures": {
+		"0": "fossil-frights:items/heists/gear/thief/invisimask/invisimask_enderman",
+		"particle": "fossil-frights:items/heists/gear/thief/invisimask/invisimask_enderman"
+	},
+	"display": {
+		"gui": {
+			"rotation": [30, -142, 0],
+			"translation": [-2.75, 6, 0]
+		}
+	}
+}

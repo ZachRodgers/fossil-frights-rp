@@ -7,28 +7,28 @@
         "threshold": 1,
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_blocks/computer"
+          "model": "fossil-frights:display/exhibits/basement/security_office/computer"
         }
       },
       {
         "threshold": 2,
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_blocks/server"
+          "model": "fossil-frights:display/exhibits/basement/security_office/server"
         }
       },
       {
         "threshold": 3,
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_blocks/cotton_candy_machine"
+          "model": "fossil-frights:display/tasks/feed_plants/cotton_candy_machine"
         }
       },
       {
         "threshold": 4,
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_blocks/popcorn_machine"
+          "model": "fossil-frights:display/tasks/refill_popcorn/popcorn_machine"
         }
       }
     ],
@@ -41,7 +41,7 @@
       },
       "on_true": {
         "type": "minecraft:model",
-        "model": "fossil-frights:item/general_blocks/wet_floor_sign"
+        "model": "fossil-frights:display/exhibits/basement/wet_floor_sign"
       },
       "on_false": {
         "type": "minecraft:condition",
@@ -52,7 +52,7 @@
         },
         "on_true": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_blocks/multiplayer_terminal"
+          "model": "fossil-frights:display/exhibits/start_room/multiplayer_terminal/multiplayer_terminal"
         },
         "on_false": {
           "type": "minecraft:select",
@@ -70,7 +70,7 @@
               ],
               "model": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:item/general_blocks/wet_floor_sign"
+                "model": "fossil-frights:display/exhibits/basement/wet_floor_sign"
               }
             },
             {
@@ -84,7 +84,7 @@
               ],
               "model": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:item/general_blocks/multiplayer_terminal"
+                "model": "fossil-frights:display/exhibits/start_room/multiplayer_terminal/multiplayer_terminal"
               }
             }
           ],

@@ -9,7 +9,7 @@
     },
     "on_true": {
       "type": "minecraft:model",
-      "model": "fossil-frights:item/food/burger"
+      "model": "fossil-frights:items/heists/loot/burger"
     },
     "on_false": {
       "type": "minecraft:condition",
@@ -20,7 +20,7 @@
       },
       "on_true": {
         "type": "minecraft:model",
-        "model": "fossil-frights:item/food/burger"
+        "model": "fossil-frights:items/heists/loot/burger"
       },
       "on_false": {
         "type": "minecraft:select",
@@ -38,7 +38,7 @@
             ],
             "model": {
               "type": "minecraft:model",
-              "model": "fossil-frights:item/food/burger"
+              "model": "fossil-frights:items/heists/loot/burger"
             }
           }
         ],

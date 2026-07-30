@@ -8,7 +8,7 @@
     },
     "on_true": {
       "type": "minecraft:model",
-      "model": "fossil-frights:item/general_items/task_easy"
+      "model": "fossil-frights:items/frights/task_easy"
     },
     "on_false": {
       "type": "minecraft:condition",
@@ -19,7 +19,7 @@
       },
       "on_true": {
         "type": "minecraft:model",
-        "model": "fossil-frights:item/general_items/task_medium"
+        "model": "fossil-frights:items/frights/task_medium"
       },
       "on_false": {
         "type": "minecraft:condition",
@@ -30,7 +30,7 @@
         },
         "on_true": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/task_hard"
+          "model": "fossil-frights:items/frights/task_hard"
         },
         "on_false": {
           "type": "minecraft:condition",
@@ -41,7 +41,7 @@
           },
           "on_true": {
             "type": "minecraft:model",
-            "model": "fossil-frights:item/general_items/task_final"
+            "model": "fossil-frights:items/frights/task_final"
           },
           "on_false": {
             "type": "minecraft:condition",
@@ -52,7 +52,7 @@
             },
             "on_true": {
               "type": "minecraft:model",
-              "model": "fossil-frights:item/general_items/loot_book"
+              "model": "fossil-frights:items/heists/gear/loot_book"
             },
             "on_false": {
               "type": "minecraft:select",
@@ -70,7 +70,7 @@
                   ],
                   "model": {
                     "type": "minecraft:model",
-                    "model": "fossil-frights:item/general_items/task_easy"
+                    "model": "fossil-frights:items/frights/task_easy"
                   }
                 },
                 {
@@ -84,7 +84,7 @@
                   ],
                   "model": {
                     "type": "minecraft:model",
-                    "model": "fossil-frights:item/general_items/task_medium"
+                    "model": "fossil-frights:items/frights/task_medium"
                   }
                 },
                 {
@@ -98,7 +98,7 @@
                   ],
                   "model": {
                     "type": "minecraft:model",
-                    "model": "fossil-frights:item/general_items/task_hard"
+                    "model": "fossil-frights:items/frights/task_hard"
                   }
                 },
                 {
@@ -112,7 +112,7 @@
                   ],
                   "model": {
                     "type": "minecraft:model",
-                    "model": "fossil-frights:item/general_items/task_final"
+                    "model": "fossil-frights:items/frights/task_final"
                   }
                 },
                 {
@@ -126,7 +126,7 @@
                   ],
                   "model": {
                     "type": "minecraft:model",
-                    "model": "fossil-frights:item/general_items/loot_book"
+                    "model": "fossil-frights:items/heists/gear/loot_book"
                   }
                 }
               ],

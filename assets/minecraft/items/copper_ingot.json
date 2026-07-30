@@ -8,7 +8,7 @@
     },
     "on_true": {
       "type": "minecraft:model",
-      "model": "fossil-frights:item/general_blocks/copper_pipe"
+      "model": "fossil-frights:display/general/pipes/copper_pipe"
     },
     "on_false": {
       "type": "minecraft:condition",
@@ -19,7 +19,7 @@
       },
       "on_true": {
         "type": "minecraft:model",
-        "model": "fossil-frights:item/general_blocks/copper_pipe_purple_1"
+        "model": "fossil-frights:display/general/pipes/copper_pipe_purple_1"
       },
       "on_false": {
         "type": "minecraft:condition",
@@ -30,7 +30,7 @@
         },
         "on_true": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_blocks/copper_pipe_purple_2"
+          "model": "fossil-frights:display/general/pipes/copper_pipe_purple_2"
         },
         "on_false": {
           "type": "minecraft:condition",
@@ -41,7 +41,7 @@
           },
           "on_true": {
             "type": "minecraft:model",
-            "model": "fossil-frights:item/general_blocks/copper_pipe_lava"
+            "model": "fossil-frights:display/general/pipes/copper_pipe_lava"
           },
           "on_false": {
             "type": "minecraft:condition",
@@ -52,7 +52,7 @@
             },
             "on_true": {
               "type": "minecraft:model",
-              "model": "fossil-frights:item/general_blocks/copper_pipe_water"
+              "model": "fossil-frights:display/general/pipes/copper_pipe_water"
             },
             "on_false": {
               "type": "minecraft:select",
@@ -70,7 +70,7 @@
                   ],
                   "model": {
                     "type": "minecraft:model",
-                    "model": "fossil-frights:item/general_blocks/copper_pipe"
+                    "model": "fossil-frights:display/general/pipes/copper_pipe"
                   }
                 },
                 {
@@ -84,7 +84,7 @@
                   ],
                   "model": {
                     "type": "minecraft:model",
-                    "model": "fossil-frights:item/general_blocks/copper_pipe_purple_1"
+                    "model": "fossil-frights:display/general/pipes/copper_pipe_purple_1"
                   }
                 },
                 {
@@ -98,7 +98,7 @@
                   ],
                   "model": {
                     "type": "minecraft:model",
-                    "model": "fossil-frights:item/general_blocks/copper_pipe_purple_2"
+                    "model": "fossil-frights:display/general/pipes/copper_pipe_purple_2"
                   }
                 },
                 {
@@ -112,7 +112,7 @@
                   ],
                   "model": {
                     "type": "minecraft:model",
-                    "model": "fossil-frights:item/general_blocks/copper_pipe_lava"
+                    "model": "fossil-frights:display/general/pipes/copper_pipe_lava"
                   }
                 },
                 {
@@ -126,7 +126,7 @@
                   ],
                   "model": {
                     "type": "minecraft:model",
-                    "model": "fossil-frights:item/general_blocks/copper_pipe_water"
+                    "model": "fossil-frights:display/general/pipes/copper_pipe_water"
                   }
                 }
               ],

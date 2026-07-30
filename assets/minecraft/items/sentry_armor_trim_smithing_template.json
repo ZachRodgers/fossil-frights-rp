@@ -7,7 +7,7 @@
             "threshold": 1,
             "model": {
             "type": "minecraft:model",
-            "model": "fossil-frights:item/general_items/hoverboard_item"
+            "model": "fossil-frights:items/frights/hard_items/hoverboard_item"
             }
         }
         ],

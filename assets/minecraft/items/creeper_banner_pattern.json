@@ -8,7 +8,7 @@
     },
     "on_true": {
       "type": "minecraft:model",
-      "model": "fossil-frights:item/signs/dinoland"
+      "model": "minecraft:item/creeper_banner_pattern"
     },
     "on_false": {
       "type": "minecraft:condition",
@@ -19,7 +19,7 @@
       },
       "on_true": {
         "type": "minecraft:model",
-        "model": "fossil-frights:item/signs/fossil_frights"
+        "model": "fossil-frights:display/general/signs/logo/fossil_frights"
       },
       "on_false": {
         "type": "minecraft:select",
@@ -37,7 +37,7 @@
             ],
             "model": {
               "type": "minecraft:model",
-              "model": "fossil-frights:item/signs/dinoland"
+              "model": "minecraft:item/creeper_banner_pattern"
             }
           },
           {
@@ -51,7 +51,7 @@
             ],
             "model": {
               "type": "minecraft:model",
-              "model": "fossil-frights:item/signs/fossil_frights"
+              "model": "fossil-frights:display/general/signs/logo/fossil_frights"
             }
           }
         ],

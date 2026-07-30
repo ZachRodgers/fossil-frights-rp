@@ -8,7 +8,7 @@
     },
     "on_true": {
       "type": "minecraft:model",
-      "model": "fossil-frights:item/food/lolipop"
+      "model": "fossil-frights:items/heists/loot/lolipop"
     },
     "on_false": {
       "type": "minecraft:select",
@@ -26,7 +26,7 @@
           ],
           "model": {
             "type": "minecraft:model",
-            "model": "fossil-frights:item/food/lolipop"
+            "model": "fossil-frights:items/heists/loot/lolipop"
           }
         },
         {
@@ -40,7 +40,7 @@
           ],
           "model": {
             "type": "minecraft:model",
-            "model": "fossil-frights:item/food/lolipop"
+            "model": "fossil-frights:items/heists/loot/lolipop"
           }
         }
       ],

@@ -8,7 +8,7 @@
     },
     "on_true": {
       "type": "minecraft:model",
-      "model": "fossil-frights:item/signs/earths_timeline/template"
+      "model": "fossil-frights:display/general/signs/earths_timeline/template"
     },
     "on_false": {
       "type": "minecraft:condition",
@@ -19,7 +19,7 @@
       },
       "on_true": {
         "type": "minecraft:model",
-        "model": "fossil-frights:item/signs/earths_timeline/hadean"
+        "model": "fossil-frights:display/general/signs/earths_timeline/hadean"
       },
       "on_false": {
         "type": "minecraft:condition",
@@ -30,7 +30,7 @@
         },
         "on_true": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/signs/earths_timeline/archean"
+          "model": "fossil-frights:display/general/signs/earths_timeline/archean"
         },
         "on_false": {
           "type": "minecraft:condition",
@@ -41,7 +41,7 @@
           },
           "on_true": {
             "type": "minecraft:model",
-            "model": "fossil-frights:item/signs/earths_timeline/proterozoic"
+            "model": "fossil-frights:display/general/signs/earths_timeline/proterozoic"
           },
           "on_false": {
             "type": "minecraft:condition",
@@ -52,7 +52,7 @@
             },
             "on_true": {
               "type": "minecraft:model",
-              "model": "fossil-frights:item/signs/earths_timeline/phanerozoic"
+              "model": "fossil-frights:display/general/signs/earths_timeline/phanerozoic"
             },
             "on_false": {
               "type": "minecraft:condition",
@@ -63,7 +63,7 @@
               },
               "on_true": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:item/signs/earths_timeline/ordovician"
+                "model": "fossil-frights:display/general/signs/earths_timeline/ordovician"
               },
               "on_false": {
                 "type": "minecraft:condition",
@@ -74,7 +74,7 @@
                 },
                 "on_true": {
                   "type": "minecraft:model",
-                  "model": "fossil-frights:item/signs/earths_timeline/silurian"
+                  "model": "fossil-frights:display/general/signs/earths_timeline/silurian"
                 },
                 "on_false": {
                   "type": "minecraft:condition",
@@ -85,7 +85,7 @@
                   },
                   "on_true": {
                     "type": "minecraft:model",
-                    "model": "fossil-frights:item/signs/earths_timeline/devonian"
+                    "model": "fossil-frights:display/general/signs/earths_timeline/devonian"
                   },
                   "on_false": {
                     "type": "minecraft:condition",
@@ -96,7 +96,7 @@
                     },
                     "on_true": {
                       "type": "minecraft:model",
-                      "model": "fossil-frights:item/signs/earths_timeline/carboniferous"
+                      "model": "fossil-frights:display/general/signs/earths_timeline/carboniferous"
                     },
                     "on_false": {
                       "type": "minecraft:condition",
@@ -107,7 +107,7 @@
                       },
                       "on_true": {
                         "type": "minecraft:model",
-                        "model": "fossil-frights:item/signs/earths_timeline/permian"
+                        "model": "fossil-frights:display/general/signs/earths_timeline/permian"
                       },
                       "on_false": {
                         "type": "minecraft:condition",
@@ -118,7 +118,7 @@
                         },
                         "on_true": {
                           "type": "minecraft:model",
-                          "model": "fossil-frights:item/signs/earths_timeline/triassic"
+                          "model": "fossil-frights:display/general/signs/earths_timeline/triassic"
                         },
                         "on_false": {
                           "type": "minecraft:condition",
@@ -129,7 +129,7 @@
                           },
                           "on_true": {
                             "type": "minecraft:model",
-                            "model": "fossil-frights:item/signs/earths_timeline/jurassic"
+                            "model": "fossil-frights:display/general/signs/earths_timeline/jurassic"
                           },
                           "on_false": {
                             "type": "minecraft:condition",
@@ -140,7 +140,7 @@
                             },
                             "on_true": {
                               "type": "minecraft:model",
-                              "model": "fossil-frights:item/signs/earths_timeline/cretaceous"
+                              "model": "fossil-frights:display/general/signs/earths_timeline/cretaceous"
                             },
                             "on_false": {
                               "type": "minecraft:condition",
@@ -151,7 +151,7 @@
                               },
                               "on_true": {
                                 "type": "minecraft:model",
-                                "model": "fossil-frights:item/signs/earths_timeline/paleogene"
+                                "model": "fossil-frights:display/general/signs/earths_timeline/paleogene"
                               },
                               "on_false": {
                                 "type": "minecraft:condition",
@@ -162,7 +162,7 @@
                                 },
                                 "on_true": {
                                   "type": "minecraft:model",
-                                  "model": "fossil-frights:item/signs/earths_timeline/neogene"
+                                  "model": "fossil-frights:display/general/signs/earths_timeline/neogene"
                                 },
                                 "on_false": {
                                   "type": "minecraft:condition",
@@ -173,7 +173,7 @@
                                   },
                                   "on_true": {
                                     "type": "minecraft:model",
-                                    "model": "fossil-frights:item/signs/earths_timeline/quaternary"
+                                    "model": "fossil-frights:display/general/signs/earths_timeline/quaternary"
                                   },
                                   "on_false": {
                                     "type": "minecraft:condition",
@@ -184,7 +184,7 @@
                                     },
                                     "on_true": {
                                       "type": "minecraft:model",
-                                      "model": "fossil-frights:item/signs/earths_timeline/quaternary"
+                                      "model": "fossil-frights:display/general/signs/earths_timeline/quaternary"
                                     },
                                     "on_false": {
                                       "type": "minecraft:condition",
@@ -195,7 +195,7 @@
                                       },
                                       "on_true": {
                                         "type": "minecraft:model",
-                                        "model": "fossil-frights:item/signs/earths_timeline/exit"
+                                        "model": "fossil-frights:display/general/signs/earths_timeline/exit"
                                       },
                                       "on_false": {
                                         "type": "minecraft:select",
@@ -213,7 +213,7 @@
                                             ],
                                             "model": {
                                               "type": "minecraft:model",
-                                              "model": "fossil-frights:item/signs/earths_timeline/template"
+                                              "model": "fossil-frights:display/general/signs/earths_timeline/template"
                                             }
                                           },
                                           {
@@ -227,7 +227,7 @@
                                             ],
                                             "model": {
                                               "type": "minecraft:model",
-                                              "model": "fossil-frights:item/signs/earths_timeline/hadean"
+                                              "model": "fossil-frights:display/general/signs/earths_timeline/hadean"
                                             }
                                           },
                                           {
@@ -241,7 +241,7 @@
                                             ],
                                             "model": {
                                               "type": "minecraft:model",
-                                              "model": "fossil-frights:item/signs/earths_timeline/archean"
+                                              "model": "fossil-frights:display/general/signs/earths_timeline/archean"
                                             }
                                           },
                                           {
@@ -255,7 +255,7 @@
                                             ],
                                             "model": {
                                               "type": "minecraft:model",
-                                              "model": "fossil-frights:item/signs/earths_timeline/proterozoic"
+                                              "model": "fossil-frights:display/general/signs/earths_timeline/proterozoic"
                                             }
                                           },
                                           {
@@ -269,7 +269,7 @@
                                             ],
                                             "model": {
                                               "type": "minecraft:model",
-                                              "model": "fossil-frights:item/signs/earths_timeline/phanerozoic"
+                                              "model": "fossil-frights:display/general/signs/earths_timeline/phanerozoic"
                                             }
                                           },
                                           {
@@ -283,7 +283,7 @@
                                             ],
                                             "model": {
                                               "type": "minecraft:model",
-                                              "model": "fossil-frights:item/signs/earths_timeline/ordovician"
+                                              "model": "fossil-frights:display/general/signs/earths_timeline/ordovician"
                                             }
                                           },
                                           {
@@ -297,7 +297,7 @@
                                             ],
                                             "model": {
                                               "type": "minecraft:model",
-                                              "model": "fossil-frights:item/signs/earths_timeline/silurian"
+                                              "model": "fossil-frights:display/general/signs/earths_timeline/silurian"
                                             }
                                           },
                                           {
@@ -311,7 +311,7 @@
                                             ],
                                             "model": {
                                               "type": "minecraft:model",
-                                              "model": "fossil-frights:item/signs/earths_timeline/devonian"
+                                              "model": "fossil-frights:display/general/signs/earths_timeline/devonian"
                                             }
                                           },
                                           {
@@ -325,7 +325,7 @@
                                             ],
                                             "model": {
                                               "type": "minecraft:model",
-                                              "model": "fossil-frights:item/signs/earths_timeline/carboniferous"
+                                              "model": "fossil-frights:display/general/signs/earths_timeline/carboniferous"
                                             }
                                           },
                                           {
@@ -339,7 +339,7 @@
                                             ],
                                             "model": {
                                               "type": "minecraft:model",
-                                              "model": "fossil-frights:item/signs/earths_timeline/permian"
+                                              "model": "fossil-frights:display/general/signs/earths_timeline/permian"
                                             }
                                           },
                                           {
@@ -353,7 +353,7 @@
                                             ],
                                             "model": {
                                               "type": "minecraft:model",
-                                              "model": "fossil-frights:item/signs/earths_timeline/triassic"
+                                              "model": "fossil-frights:display/general/signs/earths_timeline/triassic"
                                             }
                                           },
                                           {
@@ -367,7 +367,7 @@
                                             ],
                                             "model": {
                                               "type": "minecraft:model",
-                                              "model": "fossil-frights:item/signs/earths_timeline/jurassic"
+                                              "model": "fossil-frights:display/general/signs/earths_timeline/jurassic"
                                             }
                                           },
                                           {
@@ -381,7 +381,7 @@
                                             ],
                                             "model": {
                                               "type": "minecraft:model",
-                                              "model": "fossil-frights:item/signs/earths_timeline/cretaceous"
+                                              "model": "fossil-frights:display/general/signs/earths_timeline/cretaceous"
                                             }
                                           },
                                           {
@@ -395,7 +395,7 @@
                                             ],
                                             "model": {
                                               "type": "minecraft:model",
-                                              "model": "fossil-frights:item/signs/earths_timeline/paleogene"
+                                              "model": "fossil-frights:display/general/signs/earths_timeline/paleogene"
                                             }
                                           },
                                           {
@@ -409,7 +409,7 @@
                                             ],
                                             "model": {
                                               "type": "minecraft:model",
-                                              "model": "fossil-frights:item/signs/earths_timeline/neogene"
+                                              "model": "fossil-frights:display/general/signs/earths_timeline/neogene"
                                             }
                                           },
                                           {
@@ -423,7 +423,7 @@
                                             ],
                                             "model": {
                                               "type": "minecraft:model",
-                                              "model": "fossil-frights:item/signs/earths_timeline/quaternary"
+                                              "model": "fossil-frights:display/general/signs/earths_timeline/quaternary"
                                             }
                                           },
                                           {
@@ -437,7 +437,7 @@
                                             ],
                                             "model": {
                                               "type": "minecraft:model",
-                                              "model": "fossil-frights:item/signs/earths_timeline/quaternary"
+                                              "model": "fossil-frights:display/general/signs/earths_timeline/quaternary"
                                             }
                                           },
                                           {
@@ -451,7 +451,7 @@
                                             ],
                                             "model": {
                                               "type": "minecraft:model",
-                                              "model": "fossil-frights:item/signs/earths_timeline/exit"
+                                              "model": "fossil-frights:display/general/signs/earths_timeline/exit"
                                             }
                                           }
                                         ],

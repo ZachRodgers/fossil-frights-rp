@@ -7,14 +7,14 @@
         "threshold": 1,
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/loot_bag"
+          "model": "fossil-frights:display/heists/loot_bag"
         }
       },
       {
         "threshold": 2,
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/biplane"
+          "model": "fossil-frights:display/heists/heavy_items/biplane"
         }
       }
     ],

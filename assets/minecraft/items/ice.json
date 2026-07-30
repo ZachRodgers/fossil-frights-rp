@@ -7,7 +7,7 @@
         "threshold": 1,
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/dry_ice"
+          "model": "fossil-frights:items/frights/medium_items/dry_ice"
         }
       }
     ],
@@ -20,7 +20,7 @@
       },
       "on_true": {
         "type": "minecraft:model",
-        "model": "fossil-frights:item/general_items/dry_ice"
+        "model": "fossil-frights:items/frights/medium_items/dry_ice"
       },
       "on_false": {
         "type": "minecraft:select",
@@ -38,7 +38,7 @@
             ],
             "model": {
               "type": "minecraft:model",
-              "model": "fossil-frights:item/general_items/dry_ice"
+              "model": "fossil-frights:items/frights/medium_items/dry_ice"
             }
           }
         ],

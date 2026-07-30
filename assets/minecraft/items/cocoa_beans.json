@@ -11,11 +11,11 @@
       "models": [
         {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/instant_coffee_jar"
+          "model": "fossil-frights:items/frights/medium_items/instant_coffee_jar"
         },
         {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/instant_coffee_liquid"
+          "model": "fossil-frights:items/frights/medium_items/instant_coffee_liquid"
         }
       ]
     },
@@ -38,11 +38,11 @@
             "models": [
               {
                 "type": "minecraft:model",
-                "model": "fossil-frights:item/general_items/instant_coffee_jar"
+                "model": "fossil-frights:items/frights/medium_items/instant_coffee_jar"
               },
               {
                 "type": "minecraft:model",
-                "model": "fossil-frights:item/general_items/instant_coffee_liquid"
+                "model": "fossil-frights:items/frights/medium_items/instant_coffee_liquid"
               }
             ]
           }

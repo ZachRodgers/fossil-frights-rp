@@ -7,7 +7,7 @@
         "threshold": 1,
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/fertilizer"
+          "model": "fossil-frights:items/frights/medium_items/fertilizer"
         }
       }
     ],
@@ -20,7 +20,7 @@
       },
       "on_true": {
         "type": "minecraft:model",
-        "model": "fossil-frights:item/general_items/fertilizer"
+        "model": "fossil-frights:items/frights/medium_items/fertilizer"
       },
       "on_false": {
         "type": "minecraft:select",
@@ -38,7 +38,7 @@
             ],
             "model": {
               "type": "minecraft:model",
-              "model": "fossil-frights:item/general_items/fertilizer"
+              "model": "fossil-frights:items/frights/medium_items/fertilizer"
             }
           }
         ],

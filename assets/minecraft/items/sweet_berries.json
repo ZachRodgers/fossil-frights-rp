@@ -7,7 +7,7 @@
         "threshold": 1,
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/food/cotton_candy"
+          "model": "fossil-frights:items/frights/medium_items/cotton_candy"
         }
       }
     ],
@@ -20,7 +20,7 @@
       },
       "on_true": {
         "type": "minecraft:model",
-        "model": "fossil-frights:item/food/cotton_candy"
+        "model": "fossil-frights:items/frights/medium_items/cotton_candy"
       },
       "on_false": {
         "type": "minecraft:condition",
@@ -31,7 +31,7 @@
         },
         "on_true": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/food/cotton_candy_blue"
+          "model": "fossil-frights:display/tasks/feed_plants/cotton_candy_blue"
         },
         "on_false": {
           "type": "minecraft:condition",
@@ -42,7 +42,7 @@
           },
           "on_true": {
             "type": "minecraft:model",
-            "model": "fossil-frights:item/food/cotton_candy_rainbow"
+            "model": "fossil-frights:display/lobby/cotton_candy_rainbow"
           },
           "on_false": {
             "type": "minecraft:select",
@@ -60,7 +60,7 @@
                 ],
                 "model": {
                   "type": "minecraft:model",
-                  "model": "fossil-frights:item/food/cotton_candy"
+                  "model": "fossil-frights:items/frights/medium_items/cotton_candy"
                 }
               },
               {
@@ -74,7 +74,7 @@
                 ],
                 "model": {
                   "type": "minecraft:model",
-                  "model": "fossil-frights:item/food/cotton_candy_blue"
+                  "model": "fossil-frights:display/tasks/feed_plants/cotton_candy_blue"
                 }
               },
               {
@@ -88,7 +88,7 @@
                 ],
                 "model": {
                   "type": "minecraft:model",
-                  "model": "fossil-frights:item/food/cotton_candy_rainbow"
+                  "model": "fossil-frights:display/lobby/cotton_candy_rainbow"
                 }
               }
             ],

@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "fossil-frights:block/plants/carnivorous_flytrap"
+      "model": "fossil-frights:display/exhibits/terrarium/block/plants/carnivorous_flytrap"
     }
   }
 }

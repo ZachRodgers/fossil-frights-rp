@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "fossil-frights:custom/misc/creative_inventory/crimson_sign_inventory"
-  }
-}

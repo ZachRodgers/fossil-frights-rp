@@ -8,7 +8,7 @@
     },
     "on_true": {
       "type": "minecraft:model",
-      "model": "fossil-frights:item/general_blocks/eggs/sniffer_egg"
+      "model": "fossil-frights:display/tasks/lab_experiment/eggs/sniffer_egg"
     },
     "on_false": {
       "type": "minecraft:condition",
@@ -19,7 +19,7 @@
       },
       "on_true": {
         "type": "minecraft:model",
-        "model": "fossil-frights:item/general_blocks/eggs/pterodactyl_egg"
+        "model": "fossil-frights:display/tasks/lab_experiment/eggs/pterodactyl_egg"
       },
       "on_false": {
         "type": "minecraft:condition",
@@ -30,7 +30,7 @@
         },
         "on_true": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_blocks/eggs/plesiosaur_egg"
+          "model": "fossil-frights:display/tasks/lab_experiment/eggs/plesiosaur_egg"
         },
         "on_false": {
           "type": "minecraft:condition",
@@ -41,7 +41,7 @@
           },
           "on_true": {
             "type": "minecraft:model",
-            "model": "fossil-frights:item/general_blocks/eggs/velociraptor_egg"
+            "model": "fossil-frights:display/tasks/lab_experiment/eggs/velociraptor_egg"
           },
           "on_false": {
             "type": "minecraft:condition",
@@ -52,7 +52,7 @@
             },
             "on_true": {
               "type": "minecraft:model",
-              "model": "fossil-frights:item/general_blocks/eggs/trike_egg"
+              "model": "fossil-frights:display/tasks/lab_experiment/eggs/trike_egg"
             },
             "on_false": {
               "type": "minecraft:condition",
@@ -63,7 +63,7 @@
               },
               "on_true": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:item/general_blocks/eggs/t_rex_egg"
+                "model": "fossil-frights:display/tasks/lab_experiment/eggs/t_rex_egg"
               },
               "on_false": {
                 "type": "minecraft:select",
@@ -81,7 +81,7 @@
                     ],
                     "model": {
                       "type": "minecraft:model",
-                      "model": "fossil-frights:item/general_blocks/eggs/sniffer_egg"
+                      "model": "fossil-frights:display/tasks/lab_experiment/eggs/sniffer_egg"
                     }
                   },
                   {
@@ -95,7 +95,7 @@
                     ],
                     "model": {
                       "type": "minecraft:model",
-                      "model": "fossil-frights:item/general_blocks/eggs/pterodactyl_egg"
+                      "model": "fossil-frights:display/tasks/lab_experiment/eggs/pterodactyl_egg"
                     }
                   },
                   {
@@ -109,7 +109,7 @@
                     ],
                     "model": {
                       "type": "minecraft:model",
-                      "model": "fossil-frights:item/general_blocks/eggs/plesiosaur_egg"
+                      "model": "fossil-frights:display/tasks/lab_experiment/eggs/plesiosaur_egg"
                     }
                   },
                   {
@@ -123,7 +123,7 @@
                     ],
                     "model": {
                       "type": "minecraft:model",
-                      "model": "fossil-frights:item/general_blocks/eggs/velociraptor_egg"
+                      "model": "fossil-frights:display/tasks/lab_experiment/eggs/velociraptor_egg"
                     }
                   },
                   {
@@ -137,7 +137,7 @@
                     ],
                     "model": {
                       "type": "minecraft:model",
-                      "model": "fossil-frights:item/general_blocks/eggs/trike_egg"
+                      "model": "fossil-frights:display/tasks/lab_experiment/eggs/trike_egg"
                     }
                   },
                   {
@@ -151,7 +151,7 @@
                     ],
                     "model": {
                       "type": "minecraft:model",
-                      "model": "fossil-frights:item/general_blocks/eggs/t_rex_egg"
+                      "model": "fossil-frights:display/tasks/lab_experiment/eggs/t_rex_egg"
                     }
                   }
                 ],

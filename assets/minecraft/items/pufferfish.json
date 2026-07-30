@@ -8,7 +8,7 @@
     },
     "on_true": {
       "type": "minecraft:model",
-      "model": "fossil-frights:item/merchandise/gold_shark"
+      "model": "fossil-frights:display/tasks/shark_bait/gold_shark"
     },
     "on_false": {
       "type": "minecraft:select",
@@ -26,7 +26,7 @@
           ],
           "model": {
             "type": "minecraft:model",
-            "model": "fossil-frights:item/merchandise/gold_shark"
+            "model": "fossil-frights:display/tasks/shark_bait/gold_shark"
           }
         }
       ],

@@ -8,7 +8,7 @@
     },
     "on_true": {
       "type": "minecraft:model",
-      "model": "fossil-frights:item/general_items/service_bell"
+      "model": "fossil-frights:display/tasks/polish_bell/service_bell"
     },
     "on_false": {
       "type": "minecraft:condition",
@@ -19,7 +19,7 @@
       },
       "on_true": {
         "type": "minecraft:model",
-        "model": "fossil-frights:item/general_items/cash_register"
+        "model": "fossil-frights:display/tasks/lock_register/cash_register"
       },
       "on_false": {
         "type": "minecraft:condition",
@@ -30,7 +30,7 @@
         },
         "on_true": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/cash_register_open"
+          "model": "fossil-frights:display/tasks/lock_register/cash_register_open"
         },
         "on_false": {
           "type": "minecraft:select",
@@ -48,7 +48,7 @@
               ],
               "model": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:item/general_items/service_bell"
+                "model": "fossil-frights:display/tasks/polish_bell/service_bell"
               }
             },
             {
@@ -62,7 +62,7 @@
               ],
               "model": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:item/general_items/cash_register"
+                "model": "fossil-frights:display/tasks/lock_register/cash_register"
               }
             },
             {
@@ -76,7 +76,7 @@
               ],
               "model": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:item/general_items/cash_register_open"
+                "model": "fossil-frights:display/tasks/lock_register/cash_register_open"
               }
             }
           ],

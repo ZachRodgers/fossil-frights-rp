@@ -4,8 +4,8 @@
 	"parent": "minecraft:block/template_wall_hanging_sign",
 	"texture_size": [64, 64],
 	"textures": {
-		"1": "fossil-frights:custom/general_blocks/plaque",
-		"particle": "fossil-frights:custom/general_blocks/plaque"
+		"1": "fossil-frights:display/general/plaque",
+		"particle": "fossil-frights:display/general/plaque"
 	},
 	"elements": [
 		{

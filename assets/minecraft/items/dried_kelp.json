@@ -8,7 +8,7 @@
     },
     "on_true": {
       "type": "minecraft:model",
-      "model": "fossil-frights:item/general_items/fly"
+      "model": "fossil-frights:display/tasks/swat_flies/fly"
     },
     "on_false": {
       "type": "minecraft:condition",
@@ -19,7 +19,7 @@
       },
       "on_true": {
         "type": "minecraft:model",
-        "model": "fossil-frights:item/merchandise/blinking_bat"
+        "model": "fossil-frights:display/exhibits/aviary/bats/blinking_bat"
       },
       "on_false": {
         "type": "minecraft:select",
@@ -37,7 +37,7 @@
             ],
             "model": {
               "type": "minecraft:model",
-              "model": "fossil-frights:item/general_items/fly"
+              "model": "fossil-frights:display/tasks/swat_flies/fly"
             }
           },
           {
@@ -51,7 +51,7 @@
             ],
             "model": {
               "type": "minecraft:model",
-              "model": "fossil-frights:item/merchandise/blinking_bat"
+              "model": "fossil-frights:display/exhibits/aviary/bats/blinking_bat"
             }
           }
         ],

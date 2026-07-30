@@ -7,28 +7,28 @@
         "threshold": 1,
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/key"
+          "model": "fossil-frights:items/frights/key/key"
         }
       },
       {
         "threshold": 2,
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/animated_key"
+          "model": "fossil-frights:items/frights/key/animated_key"
         }
       },
       {
         "threshold": 3,
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/key_cooldown"
+          "model": "fossil-frights:items/frights/key/cooldown/key_cooldown_0"
         }
       },
       {
         "threshold": 4,
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/key_disabled"
+          "model": "fossil-frights:items/frights/key/key_disabled"
         }
       }
     ],
@@ -41,7 +41,7 @@
       },
       "on_true": {
         "type": "minecraft:model",
-        "model": "fossil-frights:item/general_items/animated_key"
+        "model": "fossil-frights:items/frights/key/animated_key"
       },
       "on_false": {
         "type": "minecraft:condition",
@@ -52,7 +52,7 @@
         },
         "on_true": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/animated_key"
+          "model": "fossil-frights:items/frights/key/animated_key"
         },
         "on_false": {
           "type": "minecraft:condition",
@@ -63,7 +63,7 @@
           },
           "on_true": {
             "type": "minecraft:model",
-            "model": "fossil-frights:item/general_items/key"
+            "model": "fossil-frights:items/frights/key/key"
           },
           "on_false": {
             "type": "minecraft:condition",
@@ -74,7 +74,7 @@
             },
             "on_true": {
               "type": "minecraft:model",
-              "model": "fossil-frights:item/general_items/key_cooldown"
+              "model": "fossil-frights:items/frights/key/cooldown/key_cooldown_0"
             },
             "on_false": {
               "type": "minecraft:condition",
@@ -85,7 +85,7 @@
               },
               "on_true": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:item/general_items/key_disabled"
+                "model": "fossil-frights:items/frights/key/key_disabled"
               },
               "on_false": {
                 "type": "minecraft:select",
@@ -103,7 +103,7 @@
                     ],
                     "model": {
                       "type": "minecraft:model",
-                      "model": "fossil-frights:item/general_items/animated_key"
+                      "model": "fossil-frights:items/frights/key/animated_key"
                     }
                   },
                   {
@@ -117,7 +117,7 @@
                     ],
                     "model": {
                       "type": "minecraft:model",
-                      "model": "fossil-frights:item/general_items/key"
+                      "model": "fossil-frights:items/frights/key/key"
                     }
                   },
                   {
@@ -131,7 +131,7 @@
                     ],
                     "model": {
                       "type": "minecraft:model",
-                      "model": "fossil-frights:item/general_items/key_cooldown"
+                      "model": "fossil-frights:items/frights/key/cooldown/key_cooldown_0"
                     }
                   },
                   {
@@ -145,7 +145,7 @@
                     ],
                     "model": {
                       "type": "minecraft:model",
-                      "model": "fossil-frights:item/general_items/key_disabled"
+                      "model": "fossil-frights:items/frights/key/key_disabled"
                     }
                   }
                 ],

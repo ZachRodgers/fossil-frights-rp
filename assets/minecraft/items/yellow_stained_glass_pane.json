@@ -8,7 +8,7 @@
     },
     "on_true": {
       "type": "minecraft:model",
-      "model": "fossil-frights:item/misc/arrow"
+      "model": "fossil-frights:display/lobby/parkour/arrow"
     },
     "on_false": {
       "type": "minecraft:condition",
@@ -19,7 +19,7 @@
       },
       "on_true": {
         "type": "minecraft:model",
-        "model": "fossil-frights:item/misc/ochre_projector_beam"
+        "model": "fossil-frights:display/lobby/holograms/ochre_projector_beam"
       },
       "on_false": {
         "type": "minecraft:select",
@@ -37,7 +37,7 @@
             ],
             "model": {
               "type": "minecraft:model",
-              "model": "fossil-frights:item/misc/arrow"
+              "model": "fossil-frights:display/lobby/parkour/arrow"
             }
           },
           {
@@ -51,7 +51,7 @@
             ],
             "model": {
               "type": "minecraft:model",
-              "model": "fossil-frights:item/misc/ochre_projector_beam"
+              "model": "fossil-frights:display/lobby/holograms/ochre_projector_beam"
             }
           }
         ],

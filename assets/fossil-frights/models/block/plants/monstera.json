@@ -1,4 +1,4 @@
 {
-  "parent": "fossil-frights:item/plants/monstera",
+  "parent": "fossil-frights:display/exhibits/terrarium/monstera",
   "render_type": "cutout"
 }

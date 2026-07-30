@@ -7,28 +7,28 @@
         "threshold": 1,
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/scrap_metal"
+          "model": "fossil-frights:items/frights/medium_items/scrap_metal"
         }
       },
       {
         "threshold": 3,
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_blocks/breaker_box"
+          "model": "fossil-frights:display/exhibits/basement/hazards/breaker_box"
         }
       },
       {
         "threshold": 4,
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_blocks/breaker_box_door"
+          "model": "fossil-frights:display/exhibits/basement/hazards/breaker_box_door"
         }
       },
       {
         "threshold": 5,
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_blocks/breaker_box_lever"
+          "model": "fossil-frights:display/exhibits/basement/hazards/breaker_box_lever"
         }
       }
     ],
@@ -41,7 +41,7 @@
       },
       "on_true": {
         "type": "minecraft:model",
-        "model": "fossil-frights:item/general_items/lock"
+        "model": "fossil-frights:display/general/lock"
       },
       "on_false": {
         "type": "minecraft:condition",
@@ -52,7 +52,7 @@
         },
         "on_true": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/scrap_metal"
+          "model": "fossil-frights:items/frights/medium_items/scrap_metal"
         },
         "on_false": {
           "type": "minecraft:select",
@@ -70,7 +70,7 @@
               ],
               "model": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:item/general_items/lock"
+                "model": "fossil-frights:display/general/lock"
               }
             },
             {
@@ -84,7 +84,7 @@
               ],
               "model": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:item/general_items/scrap_metal"
+                "model": "fossil-frights:items/frights/medium_items/scrap_metal"
               }
             }
           ],

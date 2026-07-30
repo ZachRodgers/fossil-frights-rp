@@ -8,7 +8,7 @@
     },
     "on_true": {
       "type": "minecraft:model",
-      "model": "fossil-frights:item/general_items/constellation_bee"
+      "model": "fossil-frights:display/tasks/star_gazing/constellation_bee"
     },
     "on_false": {
       "type": "minecraft:condition",
@@ -19,7 +19,7 @@
       },
       "on_true": {
         "type": "minecraft:model",
-        "model": "fossil-frights:item/general_items/constellation_dragon"
+        "model": "fossil-frights:display/tasks/star_gazing/constellation_dragon"
       },
       "on_false": {
         "type": "minecraft:condition",
@@ -30,7 +30,7 @@
         },
         "on_true": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/constellation_golem"
+          "model": "fossil-frights:display/tasks/star_gazing/constellation_golem"
         },
         "on_false": {
           "type": "minecraft:condition",
@@ -41,7 +41,7 @@
           },
           "on_true": {
             "type": "minecraft:model",
-            "model": "fossil-frights:item/general_items/constellation_guardian"
+            "model": "fossil-frights:display/tasks/star_gazing/constellation_guardian"
           },
           "on_false": {
             "type": "minecraft:condition",
@@ -52,7 +52,7 @@
             },
             "on_true": {
               "type": "minecraft:model",
-              "model": "fossil-frights:item/general_items/constellation_spider"
+              "model": "fossil-frights:display/tasks/star_gazing/constellation_spider"
             },
             "on_false": {
               "type": "minecraft:condition",
@@ -63,7 +63,7 @@
               },
               "on_true": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:item/general_items/constellation_wither"
+                "model": "fossil-frights:display/tasks/star_gazing/constellation_wither"
               },
               "on_false": {
                 "type": "minecraft:condition",
@@ -74,7 +74,7 @@
                 },
                 "on_true": {
                   "type": "minecraft:model",
-                  "model": "fossil-frights:item/merchandise/ghast_plushie"
+                  "model": "fossil-frights:items/heists/loot/ghast_plushie"
                 },
                 "on_false": {
                   "type": "minecraft:select",
@@ -92,7 +92,7 @@
                       ],
                       "model": {
                         "type": "minecraft:model",
-                        "model": "fossil-frights:item/general_items/constellation_bee"
+                        "model": "fossil-frights:display/tasks/star_gazing/constellation_bee"
                       }
                     },
                     {
@@ -106,7 +106,7 @@
                       ],
                       "model": {
                         "type": "minecraft:model",
-                        "model": "fossil-frights:item/general_items/constellation_dragon"
+                        "model": "fossil-frights:display/tasks/star_gazing/constellation_dragon"
                       }
                     },
                     {
@@ -120,7 +120,7 @@
                       ],
                       "model": {
                         "type": "minecraft:model",
-                        "model": "fossil-frights:item/general_items/constellation_golem"
+                        "model": "fossil-frights:display/tasks/star_gazing/constellation_golem"
                       }
                     },
                     {
@@ -134,7 +134,7 @@
                       ],
                       "model": {
                         "type": "minecraft:model",
-                        "model": "fossil-frights:item/general_items/constellation_guardian"
+                        "model": "fossil-frights:display/tasks/star_gazing/constellation_guardian"
                       }
                     },
                     {
@@ -148,7 +148,7 @@
                       ],
                       "model": {
                         "type": "minecraft:model",
-                        "model": "fossil-frights:item/general_items/constellation_spider"
+                        "model": "fossil-frights:display/tasks/star_gazing/constellation_spider"
                       }
                     },
                     {
@@ -162,7 +162,7 @@
                       ],
                       "model": {
                         "type": "minecraft:model",
-                        "model": "fossil-frights:item/general_items/constellation_wither"
+                        "model": "fossil-frights:display/tasks/star_gazing/constellation_wither"
                       }
                     },
                     {
@@ -176,7 +176,7 @@
                       ],
                       "model": {
                         "type": "minecraft:model",
-                        "model": "fossil-frights:item/merchandise/ghast_plushie"
+                        "model": "fossil-frights:items/heists/loot/ghast_plushie"
                       }
                     }
                   ],

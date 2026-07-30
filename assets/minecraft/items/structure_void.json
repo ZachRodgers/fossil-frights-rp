@@ -7,7 +7,7 @@
         "threshold": 1,
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_blocks/credit_reel"
+          "model": "fossil-frights:items/frights/medium_items/credit_reel"
         }
       }
     ],
@@ -20,7 +20,7 @@
       },
       "on_true": {
         "type": "minecraft:model",
-        "model": "fossil-frights:item/general_blocks/fan"
+        "model": "fossil-frights:display/tasks/ac_reset/fan"
       },
       "on_false": {
         "type": "minecraft:condition",
@@ -31,7 +31,7 @@
         },
         "on_true": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_blocks/credit_reel"
+          "model": "fossil-frights:items/frights/medium_items/credit_reel"
         },
         "on_false": {
           "type": "minecraft:condition",
@@ -42,7 +42,7 @@
           },
           "on_true": {
             "type": "minecraft:model",
-            "model": "fossil-frights:item/general_blocks/valve"
+            "model": "fossil-frights:display/exhibits/basement/hazards/valve"
           },
           "on_false": {
             "type": "minecraft:select",
@@ -60,7 +60,7 @@
                 ],
                 "model": {
                   "type": "minecraft:model",
-                  "model": "fossil-frights:item/general_blocks/fan"
+                  "model": "fossil-frights:display/tasks/ac_reset/fan"
                 }
               },
               {
@@ -74,7 +74,7 @@
                 ],
                 "model": {
                   "type": "minecraft:model",
-                  "model": "fossil-frights:item/general_blocks/credit_reel"
+                  "model": "fossil-frights:items/frights/medium_items/credit_reel"
                 }
               },
               {
@@ -88,7 +88,7 @@
                 ],
                 "model": {
                   "type": "minecraft:model",
-                  "model": "fossil-frights:item/general_blocks/valve"
+                  "model": "fossil-frights:display/exhibits/basement/hazards/valve"
                 }
               }
             ],

@@ -8,7 +8,7 @@
     },
     "on_true": {
       "type": "minecraft:model",
-      "model": "fossil-frights:item/general_items/cretaceous_map"
+      "model": "fossil-frights:display/exhibits/top_floor/cretaceous_map"
     },
     "on_false": {
       "type": "minecraft:condition",
@@ -19,7 +19,7 @@
       },
       "on_true": {
         "type": "minecraft:model",
-        "model": "fossil-frights:item/general_items/pangea_map"
+        "model": "fossil-frights:display/exhibits/top_floor/pangea_map"
       },
       "on_false": {
         "type": "minecraft:select",
@@ -37,7 +37,7 @@
             ],
             "model": {
               "type": "minecraft:model",
-              "model": "fossil-frights:item/general_items/cretaceous_map"
+              "model": "fossil-frights:display/exhibits/top_floor/cretaceous_map"
             }
           },
           {
@@ -51,7 +51,7 @@
             ],
             "model": {
               "type": "minecraft:model",
-              "model": "fossil-frights:item/general_items/pangea_map"
+              "model": "fossil-frights:display/exhibits/top_floor/pangea_map"
             }
           }
         ],

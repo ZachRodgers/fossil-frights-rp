@@ -7,35 +7,35 @@
         "threshold": 1,
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/confetti_remote"
+          "model": "fossil-frights:items/misc/confetti_remote"
         }
       },
       {
         "threshold": 2,
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/camera_remote"
+          "model": "fossil-frights:items/heists/gear/guards/camera_remote"
         }
       },
       {
         "threshold": 3,
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/ice_cannon_remote"
+          "model": "fossil-frights:items/heists/gear/guards/ice_cannon_remote"
         }
       },
       {
         "threshold": 5,
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/security_camera_base"
+          "model": "fossil-frights:display/general/cameras/security_camera_base"
         }
       },
       {
         "threshold": 6,
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/security_camera_on"
+          "model": "fossil-frights:display/general/cameras/security_camera_on"
         }
       }
     ],
@@ -48,7 +48,7 @@
       },
       "on_true": {
         "type": "minecraft:model",
-        "model": "fossil-frights:item/general_items/confetti_remote"
+        "model": "fossil-frights:items/misc/confetti_remote"
       },
       "on_false": {
         "type": "minecraft:condition",
@@ -59,7 +59,7 @@
         },
         "on_true": {
           "type": "minecraft:model",
-          "model": "fossil-frights:item/general_items/camera_remote"
+          "model": "fossil-frights:items/heists/gear/guards/camera_remote"
         },
         "on_false": {
           "type": "minecraft:condition",
@@ -70,7 +70,7 @@
           },
           "on_true": {
             "type": "minecraft:model",
-            "model": "fossil-frights:item/general_items/ice_cannon_remote"
+            "model": "fossil-frights:items/heists/gear/guards/ice_cannon_remote"
           },
           "on_false": {
             "type": "minecraft:select",
@@ -88,7 +88,7 @@
                 ],
                 "model": {
                   "type": "minecraft:model",
-                  "model": "fossil-frights:item/general_items/confetti_remote"
+                  "model": "fossil-frights:items/misc/confetti_remote"
                 }
               },
               {
@@ -102,7 +102,7 @@
                 ],
                 "model": {
                   "type": "minecraft:model",
-                  "model": "fossil-frights:item/general_items/camera_remote"
+                  "model": "fossil-frights:items/heists/gear/guards/camera_remote"
                 }
               },
               {
@@ -116,7 +116,7 @@
                 ],
                 "model": {
                   "type": "minecraft:model",
-                  "model": "fossil-frights:item/general_items/ice_cannon_remote"
+                  "model": "fossil-frights:items/heists/gear/guards/ice_cannon_remote"
                 }
               }
             ],

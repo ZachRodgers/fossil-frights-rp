@@ -2,8 +2,13 @@
   "sources": [
     {
       "type": "directory",
-      "source": "custom",
-      "prefix": "custom/"
+      "source": "display",
+      "prefix": "display/"
+    },
+    {
+      "type": "directory",
+      "source": "items",
+      "prefix": "items/"
     },
     {
       "type": "directory",

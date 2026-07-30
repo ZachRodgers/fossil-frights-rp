@@ -3,9 +3,9 @@
 	"credit": "Made with Blockbench",
 	"parent": "minecraft:block/template_wall_sign",
 	"textures": {
-		"0": "fossil-frights:custom/general_blocks/placards/tuff_placard",
+		"0": "fossil-frights:display/general/signs/placards/tuff_placard",
 		"all": "block/pale_oak_sign",
-		"particle": "fossil-frights:custom/general_blocks/placards/tuff_placard"
+		"particle": "fossil-frights:display/general/signs/placards/tuff_placard"
 	},
 	"elements": [
 		{

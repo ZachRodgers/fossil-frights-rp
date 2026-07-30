@@ -8,7 +8,7 @@
     },
     "on_true": {
       "type": "minecraft:model",
-      "model": "fossil-frights:item/misc/capture_point"
+      "model": "fossil-frights:display/lobby/join_pads/capture_point"
     },
     "on_false": {
       "type": "minecraft:condition",
@@ -19,7 +19,7 @@
       },
       "on_true": {
         "type": "minecraft:model",
-        "model": "fossil-frights:item/misc/thieves_beam"
+        "model": "fossil-frights:display/lobby/join_pads/thieves_beam"
       },
       "on_false": {
         "type": "minecraft:select",
@@ -37,7 +37,7 @@
             ],
             "model": {
               "type": "minecraft:model",
-              "model": "fossil-frights:item/misc/capture_point"
+              "model": "fossil-frights:display/lobby/join_pads/capture_point"
             }
           },
           {
@@ -51,7 +51,7 @@
             ],
             "model": {
               "type": "minecraft:model",
-              "model": "fossil-frights:item/misc/thieves_beam"
+              "model": "fossil-frights:display/lobby/join_pads/thieves_beam"
             }
           }
         ],
