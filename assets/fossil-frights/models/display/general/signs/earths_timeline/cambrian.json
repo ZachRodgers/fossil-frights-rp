@@ -4,7 +4,7 @@
 	"texture_size": [64, 64],
 	"textures": {
 		"missing": "fossil-frights:display/misc/transparent",
-		"1": "fossil-frights:display/general/signs/earths_timeline/phanerozoic",
+		"1": "fossil-frights:display/general/signs/earths_timeline/cambrian",
 		"2": "fossil-frights:display/general/signs/earths_timeline/large_sign",
 		"particle": "fossil-frights:display/general/signs/earths_timeline/large_sign"
 	},

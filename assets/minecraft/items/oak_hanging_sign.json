@@ -48,11 +48,11 @@
             "property": "minecraft:component",
             "predicate": "minecraft:custom_data",
             "value": {
-              "itemID": "phanerozoic"
+              "itemID": "cambrian"
             },
             "on_true": {
               "type": "minecraft:model",
-              "model": "fossil-frights:display/general/signs/earths_timeline/phanerozoic"
+              "model": "fossil-frights:display/general/signs/earths_timeline/cambrian"
             },
             "on_false": {
               "type": "minecraft:condition",
@@ -262,14 +262,14 @@
                                             "when": [
                                               {
                                                 "extra": [
-                                                  "phanerozoic"
+                                                  "cambrian"
                                                 ],
                                                 "text": ""
                                               }
                                             ],
                                             "model": {
                                               "type": "minecraft:model",
-                                              "model": "fossil-frights:display/general/signs/earths_timeline/phanerozoic"
+                                              "model": "fossil-frights:display/general/signs/earths_timeline/cambrian"
                                             }
                                           },
                                           {
