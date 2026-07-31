@@ -142,5 +142,13 @@
         "stream": false
       }
     ]
+  },
+  "heists.music": {
+    "sounds": [
+      {
+        "name": "fossil-frights:music/heists_music",
+        "stream": true
+      }
+    ]
   }
 }
