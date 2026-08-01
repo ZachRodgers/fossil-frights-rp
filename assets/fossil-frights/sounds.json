@@ -150,5 +150,37 @@
         "stream": true
       }
     ]
+  },
+  "music_loop.parkour": {
+    "sounds": [
+      {
+        "name": "fossil-frights:music/parkour_loop",
+        "stream": true
+      }
+    ]
+  },
+  "music_loop.temple_run": {
+    "sounds": [
+      {
+        "name": "fossil-frights:music/temple_run_loop",
+        "stream": true
+      }
+    ]
+  },
+  "music_loop.ant_fight": {
+    "sounds": [
+      {
+        "name": "fossil-frights:music/ant_fight_loop",
+        "stream": true
+      }
+    ]
+  },
+  "music_loop.sulfur_striker": {
+    "sounds": [
+      {
+        "name": "fossil-frights:music/sulfur_striker_loop",
+        "stream": true
+      }
+    ]
   }
 }
