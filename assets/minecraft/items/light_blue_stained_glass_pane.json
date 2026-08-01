@@ -44,6 +44,20 @@
           "type": "minecraft:model",
           "model": "fossil-frights:display/exhibits/basement/hazards/ghost_forcefield_chaos"
         }
+      },
+      {
+        "threshold": 7,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:display/exhibits/basement/hazards/security_panel"
+        }
+      },
+      {
+        "threshold": 8,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:display/exhibits/basement/hazards/security_panel_alert"
+        }
       }
     ],
     "fallback": {
