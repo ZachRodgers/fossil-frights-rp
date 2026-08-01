@@ -3,7 +3,8 @@
 	"credit": "Made with Blockbench",
 	"parent": "minecraft:block/template_wall_sign",
 	"textures": {
-		"all": "block/cherry_sign"
+		"all": "block/cherry_sign",
+		"particle": "block/cherry_sign"
 	},
 	"elements": [
 		{
