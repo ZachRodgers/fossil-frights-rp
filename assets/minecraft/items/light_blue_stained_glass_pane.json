@@ -30,6 +30,20 @@
           "type": "minecraft:model",
           "model": "fossil-frights:display/tasks/refill_popcorn/popcorn_machine"
         }
+      },
+      {
+        "threshold": 5,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:display/exhibits/basement/hazards/ghost_forcefield"
+        }
+      },
+      {
+        "threshold": 6,
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:display/exhibits/basement/hazards/ghost_forcefield_chaos"
+        }
       }
     ],
     "fallback": {
