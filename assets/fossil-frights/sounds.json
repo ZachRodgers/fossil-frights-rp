@@ -175,6 +175,14 @@
       }
     ]
   },
+  "music_stinger.ant_fight": {
+    "sounds": [
+      {
+        "name": "fossil-frights:music/ant_fight_stinger",
+        "stream": true
+      }
+    ]
+  },
   "music_loop.sulfur_striker": {
     "sounds": [
       {
