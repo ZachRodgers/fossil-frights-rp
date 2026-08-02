@@ -17,6 +17,7 @@ out float cylindricalVertexDistance;
 out vec2 texCoord0;
 out vec4 vertexColor;
 out vec4 lightMapColor;
+out vec4 maxLightMapColor;
 
 void main() {
     gl_Position = ProjMat * ModelViewMat * vec4(Position, 1.0);
@@ -26,4 +27,5 @@ void main() {
     texCoord0 = UV0;
     vertexColor = Color * sample_lightmap(Sampler2, UV2);
     lightMapColor = sample_lightmap(Sampler2, UV2);
+    maxLightMapColor = sample_lightmap(Sampler2, ivec2(240.0, 240.0));
 }
