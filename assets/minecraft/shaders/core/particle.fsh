@@ -10,6 +10,7 @@ in float sphericalVertexDistance;
 in float cylindricalVertexDistance;
 in vec2 texCoord0;
 in vec4 vertexColor;
+in vec4 lightMapColor;
 
 out vec4 fragColor;
 
@@ -25,7 +26,7 @@ void main() {
     // Multiplies color for antigravity particles
     else if (check_alpha(alpha, 249.0)) {
         vec4 antiGravityColor = vec4(66/255., 29/255., 208/255., 1);
-        color = texture(Sampler0, texCoord0) * antiGravityColor * ColorModulator;
+        color = texture(Sampler0, texCoord0) * antiGravityColor * lightMapColor * ColorModulator;
         color.a = 1;
     }
 
