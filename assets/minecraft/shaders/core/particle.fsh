@@ -22,6 +22,12 @@ void main() {
         color = texture(Sampler0, texCoord0) * ColorModulator;
         color.a = 1;
     }
+    // Multiplies color for antigravity particles
+    else if (check_alpha(alpha, 249.0)) {
+        vec4 antiGravityColor = vec4(66/255., 29/255., 208/255., 1);
+        color = texture(Sampler0, texCoord0) * antiGravityColor * ColorModulator;
+        color.a = 1;
+    }
 
     if (color.a < 0.1) {
         discard;
