@@ -685,6 +685,7 @@
   "ff.lobby.ant_fight.no_scores_yet": "No scores yet",
 
   "ff.actionbar.trap.invalid_block": "Not valid block",
+  "ff.actionbar.trap.too_many_basement": "Too many traps in basement",
   "ff.actionbar.trap.no_trap_to_pickup": "No trap to pick up",
   "ff.actionbar.trap.picked_up": "Picked up Trap",
   "ff.actionbar.trap.too_close": "Too close to another trap",
