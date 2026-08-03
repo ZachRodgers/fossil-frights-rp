@@ -167,6 +167,14 @@
       }
     ]
   },
+  "music_stinger.temple_run": {
+    "sounds": [
+      {
+        "name": "fossil-frights:music/temple_run_stinger",
+        "stream": true
+      }
+    ]
+  },
   "music_loop.ant_fight": {
     "sounds": [
       {
