@@ -175,14 +175,6 @@
       }
     ]
   },
-  "music_tail.temple_run": {
-    "sounds": [
-      {
-        "name": "fossil-frights:music/temple_run_tail",
-        "stream": true
-      }
-    ]
-  },
   "music_loop.ant_fight": {
     "sounds": [
       {
