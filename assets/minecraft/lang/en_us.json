@@ -51,7 +51,9 @@
   "ff.messages.info.victory_leave.winner": "Congratulations. The game will reset in 30 seconds.",
   "ff.messages.info.challenge_max": "%s has set the maximum bounty for a challenge.",
   "ff.messages.info.challenge_set": "%1$s set the bounty to $%2$s for a challenge.",
-  
+  "ff.messages.info.challenge_original": "%s returned the bounty to its original value of $1000.",
+
+
   "ff.messages.info.settings": "%1$s: %2$s %3$s",
   "ff.messages.info.settings.setting_status": "(Currently: %s)",
   "ff.messages.info.settings.invite_terminal": "Invite Terminal",
@@ -125,7 +127,7 @@
   "ff.messages.warning.cannot_watch_tutorial_while_temple_run": "Cannot watch tutorial while in Temple Run.",
   "ff.messages.warning.challenge_before_start": "Challenge may only be triggered before the game has begun.",
   "ff.messages.warning.challenge_heists_only": "This command is for Heists mode only.",
-  "ff.messages.warning.challenge_invalid_amount": "Challenge must be 1250, 1500, 1750, 2000, or -1 for all loot.",
+  "ff.messages.warning.challenge_invalid_amount": "Challenge must be 1000, 1250, 1500, 1750, 2000, or -1 for all loot.",
   "ff.messages.warning.challenge_only_thieves": "Only thieves can set a Heists challenge.",
   "ff.messages.warning.day_already_active": "A day is already active.",
   "ff.messages.warning.final_day_reached": "Day 10 is already the final day.",
