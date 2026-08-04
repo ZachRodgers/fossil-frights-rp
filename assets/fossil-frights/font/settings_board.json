@@ -19,42 +19,21 @@
       "file": "fossil-frights:font/settings_board/gamemode/frights.png",
       "ascent": 16,
       "height": 16,
-      "chars": ["\ue410"]
-    },
-    {
-      "type": "bitmap",
-      "file": "fossil-frights:font/settings_board/gamemode/frights.png",
-      "ascent": 16,
-      "height": 16,
-      "chars": ["\ue411\ue412"]
+      "chars": ["\ue410", "\ue411", "\ue412"]
     },
     {
       "type": "bitmap",
       "file": "fossil-frights:font/settings_board/gamemode/heists.png",
       "ascent": 16,
       "height": 16,
-      "chars": ["\ue413"]
-    },
-    {
-      "type": "bitmap",
-      "file": "fossil-frights:font/settings_board/gamemode/heists.png",
-      "ascent": 16,
-      "height": 16,
-      "chars": ["\ue414\ue415"]
+      "chars": ["\ue413", "\ue414", "\ue415"]
     },
     {
       "type": "bitmap",
       "file": "fossil-frights:font/settings_board/gamemode/party.png",
       "ascent": 16,
       "height": 16,
-      "chars": ["\ue416"]
-    },
-    {
-      "type": "bitmap",
-      "file": "fossil-frights:font/settings_board/gamemode/party.png",
-      "ascent": 16,
-      "height": 16,
-      "chars": ["\ue417\ue418"]
+      "chars": ["\ue416", "\ue417", "\ue418"]
     },
     {
       "type": "bitmap",
