@@ -102,6 +102,7 @@
   "ff.messages.info.tutorial_message.day_tracker.description": "Survive as many shifts as possible, each one harder than the last. Complete all 10 to beat the game.",
 
   "ff.messages.warning.day_set": "Day can only be set while the game is on break.",
+  "ff.messages.warning.settings_spam": "Please stop spamming settings.",
   "ff.messages.warning.party_mode.1": "Party Mode can only be enabled after a run has started.",
   "ff.messages.warning.party_mode.2": "Party Mode can only be enabled between days.",
   "ff.messages.warning.party_mode.3": "Party Mode must be enabled before Day 1 starts.",
