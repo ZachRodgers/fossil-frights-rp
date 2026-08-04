@@ -54,8 +54,7 @@
   "ff.messages.info.challenge_original": "%s returned the bounty to its original value of $1000.",
 
 
-  "ff.messages.info.settings": "%1$s: %2$s %3$s",
-  "ff.messages.info.settings.setting_status": "(Currently: %s)",
+  "ff.messages.info.settings": "%1$s: %2$s",
   "ff.messages.info.settings.invite_terminal": "Invite Terminal",
   "ff.messages.info.settings.invite_terminal.description": "Fossil Frights supports Duo runs, meaning two people, same tasks, same timers. Invite them via the terminal or /%s.",
   "ff.messages.info.settings.invite_terminal.more": "Duo runs are not counted towards your personal top time or leaderboard but instead your Duo Best Time in /%s",
@@ -77,6 +76,8 @@
   "ff.messages.info.settings.chat.visible": "Visible",
   "ff.messages.info.settings.chat.hidden": "Hidden",
   "ff.messages.info.settings.chat.more": "Can be toggled anytime with /mutechat",
+  "ff.messages.info.settings.random": "Random",
+  "ff.messages.info.settings.random.description": "Enables or disables the team randomizer join pad.",
 
   "ff.messages.info.tutorial_message": "%1$s: %2$s",
   "ff.messages.info.tutorial_message.tasks": "Tasks",
