@@ -151,10 +151,18 @@
       }
     ]
   },
-  "music_loop.parkour": {
+  "music_loop.bee_parkour": {
     "sounds": [
       {
-        "name": "fossil-frights:music/parkour_loop",
+        "name": "fossil-frights:music/bee_parkour_loop",
+        "stream": true
+      }
+    ]
+  },
+  "music_stinger.bee_parkour": {
+    "sounds": [
+      {
+        "name": "fossil-frights:music/bee_parkour_stinger",
         "stream": true
       }
     ]
