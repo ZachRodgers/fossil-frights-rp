@@ -3,8 +3,8 @@
     {
       "type": "bitmap",
       "file": "fossil-frights:font/icons/museum.png",
-      "ascent": 20,
-      "height": 32,
+      "ascent": 12,
+      "height": 25,
       "chars": [
         "\ue125"
       ]
