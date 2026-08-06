@@ -112,7 +112,7 @@
   "ff.messages.warning.already_in_queue": "You are already in the queue.",
   "ff.messages.warning.already_on_team": "You are already on that team.",
   "ff.messages.warning.cannot_join_heist_team_while_spectating": "You must leave spectator mode before joining a team.",
-  "ff.messages.warning.cannot_leave_not_active": "You cannot leave the game because you are not the active player.",
+  "ff.messages.warning.cannot_leave_not_active": "You have nothing to leave.",
   "ff.messages.warning.chorus_cola_teleport_failed": "Teleport failed! No space was found nearby.",
   "ff.messages.warning.cannot_spawn_while_active": "You must leave the game to use that command.",
   "ff.messages.warning.cannot_spawn_while_ant_fight": "You must exit Ant Fight to use that command. Toss your item to exit.",
