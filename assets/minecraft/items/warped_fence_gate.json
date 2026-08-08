@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "minecraft:block/cherry_fence_gate"
+    "model": "minecraft:block/warped_fence_gate"
   }
 }
