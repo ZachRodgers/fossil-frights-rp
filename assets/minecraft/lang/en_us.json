@@ -1914,6 +1914,7 @@
   "ff.settings.board.speedrun": "sᴘᴇᴇᴅʀᴜɴ",
   "ff.settings.board.random": "ʀᴀɴᴅᴏᴍ",
   "ff.settings.hover.info": "Click to select, punch for info",
+  "ff.settings.hover.select": "Click to select",
   "ff.settings.info.title": "%1$s: %2$s",
   "ff.settings.state.on": "On",
   "ff.settings.state.off": "Off",
