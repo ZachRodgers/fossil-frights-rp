@@ -8,6 +8,15 @@
       "chars": [
         "\ue120\ue121\ue122\ue123\ue124"
       ]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil-frights:font/icons/permalava_hazard.png",
+      "ascent": 10,
+      "height": 16,
+      "chars": [
+        "\ue125"
+      ]
     }
   ]
 }
