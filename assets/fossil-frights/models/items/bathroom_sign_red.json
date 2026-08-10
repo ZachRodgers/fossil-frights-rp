@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+			"0": "fossil-frights:items/bathroom_sign_red",
+			"particle": "fossil-frights:items/bathroom_sign_red"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 2],
+			"faces": {
+				"north": {"uv": [0, 0, 4, 4], "texture": "#0"},
+				"east": {"uv": [4.5, 0, 4, 4], "texture": "#0"},
+				"south": {"uv": [0, 4, 4, 8], "texture": "#0"},
+				"west": {"uv": [4, 0, 4.5, 4], "texture": "#0"},
+				"up": {"uv": [4.5, 4, 4, 0], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [4.5, 0, 4, 4], "rotation": 90, "texture": "#0"}
+			}
+		}
+	]
+}
