@@ -415,6 +415,13 @@
 			}
 		}
 	],
+	"display": {
+		"gui": {
+			"rotation": [30, -135, 0],
+			"translation": [-0.75, 0, 0],
+			"scale": [0.27, 0.27, 0.27]
+		}
+	},
 	"groups": [
 		{
 			"name": "landing_gear",
