@@ -3,8 +3,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "fossil-frights:display/bathroom/mirror",
-		"particle": "fossil-frights:display/bathroom/mirror"
+		"0": "fossil-frights:display/exhibits/bathroom/mirror",
+		"particle": "fossil-frights:display/exhibits/bathroom/mirror"
 	},
 	"elements": [
 		{

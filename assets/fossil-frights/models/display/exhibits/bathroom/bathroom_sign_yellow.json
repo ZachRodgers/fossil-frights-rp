@@ -3,8 +3,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-			"0": "fossil-frights:display/bathroom/bathroom_sign_red",
-			"particle": "fossil-frights:display/bathroom/bathroom_sign_red"
+			"0": "fossil-frights:display/exhibits/bathroom/bathroom_sign_yellow",
+			"particle": "fossil-frights:display/exhibits/bathroom/bathroom_sign_yellow"
 	},
 	"elements": [
 		{
