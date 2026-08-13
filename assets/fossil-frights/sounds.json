@@ -214,5 +214,14 @@
         "stream": true
       }
     ]
+  },
+  "task.polish_bell": {
+    "subtitle": "subtitles.fossil_frights.ring_service_bell",
+    "sounds": [
+      {
+        "name": "fossil-frights:tasks/service_bell",
+        "stream": false
+      }
+    ]
   }
 }
