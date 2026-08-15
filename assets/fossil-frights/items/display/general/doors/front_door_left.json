@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "minecraft:block/front_door_left"
+    "model": "fossil-frights:display/general/front_door/left"
   }
 }
