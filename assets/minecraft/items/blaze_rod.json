@@ -30,7 +30,7 @@
         },
         "on_true": {
           "type": "minecraft:model",
-          "model": "fossil-frights:items/frights/key/cooldown/key_cooldown_0"
+          "model": "fossil-frights:items/frights/key/cooldown/0"
         },
         "on_false": {
           "type": "minecraft:condition",
@@ -87,7 +87,7 @@
                 ],
                 "model": {
                   "type": "minecraft:model",
-                  "model": "fossil-frights:items/frights/key/cooldown/key_cooldown_0"
+                  "model": "fossil-frights:items/frights/key/cooldown/0"
                 }
               },
               {
