@@ -2,7 +2,8 @@
 	"format_version": "1.21.6",
 	"credit": "Codex",
 	"textures": {
-		"texture": "block/cherry_planks"
+		"texture": "block/cherry_planks",
+		"particle": "block/cherry_planks"
 	},
 	"elements": [
 		{
