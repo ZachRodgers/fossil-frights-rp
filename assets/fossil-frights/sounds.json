@@ -267,5 +267,45 @@
   "task.sweep_popcorn": {
     "subtitle": "subtitles.fossil_frights.task.sweep_popcorn",
     "sounds": [{ "name": "fossil-frights:tasks/sweep_popcorn", "stream": false }]
+  },
+  "task.a_c_reset": {
+    "subtitle": "subtitles.fossil_frights.task.a_c_reset",
+    "sounds": [{ "name": "fossil-frights:tasks/a_c_reset", "stream": false }]
+  },
+  "task.bathroom_leak": {
+    "subtitle": "subtitles.fossil_frights.task.bathroom_leak",
+    "sounds": [{ "name": "fossil-frights:tasks/bathroom_leak", "stream": false }]
+  },
+  "task.check_ankylo": {
+    "subtitle": "subtitles.fossil_frights.task.check_ankylo",
+    "sounds": [{ "name": "fossil-frights:tasks/check_ankylo", "stream": false }]
+  },
+  "task.cool_it": {
+    "subtitle": "subtitles.fossil_frights.task.cool_it",
+    "sounds": [{ "name": "fossil-frights:tasks/cool_it", "stream": false }]
+  },
+  "task.holy_grail": {
+    "subtitle": "subtitles.fossil_frights.task.holy_grail",
+    "sounds": [{ "name": "fossil-frights:tasks/holy_grail", "stream": false }]
+  },
+  "task.lock_register": {
+    "subtitle": "subtitles.fossil_frights.task.lock_register",
+    "sounds": [{ "name": "fossil-frights:tasks/lock_register", "stream": false }]
+  },
+  "task.nautilus_guard": {
+    "subtitle": "subtitles.fossil_frights.task.nautilus_guard",
+    "sounds": [{ "name": "fossil-frights:tasks/nautilus_guard", "stream": false }]
+  },
+  "task.smelly_toilet": {
+    "subtitle": "subtitles.fossil_frights.task.smelly_toilet",
+    "sounds": [{ "name": "fossil-frights:tasks/smelly_toilet", "stream": false }]
+  },
+  "task.the_lost_code": {
+    "subtitle": "subtitles.fossil_frights.task.the_lost_code",
+    "sounds": [{ "name": "fossil-frights:tasks/the_lost_code", "stream": false }]
+  },
+  "task.toilet_clog": {
+    "subtitle": "subtitles.fossil_frights.task.toilet_clog",
+    "sounds": [{ "name": "fossil-frights:tasks/toilet_clog", "stream": false }]
   }
 }
