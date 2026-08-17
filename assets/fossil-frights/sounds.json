@@ -216,12 +216,56 @@
     ]
   },
   "task.polish_bell": {
-    "subtitle": "subtitles.fossil_frights.ring_service_bell",
+    "subtitle": "subtitles.fossil_frights.task.polish_bell",
     "sounds": [
       {
-        "name": "fossil-frights:tasks/service_bell",
+        "name": "fossil-frights:tasks/polish_bell",
         "stream": false
       }
     ]
+  },
+  "task.coffee_top_up": {
+    "subtitle": "subtitles.fossil_frights.task.coffee_top_up",
+    "sounds": [{ "name": "fossil-frights:tasks/coffee_top_up", "stream": false }]
+  },
+  "task.credit_reel": {
+    "subtitle": "subtitles.fossil_frights.task.credit_reel",
+    "sounds": [{ "name": "fossil-frights:tasks/credit_reel", "stream": false }]
+  },
+  "task.feed_parrot": {
+    "subtitle": "subtitles.fossil_frights.task.feed_parrot",
+    "sounds": [{ "name": "fossil-frights:tasks/feed_parrot", "stream": false }]
+  },
+  "task.feed_the_plants": {
+    "subtitle": "subtitles.fossil_frights.task.feed_the_plants",
+    "sounds": [{ "name": "fossil-frights:tasks/feed_the_plants", "stream": false }]
+  },
+  "task.hoveraptor": {
+    "subtitle": "subtitles.fossil_frights.task.hoveraptor",
+    "sounds": [{ "name": "fossil-frights:tasks/hoveraptor", "stream": false }]
+  },
+  "task.picnic_with_trike": {
+    "subtitle": "subtitles.fossil_frights.task.picnic_with_trike",
+    "sounds": [{ "name": "fossil-frights:tasks/picnic_with_trike", "stream": false }]
+  },
+  "task.popcorn_buckets": {
+    "subtitle": "subtitles.fossil_frights.task.popcorn_buckets",
+    "sounds": [{ "name": "fossil-frights:tasks/popcorn_buckets", "stream": false }]
+  },
+  "task.refill_coffee": {
+    "subtitle": "subtitles.fossil_frights.task.refill_coffee",
+    "sounds": [{ "name": "fossil-frights:tasks/refill_coffee", "stream": false }]
+  },
+  "task.refill_ice": {
+    "subtitle": "subtitles.fossil_frights.task.refill_ice",
+    "sounds": [{ "name": "fossil-frights:tasks/refill_ice", "stream": false }]
+  },
+  "task.return_the_key": {
+    "subtitle": "subtitles.fossil_frights.task.return_the_key",
+    "sounds": [{ "name": "fossil-frights:tasks/return_the_key", "stream": false }]
+  },
+  "task.sweep_popcorn": {
+    "subtitle": "subtitles.fossil_frights.task.sweep_popcorn",
+    "sounds": [{ "name": "fossil-frights:tasks/sweep_popcorn", "stream": false }]
   }
 }
