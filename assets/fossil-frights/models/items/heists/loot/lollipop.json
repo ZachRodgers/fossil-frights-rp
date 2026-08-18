@@ -2,8 +2,8 @@
 	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "fossil-frights:items/heists/loot/lolipop",
-		"particle": "fossil-frights:items/heists/loot/lolipop"
+		"0": "fossil-frights:items/heists/loot/lollipop",
+		"particle": "fossil-frights:items/heists/loot/lollipop"
 	},
 	"elements": [
 		{
