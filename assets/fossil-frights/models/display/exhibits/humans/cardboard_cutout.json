@@ -3,8 +3,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [128, 128],
 	"textures": {
-		"0": "fossil-frights:display/misc/zeronia/cardboard_cutout",
-		"particle": "fossil-frights:display/misc/zeronia/cardboard_cutout"
+		"0": "fossil-frights:display/exhibits/humans/cardboard_cutout",
+		"particle": "fossil-frights:display/exhibits/humans/cardboard_cutout"
 	},
 	"elements": [
 		{
