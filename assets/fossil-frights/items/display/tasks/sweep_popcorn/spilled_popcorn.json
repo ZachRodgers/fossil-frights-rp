@@ -5,11 +5,11 @@
     "index": 0,
     "on_true": {
       "type": "minecraft:model",
-      "model": "fossil-frights:items/heists/loot/popcorn_spilled_cleaned"
+      "model": "fossil-frights:display/tasks/sweep_popcorn/spilled_popcorn_cleaned"
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil-frights:items/heists/loot/popcorn_spilled"
+      "model": "fossil-frights:display/tasks/sweep_popcorn/spilled_popcorn"
     }
   }
 }
