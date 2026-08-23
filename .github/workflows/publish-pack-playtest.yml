@@ -1,9 +1,9 @@
-name: Publish Resource Pack
+name: Publish Playtest Resource Pack
 
 on:
   push:
     branches:
-      - main
+      - playtest
   workflow_dispatch:
 
 permissions:
@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   publish:
-    if: github.ref_name == 'main'
+    if: github.ref_name == 'playtest'
     runs-on: ubuntu-latest
 
     steps:
@@ -33,9 +33,9 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          tag="resource-pack-main-latest"
-          title="Latest Main Resource Pack"
-          notes="Automated resource pack build for ${GITHUB_SHA}"
+          tag="resource-pack-playtest-latest"
+          title="Latest Playtest Resource Pack"
+          notes="Automated playtest resource pack build for ${GITHUB_SHA}"
 
           if gh release view "$tag" >/dev/null 2>&1; then
             gh release upload "$tag" \
