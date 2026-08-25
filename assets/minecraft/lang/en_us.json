@@ -562,6 +562,7 @@
   "ff.death.poisonous_glowberry": "%1$s ate a poisonous glow berry.",
   "ff.death.star_gazing": "%1$s died looking at a star that was too bright",
   "ff.death.explosive_trap": "%1$s was blown up by an explosive trap",
+  "ff.death.explosive_trap.player": "%1$s was blown up by %2$s's explosive trap",
 
   "ff.stats.title": "========== Your Stats ==========",
   "ff.stats.best_time": "Best Time: %s",
