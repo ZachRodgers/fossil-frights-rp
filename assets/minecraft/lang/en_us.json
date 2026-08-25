@@ -175,7 +175,7 @@
   "subtitles.fossil_frights.hazards.security": "Security alarm",
   "subtitles.fossil_frights.hazards.curse": "Cursed Souls",
   "subtitles.fossil_frights.ring_service_bell": "Service bell rings",
-  "subtitles.fossil_frights.task.polish_bell": "Service nell rings",
+  "subtitles.fossil_frights.task.polish_bell": "Service bell rings",
   "subtitles.fossil_frights.task.coffee_top_up": "Coffee machine sounds",
   "subtitles.fossil_frights.task.credit_reel": "Credit reel spins",
   "subtitles.fossil_frights.task.feed_parrot": "Happy parrot",
@@ -790,7 +790,7 @@
   "ff.room_banner.humans": "HUMANS",
   "ff.room_banner.aviary": "AVIARY",
   "ff.room_banner.dino_bites": "DINO BITES",
-  "ff.room_banner.earth_timeline.line_1": "EARTH'S ",
+  "ff.room_banner.earth_timeline.line_1": "EARTH'S",
   "ff.room_banner.earth_timeline.line_2": "TIMELINE",
 
   "ff.sign.start_room.end_game.0": "",
