@@ -701,7 +701,7 @@
   "ff.info.fossil_frights.2.content": "You are a night-shift security guard in a museum. Each shift gives you a set of tasks, and you have five minutes to complete them.\n\nThe task book gives you the most important clues, but it will not explain the whole museum. Explore, learn the rooms, and remember useful routes.\n\nYou are not expected to win on your first try. Set a personal best, keep learning, and try to survive all 10 days.",
   "ff.info.fossil_frights.3.title.1": "EASY TASKS",
   "ff.info.fossil_frights.3.content.1": "Easy tasks usually require going somewhere, pressing a button, or checking a specific part of the museum.",
-  "ff.info.fossil_frights.3.title.2": "MEDIIUM TASKS",
+  "ff.info.fossil_frights.3.title.2": "MEDIUM TASKS",
   "ff.info.fossil_frights.3.content.2": "Medium tasks are trickier and always require an item. Use your Storage Key to retrieve items, often from the basement, then bring each item to the location named in the task book.",
   "ff.info.fossil_frights.3.title.3": "HARD TASKS",
   "ff.info.fossil_frights.3.content.3": "Hard tasks are puzzles. Read the hints carefully, explore, and expect each one to work differently.",
