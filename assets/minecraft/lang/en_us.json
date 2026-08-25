@@ -534,6 +534,7 @@
   "ff.bossbar.day.8": "ᴇɪɢʜᴛ",
   "ff.bossbar.day.9": "ɴɪɴᴇ",
   "ff.bossbar.day.10": "ᴛᴇɴ",
+  "ff.bossbar.custom_day": "custom day",
 
   "ff.day_tracker.day": "ᴅᴀʏ %s",
 
@@ -580,7 +581,7 @@
   "ff.unlocking": "Unlocking...",
 
   "ff.join_queue": "ᴊᴏɪɴ ǫᴜᴇᴜᴇ",
-
+  "ff.join_party": "join party",
   "ff.spectate": "ꜱᴘᴇᴄᴛᴀᴛᴇ",
 
   "ff.command.start": "start",
