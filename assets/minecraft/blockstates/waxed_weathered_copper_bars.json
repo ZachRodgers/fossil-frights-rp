@@ -1,0 +1,141 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "minecraft:block/weathered_copper_bars_post_ends"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/weathered_copper_bars_post"
+      },
+      "when": {
+        "east": "false",
+        "north": "false",
+        "south": "false",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/weathered_copper_bars_cap"
+      },
+      "when": {
+        "east": "false",
+        "north": "true",
+        "south": "false",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/weathered_copper_bars_cap",
+        "y": 90
+      },
+      "when": {
+        "east": "true",
+        "north": "false",
+        "south": "false",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/weathered_copper_bars_cap_alt"
+      },
+      "when": {
+        "east": "false",
+        "north": "false",
+        "south": "true",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/weathered_copper_bars_cap_alt",
+        "y": 90
+      },
+      "when": {
+        "east": "false",
+        "north": "false",
+        "south": "false",
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/weathered_copper_bars_side_with_flourish"
+      },
+      "when": {
+        "north": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/weathered_copper_bars_side_with_flourish",
+        "y": 90
+      },
+      "when": {
+        "east": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/weathered_copper_bars_side_alt_with_flourish"
+      },
+      "when": {
+        "south": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/weathered_copper_bars_side_alt_with_flourish",
+        "y": 90
+      },
+      "when": {
+        "west": "true"
+      }
+    },
+    {
+      "when": {
+        "OR": [
+          {
+            "AND": [
+              {"north": "true"},
+              {"east":  "false"},
+              {"south": "false"},
+              {"west":  "false"}
+            ]
+          },
+          {
+            "AND": [
+              {"north": "false"},
+              {"east":  "true"},
+              {"south": "false"},
+              {"west":  "false"}
+            ]
+          },
+          {
+            "AND": [
+              {"north": "false"},
+              {"east":  "false"},
+              {"south": "true"},
+              {"west":  "false"}
+            ]
+          },
+          {
+            "AND": [
+              {"north": "false"},
+              {"east":  "false"},
+              {"south": "false"},
+              {"west":  "true"}
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "minecraft:block/weathered_copper_bars_post_with_flourish"
+      }
+    }
+  ]
+}
