@@ -555,6 +555,7 @@
   "ff.heist.waiting_for_guards_hologram": "Waiting for guards to start",
 
   "ff.heists.capture_point": "CAPTURE POINT",
+  "ff.heists.scissors.found": "%s found scissors in %s",
   "ff.heists.thieves": "THIEVES",
   "ff.heists.guards": "GUARDS",
   "ff.heists.stats.title": "========== Heist Stats ==========",
