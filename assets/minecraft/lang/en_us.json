@@ -1902,7 +1902,7 @@
   "ff.lootbook.loot.lady_bug.name": "Lady Bug",
   "ff.lootbook.loot.lady_bug.description": "2nd Floor Aviary, Saber Tooth Squirrel Habitat. Requires a key. Be quick!",
   "ff.lootbook.loot.misplaced_scissors.name": "Misplaced Scissors",
-  "ff.lootbook.loot.lost_key.description": "Unknown location... Often somewhere new.",
+  "ff.lootbook.loot.misplaced_scissors.description": "Unknown location... Often somewhere new.",
   "ff.lootbook.loot.biplane.name": "Biplane",
   "ff.lootbook.loot.biplane.description": "2nd Floor Human Exhibit.",
   "ff.lootbook.loot.crab.name": "Crab",
