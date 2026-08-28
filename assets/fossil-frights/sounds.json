@@ -272,6 +272,10 @@
     "subtitle": "subtitles.fossil_frights.task.a_c_reset",
     "sounds": [{ "name": "fossil-frights:tasks/a_c_reset", "stream": false }]
   },
+  "task.basketball_dance": {
+    "subtitle": "subtitles.fossil_frights.task.basketball_dance",
+    "sounds": [{ "name": "fossil-frights:tasks/basketball_dance", "stream": false }]
+  },
   "task.bathroom_leak": {
     "subtitle": "subtitles.fossil_frights.task.bathroom_leak",
     "sounds": [{ "name": "fossil-frights:tasks/bathroom_leak", "stream": false }]
