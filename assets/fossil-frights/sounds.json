@@ -8,6 +8,15 @@
       }
     ]
   },
+  "animations.key": {
+    "subtitle": "subtitles.fossil_frights.animations.key",
+    "sounds": [
+      {
+        "name": "fossil-frights:animations/key",
+        "stream": false
+      }
+    ]
+  },
   "hazards.lights": {
     "subtitle": "subtitles.fossil_frights.hazards.lights",
     "sounds": [
