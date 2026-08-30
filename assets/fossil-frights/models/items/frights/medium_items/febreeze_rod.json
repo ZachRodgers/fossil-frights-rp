@@ -5,6 +5,7 @@
 	"textures": {
 		"missing": "fossil-frights:display/misc/transparent",
 		"0": "fossil-frights:items/frights/medium_items/febreeze_rod",
+		"emissive": "fossil-frights:items/frights/medium_items/febreeze_rod_emissive",
 		"particle": "fossil-frights:items/frights/medium_items/febreeze_rod"
 	},
 	"elements": [
@@ -48,6 +49,18 @@
 				"west": {"uv": [1, 0, 1, 1], "texture": "#missing"},
 				"up": {"uv": [0, 1, 2.5, 1], "texture": "#missing"},
 				"down": {"uv": [0, 0, 2.5, 0], "texture": "#missing"}
+			}
+		},
+		{
+			"name": "fe_emissive",
+			"from": [5, 9, 5.7],
+			"to": [11, 11, 5.7],
+			"shade": false,
+			"light_emission": 15,
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 9, 3.7]},
+			"faces": {
+				"north": {"uv": [13, 0, 16, 1], "texture": "#emissive"},
+				"south": {"uv": [13.5, 0, 16, 1], "texture": "#emissive"}
 			}
 		}
 	],
