@@ -757,7 +757,7 @@
   "ff.info.fossil_frights.3.content.3": "Hard tasks are puzzles. Read the hints carefully, explore, and expect each one to work differently.",
   "ff.info.fossil_frights.4.title": "HAZARD FIXES",
   "ff.info.fossil_frights.4.content": "Lights Out: pull the breaker to restore the lights.\n\nFloor is Lava: reset the lava boiler to clean up the spill.\n\nFlood: turn the water shutoff valve.\n\nCurse: reset the ghost force field to repel the curse.\n\nSecurity Gates: reset the security controller in the security office.",
-  "ff.info.fossil_heists": "FOSSIL HEISTS INFO %s/5",
+  "ff.info.fossil_heists": "FOSSIL HEISTS INFO %s",
   "ff.info.fossil_heists.1.title": "HOW TO PLAY",
   "ff.info.fossil_heists.1.content": "Thieves try to steal $1000 worth of merchandise while guards continuously stop them during a 10-minute night shift.",
   "ff.info.fossil_heists.2.title": "GUARDS",
