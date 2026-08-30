@@ -553,11 +553,16 @@
   "ff.heist.guard.goodluck.1": "Stay alert!",
   "ff.heist.guard.goodluck.2": "Let's get to work",
   "ff.heist.guard.goodluck.3": "Watch your back",
+  "ff.heist.game_starting": "Game starting...",
+  "ff.heist.waiting_for_thief": "Waiting for thief to join",
+  "ff.heist.waiting_for_guard": "Waiting for guard to join",
   "ff.heist.waiting_for_guards_hologram": "Waiting for guards to start",
+  "ff.heist.click_to_ready": "Click to ready up",
 
   "ff.heists.capture_point": "CAPTURE POINT",
   "ff.heists.scissors.found": "%s found scissors in %s",
   "ff.heists.thieves": "THIEVES",
+  "ff.heists.thieves_not_ready": "Thieves are\nnot ready",
   "ff.heists.guards": "GUARDS",
   "ff.heists.stats.title": "========== Heist Stats ==========",
   "ff.heists.stats.separator": "-------------------------------",
@@ -676,6 +681,7 @@
   "ff.exit_day_reached": "%1$s made it to day %2$s.",
 
   "ff.guards_win": "%1$s won playing as Guards.",
+  "ff.thieves_win": "%1$s won playing as %2$s.",
 
   "ff.separator": " and ",
 
@@ -690,9 +696,10 @@
   "ff.crab": "Crab",
   "ff.crab.prompt": "<%1$s> If you have %2$s I can polish that key for you, should have it reset right away!",
   "ff.crab.success": "<%1$s> Thanks for the %2$s! Here's your polished key.",
+  "ff.crab.cooldown": "<%1$s> If it ever needs polishing, let me know.",
   "ff.crab.key_polished": "Key Polished!",
 
-  "ff.dinocoins.required": "%s Required",
+  "ff.dinocoins.required": "Requires %s",
 
   "ff.dinocoin": "Dino Coin",
 
@@ -721,7 +728,7 @@
   "ff.info.fossil_frights.3.content.3": "Hard tasks are puzzles. Read the hints carefully, explore, and expect each one to work differently.",
   "ff.info.fossil_frights.4.title": "HAZARD FIXES",
   "ff.info.fossil_frights.4.content": "Lights Out: pull the breaker to restore the lights.\n\nFloor is Lava: reset the lava boiler to clean up the spill.\n\nFlood: turn the water shutoff valve.\n\nCurse: reset the ghost force field to repel the curse.\n\nSecurity Gates: reset the security controller in the security office.",
-  "ff.info.fossil_heists": "FOSSIL HEIST INFO %s/5",
+  "ff.info.fossil_heists": "FOSSIL HEISTS INFO %s/5",
   "ff.info.fossil_heists.1.title": "HOW TO PLAY",
   "ff.info.fossil_heists.1.content": "Thieves try to steal $1000 worth of merchandise while guards continuously stop them during a 10-minute night shift.",
   "ff.info.fossil_heists.2.title": "GUARDS",
@@ -754,6 +761,7 @@
   "ff.actionbar.trap.no_trap_to_pickup": "No trap to pick up",
   "ff.actionbar.trap.picked_up": "Picked up Trap",
   "ff.actionbar.trap.too_close": "Too close to another trap",
+  "ff.actionbar.locator_bar": "Look at the locator bar",
 
   "ff.admin.heists.title": "Fossil Heists Admin",
   "ff.admin.frights.title": "Fossil Frights Admin",
