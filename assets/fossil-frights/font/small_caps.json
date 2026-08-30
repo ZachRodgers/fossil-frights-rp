@@ -6,24 +6,6 @@
         },
         {
             "type": "bitmap",
-            "file": "fossil-frights:font/small_caps/small_numbers.png",
-            "ascent": 5,
-            "height": 5,
-            "chars": [
-                "023456789:"
-            ]
-        },
-        {
-            "type": "bitmap",
-            "file": "fossil-frights:font/small_caps/small_numbers_one.png",
-            "ascent": 5,
-            "height": 5,
-            "chars": [
-                "1"
-            ]
-        },
-        {
-            "type": "bitmap",
             "file": "fossil-frights:font/small_caps/nonlatin_european.png",
             "ascent": 7,
             "chars": [
