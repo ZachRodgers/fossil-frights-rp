@@ -3,6 +3,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "fossil-frights:display/map/locator_dot",
+		"emissive": "fossil-frights:display/map/locator_dot_emissive",
 		"particle": "fossil-frights:display/map/locator_dot"
 	},
 	"elements": [
@@ -14,6 +15,18 @@
 			"faces": {
 				"north": {"uv": [0, 0, 5, 5], "texture": "#0"},
 				"south": {"uv": [0, 0, 5, 5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "locator_dot_emissive",
+			"from": [5.5, 0, -0.1],
+			"to": [10.5, 5, -0.1],
+			"shade": false,
+			"light_emission": 15,
+			"rotation": {"angle": 0, "axis": "y", "origin": [5.5, 0, -0.1]},
+			"faces": {
+				"north": {"uv": [0, 0, 5, 5], "texture": "#emissive"},
+				"south": {"uv": [0, 0, 5, 5], "texture": "#emissive"}
 			}
 		}
 	],
