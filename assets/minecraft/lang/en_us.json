@@ -606,6 +606,7 @@
   "ff.death.star_gazing": "%1$s died looking at a star that was too bright",
   "ff.death.explosive_trap": "%1$s was blown up by an explosive trap",
   "ff.death.explosive_trap.player": "%1$s was blown up by %2$s's explosive trap",
+  "ff.death.explosive_trap.self": "%1$s was blown up by their own explosive trap",
 
   "ff.stats.title": "========== Your Stats ==========",
   "ff.stats.best_time": "Best Time: %1$s%2$s%3$s%4$s%5$s%6$s%7$s%8$s",
