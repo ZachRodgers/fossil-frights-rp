@@ -710,7 +710,7 @@
 
   "ff.exit_day_reached": "%1$s made it to day %2$s.",
 
-  "ff.guards_win": "%1$s won playing as Guards.",
+  "ff.guards_win": "%1$s won playing as %2$s.",
   "ff.thieves_win": "%1$s won playing as %2$s.",
 
   "ff.separator": " and ",
