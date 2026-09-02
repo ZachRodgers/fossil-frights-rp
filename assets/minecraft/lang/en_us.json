@@ -2065,5 +2065,33 @@
   "ff.plaques.3_neogene.title": "Neogene",
   "ff.plaques.3_neogene.body": "\n\n\nThe Neogene is the penultimate period of the Phanerozoic eon, and during it the continents began to take their current shape today.\n\nIndia was in the midst of colliding with Asia, Panama connected the Americas, Japan rifted from Asia, etc.\n\nThe Paleogene was marked by glacial and interglacial periods. One of those interglacials, the Pliocene Thermal Maximum (≈3.0 Mya) is viewed as a possibly middling-scenario for Anthropogenic climate change, in contrast to the more severe warming of the Eocene.\n\nThe Messinian Salinity Crisis 5.5 Mya saw most of the Mediterranean dry up, as tectonics forced Spain and Morocco together.\n\nTemperatures as high as 80°C may have occured in the basin, until erosion released the Atlantic back into the former sea in what was known as the Zanclean flood, carving the Strait of Gibraltar in only a matter of years.",
   "ff.plaques.3_quaternary.title": "Quaternary",
-  "ff.plaques.3_quaternary.body": "The Quaternary is the current geologic period, divided into the Pleistocene and Holocene.\n\nThe Pleistocene is what most people picture hearing the phrase \"Ice Age,\" or at least the last glacial maximum of it.\n\nIce sheets covered much of North America and Europe, which periodically advanced and reteated in accordance with changes in how Earth orbits the Sun, called Milankovitch Cycles.\n\nThese ice sheets formed basins which filled with water, forming the Great Lakes and other water bodies like the Baltic Sea. Sea levels rose and fall depending on how much water was stored as ice sheets.\n\nEarly human species diversified in Africa, and learned how to use fire. They later spread across the world during the Last Glacial Maximum.\n\nWhile different societies developed agriculture at different times, the Neolithic Revolution is considered to have happened around 10 years ago.\n\nIn those 10K years, humans (now only Homo Sapiens) began to dominate the planet. While some argue that our impact has been enough to classify recent history as a new geologic period (the Anthropocene) this proposal was rejected.\n\nNevertheless we have impacted Earth on the scale of the mass extinctions, and as I hope you can appreciate from my timeline, in the blink of an eye geologically.\n\n~~~~~~~~~~~~~~~~\n\nThis timeline has been a passion project for me and my academic studies, so I hope you enjoyed it!\n\n-Endyblaze201\nMarch 1st, 2026"
+  "ff.plaques.3_quaternary.body": "The Quaternary is the current geologic period, divided into the Pleistocene and Holocene.\n\nThe Pleistocene is what most people picture hearing the phrase \"Ice Age,\" or at least the last glacial maximum of it.\n\nIce sheets covered much of North America and Europe, which periodically advanced and reteated in accordance with changes in how Earth orbits the Sun, called Milankovitch Cycles.\n\nThese ice sheets formed basins which filled with water, forming the Great Lakes and other water bodies like the Baltic Sea. Sea levels rose and fall depending on how much water was stored as ice sheets.\n\nEarly human species diversified in Africa, and learned how to use fire. They later spread across the world during the Last Glacial Maximum.\n\nWhile different societies developed agriculture at different times, the Neolithic Revolution is considered to have happened around 10 years ago.\n\nIn those 10K years, humans (now only Homo Sapiens) began to dominate the planet. While some argue that our impact has been enough to classify recent history as a new geologic period (the Anthropocene) this proposal was rejected.\n\nNevertheless we have impacted Earth on the scale of the mass extinctions, and as I hope you can appreciate from my timeline, in the blink of an eye geologically.\n\n~~~~~~~~~~~~~~~~\n\nThis timeline has been a passion project for me and my academic studies, so I hope you enjoyed it!\n\n-Endyblaze201\nMarch 1st, 2026",
+
+  "ff.task_book.location.aquatic": "● AQUATIC EXHIBIT\n● ",
+  "ff.task_book.location.aviary": "AVIARY ● ",
+  "ff.task_book.location.basement": "BASEMENT ● ",
+  "ff.task_book.location.basement_and_aquatic": "● BASEMENT, AQUATIC\n● ",
+  "ff.task_book.location.brontosaurus": "BRONTOSAURUS ● ",
+  "ff.task_book.location.cafe": "CAFE ● ",
+  "ff.task_book.location.deep_dark": "DEEP DARK ● ",
+  "ff.task_book.location.floor_1": "FLOOR ONE ● ",
+  "ff.task_book.location.floor_2": "FLOOR TWO ● ",
+  "ff.task_book.location.floor_3": "TOP FLOOR ● ",
+  "ff.task_book.location.gift_shop": "GIFT SHOP ● ",
+  "ff.task_book.location.gift_shop_and_ruins": "● GIFT SHOP, RUINS\n● ",
+  "ff.task_book.location.lower_bathroom": "● LOWER BATHROOM\n● ",
+  "ff.task_book.location.observatory": "OBSERVATORY ● ",
+  "ff.task_book.location.ruins": "RUINS ● ",
+  "ff.task_book.location.ruins_and_deep_dark": "● RUINS, DEEP DARK\n● ",
+  "ff.task_book.location.staff_room": "STAFF ROOM ● ",
+  "ff.task_book.location.theater": "THEATER ● ",
+  "ff.task_book.location.terrarium": "TERRARIUM ● ",
+  "ff.task_book.location.unknown": "UNKNOWN ● ",
+  "ff.task_book.location.upper_bathroom": "● UPPER BATHROOM\n● ",
+
+  "ff.task_book.difficulty.easy": "EASY",
+  "ff.task_book.difficulty.medium": "MEDIUM",
+  "ff.task_book.difficulty.hard": "HARD",
+  "ff.task_book.difficulty.final": "INSANE"
+
 }
