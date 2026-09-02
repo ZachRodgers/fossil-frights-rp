@@ -1792,6 +1792,7 @@
   "ff.settings.board.random": "RANDOM",
   "ff.settings.hover.info": "Click to select, punch for info",
   "ff.settings.hover.select": "Click to select",
+  "ff.settings.hover.not_available": "Not available",
   "ff.settings.hover.frights_only": "Frights only, punch for info",
   "ff.settings.hover.heists_only": "Heists only, punch for info",
   "ff.settings.info.title": "%1$s: %2$s",
