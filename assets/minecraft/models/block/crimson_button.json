@@ -4,35 +4,35 @@
 	"parent": "minecraft:block/button",
 	"texture_size": [32, 32],
 	"textures": {
-		"particle": "block/crimson_button",
-		"texture": "block/crimson_button"
+		"0": "block/crimson_button",
+		"particle": "block/crimson_button"
 	},
 	"elements": [
 		{
-			"name": "plate",
-			"from": [4, 0, 4],
-			"to": [12, 1, 12],
-			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 7]},
+			"name": "base",
+			"from": [6, 0, 6],
+			"to": [10, 1, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5, 0, 7]},
 			"faces": {
-				"north": {"uv": [7, 4.5, 11, 5], "texture": "#texture"},
-				"east": {"uv": [7, 5, 11, 5.5], "texture": "#texture"},
-				"south": {"uv": [7, 5.5, 11, 6], "texture": "#texture"},
-				"west": {"uv": [7, 6, 11, 6.5], "texture": "#texture"},
-				"up": {"uv": [4, 4, 0, 0], "texture": "#texture"},
-				"down": {"uv": [4, 4, 0, 8], "texture": "#texture", "cullface": "down"}
+				"north": {"uv": [4, 5, 6, 5.5], "texture": "#0"},
+				"east": {"uv": [4, 5.5, 6, 6], "texture": "#0"},
+				"south": {"uv": [0, 6, 2, 6.5], "texture": "#0"},
+				"west": {"uv": [2, 6, 4, 6.5], "texture": "#0"},
+				"down": {"uv": [6.5, 3, 4.5, 5], "texture": "#0", "cullface": "down"}
 			}
 		},
 		{
-			"name": "button",
-			"from": [5, 1, 5],
-			"to": [11, 4, 11],
-			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 7]},
+			"name": "knob",
+			"from": [1, 1, 6],
+			"to": [10, 3, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5, 2, 7]},
 			"faces": {
-				"north": {"uv": [4, 6, 7, 7.5], "texture": "#texture"},
-				"east": {"uv": [7, 0, 10, 1.5], "texture": "#texture"},
-				"south": {"uv": [7, 1.5, 10, 3], "texture": "#texture"},
-				"west": {"uv": [7, 3, 10, 4.5], "texture": "#texture"},
-				"up": {"uv": [7, 3, 4, 0], "texture": "#texture"}
+				"north": {"uv": [0, 4, 4.5, 5], "texture": "#0"},
+				"east": {"uv": [0, 5, 2, 6], "texture": "#0"},
+				"south": {"uv": [4.5, 0, 9, 1], "texture": "#0"},
+				"west": {"uv": [2, 5, 4, 6], "texture": "#0"},
+				"up": {"uv": [4.5, 2, 0, 0], "texture": "#0"},
+				"down": {"uv": [4.5, 2, 0, 4], "texture": "#0"}
 			}
 		}
 	],

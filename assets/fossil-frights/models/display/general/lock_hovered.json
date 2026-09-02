@@ -3,8 +3,31 @@
 	"credit": "Made with Blockbench",
 	"parent": "minecraft:item/generated",
 	"textures": {
-		"layer0": "fossil-frights:display/general/lock_hovered"
+		"layer0": "fossil-frights:display/general/lock_hovered",
+		"emissive": "fossil-frights:display/general/lock_hovered_emissive",
+		"particle": "fossil-frights:display/general/lock_hovered"
 	},
+	"elements": [
+		{
+			"from": [0, 0, 7.5],
+			"to": [16, 16, 8.5],
+			"faces": {
+				"north": {"uv": [16, 0, 0, 16], "texture": "#layer0"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#layer0"}
+			}
+		},
+		{
+			"name": "hovered_lock_border_emissive",
+			"from": [0, 0, 7.5],
+			"to": [16, 16, 8.5],
+			"shade": false,
+			"light_emission": 15,
+			"faces": {
+				"north": {"uv": [16, 0, 0, 16], "texture": "#emissive"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#emissive"}
+			}
+		}
+	],
 	"display": {
 		"fixed": {
 			"translation": [0, 0, -1],
