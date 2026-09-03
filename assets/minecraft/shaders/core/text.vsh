@@ -65,7 +65,7 @@ void main() {
         gl_Position = ProjMat * ModelViewMat * vec4(newPos, 1.0);
 
         // move to top right corner
-        gl_Position.xy += vec2(1, 0) * gl_Position.w;
+        gl_Position.x += gl_Position.w;
 
         // recolor to white
         vertexColor.rgb = vec3(1.0);
@@ -78,7 +78,7 @@ void main() {
         gl_Position = ProjMat * ModelViewMat * vec4(newPos, 1.0);
 
         // move to top right corner
-        gl_Position.xy += vec2(1, 0) * gl_Position.w;
+        gl_Position.x += gl_Position.w;
 
         // recolor to dark gray
         vertexColor.rgb = vec3(0.25);
