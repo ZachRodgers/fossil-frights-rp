@@ -59,7 +59,7 @@ void main() {
 
     // speedrun timer
     else if (Color == vec4(172/255., 168/255., 0, Color.a)) {
-        vec3 newPos = vec3(Position.x - 20.0, Position.y - 20.0, Position.z);
+        vec3 newPos = vec3(Position.x - 21.0, Position.y - 19.0, Position.z);
         gl_Position = ProjMat * ModelViewMat * vec4(newPos, 1.0);
         // move to top right corner
         gl_Position.xy += vec2(1, 0) * gl_Position.w;
@@ -73,7 +73,7 @@ void main() {
 
     // speedrun timer shadow 
     else if (Color == vec4(43/255., 42/255., 0, Color.a)) {
-        vec3 newPos = vec3(Position.x - 20.0, Position.y - 20.0, Position.z);
+        vec3 newPos = vec3(Position.x - 21.0, Position.y - 19.0, Position.z);
         gl_Position = ProjMat * ModelViewMat * vec4(newPos, 1.0);
 
         // move to top right corner
