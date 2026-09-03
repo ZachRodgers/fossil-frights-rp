@@ -15,6 +15,8 @@
   "recipe.toast.description": "",
   "recipe.toast.title": "",
   "tutorial.craft_planks.description": "",
+  "effect.minecraft.luck": "Bounce Bounce",
+
   "ff.messages.info": "ℹ %s",
   "ff.messages.warning": "⚠ %s",
   "ff.messages.announcement": "⭐ %s",
@@ -468,7 +470,6 @@
   "ff.drink.veloci_tea": "Dino Speed",
   "ff.drink.veloci_tea.description": "Drink water.",
   "ff.drink.veloci_tea.effect.speed": "Fast II (1:00)",
-  "effect.minecraft.luck": "Bounce Bounce",
   "ff.final_task.screen.dna": "%s Clone:",
   "ff.final_task.screen.item": "1x %s",
   "ff.final_task.clone.pterodactyl": "Dino Fly",

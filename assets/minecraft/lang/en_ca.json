@@ -1,5 +1,5 @@
 {
-  "menu.game": "\ue000",
+  "menu.game": "",
   "container.crafting": "",
   "gui.recipebook.moreRecipes": "",
   "gui.recipebook.page": "",
@@ -15,9 +15,7 @@
   "recipe.toast.description": "",
   "recipe.toast.title": "",
   "tutorial.craft_planks.description": "",
-
-  "ff.pack.description.1": "Fossil Frights\n",
-  "ff.pack.description.2": "Official Resource Pack",
+  "effect.minecraft.luck": "Double Jump",
 
   "ff.room_banner.cafe": "CAFÉ",
   "ff.room_banner.theater": "THEATRE",
@@ -34,7 +32,6 @@
   "ff.sign.earth_timeline.phanerozoic.fossilized_trilobite.0": "A fossilised",
   "ff.sign.earth_timeline.ordovician.earth_rings1.1": "theorised to have",
   "ff.sign.basement.storage.fertilizer.1": "Fertiliser",
-  "effect.minecraft.luck": "Double Jump",
   "ff.sign.basement.ghost_prevention_room.1": "Centre of",
   "ff.death.explosive_trap": "%1$s was blown up by an explosive trap",
   "ff.death.security_gate": "%1$s was crushed by a security gate",

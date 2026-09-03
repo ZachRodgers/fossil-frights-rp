@@ -1,8 +1,6 @@
 {
   "menu.game": "",
-
   "container.crafting": "",
-
   "gui.recipebook.moreRecipes": "",
   "gui.recipebook.page": "",
   "gui.recipebook.search_hint": "",
@@ -11,22 +9,20 @@
   "gui.recipebook.toggleRecipes.craftable": "",
   "gui.recipebook.toggleRecipes.smeltable": "",
   "gui.recipebook.toggleRecipes.smokable": "",
-
   "narration.recipe": "",
   "narration.recipe.usage": "",
   "narration.recipe.usage.more": "",
-
   "recipe.toast.description": "",
   "recipe.toast.title": "",
-
   "tutorial.craft_planks.description": "",
+  "effect.minecraft.luck": "Double Jump",
+
+  "ff.pack.description.1": "Fossil Frights\n",
+  "ff.pack.description.2": "Official Resource Pack",
 
   "ff.messages.info": "ℹ %s",
   "ff.messages.warning": "⚠ %s",
   "ff.messages.announcement": "⭐ %s",
-
-  "ff.pack.description.1": "Fossil Frights\n",
-  "ff.pack.description.2": "Official Resource Pack",
 
   "ff.messages.info.entering_museum": "%s is entering the museum.",
   "ff.messages.info.up_next": "You're up next. Confirm within %ss",
@@ -525,8 +521,6 @@
   "ff.drink.veloci_tea": "Veloci-tea",
   "ff.drink.veloci_tea.description": "Technically tea. Glows slightly in the dark.",
   "ff.drink.veloci_tea.effect.speed": "Speed II (1:00)",
-
-  "effect.minecraft.luck": "Double Jump",
 
   "ff.final_task.screen.dna": "%s Clone:",
   "ff.final_task.screen.item": "1x %s",
