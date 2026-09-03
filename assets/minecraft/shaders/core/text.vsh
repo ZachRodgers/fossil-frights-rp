@@ -71,7 +71,6 @@ void main() {
         vertexColor.rgb = vec3(1.0);
     }
     
-
     // speedrun timer shadow 
     else if (Color == vec4(43/255., 42/255., 0, Color.a)) {
         // nudge it some
