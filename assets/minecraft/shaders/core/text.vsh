@@ -39,7 +39,7 @@ void main() {
 // custom text colors
 #if defined(IS_GUI)
     // speedrun timer
-    else if (Color == vec4(172/255., 168/255., 0, Color.a)) {
+    if (Color == vec4(172/255., 168/255., 0, Color.a)) {
         // nudge it some
         vec3 newPos = vec3(Position.x - 21.0, Position.y - 38.0, Position.z);
         gl_Position = ProjMat * ModelViewMat * vec4(newPos, 1.0);
