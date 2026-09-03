@@ -24,6 +24,8 @@
   "ff.messages.warning": "⚠ %s",
   "ff.messages.announcement": "⭐ %s",
 
+  "ff.empty": "",
+
   "ff.messages.info.entering_museum": "%s is entering the museum.",
   "ff.messages.info.up_next": "You're up next. Confirm within %ss",
   "ff.messages.info.victory_leave_prompt": "Congratulations. The game will reset in 30 seconds. %s",
