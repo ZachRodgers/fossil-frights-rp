@@ -1,5 +1,5 @@
 {
-  "menu.game": "\ue000",
+  "menu.game": "",
   "container.crafting": "",
   "gui.recipebook.moreRecipes": "",
   "gui.recipebook.page": "",
@@ -16,9 +16,6 @@
   "recipe.toast.title": "",
   "tutorial.craft_planks.description": "",
   "effect.minecraft.luck": "Double Jump",
-
-  "ff.pack.description.1": "Fossil Frights\n",
-  "ff.pack.description.2": "Official Resource Pack",
 
   "ff.room_banner.cafe": "CAFÉ",
   "ff.room_banner.theater": "THEATRE",
