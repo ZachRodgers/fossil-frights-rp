@@ -40,6 +40,7 @@ void main() {
 #if defined(IS_GUI)
     // hazard icon
     if (Color == vec4(168/255., 168/255., 0, Color.a)) {
+        // move it up one bossbar level
         vec3 newPos = vec3(Position.x, Position.y - 19.0, Position.z);
         gl_Position = ProjMat * ModelViewMat * vec4(newPos, 1.0);
 
@@ -48,8 +49,8 @@ void main() {
     }
 
     // hazard icon shadow
-    else if (Color == vec4(42/255., 42/255., 0, Color.a))
-    {
+    else if (Color == vec4(42/255., 42/255., 0, Color.a)) {
+        // move it up one bossbar level
         vec3 newPos = vec3(Position.x, Position.y - 19.0, Position.z);
         gl_Position = ProjMat * ModelViewMat * vec4(newPos, 1.0);
 
