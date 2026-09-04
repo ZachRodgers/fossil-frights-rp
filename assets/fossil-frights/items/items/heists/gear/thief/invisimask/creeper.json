@@ -1,6 +1,27 @@
 {
   "model": {
-    "type": "minecraft:model",
-    "model": "fossil-frights:items/heists/gear/thief/invisimask/creeper"
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:model",
+        "model": "fossil-frights:items/heists/gear/thief/invisimask/creeper"
+      },
+      {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "index": 0,
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "ff_heavy_loot_bag": true
+        },
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:display/heists/loot_bag"
+        },
+        "on_false": {
+          "type": "minecraft:empty"
+        }
+      }
+    ]
   }
 }
