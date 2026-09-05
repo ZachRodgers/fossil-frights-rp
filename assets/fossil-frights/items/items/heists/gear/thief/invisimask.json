@@ -23,28 +23,28 @@
               "when": "creeper",
               "model": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:items/heists/gear/thief/invisimask/creeper"
+                "model": "fossil-frights:items/heists/gear/thief/invisimask/variant/creeper"
               }
             },
             {
               "when": "enderman",
               "model": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:items/heists/gear/thief/invisimask/enderman"
+                "model": "fossil-frights:items/heists/gear/thief/invisimask/variant/enderman"
               }
             },
             {
               "when": "skeleton",
               "model": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:items/heists/gear/thief/invisimask/skeleton"
+                "model": "fossil-frights:items/heists/gear/thief/invisimask/variant/skeleton"
               }
             },
             {
               "when": "zombie",
               "model": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:items/heists/gear/thief/invisimask/zombie"
+                "model": "fossil-frights:items/heists/gear/thief/invisimask/variant/zombie"
               }
             }
           ],
@@ -52,6 +52,22 @@
             "type": "minecraft:model",
             "model": "fossil-frights:items/heists/gear/thief/invisimask/template"
           }
+        }
+      },
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:trim_material",
+        "cases": [
+          {
+            "when": "fossil_frights:paint",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fossil-frights:items/heists/gear/thief/invisimask/paint_overlay"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:empty"
         }
       },
       {
@@ -64,8 +80,29 @@
           }
         },
         "on_true": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:display/heists/loot_bag"
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "fossil-frights:display/heists/loot_bag"
+            },
+            {
+              "type": "minecraft:select",
+              "property": "minecraft:trim_material",
+              "cases": [
+                {
+                  "when": "fossil_frights:paint",
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "fossil-frights:display/heists/loot_bag_paint"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:empty"
+              }
+            }
+          ]
         },
         "on_false": {
           "type": "minecraft:empty"
