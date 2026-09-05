@@ -177,6 +177,7 @@
 				"east": {"uv": [9.625, 12.125, 10, 12.5], "texture": "#0"},
 				"south": {"uv": [5.75, 8.5, 7.5, 8.875], "texture": "#0"},
 				"west": {"uv": [9.25, 12.125, 9.625, 12.5], "texture": "#0"},
+				"up": {"uv": [5.75, 8.5, 7.5, 8.875], "texture": "#0"},
 				"down": {"uv": [9.25, 11.25, 11, 10.875], "texture": "#0"}
 			}
 		},
@@ -278,54 +279,6 @@
 				"west": {"uv": [8, 12.125, 8.75, 12.375], "texture": "#0"},
 				"up": {"uv": [3.25, 10.625, 1.75, 9.875], "texture": "#0"},
 				"down": {"uv": [7.75, 9.875, 6.25, 10.625], "texture": "#0"}
-			}
-		},
-		{
-			"name": "top_wing",
-			"from": [-16, 15, -10],
-			"to": [32, 17, 1],
-			"rotation": {"angle": 0, "axis": "y", "origin": [9, 5, -12]},
-			"faces": {
-				"north": {"uv": [9, 6.25, 15, 6.5], "texture": "#0"},
-				"east": {"uv": [11.375, 9, 12.75, 9.25], "texture": "#0"},
-				"south": {"uv": [9, 6.5, 15, 6.75], "texture": "#0"},
-				"west": {"uv": [10.625, 11.375, 12, 11.625], "texture": "#0"},
-				"up": {"uv": [6, 4.125, 0, 2.75], "texture": "#0"},
-				"down": {"uv": [6, 4.125, 0, 5.5], "texture": "#0"}
-			}
-		},
-		{
-			"name": "bottom_wing",
-			"from": [-16, 3, -10],
-			"to": [32, 5, 1],
-			"rotation": {"angle": 0, "axis": "y", "origin": [9, -7, -12]},
-			"faces": {
-				"north": {"uv": [9, 6.75, 15, 7], "texture": "#0"},
-				"east": {"uv": [11.5, 5.375, 12.875, 5.625], "texture": "#0"},
-				"south": {"uv": [9, 7, 15, 7.25], "texture": "#0"},
-				"west": {"uv": [11.5, 5.625, 12.875, 5.875], "texture": "#0"},
-				"up": {"uv": [6, 4.125, 0, 2.75], "texture": "#0"},
-				"down": {"uv": [6, 4.125, 0, 5.5], "texture": "#0"}
-			}
-		},
-		{
-			"name": "front_frame",
-			"from": [-16, 5, -8],
-			"to": [32, 15, -8],
-			"rotation": {"angle": 0, "axis": "y", "origin": [9, -5, -12]},
-			"faces": {
-				"north": {"uv": [0, 5.5, 6, 6.75], "texture": "#0"},
-				"south": {"uv": [0, 5.5, 6, 6.75], "texture": "#0"}
-			}
-		},
-		{
-			"name": "back_frame",
-			"from": [-16, 5, -1],
-			"to": [32, 15, -1],
-			"rotation": {"angle": 0, "axis": "z", "origin": [9, -5, -5]},
-			"faces": {
-				"north": {"uv": [0, 5.5, 6, 6.75], "texture": "#0"},
-				"south": {"uv": [0, 5.5, 6, 6.75], "texture": "#0"}
 			}
 		},
 		{
@@ -467,7 +420,7 @@
 			"origin": [9, 5, -12],
 			"scope": 0,
 			"color": 0,
-			"children": [22, 23, 24, 25]
+			"children": []
 		},
 		{
 			"name": "motor",
@@ -480,14 +433,14 @@
 					"origin": [-1, -6, -15],
 					"scope": 0,
 					"color": 0,
-					"children": [26, 27, 28, 29, 30]
+					"children": [22, 23, 24, 25, 26]
 				},
 				{
 					"name": "propellers",
 					"origin": [8, 8, -19.5],
 					"scope": 0,
 					"color": 0,
-					"children": [31, 32, 33]
+					"children": [27, 28, 29]
 				}
 			]
 		}
