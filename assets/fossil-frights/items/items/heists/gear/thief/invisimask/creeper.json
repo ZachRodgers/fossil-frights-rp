@@ -9,14 +9,32 @@
       {
         "type": "minecraft:condition",
         "property": "minecraft:component",
-        "index": 0,
         "predicate": "minecraft:custom_data",
         "value": {
-          "ff_heavy_loot_bag": true
+          "ff_invisimask": {
+            "loot_bag": true
+          }
         },
         "on_true": {
           "type": "minecraft:model",
           "model": "fossil-frights:display/heists/loot_bag"
+        },
+        "on_false": {
+          "type": "minecraft:empty"
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "ff_invisimask": {
+            "confetti_cannon": true
+          }
+        },
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:items/misc/confetti_cannon"
         },
         "on_false": {
           "type": "minecraft:empty"
