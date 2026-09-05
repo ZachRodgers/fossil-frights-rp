@@ -1,0 +1,93 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "ff_invisimask": {
+            "hidden": true
+          }
+        },
+        "on_true": {
+          "type": "minecraft:empty"
+        },
+        "on_false": {
+          "type": "minecraft:select",
+          "property": "minecraft:custom_model_data",
+          "index": 0,
+          "cases": [
+            {
+              "when": "creeper",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:items/heists/gear/thief/invisimask/creeper"
+              }
+            },
+            {
+              "when": "enderman",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:items/heists/gear/thief/invisimask/enderman"
+              }
+            },
+            {
+              "when": "skeleton",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:items/heists/gear/thief/invisimask/skeleton"
+              }
+            },
+            {
+              "when": "zombie",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:items/heists/gear/thief/invisimask/zombie"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:items/heists/gear/thief/invisimask/template"
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "ff_invisimask": {
+            "loot_bag": true
+          }
+        },
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:display/heists/loot_bag"
+        },
+        "on_false": {
+          "type": "minecraft:empty"
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "ff_invisimask": {
+            "confetti_cannon": true
+          }
+        },
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:items/misc/confetti_cannon"
+        },
+        "on_false": {
+          "type": "minecraft:empty"
+        }
+      }
+    ]
+  }
+}
