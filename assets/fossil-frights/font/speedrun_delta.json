@@ -1,0 +1,15 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "fossil-frights:font/speedrun/delta_arrows.png",
+      "height": 6,
+      "ascent": 6,
+      "chars": ["\ue440\ue441"]
+    },
+    {
+      "type": "reference",
+      "id": "minecraft:default"
+    }
+  ]
+}
