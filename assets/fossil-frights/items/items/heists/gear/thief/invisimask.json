@@ -84,7 +84,7 @@
           "models": [
             {
               "type": "minecraft:model",
-              "model": "fossil-frights:display/heists/loot_bag"
+              "model": "fossil-frights:items/heists/gear/thief/invisimask/loot_bag/loot_bag"
             },
             {
               "type": "minecraft:select",
@@ -94,7 +94,7 @@
                   "when": "fossil_frights:paint",
                   "model": {
                     "type": "minecraft:model",
-                    "model": "fossil-frights:display/heists/loot_bag_paint"
+                    "model": "fossil-frights:items/heists/gear/thief/invisimask/loot_bag/paint_overlay"
                   }
                 }
               ],

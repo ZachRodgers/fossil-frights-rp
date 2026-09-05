@@ -3,8 +3,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [128, 128],
 	"textures": {
-		"0": "fossil-frights:display/heists/loot_bag",
-		"particle": "fossil-frights:display/heists/loot_bag"
+		"0": "fossil-frights:items/heists/gear/thief/invisimask/loot_bag/loot_bag",
+		"particle": "fossil-frights:items/heists/gear/thief/invisimask/loot_bag/loot_bag"
 	},
 	"elements": [
 		{
