@@ -4,44 +4,79 @@
 	"texture_size": [32, 32],
 	"gui_light": "front",
 	"textures": {
-		"mask": "fossil-frights:items/heists/gear/thief/invisimask/missingno",
-		"particle": "#mask"
+		"mask": "fossil-frights:items/heists/gear/thief/invisimask/variant/missingno",
+		"band": "fossil-frights:items/heists/gear/thief/invisimask/band",
+		"particle": "fossil-frights:items/heists/gear/thief/invisimask/variant/missingno"
 	},
 	"elements": [
 		{
-			"from": [4, 0, 0],
-			"to": [12, 8, 0],
-			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 0]},
-			"faces": {
-				"north": {"uv": [0, 0, 4, 4], "texture": "#mask"},
-				"south": {"uv": [4, 0, 0, 4], "texture": "#mask"}
-			}
-		},
-		{
-			"from": [4, 0, 0],
-			"to": [4, 8, 8],
-			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 0]},
-			"faces": {
-				"east": {"uv": [4, 4, 0, 8], "texture": "#mask"},
-				"west": {"uv": [0, 4, 4, 8], "texture": "#mask"}
-			}
-		},
-		{
-			"from": [4, 0, 8],
-			"to": [12, 8, 8],
-			"rotation": {"angle": 0, "axis": "y", "origin": [4, 0, 5]},
-			"faces": {
-				"north": {"uv": [4, 4, 0, 8], "texture": "#mask"},
-				"south": {"uv": [0, 4, 4, 8], "texture": "#mask"}
-			}
-		},
-		{
+			"name": "east",
 			"from": [12, 0, 0],
 			"to": [12, 8, 8],
 			"rotation": {"angle": 0, "axis": "y", "origin": [9, 0, 8]},
 			"faces": {
-				"east": {"uv": [0, 4, 4, 8], "texture": "#mask"},
-				"west": {"uv": [4, 4, 0, 8], "texture": "#mask"}
+				"east": {"uv": [0, 0, 8, 8], "texture": "#band"},
+				"west": {"uv": [8, 0, 16, 8], "texture": "#band"}
+			}
+		},
+		{
+			"name": "south",
+			"from": [4, 0, 8],
+			"to": [12, 8, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 0, 5]},
+			"faces": {
+				"north": {"uv": [8, 0, 16, 8], "texture": "#band"},
+				"south": {"uv": [0, 0, 8, 8], "texture": "#band"}
+			}
+		},
+		{
+			"name": "west",
+			"from": [4, 0, 0],
+			"to": [4, 8, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 0]},
+			"faces": {
+				"east": {"uv": [8, 0, 16, 8], "texture": "#band"},
+				"west": {"uv": [0, 0, 8, 8], "texture": "#band"}
+			}
+		},
+		{
+			"name": "normal",
+			"from": [0, -4, 0],
+			"to": [16, 12, 0],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 8, 8], "texture": "#mask"},
+				"south": {"uv": [8, 0, 0, 8], "texture": "#mask"}
+			}
+		},
+		{
+			"name": "up",
+			"from": [0, -3.5, -0.001],
+			"to": [16, 12.5, 0.001],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 1, 0]},
+			"faces": {
+				"north": {"uv": [8, 0, 16, 8], "texture": "#mask"},
+				"south": {"uv": [16, 0, 8, 8], "texture": "#mask"}
+			}
+		},
+		{
+			"name": "right",
+			"from": [-0.5, -4, -0.001],
+			"to": [15.5, 12, 0.001],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 0, 0]},
+			"faces": {
+				"north": {"uv": [0, 8, 8, 16], "texture": "#mask"},
+				"south": {"uv": [8, 8, 0, 16], "texture": "#mask"}
+			}
+		},
+		{
+			"name": "diagonal",
+			"from": [-0.5, -3.5, -0.001],
+			"to": [15.5, 12.5, 0.001],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 1, 0]},
+			"faces": {
+				"north": {"uv": [8, 8, 16, 16], "texture": "#mask"},
+				"south": {"uv": [16, 8, 8, 16], "texture": "#mask"}
 			}
 		}
 	],
@@ -87,5 +122,21 @@
 			"translation": [0, 12, 29.75],
 			"scale": [4, 4, 4]
 		}
-	}
+	},
+	"groups": [
+		{
+			"name": "band",
+			"origin": [9, 0, 8],
+			"scope": 0,
+			"color": 0,
+			"children": [0, 1, 2]
+		},
+		{
+			"name": "face",
+			"origin": [8, 8, 8],
+			"scope": 0,
+			"color": 0,
+			"children": [3, 4, 5, 6]
+		}
+	]
 }

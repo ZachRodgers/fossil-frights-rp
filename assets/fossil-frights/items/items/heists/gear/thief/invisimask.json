@@ -11,6 +11,20 @@
             "index": 0,
             "cases": [
               {
+                "when": "blaze",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "fossil-frights:items/heists/gear/thief/invisimask/icon/blaze"
+                }
+              },
+              {
+                "when": "breeze",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "fossil-frights:items/heists/gear/thief/invisimask/icon/breeze"
+                }
+              },
+              {
                 "when": "creeper",
                 "model": {
                   "type": "minecraft:model",
@@ -25,10 +39,38 @@
                 }
               },
               {
+                "when": "guardian",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "fossil-frights:items/heists/gear/thief/invisimask/icon/guardian"
+                }
+              },
+              {
+                "when": "piglin",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "fossil-frights:items/heists/gear/thief/invisimask/icon/piglin"
+                }
+              },
+              {
                 "when": "skeleton",
                 "model": {
                   "type": "minecraft:model",
                   "model": "fossil-frights:items/heists/gear/thief/invisimask/icon/skeleton"
+                }
+              },
+              {
+                "when": "slime",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "fossil-frights:items/heists/gear/thief/invisimask/icon/slime"
+                }
+              },
+              {
+                "when": "spider",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "fossil-frights:items/heists/gear/thief/invisimask/icon/spider"
                 }
               },
               {
@@ -67,6 +109,20 @@
               "index": 0,
               "cases": [
                 {
+                  "when": "blaze",
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "fossil-frights:items/heists/gear/thief/invisimask/variant/blaze"
+                  }
+                },
+                {
+                  "when": "breeze",
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "fossil-frights:items/heists/gear/thief/invisimask/variant/breeze"
+                  }
+                },
+                {
                   "when": "creeper",
                   "model": {
                     "type": "minecraft:model",
@@ -81,10 +137,38 @@
                   }
                 },
                 {
+                  "when": "guardian",
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "fossil-frights:items/heists/gear/thief/invisimask/variant/guardian"
+                  }
+                },
+                {
+                  "when": "piglin",
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "fossil-frights:items/heists/gear/thief/invisimask/variant/piglin"
+                  }
+                },
+                {
                   "when": "skeleton",
                   "model": {
                     "type": "minecraft:model",
                     "model": "fossil-frights:items/heists/gear/thief/invisimask/variant/skeleton"
+                  }
+                },
+                {
+                  "when": "slime",
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "fossil-frights:items/heists/gear/thief/invisimask/variant/slime"
+                  }
+                },
+                {
+                  "when": "spider",
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "fossil-frights:items/heists/gear/thief/invisimask/variant/spider"
                   }
                 },
                 {
