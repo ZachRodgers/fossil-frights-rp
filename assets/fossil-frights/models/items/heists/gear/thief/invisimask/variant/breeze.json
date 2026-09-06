@@ -2,6 +2,6 @@
 	"parent": "fossil-frights:items/heists/gear/thief/invisimask/template",
 	"textures": {
 		"mask": "fossil-frights:items/heists/gear/thief/invisimask/variant/breeze",
-		"emissive": "fossil-frights:items/heists/gear/thief/invisimask/variant/breeze_emissive"
+		"mask_emissive": "fossil-frights:items/heists/gear/thief/invisimask/variant/breeze_emissive"
 	}
 }
