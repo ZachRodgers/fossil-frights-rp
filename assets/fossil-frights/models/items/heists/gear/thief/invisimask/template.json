@@ -5,7 +5,7 @@
 	"gui_light": "front",
 	"textures": {
 		"mask": "fossil-frights:items/heists/gear/thief/invisimask/variant/missingno",
-		"emissive": "fossil-frights:items/heists/gear/thief/invisimask/variant/empty_emissive",
+		"emissive": "fossil-frights:items/heists/gear/thief/invisimask/variant/missingno_emissive",
 		"band": "fossil-frights:items/heists/gear/thief/invisimask/band",
 		"particle": "fossil-frights:items/heists/gear/thief/invisimask/variant/missingno"
 	},
