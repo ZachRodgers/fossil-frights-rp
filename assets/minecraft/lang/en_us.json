@@ -704,11 +704,12 @@
   "ff.security_camera.cafe": "Cafe",
   "ff.security_camera.entry": "Entry",
   "ff.security_camera.gift_shop": "Gift Shop",
-  "ff.security_camera.security": "Security",
-  "ff.security_camera.basement": "Basement",
+  "ff.security_camera.security": "Basement Hall",
+  "ff.security_camera.basement": "Basement Storage",
   "ff.security_camera.left_hall": "Left Hall",
   "ff.security_camera.aviary": "Aviary",
   "ff.security_camera.eggshibit": "Eggshibit",
+  "ff.security_camera.top_floor": "Top Floor",
 
   "ff.survived_to_day": "%1$s survived to day %2$s.",
 
