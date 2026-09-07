@@ -1,9 +1,13 @@
 {
-  "providers": [{
-    "type": "bitmap",
-    "file": "fossil-frights:font/actionbar/ac_buttons.png",
-    "ascent": 8,
-    "height": 8,
-    "chars": ["\ue500\ue501\ue502\ue503\ue504\ue505\ue506\ue507\ue508"]
-  }]
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "fossil-frights:font/actionbar/ac_buttons.png",
+      "ascent": 12,
+      "height": 12,
+      "chars": [
+      ""
+      ]
+    }
+  ]
 }

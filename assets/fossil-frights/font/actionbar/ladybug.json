@@ -1,9 +1,46 @@
 {
-  "providers": [{
-    "type": "bitmap",
-    "file": "fossil-frights:font/actionbar/ladybug.png",
-    "ascent": 10,
-    "height": 10,
-    "chars": ["\ue580\ue581\ue582\ue583\ue584\ue585\ue586\ue587\ue588\ue589\ue58a\ue58b\ue58c\ue58d\ue58e\ue58f\ue590\ue591\ue592\ue593\ue594\ue595\ue596\ue597\ue598\ue599\ue59a\ue59b\ue59c\ue59d\ue59e\ue59f\ue5a0\ue5a1"]
-  }]
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "fossil-frights:font/actionbar/ladybug.png",
+      "ascent": 15,
+      "height": 15,
+      "chars": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+      ]
+    }
+  ]
 }
