@@ -1,0 +1,9 @@
+{
+  "providers": [{
+    "type": "bitmap",
+    "file": "fossil-frights:font/actionbar/key_cooldown.png",
+    "ascent": 6,
+    "height": 6,
+    "chars": ["\ue520\ue521\ue522\ue523\ue524\ue525\ue526\ue527\ue528\ue529\ue52a\ue52b\ue52c\ue52d\ue52e\ue52f\ue530\ue531\ue532\ue533\ue534\ue535\ue536\ue537\ue538\ue539\ue53a\ue53b\ue53c\ue53d\ue53e"]
+  }]
+}

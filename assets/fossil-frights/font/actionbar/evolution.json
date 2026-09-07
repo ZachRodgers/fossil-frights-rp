@@ -1,0 +1,9 @@
+{
+  "providers": [{
+    "type": "bitmap",
+    "file": "fossil-frights:font/actionbar/evolution.png",
+    "ascent": 7,
+    "height": 7,
+    "chars": ["\ue510\ue511\ue512"]
+  }]
+}

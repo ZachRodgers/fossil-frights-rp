@@ -1,0 +1,9 @@
+{
+  "providers": [{
+    "type": "bitmap",
+    "file": "fossil-frights:font/actionbar/loot_lock.png",
+    "ascent": 6,
+    "height": 6,
+    "chars": ["\ue560\ue561\ue562\ue563\ue564\ue565\ue566\ue567\ue568\ue569\ue56a\ue56b\ue56c\ue56d\ue56e\ue56f\ue570\ue571\ue572\ue573\ue574\ue575\ue576\ue577\ue578\ue579\ue57a\ue57b\ue57c\ue57d\ue57e\ue57f"]
+  }]
+}
