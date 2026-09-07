@@ -791,6 +791,8 @@
   "ff.lobby.temple_run.actionbar": "Temple Run Time: %ss",
   "ff.lobby.temple_run.announcement": "%1$s completed Temple Run in %2$ss.",
   "ff.lobby.ant_fight.ant_score": "Ant Score: %s",
+  "ff.lobby.ant_fight.hit_by": "You were hit by %s",
+  "ff.lobby.ant_fight.below_name": "SCORE: %s",
   "ff.lobby.ant_fight.no_scores_yet": "No scores yet",
 
   "ff.actionbar.trap.invalid_block": "Not valid block",
