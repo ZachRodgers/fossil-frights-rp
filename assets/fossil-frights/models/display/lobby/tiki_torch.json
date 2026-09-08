@@ -1,10 +1,10 @@
 {
-	"format_version": "1.21.6",
+	"format_version": "26.2",
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
 		"1": "fossil-frights:display/lobby/tiki",
-		"2": "fossil-frights:display/lobby/torch_fire",
+		"2": "fossil-frights:display/lobby/tiki_flame",
 		"particle": "fossil-frights:display/lobby/tiki"
 	},
 	"elements": [

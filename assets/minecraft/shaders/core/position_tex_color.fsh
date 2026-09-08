@@ -20,12 +20,8 @@ void main() {
     vec4 color = texture(Sampler0, texCoord0) * vertexColor;
     if (color.a == 0.0) {
       discard;
-    } else if(color.a == 1.0/255.0) {
-      if(color.rgb == vec3(1.0)) {
-        discard;
-      } else {
-        color.a = 1.0;
-      }
+    } else if (color.a == 1.0/255.0 && color.rgb == vec3(1.0)) {
+      discard;
     }
     fragColor = color * ColorModulator;
 }

@@ -1,5 +1,5 @@
 {
-	"format_version": "1.21.11",
+	"format_version": "26.2",
 	"credit": "Made with Blockbench",
 	"textures": {
 		"2": "fossil-frights:display/general/doors/no_entry_sign",
@@ -39,8 +39,7 @@
 			"to": [13, 5, 9.6667],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, -8, 8]},
 			"faces": {
-				"north": {"uv": [5.5, 11, 10.5, 15], "texture": "#2"},
-				"south": {"uv": [0, 10.5, 5, 14.5], "texture": "#missing"}
+				"north": {"uv": [5.5, 11, 10.5, 15], "texture": "#2"}
 			}
 		},
 		{
@@ -49,7 +48,6 @@
 			"light_emission": 15,
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, -8, 8]},
 			"faces": {
-				"north": {"uv": [5.5, 11, 10.5, 15], "texture": "#missing"},
 				"south": {"uv": [0, 10.5, 5, 14.5], "texture": "#2"}
 			}
 		},

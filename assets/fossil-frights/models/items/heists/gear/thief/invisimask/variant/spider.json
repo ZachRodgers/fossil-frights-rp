@@ -1,0 +1,7 @@
+{
+	"parent": "fossil-frights:items/heists/gear/thief/invisimask/template",
+	"textures": {
+		"mask": "fossil-frights:items/heists/gear/thief/invisimask/variant/spider",
+		"mask_emissive": "fossil-frights:items/heists/gear/thief/invisimask/variant/spider_emissive"
+	}
+}
